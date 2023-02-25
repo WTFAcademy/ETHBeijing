@@ -17,9 +17,9 @@ Coming soon!
 
 ## Hackathon Track
 ### Main track
-1. Public Goods: Build open-source projects on Ethereum.
-2. Innovative Layer2 Dapp: Build projects on Layer 2 that surprise.
-3. Open Research (for non-coders): Data/Policy/Security/MEV/Anti-sybil/...
+1. **Public Goods**: Build open-source projects on Ethereum.
+2. **Innovative Layer2 Dapp**: Build projects on Layer 2 that surprise.
+3. **Open Research** (for non-coders): Data/Policy/Security/MEV/Anti-sybil/...
 
 ### Bounty track
 - Coming soon!
