@@ -10,6 +10,9 @@ import Schedule from "../components/Schedule.astro";
 import JudgesSpeakersMentors from "../components/JudgesSpeakersMentors.astro";
 import Faq from "../components/Faq.astro";
 import Footer from "../components/Footer.astro";
+import i18next, { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
 ---
 
 <Layout title="ETH Beijing">
@@ -24,6 +27,8 @@ import Footer from "../components/Footer.astro";
     <JudgesSpeakersMentors />
     <Footer />
     <Faq />
+    <!-- example -->
+    <p>{t("hero.title")}</p>
   </main>
 </Layout>
 
