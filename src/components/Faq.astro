@@ -1,1 +1,86 @@
-<section>Faq</section>
+---
+const faqs: { que: string; ans: string }[] = [
+  {
+    que: "What is ETH Beijing?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "Who can attend this event?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "How much does it cost to attend?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "I'm new to Ethereum - can I still participate?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "Can I participate remotely at this event?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "Can I start working on my project before the event?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "How many members are allowed on my team?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+  {
+    que: "What can I build during the event?",
+    ans: "Absolutely! Our events are open to both beginners and veterans of the web3 world. This event in particular will be tailored to attendees who have experience with Web2 technologies and are interested in building on web3 for the first time",
+  },
+];
+---
+
+<section class="mt-48">
+  <h2 class="text-4xl font-bold text-center">FAQ</h2>
+  <div class="mt-14">
+    {
+      faqs.map((faq) => (
+        <div>
+          <div class="faq-collapse my-8 flex items-center justify-between cursor-pointer">
+            <span class="text-2xl select-none">{faq.que}</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+          <p class="hidden select-none text-base mb-8">{faq.ans}</p>
+          <hr />
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<script>
+  const collapses = document.querySelectorAll(".faq-collapse");
+  collapses.forEach((collapse, index) =>
+    collapse.addEventListener("click", () => {
+      const panel = collapses[index].parentNode?.children[1];
+      const svg = collapses[index].children[1];
+      if (panel) {
+        if (/hidden/.test(panel.classList.value)) {
+          panel.classList.remove("hidden");
+          svg.classList.add("rotate-90");
+        } else {
+          panel.classList.add("hidden");
+          svg.classList.remove("rotate-90");
+        }
+      }
+    })
+  );
+</script>
