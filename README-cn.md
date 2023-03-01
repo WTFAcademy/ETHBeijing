@@ -2,7 +2,7 @@
 # ETH Beijing Hackathon
 
 ## 时间
-2023 年 4 月 5 日 - 4 月 8 日
+2023年4月5日 - 4月8日
 
 ## Place
 北京，中国
@@ -15,7 +15,7 @@ $30,000+
 
 Coming soon!
 
-## 黑客马拉松赛道
+## 黑客松赛道
 ### 主赛道
 1. **公共品**: 在以太坊上构建开源项目。
 2. **Layer2 创新应用**: 构建基于Layer 2的创新型应用项目。
@@ -49,32 +49,37 @@ Coming soon!
 
 ### ETH Beijing（以太坊北京）是什么?
 
-ETH Beijing 是一个让以太坊开发者齐聚北京的活动。
+ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2023年4月5日 - 4月8日（共 72 小时）。
 
-### Who is encouraged to attend this event?
+### 谁被鼓励参加这个活动？
 
-ETH Beijing Hackathon aims to bring developers, designers, researchers that want to build a project during a hackathon.
+我们鼓励想在黑客松期间构建项目的开发人员、设计师和研究人员参与。
 
-### Does ETH Beijing charge any fees?
 
-ETH Beijing is free to attent.
+### ETH Beijing 收费吗？
 
-### Will ETH Beijing offer travel scholarships to hackers?
 
-we will provide foods, accomodations, and travel compensation to students if budget permits.
+ETH Beijing 免费入场。
 
-### Can I participate remotely at this event?
+### ETH Beijing 会提供为黑客提供旅行奖学金吗?
 
-No, ETH Beijing Hackathon is a in-person event in Beijing, and you need to attend in person.
+如果预算允许，我们将为学生提供食物、住宿和旅行补偿。
 
-### How many members are allowed on my team?
 
-Each team can have up to a maximum of 5 members in total.
+### 我可以远程参加这个活动吗？
 
-### Can I start working on my project before the event?
+不可以，Beijing Hackathon 是在北京举办的线下活动，你需要线下参与。
 
-No. In the interest of fairness, attendees should not be working on their projects before the hackathon begins and we do not allow participants to work on pre-existing projects. But you can familarize with the tools of the project.
 
-### What can I build during the event?
+### 一个团队允许有多少成员？
 
-We provide 3 main tracks and several sponsor tracks in ETH Beijing. Each project must select 1 main track and can optionally select any sponsor tracks that fit.
+每个团队总共最多可以有 5 名成员。
+
+
+### 我可以在活动前开始搭建我的项目吗？
+
+不可以。为了公平起见，参与者不应在黑客松开始前从事他们的项目，同时也不允许已有项目参加。但是您可以在黑客松前打磨想法，熟悉开发工具。
+
+### 我可以在黑客松搭建什么项目？
+
+我们在 ETH Beijing 提供 3 个主赛道和几个赞助赛道。每个项目必须选择 1 个主要轨道，并且可以选择任何合适的赞助商赛道。
