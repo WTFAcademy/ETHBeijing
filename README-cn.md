@@ -1,54 +1,55 @@
 ![](./img/banner.png)
 # ETH Beijing Hackathon
 
-## Time
-April 05 - April 08, 2023
+## 时间
+2023 年 4 月 5 日 - 4 月 8 日
 
 ## Place
-Beijing, China
+北京，中国
 
-## Prize Pool
+## 奖池
 
 $30,000+
 
-## Application link
+## 报名链接
 
 Coming soon!
 
-## Hackathon Track
-### Main track
-1. **Public Goods**: Build open-source projects on Ethereum.
-2. **Innovative Layer2 Dapp**: Build projects on Layer 2 that surprise.
-3. **Open Research** (for non-coders): Data/Policy/Security/MEV/Anti-sybil/...
+## 黑客马拉松赛道
+### 主赛道
+1. **公共品**: 在以太坊上构建开源项目。
+2. **Layer2 创新应用**: 构建基于Layer 2的创新型应用项目。
+3. **开放研究** (非开发者向): 链上数据/政策/安全/MEV/反女巫/... 方向的研究。
 
-### Bounty track
+### 赞助商赛道
 - Coming soon!
 
-## Organizer
+## 主办方
 
 - [PKU Blockchain](https://twitter.com/PKUBlockchain)
 - [WTF Academy](https://twitter.com/WTFAcademy_)
 
-## Co-organizer
+## 协办方
 - [Scroll](https://twitter.com/Scroll_ZKP)
 - [ETHPlanet](https://twitter.com/ETHPlanet)
 
-## Sponsor
+## 赞助商
 - [Scroll](https://twitter.com/Scroll_ZKP)
 - [Ethereum Foundation](https://twitter.com/EF_ESP)
 - [Mask](https://twitter.com/realMaskNetwork)
 
-## Partner & Supporting Communities
+## 合作伙伴和支持社区
 - [Dorahacks](https://twitter.com/DoraHacks)
 - MetaSpace
 - [ThubaDAO](https://twitter.com/THUBA_DAO)
 - More coming soon!
 
-## FAQ
+## 常问问题
 
-### What is ETH Beijing?
 
-ETH Beijing is an event that bring Ethereum builders to Beijing.
+### ETH Beijing（以太坊北京）是什么?
+
+ETH Beijing 是一个让以太坊开发者齐聚北京的活动。
 
 ### Who is encouraged to attend this event?
 
