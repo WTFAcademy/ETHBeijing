@@ -19,7 +19,9 @@
     "title": ""
   },
   "generousPrize": {},
-  "sponsors": {},
+  "sponsors": {
+    "title": "Sponsors"
+  },
   "schedule": {},
   "judgesSpeakersMentors": {},
   "Footer": {},
