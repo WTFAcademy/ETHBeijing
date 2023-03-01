@@ -1,0 +1,71 @@
+---
+const cardData = [
+    {
+        img: "/images/ethf.svg",
+    },
+    {
+        img: "/images/ethf.svg",
+    },
+    {
+        img: "/images/ethf.svg",
+    },
+];
+---
+
+<section class="container">
+    <div class="title">Partners</div>
+    <div class="card_container">
+        {
+            cardData.map((item, idx) => {
+                return (
+                    <div class="card_box" key={idx}>
+                        <div class="avatar">
+                            <img class="avatar_img" src={item.img} />
+                        </div>
+                    </div>
+                );
+            })
+        }
+    </div>
+</section>
+
+<style>
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .title {
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .card_container {
+        width: 80%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card_box {
+        height: 96px;
+        width: 400px;
+        border-radius: 10px;
+        padding: 16px 20px 16px 20px;
+        border: 0.5px solid #9ca3af;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 20px;
+        margin-top: 20px;
+    }
+</style>
