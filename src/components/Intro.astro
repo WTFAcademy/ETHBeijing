@@ -1,34 +1,45 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+---
+
 <section class="intro">
   <h1>
-    ETH Beijing Hackthon
+    {t("intro.title")}
     <img src="/images/2023-badge-1.png" class="mx-4 year" />
   </h1>
   <p class="text-neutral-900 desc">
-    In the post-covid-19 era, the first offline event of Ethereum in Beijing is coming!
+    {t("intro.decs")}
   </p>
   <div class="wrapper">
     <div class="icon-wrapper">
-      <div class="icon">
-        <img src="images/image 3.png" class="b-u" />
-        <p class="name">PKU BLOCKCHAIN</p>
+      <div class="item">
+        <div class="icon">
+          <img src="images/image 3.png" class="b-u" />
+        </div>
+        <p class="name">{t("intro.pku")}</p>
       </div>
       <img src="images/x.svg" class="x mx-4" />
-      <div class="icon">
-        <img src="images/wtf.png" class="b-u" />
-        <p class="name">WTF ACADEMY</p>
+      <div class="item">
+        <div class="icon">
+          <img src="images/wtf.png" class="wtf" />
+        </div>
+        <p class="name">{t("intro.wtf")}</p>
       </div>
     </div>
     <div class="intro-content">
       <p>
-        The hackathon is hosted by PKU Blockchain DAO (Beijing University Blockchain Association)
-        and WTF Academy, co-organized by ETHPlanet and Scroll.
+        <Trans i18nKey="intro.content-1">
+          The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association)
+          and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.
+        </Trans>
+        <!-- {t("intro.content-1")} -->
       </p>
       <p>
-        With three main tracks and a total prize pool of $30,000+. As long as you have enough
-        technical or research strength, you are welcome to participate in this event as an
-        individual or in a team!
+        {t("intro.content-2")}
       </p>
     </div>
+    <div class="dot"></div>
   </div>
 </section>
 
@@ -53,11 +64,13 @@
     font-size: 18px;
     line-height: 150%;
     height: 27px;
+    margin-bottom: 60px;
   }
   .wrapper {
     height: 229px;
     background: #ffffff;
     /* gray/400 */
+    position: relative;
     display: flex;
     width: 1080px;
 
@@ -71,7 +84,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 800px;
+    width: 440px;
   }
   .year {
     height: 37px;
@@ -93,16 +106,35 @@
     display: flex;
     height: 120px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .x {
     color: #9ca3af;
+    margin: 0 20px;
+    width: 10px;
   }
   .intro-content {
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
+  }
+  .b-u {
+    width: 60px;
+  }
+  .wtf {
+    width: 140px;
+  }
+  .dot {
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(111.9deg, #ffd18a 0%, #ffe7e8 64.33%);
+    border-radius: 925925px;
+    width: 200px;
+    height: 200px;
+    right: -80px;
+    bottom: -60px;
   }
 </style>

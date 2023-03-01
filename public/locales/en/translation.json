@@ -7,8 +7,17 @@
     "title": "Welcome to my awesome website!",
     "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
   },
-  "intro": {},
-  "coOrganization": {},
+  "intro": {
+    "title": "ETH Beijing Hackthon",
+    "decs": "In the post-covid-19 era, the first offline event of Ethereum in Beijing is coming!",
+    "pku": "PKU BLOCKCHAIN",
+    "content-1": "The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association) and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.",
+    "wtf": "WTF ACADEMY",
+    "content-2": "With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!"
+  },
+  "coOrganization": {
+    "title": "Co-organization"
+  },
   "generousPrize": {},
   "sponsors": {},
   "schedule": {},
