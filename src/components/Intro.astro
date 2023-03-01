@@ -11,8 +11,8 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   <p class="text-neutral-900 desc">
     {t("intro.decs")}
   </p>
-  <div class="wrapper">
-    <div class="icon-wrapper">
+  <div class="wrapper max-lg:w-[440px]">
+    <div class="icon-wrapper max-lg:border-b-[0.5px] lg:border-r-[0.5px]">
       <div class="item">
         <div class="icon">
           <img src="images/image 3.png" class="b-u" />
@@ -27,7 +27,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
         <p class="name">{t("intro.wtf")}</p>
       </div>
     </div>
-    <div class="intro-content">
+    <div class="intro-content rounded-[10px]">
       <p>
         <Trans i18nKey="intro.content-1">
           The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association)
@@ -67,23 +67,20 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     margin-bottom: 60px;
   }
   .wrapper {
-    height: 229px;
     background: #ffffff;
     /* gray/400 */
     position: relative;
     display: flex;
-    width: 1080px;
-
+    flex-wrap: wrap;
     border: 0.5px solid #9ca3af;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
   }
   .icon-wrapper {
-    border-right: 0.5px solid #9ca3af;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 229px;
     width: 440px;
   }
   .year {
@@ -94,11 +91,8 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-
     text-align: center;
-
     /* neutral/900 */
-
     color: #171717;
   }
   .icon {
@@ -117,6 +111,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   .intro-content {
     padding: 30px;
     display: flex;
+    background: #fff;
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
