@@ -1,1 +1,135 @@
-<section>Intro</section>
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+---
+
+<section class="intro">
+  <h1>
+    {t("intro.title")}
+    <img src="/images/2023-badge-1.png" class="mx-4 year" />
+  </h1>
+  <p class="text-neutral-900 desc">
+    {t("intro.decs")}
+  </p>
+  <div class="wrapper max-lg:w-[440px]">
+    <div class="icon-wrapper max-lg:border-b-[0.5px] lg:border-r-[0.5px]">
+      <div class="item">
+        <div class="icon">
+          <img src="images/image 3.png" class="b-u" />
+        </div>
+        <p class="name">{t("intro.pku")}</p>
+      </div>
+      <img src="images/x.svg" class="x mx-4" />
+      <div class="item">
+        <div class="icon">
+          <img src="images/wtf.png" class="wtf" />
+        </div>
+        <p class="name">{t("intro.wtf")}</p>
+      </div>
+    </div>
+    <div class="intro-content rounded-[10px]">
+      <p>
+        <Trans i18nKey="intro.content-1">
+          The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association)
+          and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.
+        </Trans>
+        <!-- {t("intro.content-1")} -->
+      </p>
+      <p>
+        {t("intro.content-2")}
+      </p>
+    </div>
+    <div class="dot"></div>
+  </div>
+</section>
+
+<style>
+  .intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    height: 44px;
+    color: #000000;
+    margin-bottom: 18px;
+  }
+  .desc {
+    font-size: 18px;
+    line-height: 150%;
+    height: 27px;
+    margin-bottom: 60px;
+  }
+  .wrapper {
+    background: #ffffff;
+    /* gray/400 */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.5px solid #9ca3af;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+  }
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 229px;
+    width: 440px;
+  }
+  .year {
+    height: 37px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    /* neutral/900 */
+    color: #171717;
+  }
+  .icon {
+    padding-top: 0px;
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .x {
+    color: #9ca3af;
+    margin: 0 20px;
+    width: 10px;
+  }
+  .intro-content {
+    padding: 30px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .b-u {
+    width: 60px;
+  }
+  .wtf {
+    width: 140px;
+  }
+  .dot {
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(111.9deg, #ffd18a 0%, #ffe7e8 64.33%);
+    border-radius: 925925px;
+    width: 200px;
+    height: 200px;
+    right: -80px;
+    bottom: -60px;
+  }
+</style>
