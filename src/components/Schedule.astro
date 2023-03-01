@@ -1,1 +1,69 @@
-<section>Schedule</section>
+---
+import { t } from "i18next";
+---
+
+<section class="flex justify-center flex-col items-center">
+  <h1 class="font-bold text-4xl leading-[44px] h-[44px] mb-[60px]">
+    {t("schedule.title")}
+  </h1>
+  <div class="pb-[40px] border w-[800px]">
+    <div class="py-[20px] px-[40px] flex">
+      <div class="mr-[56px]">
+        <div class="font-bold text-[20px] mb-[6px] leading-[32px]">{t("schedule.hackthon")}</div>
+        <div class="bg-gradient-to-r from-[#F833A9] to-[#FF7456] h-[3px] w-full"></div>
+      </div>
+      <!-- <div class="h-[40px] px-[20px] py-[10px] text-[16px] flex items-center">
+        {t("schedule.time-1")}
+      </div> -->
+      <div
+        class="h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px]"
+      >
+        <div
+          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white"
+        >
+          <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-1")}</p>
+        </div>
+      </div>
+      <div
+        class="h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px]"
+      >
+        <div
+          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white"
+        >
+          <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-2")}</p>
+        </div>
+      </div>
+      <div class="h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px]">
+        <div
+          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white"
+        >
+          <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-3")}</p>
+        </div>
+      </div>
+    </div>
+    <div class="px-[40px] pt-[20px] border-t-[1px] border-grey-300">
+      <div class="flex items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 text-blue-600 mr-[8px]"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
+          ></path>
+        </svg>
+        <span class="text-neutral-600 text-sm leading-[17px]">{t("schedule.open-ceremony")}</span>
+      </div>
+      <div class="py-[24px] border-grey-300 border-b-[0.5px]">
+        <div class="py-[10x] px-[40px] border-[0.5px] border-grey-300">
+          {t("schedule.schedule-1")}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

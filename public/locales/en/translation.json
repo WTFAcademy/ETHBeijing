@@ -20,7 +20,15 @@
   },
   "generousPrize": {},
   "sponsors": {},
-  "schedule": {},
+  "schedule": {
+    "title": "Schedule",
+    "hackthon": "Hackthon",
+    "time-1": "Wed, Apr 5",
+    "time-2": "Thur, Apr 6 - Fri, Apr 7",
+    "time-3": "Sat, Apr 8",
+    "open-ceremony": "Opening Ceremony",
+    "schedule-1": "02:00pm"
+  },
   "judgesSpeakersMentors": {},
   "Footer": {},
   "Faq": {}
