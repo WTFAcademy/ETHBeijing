@@ -1,1 +1,73 @@
-<section>Footer</section>
+---
+const footnotes: {
+  title: string;
+  children: {
+    title: string;
+    url: string;
+  }[];
+}[] = [
+  {
+    title: "PKU BLOCKCHAIN",
+    children: [
+      {
+        title: "Home",
+        url: "",
+      },
+      {
+        title: "Twitter",
+        url: "",
+      },
+      {
+        title: "Wechat Official Account",
+        url: "",
+      },
+    ],
+  },
+  {
+    title: "WTF Academy",
+    children: [
+      {
+        title: "Home",
+        url: "",
+      },
+      {
+        title: "Twitter",
+        url: "",
+      },
+      {
+        title: "GitHub",
+        url: "",
+      },
+      {
+        title: "Discord",
+        url: "",
+      },
+    ],
+  },
+];
+---
+
+<section class="relative w-full left-0 mt-48 pt-16">
+  <div
+    class="absolute left-0 top-0 w-full h-1.5 bg-gradient-to-r from-[#F833A9] to-[#FF7456]"
+  >
+  </div>
+  <div class="container mx-auto grid grid-cols-3">
+    logo
+    {
+      footnotes.map((item) => (
+        <div>
+          <span class="text-neutral-500 font-medium">{item.title}</span>
+          {item.children.map((c) => (
+            <a href={c.url} class="block my-4">
+              {c.title}
+            </a>
+          ))}
+        </div>
+      ))
+    }
+  </div>
+  <footer class="text-center text-neutral-500 my-10">
+    © 2023 ETH Beijing. All Rights Reserved.
+  </footer>
+</section>
