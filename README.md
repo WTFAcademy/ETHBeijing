@@ -1,6 +1,6 @@
 ![](./img/banner.png)
 # ETH Beijing Hackathon
-
+[中文](./README-cn.md)
 ## Time
 April 05 - April 08, 2023
 
