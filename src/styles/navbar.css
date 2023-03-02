@@ -1,0 +1,37 @@
+.nav-bar {
+  left: 0px;
+  top: 0px;
+}
+
+.nav-bar a {
+  width: 60px;
+  padding: 10px 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #171717;
+  box-sizing: content-box;
+}
+
+.nav-bar a:hover {
+  color: #FFFFFF;
+  background: linear-gradient(111.9deg, #F833A9 0%, #FF7456 64.33%);
+  border-radius: 98px;
+}
+
+.nav-bar__lang select {
+  border: 1px solid #D1D5DB;
+  border-radius: 999999px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: #262626;
+}
+
+.nav-bar__lang .icon {
+  width: 8px;
+  height: 8px;
+  background-image: url('/images/select-down.png');
+}
