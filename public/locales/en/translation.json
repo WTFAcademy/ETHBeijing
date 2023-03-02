@@ -27,7 +27,16 @@
     "time-2": "Thur, Apr 6 - Fri, Apr 7",
     "time-3": "Sat, Apr 8",
     "open-ceremony": "Opening Ceremony",
-    "schedule-1": "02:00pm"
+    "schedule-1": "02:00pm",
+    "topic-1": "Main Registration Opens!",
+    "schedule-2": "02:30pm",
+    "topic-2": "Workshops",
+    "schedule-3": "06:00pm",
+    "topic-3": "Dinner",
+    "schedule-4": "08:30pm",
+    "topic-4": "Opening Cermonies",
+    "schedule-5": "10:00pm",
+    "topic-5": "Team Formation & Idea Brainstorming Session"
   },
   "judgesSpeakersMentors": {},
   "Footer": {},
