@@ -1,1 +1,70 @@
-<section>ponsors</section>
+---
+import i18next, { t } from "i18next";
+const cardData = [
+  {
+    img: "/images/ethf.svg",
+  },
+  {
+    img: "/images/ethf.svg",
+  },
+  {
+    img: "/images/ethf.svg",
+  },
+  {
+    img: "/images/ethf.svg",
+  },
+  {
+    img: "/images/ethf.svg",
+  },
+];
+---
+
+<section class="container">
+  <div class="title flex items-center gap-x-3 text-neutral-900">
+    <img src="images/heart.svg" height="17.88" width="16.5" />
+    <span class="text-neutral-900 text-sm leading-[17px]">{t("sponsors.title")}</span>
+  </div>
+  <div class="flex flex-wrap justify-center gap-5 mt-[60px] mb-[200px]">
+    {
+      cardData.map((item, idx) => {
+        return (
+          <div class="card_box flex" key={idx}>
+            <div class="avatar">
+              <img class="avatar_img" src={item.img} />
+            </div>
+          </div>
+        );
+      })
+    }
+  </div>
+</section>
+
+<style>
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .card_box {
+    height: 96px;
+    width: 340px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0.5px solid #9ca3af;
+    background: #ffffff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px;
+  }
+</style>
