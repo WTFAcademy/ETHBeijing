@@ -2,11 +2,15 @@
 import { t } from "i18next";
 ---
 
-<section class="flex justify-center flex-col items-center">
+<section class="flex justify-center flex-col items-center mb-[200px]">
   <h1 class="font-bold text-4xl leading-[44px] h-[44px] mb-[60px]">
     {t("schedule.title")}
   </h1>
-  <div class="pb-[40px] border w-[800px]">
+  <div class="pb-[40px] border w-[800px] relative bg-white">
+    <img
+      src="/images/bg-ele-3.png"
+      class="w-[137px] origin-center absolute right-[-105px] z-[-1] top-[120px]"
+    />
     <div class="py-[20px] px-[40px] flex">
       <div class="mr-[56px]">
         <div class="font-bold text-[20px] mb-[6px] leading-[32px]">{t("schedule.hackthon")}</div>
@@ -19,7 +23,7 @@ import { t } from "i18next";
         class="h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px]"
       >
         <div
-          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white"
+          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white cursor-pointer select-none"
         >
           <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-1")}</p>
         </div>
@@ -28,14 +32,14 @@ import { t } from "i18next";
         class="h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px]"
       >
         <div
-          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white"
+          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white cursor-pointer select-none"
         >
           <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-2")}</p>
         </div>
       </div>
       <div class="h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px]">
         <div
-          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white"
+          class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white cursor-pointer select-none"
         >
           <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-3")}</p>
         </div>
@@ -59,10 +63,35 @@ import { t } from "i18next";
         </svg>
         <span class="text-neutral-600 text-sm leading-[17px]">{t("schedule.open-ceremony")}</span>
       </div>
-      <div class="py-[24px] border-grey-300 border-b-[0.5px]">
-        <div class="py-[10x] px-[40px] border-[0.5px] border-grey-300">
+      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
           {t("schedule.schedule-1")}
         </div>
+        <p class="text-base leading-[19px]">{t("schedule.topic-1")}</p>
+      </div>
+      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+          {t("schedule.schedule-2")}
+        </div>
+        <p class="text-base leading-[19px]">{t("schedule.topic-2")}</p>
+      </div>
+      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+          {t("schedule.schedule-3")}
+        </div>
+        <p class="text-base leading-[19px]">{t("schedule.topic-3")}</p>
+      </div>
+      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+          {t("schedule.schedule-4")}
+        </div>
+        <p class="text-base leading-[19px]">{t("schedule.topic-4")}</p>
+      </div>
+      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+          {t("schedule.schedule-5")}
+        </div>
+        <p class="text-base leading-[19px]">{t("schedule.topic-5")}</p>
       </div>
     </div>
   </div>
