@@ -18,6 +18,6 @@ module.exports = {
 
       "2xl": "1140px",
       // => @media (min-width: 1536px) { ... }
-    },
+    }
   },
 };
