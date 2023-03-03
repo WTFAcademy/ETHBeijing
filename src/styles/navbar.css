@@ -1,27 +1,42 @@
-.nav-bar {
+.navbar {
   left: 0px;
   top: 0px;
 }
 
-.nav-bar a {
-  width: 60px;
-  padding: 10px 20px;
+.navbar a {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: .7rem;
   text-align: center;
   color: #171717;
   box-sizing: content-box;
 }
 
-.nav-bar a:hover {
-  color: #FFFFFF;
-  background: linear-gradient(111.9deg, #F833A9 0%, #FF7456 64.33%);
-  border-radius: 98px;
+.navbar-mb a {
+  width: 60px;
+  padding: 10px 20px;
+  line-height: 2.4rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9rem;
+  text-align: left;
+  color: #171717;
+  box-sizing: content-box;
 }
 
-.nav-bar__lang select {
+.navbar a:hover {
+  color: #FFFFFF;
+  background: linear-gradient(111.9deg, #F833A9 0%, #FF7456 64.33%);
+}
+
+.navbar a.active {
+  color: #FFFFFF;
+  background: linear-gradient(111.9deg, #F833A9 0%, #FF7456 64.33%);
+}
+
+.navbar-lang select {
   border: 1px solid #D1D5DB;
   border-radius: 999999px;
   font-family: 'Inter';
@@ -30,7 +45,7 @@
   color: #262626;
 }
 
-.nav-bar__lang .icon {
+.navbar-lang .icon {
   width: 8px;
   height: 8px;
   background-image: url('/images/select-down.png');
