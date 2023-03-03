@@ -1,1 +1,97 @@
-<section>GenerousPrize</section>
+---
+import i18next, { t } from "i18next";
+const cardData = [
+  {
+    img: "/images/dot-track1.png",
+  },
+  {
+    img: "/images/dot-track2.png",
+  },
+  {
+    img: "/images/dot-track3.png",
+  },
+];
+---
+
+<section class="flex justify-center flex-col items-center mt-[200px]">
+  <!-- <div class="bg"></div> -->
+  <h1 class="font-bold text-4xl leading-[44px] h-[44px] mb-[60px]">
+    {t("generousPrize.title")}
+  </h1>
+  <div class="title flex items-center gap-x-1 text-neutral-900">
+    <img src="images/union.svg" height="17.6" />
+    <span class="text-neutral-900 text-lg font-semibold"
+      >{t("generousPrize.prizePool")}</span
+    >
+  </div>
+  <img class="mb-[44px]" src="/images/prize-poll.png" width="267px" />
+  <img class="h-[10px] mb-[44px]" src="/images/Vector (Stroke).svg" />
+  <div class="flex flex-col items-center gap-[40px]">
+    {
+      cardData.map((item, idx) => {
+        return (
+          <div class="flex lg:items-center max-lg:flex-col ">
+            <div class="flex items-center lg:pr-[56px] max-lg:pb-[30px]">
+              <img class="h-[24px] w-[24px] " src={item.img} />
+              <h1 class="text-black font-semibold text-[24px] leading-[29px] w-[100px] pl-[10px]">
+                {t(`generousPrize.cards.${idx}.track`)}
+              </h1>
+            </div>
+
+            <div class="pb-[40px] w-[600px] card_box">
+              <div>
+                <h1 class="text-black font-semibold text-[18px] leading-[34px] pb-[16px]">
+                  {t(`generousPrize.cards.${idx}.title`)}
+                </h1>
+                <div class="flex items-center pb-[40px]">
+                  <img class="h-[15px] pr-[10px]" src="./images/info.png" />
+                  <span class="text-neutral-900 text-base leading-[19px]">
+                    {t(`generousPrize.cards.${idx}.description`)}
+                  </span>
+                </div>
+                <div class="flex items-center gap-x-[12px]">
+                  <p class="text-gray-600 text-xs ">Prize: </p>
+                  <img class="h-[34px]" src="/images/1st.png" />
+                  <img class="h-[34px]" src="/images/2nd.png" />
+                  <img class="h-[34px]" src="/images/3rd.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })
+    }
+  </div>
+
+  <img
+    class="w-[255px] origin-center absolute left-[-80px] z-[-1] top-[1896px]"
+    src="/images/bg-ele-2.png"
+  />
+</section>
+<style>
+  .card_box {
+    /* Frame 15 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 40px;
+
+    background: #ffffff;
+    /* gray/400 */
+
+    border: 0.5px solid #9ca3af;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+</style>
