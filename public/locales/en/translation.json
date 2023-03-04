@@ -40,5 +40,22 @@
   },
   "judgesSpeakersMentors": {},
   "Footer": {},
-  "Faq": {}
+  "Faq": {
+    "que1": "What is ETH Beijing?",
+    "ans1": "ETH Beijing is an event that bring Ethereum builders to Beijing.",
+    "que2": "Who is encouraged to attend this event?",
+    "ans2": "ETH Beijing Hackathon aims to bring developers, designers, researchers that want to build a project during a hackathon.",
+    "que3": "Does ETH Beijing charge any fees?",
+    "ans3": "ETH Beijing is free to attent.",
+    "que4": "Will ETH Beijing offer travel scholarships to hackers?",
+    "ans4": "we will provide foods, accomodations, and travel compensation to students if budget permits.",
+    "que5": "Can I participate remotely at this event?",
+    "ans5": "No, ETH Beijing Hackathon is a in-person event in Beijing, and you need to attend in person.",
+    "que6": "How many members are allowed on my team?",
+    "ans6": "Each team can have up to a maximum of 5 members in total.",
+    "que7": "Can I start working on my project before the event?",
+    "ans7": "No. In the interest of fairness, attendees should not be working on their projects before the hackathon begins and we do not allow participants to work on pre-existing projects. But you can familarize with the tools of the project.",
+    "que8": "What can I build during the event?",
+    "ans8": "We provide 3 main tracks and several sponsor tracks in ETH Beijing. Each project must select 1 main track and can optionally select any sponsor tracks that fit."
+  }
 }
