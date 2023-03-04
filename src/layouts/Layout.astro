@@ -12,13 +12,13 @@ const { title } = Astro.props;
 <html lang={i18next.language}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <HeadHrefLangs />
   </head>
-  <body>
+  <body class="font-inter">
     <slot />
     <style is:global>
       html {
