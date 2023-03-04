@@ -41,6 +41,7 @@
   "judgesSpeakersMentors": {},
   "Footer": {},
   "Faq": {
+    "title": "FAQ",
     "que1": "What is ETH Beijing?",
     "ans1": "ETH Beijing is an event that bring Ethereum builders to Beijing.",
     "que2": "Who is encouraged to attend this event?",

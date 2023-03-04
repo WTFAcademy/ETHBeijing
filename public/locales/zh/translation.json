@@ -26,6 +26,7 @@
   "judgesSpeakersMentors": {},
   "Footer": {},
   "Faq": {
+    "title": "常见问题",
     "que1": "ETH Beijing（以太坊北京）是什么?",
     "ans1": "ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2023年4月5日 - 4月8日（共 72 小时）。",
     "que2": "谁被鼓励参加这个活动？",
