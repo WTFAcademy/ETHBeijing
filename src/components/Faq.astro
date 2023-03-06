@@ -1,49 +1,16 @@
 ---
-const faqs: { que: string; ans: string }[] = [
-  {
-    que: "What is ETH Beijing?",
-    ans: "ETH Beijing is an event that bring Ethereum builders to Beijing.",
-  },
-  {
-    que: "Who is encouraged to attend this event?",
-    ans: "TH Beijing Hackathon aims to bring developers, designers, researchers that want to build a project during a hackathon.",
-  },
-  {
-    que: "Does ETH Beijing charge any fees?",
-    ans: "ETH Beijing is free to attent.",
-  },
-  {
-    que: "Will ETH Beijing offer travel scholarships to hackers?",
-    ans: "we will provide foods, accomodations, and travel compensation to students if budget permits.",
-  },
-  {
-    que: "Can I participate remotely at this event?",
-    ans: "No, ETH Beijing Hackathon is a in-person event in Beijing, and you need to attend in person.",
-  },
-  {
-    que: "How many members are allowed on my team?",
-    ans: "Each team can have up to a maximum of 5 members in total.",
-  },
-  {
-    que: "Can I start working on my project before the event?",
-    ans: "No. In the interest of fairness, attendees should not be working on their projects before the hackathon begins and we do not allow participants to work on pre-existing projects. But you can familarize with the tools of the project.",
-  },
-  {
-    que: "What can I build during the event?",
-    ans: "We provide 3 main tracks and several sponsor tracks in ETH Beijing. Each project must select 1 main track and can optionally select any sponsor tracks that fit.",
-  },
-];
+import { t } from "i18next";
 ---
 
 <section class="mt-48">
   <div id="faq" class="anchor"></div>
-  <h2 class="text-4xl font-bold text-center">FAQ</h2>
+  <h2 class="text-4xl font-bold text-center">{t("Faq.title")}</h2>
   <div class="mt-14">
     {
-      faqs.map((faq) => (
+      new Array(8).fill("").map((_, index) => (
         <div>
           <div class="faq-collapse my-8 flex items-center justify-between cursor-pointer">
-            <span class="text-2xl select-none">{faq.que}</span>
+            <span class="text-2xl select-none">{t(`Faq.que${index + 1}`)}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -59,7 +26,9 @@ const faqs: { que: string; ans: string }[] = [
               />
             </svg>
           </div>
-          <p class="hidden select-none text-base mb-8">{faq.ans}</p>
+          <p class="hidden select-none text-base mb-8 text-neutral-900">
+            {t(`Faq.ans${index + 1}`)}
+          </p>
           <hr />
         </div>
       ))
