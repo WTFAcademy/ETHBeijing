@@ -6,6 +6,7 @@ import '../styles/navbar.css';
   const foldBtn: Element | any = document.querySelector('.navbar-mb__btn .fold');
   const menuBox: Element | any = document.querySelector('.navbar-mb');
   const menuBtn: Element | any = document.querySelectorAll('.menu-btn');
+  const menuMobileBtn: Element | any = document.querySelectorAll('.menu-mb__btn');
   const hashArr = ['#hero', '#prize', '#schedule', '#speaker', '#venue', '#faq'];
 
   foldBtn.addEventListener('click', () => {
@@ -29,6 +30,14 @@ import '../styles/navbar.css';
     ele.addEventListener('click', () => {
       menuBtn.forEach((ele: Element) => ele.classList.remove('active'));
       ele.classList.add('active');
+    })
+  });
+
+  menuMobileBtn.forEach((ele: Element, index: number) => {
+    ele.addEventListener('click', () => {
+      closeBtn.classList.add('hidden');
+      foldBtn.classList.remove('hidden');
+      menuBox.classList.add('hidden');
     })
   });
 </script>
@@ -86,25 +95,25 @@ import '../styles/navbar.css';
   <!-- Mobile menu, show/hide based on menu state. -->
   <div class="navbar-mb hidden" id="mobile-menu">
     <div class="absolute left-0 z-10 w-full origin-top-right border-gray-100 rounded-b-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-      <div class="py-1 w-full h-16" role="none">
-        <a href="#" class="text-gray-700 block px-4 py-2 h-full w-full" role="menuitem" tabindex="-1" id="menu-item-0">Overview</a>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#hero" class="text-gray-700 block px-4 py-2 h-full w-full" role="menuitem" tabindex="-1" id="menu-item-0">Overview</a>
       </div>
-      <div class="py-1 w-full h-16" role="none">
-        <a href="#" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-2">Prizes</a>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#prize" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-2">Prizes</a>
       </div>
-      <div class="py-1 w-full h-16" role="none">
-        <a href="#" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-4">Schedule</a>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#schedule" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-4">Schedule</a>
       </div>
-      <div class="py-1 w-full h-16" role="none">
-        <a href="#" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">Speakers</a>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#speaker" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">Speakers</a>
       </div>
-      <div class="py-1 w-full h-16" role="none">
-        <a href="#" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">Venue</a>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#venue" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">Venue</a>
       </div>
-      <div class="py-1 w-full h-16" role="none">
-        <a href="#" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">FAQ</a>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#faq" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">FAQ</a>
       </div>
-      <div class="py-1 w-full h-16" role="none">
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
         <div class="navbar-lang relative inline-block text-left px-4">
           <select id="language" name="language" style={{ fontSize: '0.75rem', color: '#262626' }} class="appearance-none mt-1 block w-24 rounded-md border border-gray-300 bg-white py-1 px-3 pr-0 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
             <option value="english" selected>English</option>
