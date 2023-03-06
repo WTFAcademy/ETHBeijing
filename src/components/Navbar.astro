@@ -1,19 +1,59 @@
 ---
 import '../styles/navbar.css';
 ---
+<script>
+  const closeBtn: Element | any = document.querySelector('.navbar-mb__btn .close');
+  const foldBtn: Element | any = document.querySelector('.navbar-mb__btn .fold');
+  const menuBox: Element | any = document.querySelector('.navbar-mb');
+  const menuBtn: Element | any = document.querySelectorAll('.menu-btn');
+  const menuMobileBtn: Element | any = document.querySelectorAll('.menu-mb__btn');
+  const hashArr = ['#hero', '#prize', '#schedule', '#speaker', '#venue', '#faq'];
+
+  foldBtn.addEventListener('click', () => {
+    closeBtn.classList.remove('hidden');
+    foldBtn.classList.add('hidden');
+    menuBox.classList.remove('hidden');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    closeBtn.classList.add('hidden');
+    foldBtn.classList.remove('hidden');
+    menuBox.classList.add('hidden');
+  });
+
+  menuBtn.forEach((ele: Element, index: number) => {
+    if (!location.hash && !index) ele.classList.add('active');
+
+    const hashIndex = hashArr.findIndex((val) => val === location.hash);
+    if (index === hashIndex) ele.classList.add('active');
+
+    ele.addEventListener('click', () => {
+      menuBtn.forEach((ele: Element) => ele.classList.remove('active'));
+      ele.classList.add('active');
+    })
+  });
+
+  menuMobileBtn.forEach((ele: Element, index: number) => {
+    ele.addEventListener('click', () => {
+      closeBtn.classList.add('hidden');
+      foldBtn.classList.remove('hidden');
+      menuBox.classList.add('hidden');
+    })
+  });
+</script>
 <nav class="bg-white fixed top-0 left-0 w-full z-10">
-  <div class="mx-auto max-w-7xl px-2 lg:px-8 w-full">
-    <div class="relative flex h-16 items-center justify-between w-full">
-      <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
+  <div class="mx-auto max-w-7xl sm:px-2 px-8 w-full">
+    <div class="relative flex h-16 items-center sm:justify-between justify-around w-full">
+      <div class="sm:hidden absolute inset-y-0 right-0 flex items-center">
         <!-- Mobile menu button-->
-        <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+        <button type="button" class="navbar-mb__btn rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <!--
             Icon when menu is closed.
 
             Menu open: "hidden", Menu closed: "block"
           -->
-          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <svg class="fold h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
           <!--
@@ -21,27 +61,27 @@ import '../styles/navbar.css';
 
             Menu open: "block", Menu closed: "hidden"
           -->
-          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <svg class="close hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
       </div>
-      <div class="w-full flex flex-1 items-center justify-around lg:px-32">
+      <div class="w-full sm:flex flex-1 items-center justify-around lg:px-32">
         <div class="flex flex-shrink-0 items-center">
-          <img class="block h-8 w-auto lg:hidden" src="/images/logo.png" alt="Your Company">
-          <img class="hidden h-8 w-auto lg:block" src="/images/logo.png" alt="Your Company">
+          <img class="block h-9 w-auto lg:hidden" src="/images/logo.png" alt="Your Company">
+          <img class="hidden h-9 w-auto lg:block" src="/images/logo.png" alt="Your Company">
         </div>
-        <div class="nav-bar h-full hidden sm:block">
+        <div class="navbar h-full hidden sm:block">
           <div class="flex h-full items-center">
-            <a href="#" class="text-base font-medium" aria-current="page">Overview</a>
-            <a href="#" class="text-base font-medium">Prizes</a>
-            <a href="#" class="text-base font-medium">Schedule</a>
-            <a href="#" class="text-base font-medium">Speakers</a>
-            <a href="#" class="text-base font-medium">Venue</a>
-            <a href="#" class="text-base font-medium">FAQ</a>
+            <a href="#hero" class="menu-btn py-2 rounded-full px-4 text-base font-medium" aria-current="page">Overview</a>
+            <a href="#prize" class="menu-btn py-2 rounded-full px-4 text-base font-medium">Prizes</a>
+            <a href="#schedule" class="menu-btn py-2 rounded-full px-4 text-base font-medium">Schedule</a>
+            <a href="#speaker" class="menu-btn py-2 rounded-full px-4 text-base font-medium">Speakers</a>
+            <a href="#venue" class="menu-btn py-2 rounded-full px-4 text-base font-medium">Venue</a>
+            <a href="#faq" class="menu-btn py-2 rounded-full px-4 text-base font-medium">FAQ</a>
           </div>
         </div>
-        <div class="nav-bar__lang relative inline-block text-left">
+        <div class="navbar-lang relative sm:inline-block text-left hidden">
           <select id="language" name="language" style={{ fontSize: '0.75rem', color: '#262626' }} class="appearance-none mt-1 block w-24 rounded-md border border-gray-300 bg-white py-1 px-3 pr-0 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
             <option value="english" selected>English</option>
             <option value="chinese">简体中文</option>
@@ -53,14 +93,35 @@ import '../styles/navbar.css';
   </div>
 
   <!-- Mobile menu, show/hide based on menu state. -->
-  <div class="nav-bar sm:hidden" id="mobile-menu">
-    <div class="flex items-center">
-      <a href="#" class="text-base font-medium" aria-current="page">Overview</a>
-      <a href="#" class="text-base font-medium">Prizes</a>
-      <a href="#" class="text-base font-medium">Schedule</a>
-      <a href="#" class="text-base font-medium">Speakers</a>
-      <a href="#" class="text-base font-medium">Venue</a>
-      <a href="#" class="text-base font-medium">FAQ</a>
+  <div class="navbar-mb hidden" id="mobile-menu">
+    <div class="absolute left-0 z-10 w-full origin-top-right border-gray-100 rounded-b-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#hero" class="text-gray-700 block px-4 py-2 h-full w-full" role="menuitem" tabindex="-1" id="menu-item-0">Overview</a>
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#prize" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-2">Prizes</a>
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#schedule" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-4">Schedule</a>
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#speaker" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">Speakers</a>
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#venue" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">Venue</a>
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a href="#faq" class="text-gray-700 block px-4 py-2 h-full" role="menuitem" tabindex="-1" id="menu-item-6">FAQ</a>
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <div class="navbar-lang relative inline-block text-left px-4">
+          <select id="language" name="language" style={{ fontSize: '0.75rem', color: '#262626' }} class="appearance-none mt-1 block w-24 rounded-md border border-gray-300 bg-white py-1 px-3 pr-0 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+            <option value="english" selected>English</option>
+            <option value="chinese">简体中文</option>
+          </select>
+          <div class="icon absolute bg-no-repeat bg-cover bg-top top-3.5 right-7"></div>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
