@@ -8,7 +8,16 @@ const cardData = [
     img: "/images/support-program.png",
   },
   {
+    img: "/images/token-pocket.png",
+  },
+  {
     img: "/images/sponsor3.png",
+  },
+  {
+    img: "/images/LD-Capital.png",
+  },
+  {
+    img: "/images/bcx.png",
   },
 ];
 ---
@@ -24,7 +33,7 @@ const cardData = [
         return (
           <div class="card_box flex">
             <div class="avatar">
-              <img class="avatar_img w-[150px]" src={item.img} />
+              <img class={`avatar_img ${item.img == "/images/token-pocket.png" ? "w-[240px]" : "w-[150px]"}`} src={item.img} />
             </div>
           </div>
         );
