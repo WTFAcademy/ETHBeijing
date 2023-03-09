@@ -31,26 +31,26 @@ const cardData = [
     {
       cardData.map((item, idx) => {
         return (
-          <div class="flex lg:items-center max-lg:flex-col ">
-            <div class="flex items-center lg:pr-[56px] max-lg:pb-[30px]">
+          <div class="flex lg:items-center max-lg:flex-col">
+            <div class="flex items-center lg:pr-[56px] max-lg:pb-[30px] sm:justify-start justify-center">
               <img class="h-[24px] w-[24px] " src={item.img} />
               <h1 class="text-black font-semibold text-[24px] leading-[29px] w-[100px] pl-[10px]">
                 {t(`generousPrize.cards.${idx}.track`)}
               </h1>
             </div>
 
-            <div class="pb-[40px] w-[600px] card_box">
+            <div class="pb-[40px] sm:w-[600px] card_box">
               <div>
-                <h1 class="text-black font-semibold text-[18px] leading-[34px] pb-[16px]">
+                <h1 class="text-black font-semibold text-[18px] leading-[34px] pb-[16px] sm:text-left text-center">
                   {t(`generousPrize.cards.${idx}.title`)}
                 </h1>
                 <div class="flex items-center pb-[40px]">
                   <img class="h-[15px] pr-[10px]" src="./images/info.png" />
-                  <span class="text-neutral-900 text-base leading-[19px]">
+                  <span class="text-neutral-900 text-base leading-[19px] ">
                     {t(`generousPrize.cards.${idx}.description`)}
                   </span>
                 </div>
-                <div class="flex items-center gap-x-[12px]">
+                <div class="flex items-center sm:gap-x-[12px] sm:flex-row max-lg:flex-col max-lg:gap-y-[12px]">
                   <p class="text-gray-600 text-xs ">Prize: </p>
                   <img class="h-[34px]" src="/images/1st.png" />
                   <img class="h-[34px]" src="/images/2nd.png" />
