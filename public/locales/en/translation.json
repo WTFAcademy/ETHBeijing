@@ -18,8 +18,30 @@
   "coOrganization": {
     "title": "Co-organization"
   },
-  "generousPrize": {},
-  "sponsors": {},
+  "generousPrize": {
+    "title": "Generous Prize for 3 Tracks",
+    "prizePool": "Prize Pool",
+    "cards": [
+      {
+        "track": "Track 1",
+        "title": "Public Goods",
+        "description": "Build open-source projects on Ethereum"
+      },
+      {
+        "track": "Track 2",
+        "title": "Innovative Layer2 Dapp",
+        "description": "Build projects on Layer 2 that surprise"
+      },
+      {
+        "track": "Track 3",
+        "title": "Open Research",
+        "description": "Data, Policy, Security, MEV, Anti-sybil..."
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Sponsors"
+  },
   "schedule": {
     "title": "Schedule",
     "hackthon": "Hackthon",

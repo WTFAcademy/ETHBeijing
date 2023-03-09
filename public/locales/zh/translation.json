@@ -16,7 +16,7 @@
     "content-2": "With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!"
   },
   "coOrganization": {
-    "title": ""
+    "title": "Co-organization"
   },
   "generousPrize": {
     "title": "Generous Prize for 3 Tracks",
@@ -42,7 +42,24 @@
   "sponsors": {
     "title": "Sponsors"
   },
-  "schedule": {},
+  "schedule": {
+    "title": "Schedule",
+    "hackthon": "Hackthon",
+    "time-1": "Wed, Apr 5",
+    "time-2": "Thur, Apr 6 - Fri, Apr 7",
+    "time-3": "Sat, Apr 8",
+    "open-ceremony": "Opening Ceremony",
+    "schedule-1": "02:00pm",
+    "topic-1": "Main Registration Opens!",
+    "schedule-2": "02:30pm",
+    "topic-2": "Workshops",
+    "schedule-3": "06:00pm",
+    "topic-3": "Dinner",
+    "schedule-4": "08:30pm",
+    "topic-4": "Opening Cermonies",
+    "schedule-5": "10:00pm",
+    "topic-5": "Team Formation & Idea Brainstorming Session"
+  },
   "judgesSpeakersMentors": {},
   "Footer": {},
   "Faq": {
