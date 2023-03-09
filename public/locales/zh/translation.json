@@ -20,27 +20,27 @@
   },
   "generousPrize": {
     "title": "Generous Prize for 3 Tracks",
-    "prizePool": "Prize Pool",
+    "prizePool": "奖池",
     "cards": [
       {
-        "track": "Track 1",
-        "title": "Public Goods",
-        "description": "Build open-source projects on Ethereum"
+        "track": "赛道 1",
+        "title": "公共品",
+        "description": "在以太坊上构建开源项目"
       },
       {
-        "track": "Track 2",
-        "title": "Innovative Layer2 Dapp",
-        "description": "Build projects on Layer 2 that surprise"
+        "track": "赛道 2",
+        "title": "Layer2 创新应用",
+        "description": "构建基于Layer 2的创新型应用项目"
       },
       {
-        "track": "Track 3",
-        "title": "Open Research",
-        "description": "Data, Policy, Security, MEV, Anti-sybil..."
+        "track": "赛道 3",
+        "title": "开放研究 (非开发者向)",
+        "description": "链上数据/政策/安全/MEV/反女巫/... 方向的研究"
       }
     ]
   },
   "sponsors": {
-    "title": "Sponsors"
+    "title": "赞助商"
   },
   "schedule": {
     "title": "Schedule",
