@@ -1,4 +1,4 @@
-![](./img/banner.png)
+![](./img/banner.jpeg)
 # ETH Beijing Hackathon
 [中文](./README-cn.md)
 ## Time
