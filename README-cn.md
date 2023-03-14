@@ -17,9 +17,13 @@ ETH Beijing Hackathon是一次在北京举办的面向以太坊开发者的黑�
 
 $30,000+
 
-## 报名链接
+## 官网
 
-Coming soon!
+[https://ethbeijing.xyz](https://ethbeijing.xyz)
+
+## 申请链接
+
+[链接](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Deadline: March.31th)
 
 ## 黑客松赛道
 ### 主赛道
@@ -42,7 +46,10 @@ Coming soon!
 ## 赞助商
 - [Scroll](https://twitter.com/Scroll_ZKP)
 - [Ethereum Foundation](https://twitter.com/EF_ESP)
+- [Token Pocket](https://twitter.com/TokenPocket_TP)
 - [Mask](https://twitter.com/realMaskNetwork)
+- [LD Capital](https://twitter.com/LD_Capital)
+- [Cocos BCX](https://twitter.com/CocosBCX)
 
 ## 合作伙伴和支持社区
 - [Dorahacks](https://twitter.com/DoraHacks)
@@ -89,3 +96,7 @@ ETH Beijing 免费入场。
 ### 我可以在黑客松搭建什么项目？
 
 我们在 ETH Beijing 提供 3 个主赛道和几个赞助赛道。每个项目必须选择 1 个主要赛道，并且可以选择任何合适的赞助商赛道。
+
+### 是否有门票可以让观众参与？
+
+因为北京的政策，我们限制参与活动的人数。本次活动只有入选黑客松的开发者可以参加，没有门票提供给观众。但是我们的 workshop 会线上直播，欢迎远程参与。

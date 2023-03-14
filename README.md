@@ -11,9 +11,13 @@ Beijing, China
 
 $30,000+
 
+## Website
+
+[https://ethbeijing.xyz](https://ethbeijing.xyz)
+
 ## Application link
 
-Coming soon!
+[Application](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Deadline: March.31th)
 
 ## Hackathon Track
 ### Main track
@@ -36,7 +40,10 @@ Coming soon!
 ## Sponsor
 - [Scroll](https://twitter.com/Scroll_ZKP)
 - [Ethereum Foundation](https://twitter.com/EF_ESP)
+- [Token Pocket](https://twitter.com/TokenPocket_TP)
 - [Mask](https://twitter.com/realMaskNetwork)
+- [LD Capital](https://twitter.com/LD_Capital)
+- [Cocos BCX](https://twitter.com/CocosBCX)
 
 ## Partner & Supporting Communities
 - [Dorahacks](https://twitter.com/DoraHacks)
@@ -77,3 +84,7 @@ No. In the interest of fairness, attendees should not be working on their projec
 ### What can I build during the event?
 
 We provide 3 main tracks and several sponsor tracks in ETH Beijing. Each project must select 1 main track and can optionally select any sponsor tracks that fit.
+
+### Are there ticket for non-developer participants?
+
+Because of Beijing's policy, we limit the number of people participating in the event. Only developers selected for the hackathon can participate in this event, and no tickets are provided for non-developers. However, our workshop will be broadcast live online, and remote participation is welcome.
