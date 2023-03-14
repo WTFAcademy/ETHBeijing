@@ -26,13 +26,19 @@ $30,000+
 [链接](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Deadline: March.31th)
 
 ## 黑客松赛道
-### 主赛道
+### 主赛道: 
+
+参赛团队必须从 3 条赛道中选择一条，每个主赛道奖金 $10000，其中第一名 $5000，第二名 $3000，第三名 $2000。
+
 1. **公共品**: 在以太坊上构建开源项目。
 2. **Layer2 创新应用**: 构建基于Layer 2的创新型应用项目。
 3. **开放研究** (非开发者向): 链上数据/政策/安全/MEV/反女巫/... 方向的研究。
 
 ### 赞助商赛道
-- Coming soon!
+
+每个赞助商赛道奖金 $2500，其中第一名 $1500，第二名 $1000。
+
+1. **Scroll**: 在 Scroll 上开发去中心化应用。
 
 ## 主办方
 

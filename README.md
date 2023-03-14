@@ -21,12 +21,17 @@ $30,000+
 
 ## Hackathon Track
 ### Main track
+
+Teams must choose one of the 3 main tracks. Each main track has $10,000 in prize, including $5,000 for the 1st, $3,000 for the 2nd, and $2,000 for the 3rd.
+
 1. **Public Goods**: Build open-source projects on Ethereum.
 2. **Innovative Layer2 Dapp**: Build projects on Layer 2 that surprise.
 3. **Open Research** (for non-coders): Data/Policy/Security/MEV/Anti-sybil/...
 
 ### Bounty track
-- Coming soon!
+Besides participating in the main track, teams can optionally choose to participate in the sponsor track. Each sponsor track has $2500 in prize, including $1500 for the 1st and $1000 for the 2nd.
+
+1. **Scroll**: Develop decentralized applications on Scroll.
 
 ## Organizer
 
