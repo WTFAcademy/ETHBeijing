@@ -4,8 +4,8 @@
     "description": "后新冠时期，中国第一个以太坊线下活动!"
   },
   "hero": {
-    "title": "Welcome to my awesome website!",
-    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
+    "apply-to-hack": "Apply to hack",
+    "join-community": "Join Community"
   },
   "intro": {
     "title": "ETH Beijing 黑客松",
