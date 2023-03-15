@@ -1,0 +1,90 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+
+const cardData = [
+  {
+    img: "/images/media/odaily.png",
+  },
+  {
+    img: "/images/media/PANews.png",
+  },
+  {
+    img: "/images/media/tech-flow.jpg",
+  },
+  {
+    img: "/images/media/bbt.png",
+  },
+  {
+    img: "/images/media/chaincatcher.png",
+  },
+  {
+    img: "/images/media/defi.png",
+  },
+  {
+    img: "/images/media/foresight-news.png",
+  },
+];
+---
+
+<section class="container">
+  <div class="title">{t("media.title")}</div>
+  <div class="flex flex-wrap justify-center gap-5 mt-[60px] mb-[200px]">
+    {
+      cardData.map((item) => {
+        return (
+          <div class="card_box flex">
+            <div class="avatar">
+              <img
+                class={`avatar_img ${
+                  item.img == "/images/token-pocket.png" ? "w-[240px]" : "w-[150px]"
+                }`}
+                src={item.img}
+              />
+            </div>
+          </div>
+        );
+      })
+    }
+  </div>
+</section>
+
+<style>
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .card_container {
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card_box {
+    height: 96px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 16px 20px 16px 20px;
+    border: 0.5px solid #9ca3af;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px;
+    margin-top: 20px;
+  }
+</style>
