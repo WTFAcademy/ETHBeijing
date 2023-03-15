@@ -1,19 +1,46 @@
 ---
-import '../styles/hero.css';
+import i18next, { t } from "i18next";
+import "../styles/hero.css";
 ---
 
-<div class="h-[580px] mt-[64px] mb-[120px] flex justify-center items-center bg-white relative isolate mx-auto sm:bg-[url(/images/banner.jpeg)] bg-[url(/images/banner-mobile.png)] bg-no-repeat bg-cover bg-top">
+<div
+  class="h-[580px] mt-[64px] mb-[120px] flex justify-center items-center bg-white relative isolate mx-auto sm:bg-[url(/images/banner.jpeg)] bg-[url(/images/banner-mobile.png)] bg-no-repeat bg-cover bg-top"
+>
   <div id="hero" class="anchor -mt-[504px]"></div>
-  <div class="container sm:w-5/12 w-2/3">
+  <div class="container flex flex-col justify-center items-center">
     <!-- content -->
-    <img src="/images/eth-title.png" alt="" class="sm:w-[414px] w-full sm:mb-6 sm:mt-[26px] m-auto block inset-0 -z-10 h-full sm:h-[150px] sm:object-cover object-contain object-right md:object-center">
-    <div class="flex justify-center max-sm:flex-col max-sm:items-center">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link" target="_blank" class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block mr-4 max-sm:mr-0 max-sm:my-[12px]">Apply to hack</a>
-      <a href="https://discord.com/invite/cGYBRVTYEY" target="_blank" class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:my-[12px]">Join Community</a>
+    <img
+      src="/images/eth-title.png"
+      alt=""
+      class="w-10/12 mb-[40px] sm:w-[414px] sm:mb-6 sm:mt-[26px] m-auto block inset-0 -z-10 h-full sm:h-[150px] sm:object-cover object-contain object-right md:object-center"
+    />
+    <div class="flex justify-between max-sm:flex-col max-sm:items-center sm:w-[348px] mb-[40px]">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link"
+        target="_blank"
+        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:mr-0 max-sm:my-[12px]"
+      >
+        {t("hero.apply-to-hack")}
+      </a>
+      <a
+        href="https://discord.com/invite/cGYBRVTYEY"
+        target="_blank"
+        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:my-[12px]"
+      >
+        {t("hero.join-community")}</a
+      >
     </div>
-    <div class="hero-time flex w-auto flex-wrap sm:flex-nowrap sm:justify-between justify-center sm:-ml-[70px] sm:items-baseline">
-      <img src="/images/reg-time.png" alt="" class="sm:w-[300px] sm:h-[90px] sm:mr-[16px] inset-0 -z-10 h-full w-full object-cover object-right sm:object-center">
-      <img src="/images/hack-time.png" alt="" class="sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full w-full mt-4 object-cover object-right sm:object-center">
+    <div
+      class="flex flex-wrap sm:flex-nowrap justify-between max-sm:flex-col max-sm:items-center sm:w-[616px]"
+    >
+      <img
+        src="/images/reg-time.png"
+        class="w-[250px] sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full object-cover object-right sm:object-center"
+      />
+      <img
+        src="/images/hack-time.png"
+        class="w-[250px] sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full max-sm:mt-4 object-cover object-right sm:object-center"
+      />
     </div>
   </div>
 </div>
