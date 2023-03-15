@@ -5,6 +5,8 @@
   },
   "hero": {
     "title": "Welcome to my awesome website!",
+    "apply-to-hack": "Apply to hack",
+    "join-community": "Join Community",
     "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
   },
   "intro": {
