@@ -1,7 +1,7 @@
 {
   "navbar": {
-    "title": "My awesome website!",
-    "description": "Here is the description of my awesome website!"
+    "title": "ETH Beijing!",
+    "description": "The first Ethereum community event in China in the post-covid-19 era!"
   },
   "hero": {
     "title": "Welcome to my awesome website!",
@@ -9,7 +9,7 @@
   },
   "intro": {
     "title": "ETH Beijing Hackthon",
-    "decs": "In the post-covid-19 era, the first offline event of Ethereum in Beijing is coming!",
+    "decs": "The first Ethereum community event in China in the post-covid-19 era!!",
     "pku": "PKU BLOCKCHAIN",
     "content-1": "The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association) and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.",
     "wtf": "WTF ACADEMY",

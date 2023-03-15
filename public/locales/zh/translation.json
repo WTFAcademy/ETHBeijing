@@ -1,25 +1,25 @@
 {
   "navbar": {
-    "title": "My awesome website!",
-    "description": "Here is the description of my awesome website!"
+    "title": "ETH Beijing",
+    "description": "后新冠时期，中国第一个以太坊线下活动!"
   },
   "hero": {
     "title": "Welcome to my awesome website!",
     "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
   },
   "intro": {
-    "title": "ETH Beijing Hackthon",
-    "decs": "In the post-covid-19 era, the first offline event of Ethereum in Beijing is coming!",
+    "title": "ETH Beijing 黑客松",
+    "decs": "后新冠时期，中国第一个以太坊线下活动!",
     "pku": "PKU BLOCKCHAIN",
-    "content-1": "The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association) and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.",
+    "content-1": "ETH Beijing 黑客松，由 <b>PKU Blockchain DAO</b> 和 <b>WTF Academy</b> 主办，<b>ETHPlanet</b> 和 <b>Scroll</b> 协办。",
     "wtf": "WTF ACADEMY",
-    "content-2": "With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!"
+    "content-2": "总奖池超过 $30,000，我们将为以太坊开发者和研究员提供极致的黑客松体验!"
   },
   "coOrganization": {
-    "title": "Co-organization"
+    "title": "协办方"
   },
   "generousPrize": {
-    "title": "Generous Prize for 3 Tracks",
+    "title": "主赛道",
     "prizePool": "奖池",
     "cards": [
       {
@@ -43,7 +43,7 @@
     "title": "赞助商"
   },
   "schedule": {
-    "title": "Schedule",
+    "title": "日程表",
     "hackthon": "Hackthon",
     "time-1": "Wed, Apr 5",
     "time-2": "Thur, Apr 6 - Fri, Apr 7",
