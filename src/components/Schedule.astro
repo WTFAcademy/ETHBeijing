@@ -1,6 +1,60 @@
 ---
 import { t } from "i18next";
+import { ScheduleTabs } from "./ScheduleTabs";
+
+const scheduleData = [
+  [
+    { time: "tab-1-time-1", title: "tab-1-title-1" },
+    { time: "tab-1-time-2", title: "tab-1-title-2" },
+    { time: "tab-1-time-3", title: "tab-1-title-3" },
+    { time: "tab-1-time-4", title: "tab-1-title-4" },
+  ],
+  [
+    { time: "tab-2-time-1", title: "tab-2-title-1" },
+    { time: "tab-2-time-2", title: "tab-2-title-2" },
+    { time: "tab-2-time-3", title: "tab-2-title-3" },
+    { time: "tab-2-time-4", title: "tab-2-title-4" },
+    { time: "tab-2-time-5", title: "tab-2-title-5" },
+  ],
+  [
+    { time: "tab-3-time-1", title: "tab-3-title-1" },
+    { time: "tab-3-time-2", title: "tab-3-title-2" },
+    { time: "tab-3-time-3", title: "tab-3-title-3" },
+    { time: "tab-3-time-4", title: "tab-3-title-4" },
+    { time: "tab-3-time-5", title: "tab-3-title-5" },
+    { time: "tab-3-time-6", title: "tab-3-title-6" },
+    { time: "tab-3-time-7", title: "tab-3-title-7" },
+  ],
+];
 ---
+
+<script>
+  const openTab = (evt: any, tabName: string) => {
+    var i, tablinks;
+    let tabcontent: any = [];
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      if (tabcontent[i]) {
+        tabcontent[i].style.display = "none";
+      }
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].querySelector(".cursor-pointer").classList.remove("bg-gradient-to-r");
+      tablinks[i].querySelector(".cursor-pointer").classList.remove("text-white");
+    }
+    (document.getElementById(tabName) as any).style.display = "block";
+    evt.currentTarget.className += " active";
+    evt.currentTarget.querySelector(".cursor-pointer").className += " bg-gradient-to-r text-white";
+  };
+  const tabs: Element | any = document.querySelectorAll(".tablinks");
+  console.log("tabs: ", tabs);
+  tabs.forEach((ele: Element, index: number) => {
+    ele.addEventListener("click", (e) => {
+      openTab(e, `tab${index + 1}`);
+    });
+  });
+</script>
 
 <section class="flex justify-center flex-col items-center mb-[200px]">
   <div id="schedule" class="anchor"></div>
@@ -14,24 +68,24 @@ import { t } from "i18next";
     />
     <div class="py-[20px] px-[40px] flex max-lg:flex-wrap">
       <div class="mr-[56px] max-lg:mb-4">
-        <div class="font-bold text-[20px] mb-[6px] leading-[32px]">{t("schedule.hackthon")}</div>
+        <div class="font-bold text-[20px] mb-[6px] leading-[32px]">
+          {t("schedule.hackthon")}
+        </div>
         <div class="bg-gradient-to-r from-[#F833A9] to-[#FF7456] h-[3px] w-full"></div>
       </div>
-      <!-- <div class="h-[40px] px-[20px] py-[10px] text-[16px] flex items-center">
-        {t("schedule.time-1")}
-      </div> -->
+
       <div class="flex">
         <div
-          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px]"
+          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px] tablinks"
         >
           <div
-            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back bg-gradient-to-r from-[#F833A9] to-[#FF7456] text-white cursor-pointer select-none"
+            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r bg-gradient-to-r text-white from-[#F833A9] to-[#FF7456] hover:text-white cursor-pointer select-none"
           >
             <p class="text-[16px] leading-[19px] font-medium">{t("schedule.time-1")}</p>
           </div>
         </div>
         <div
-          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px]"
+          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] mr-[16px] tablinks"
         >
           <div
             class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white cursor-pointer select-none"
@@ -40,7 +94,7 @@ import { t } from "i18next";
           </div>
         </div>
         <div
-          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px]"
+          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#F833A9] to-[#FF7456] p-[1px] tablinks"
         >
           <div
             class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#F833A9] to-[#FF7456] hover:text-white cursor-pointer select-none"
@@ -66,38 +120,178 @@ import { t } from "i18next";
             d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
           ></path>
         </svg>
-        <span class="text-neutral-600 text-sm leading-[17px]">{t("schedule.open-ceremony")}</span>
+        <span class="text-neutral-600 text-sm leading-[17px]">
+          {t("schedule.open-ceremony")}
+        </span>
       </div>
-      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
-        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
-          {t("schedule.schedule-1")}
+      <div id="tab1" class="tabcontent" style="display: block">
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-1-time-1")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-1")}</p>
         </div>
-        <p class="text-base leading-[19px]">{t("schedule.topic-1")}</p>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-1-time-2")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-2")}</p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-1-time-3")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-3")}</p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-1-time-4")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-4")}</p>
+        </div>
       </div>
-      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
-        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
-          {t("schedule.schedule-2")}
+      <div id="tab2" class="tabcontent">
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-2-time-1")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-2-title-1")}
+          </p>
         </div>
-        <p class="text-base leading-[19px]">{t("schedule.topic-2")}</p>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-2-time-2")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-2-title-2")}
+          </p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-2-time-3")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-2-title-3")}
+          </p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-2-time-4")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-2-title-4")}
+          </p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-2-time-5")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-2-title-5")}
+          </p>
+        </div>
       </div>
-      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
-        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
-          {t("schedule.schedule-3")}
+      <div id="tab3" class="tabcontent">
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-3-time-1")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-1")}
+          </p>
         </div>
-        <p class="text-base leading-[19px]">{t("schedule.topic-3")}</p>
-      </div>
-      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
-        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
-          {t("schedule.schedule-4")}
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-3-time-2")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-2")}
+          </p>
         </div>
-        <p class="text-base leading-[19px]">{t("schedule.topic-4")}</p>
-      </div>
-      <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
-        <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
-          {t("schedule.schedule-5")}
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-3-time-3")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-3")}
+          </p>
         </div>
-        <p class="text-base leading-[19px]">{t("schedule.topic-5")}</p>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-3-time-4")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-4")}
+          </p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-3-time-5")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-5")}
+          </p>
+        </div>
+        <div class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center">
+          <div class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]">
+            {t("schedule.tab-3-time-6")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-6")}
+          </p>
+        </div>
       </div>
     </div>
+
+    <!-- <div id="tab1" class="tabcontent">
+    <h3>Tab 1</h3>
+    <p>Content for Tab 1 goes here.</p>
   </div>
+
+  <div id="tab2" class="tabcontent">
+    <h3>Tab 2</h3>
+    <p>Content for Tab 2 goes here.</p>
+  </div>
+
+  <div id="tab3" class="tabcontent">
+    <h3>Tab 3</h3>
+    <p>Content for Tab 3 goes here.</p>
+  </div> -->
+  </div>
+
+  <style>
+    * Style the tab */ .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+    }
+  </style>
 </section>
