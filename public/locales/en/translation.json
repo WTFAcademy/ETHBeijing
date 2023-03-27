@@ -36,6 +36,11 @@
         "track": "Track 3",
         "title": "Open Research",
         "description": "Data, Policy, Security, MEV, Anti-sybil..."
+      },
+      {
+        "track": "Track 4",
+        "title": "Scroll",
+        "description": "Deploy smart contracts on Scroll"
       }
     ]
   },

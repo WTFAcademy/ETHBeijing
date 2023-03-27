@@ -3,12 +3,19 @@ import i18next, { t } from "i18next";
 const cardData = [
   {
     img: "/images/dot-track1.png",
+    prizeImgs: ["1st", "2nd", "3rd"],
   },
   {
     img: "/images/dot-track2.png",
+    prizeImgs: ["1st", "2nd", "3rd"],
   },
   {
     img: "/images/dot-track3.png",
+    prizeImgs: ["1st", "2nd", "3rd"],
+  },
+  {
+    img: "/images/dot-track3.png",
+    prizeImgs: ["scroll1st", "scroll2st"],
   },
 ];
 ---
@@ -52,9 +59,9 @@ const cardData = [
                 </div>
                 <div class="flex items-center sm:gap-x-[12px] sm:flex-row max-lg:flex-col max-lg:gap-y-[12px]">
                   <p class="text-gray-600 text-xs ">Prize: </p>
-                  <img class="h-[34px]" src="/images/1st.png" />
-                  <img class="h-[34px]" src="/images/2nd.png" />
-                  <img class="h-[34px]" src="/images/3rd.png" />
+                  {item.prizeImgs.map((img) => {
+                    return <img class="h-[34px]" src={`/images/${img}.png`} />;
+                  })}
                 </div>
               </div>
             </div>
