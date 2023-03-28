@@ -72,7 +72,7 @@ ETH Beijing is free to attent.
 
 ### Will ETH Beijing offer travel scholarships to hackers?
 
-we will provide foods, accomodations, and travel compensation to students if budget permits.
+We will provide foods, accomodations, and travel compensation to students if budget permits.
 
 ### Can I participate remotely at this event?
 
