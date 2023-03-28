@@ -1,15 +1,27 @@
 ---
-import type { reloadResources } from "i18next";
+// import type { reloadResources } from "i18next";
 import "../styles/navbar.css";
 ---
 
 <script>
-  const closeBtn: Element | any = document.querySelector(".navbar-mb__btn .close");
-  const foldBtn: Element | any = document.querySelector(".navbar-mb__btn .fold");
+  const closeBtn: Element | any = document.querySelector(
+    ".navbar-mb__btn .close"
+  );
+  const foldBtn: Element | any = document.querySelector(
+    ".navbar-mb__btn .fold"
+  );
   const menuBox: Element | any = document.querySelector(".navbar-mb");
   const menuBtn: Element | any = document.querySelectorAll(".menu-btn");
-  const menuMobileBtn: Element | any = document.querySelectorAll(".menu-mb__btn");
-  const hashArr = ["#hero", "#prize", "#schedule", "#speaker", "#venue", "#faq"];
+  const menuMobileBtn: Element | any =
+    document.querySelectorAll(".menu-mb__btn");
+  const hashArr = [
+    "#hero",
+    "#prize",
+    "#schedule",
+    "#speaker",
+    "#venue",
+    "#faq",
+  ];
 
   const closeMobileNav = () => {
     closeBtn.classList.add("hidden");
@@ -41,21 +53,46 @@ import "../styles/navbar.css";
     ele.addEventListener("click", closeMobileNav)
   );
 
-  const lang: Element | any = document.getElementById("language");
+  // const lang: Element = document.getElementById("lan")!;
+  const lanList: Element = document.getElementById("lan-list")!;
   const langMobile: Element | any = document.getElementById("languag-mb");
+  const lanListEN: Element = document.getElementById("lan-list-en")!;
+  const lanListZH: Element = document.getElementById("lan-list-zh")!;
 
-  lang.addEventListener("change", (e: any) => {
-    const { value = "english" } = e.target;
-    const { origin, hash } = location;
-
-    if (value === "chinese") {
-      location.href = origin + "/zh/" + hash;
-    }
-
-    if (value === "english") {
-      location.href = origin + "/" + hash;
+  const lanCurrent: Element = document.getElementById("lan-current")!;
+  lanCurrent.addEventListener("click", () => {
+    if (/ hidden/.test(lanList.classList.value)) {
+      lanList.classList.remove("hidden");
+    } else {
+      lanList.classList.add("hidden");
     }
   });
+
+  const { origin, hash } = location;
+  lanListEN.addEventListener("click", () => {
+    lanCurrent.children[0].innerHTML = "English";
+    lanList.classList.add("hidden");
+    location.href = origin + "/" + hash;
+  });
+
+  lanListZH.addEventListener("click", () => {
+    lanCurrent.children[0].innerHTML = "简体中文";
+    lanList.classList.add("hidden");
+    location.href = origin + "/zh/" + hash;
+  });
+
+  // lang.addEventListener("change", (e: any) => {
+  //   const { value = "english" } = e.target;
+  //   const { origin, hash } = location;
+
+  //   if (value === "chinese") {
+  //     location.href = origin + "/zh/" + hash;
+  //   }
+
+  //   if (value === "english") {
+  //     location.href = origin + "/" + hash;
+  //   }
+  // });
 
   langMobile.addEventListener("change", (e: any) => {
     const { value = "english" } = e.target;
@@ -72,16 +109,18 @@ import "../styles/navbar.css";
     }
   });
   if (location.pathname.includes("zh")) {
-    lang.value = "chinese";
+    lanCurrent.children[0].innerHTML = "简体中文";
     langMobile.value = "chinese";
   } else {
-    lang.value = "english";
+    lanCurrent.children[0].innerHTML = "English";
     langMobile.value = "english";
   }
 </script>
 <nav class="bg-white fixed top-0 left-0 w-full z-10">
   <div class="mx-auto max-w-7xl sm:px-2 px-8 w-full">
-    <div class="relative flex h-16 items-center sm:justify-between justify-around w-full">
+    <div
+      class="relative flex h-16 items-center sm:justify-between justify-around w-full"
+    >
       <div class="sm:hidden absolute inset-y-0 right-0 flex items-center">
         <!-- Mobile menu button-->
         <button
@@ -122,7 +161,10 @@ import "../styles/navbar.css";
             stroke="currentColor"
             aria-hidden="true"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
       </div>
@@ -179,23 +221,38 @@ import "../styles/navbar.css";
           <div class="flex h-full items-center">
             <a
               href="#hero"
-              class="menu-btn py-2 rounded-full px-4 text-base font-medium"
+              class="menu-btn py-2 mx-0.5 rounded-full px-4 text-base font-medium"
               aria-current="page">Overview</a
             >
-            <a href="#prize" class="menu-btn py-2 rounded-full px-4 text-base font-medium">Prizes</a
+            <a
+              href="#prize"
+              class="menu-btn py-2 mx-0.5 rounded-full px-4 text-base font-medium"
+              >Prizes</a
             >
-            <a href="#schedule" class="menu-btn py-2 rounded-full px-4 text-base font-medium"
+            <a
+              href="#schedule"
+              class="menu-btn py-2 mx-0.5 rounded-full px-4 text-base font-medium"
               >Schedule</a
             >
-            <a href="#speaker" class="menu-btn py-2 rounded-full px-4 text-base font-medium"
-              >Speakers</a
+            <a
+              href="#venue"
+              class="menu-btn py-2 mx-0.5 rounded-full px-4 text-base font-medium"
+              >Venue</a
             >
-            <a href="#venue" class="menu-btn py-2 rounded-full px-4 text-base font-medium">Venue</a>
-            <a href="#faq" class="menu-btn py-2 rounded-full px-4 text-base font-medium">FAQ</a>
+            <a
+              href="#media"
+              class="menu-btn py-2 mx-0.5 rounded-full px-4 text-base font-medium"
+              >Media</a
+            >
+            <a
+              href="#faq"
+              class="menu-btn py-2 mx-0.5 rounded-full px-4 text-base font-medium"
+              >FAQ</a
+            >
           </div>
         </div>
         <div class="navbar-lang relative sm:inline-block text-left hidden">
-          <select
+          <!-- <select
             id="language"
             name="language"
             style={{ fontSize: "0.75rem", color: "#262626" }}
@@ -203,8 +260,34 @@ import "../styles/navbar.css";
           >
             <option value="english">English</option>
             <option value="chinese">简体中文</option>
-          </select>
-          <div class="icon absolute bg-no-repeat bg-cover bg-top top-3.5 right-3.5"></div>
+          </select> -->
+          <div id="lan" class="relative cursor-pointer select-none">
+            <div
+              id="lan-current"
+              class="flex items-center rounded-full border border-gray-300 py-2 px-5 shadow-sm hover:border-indigo-500 focus:outline-none hover:ring-indigo-500 sm:text-sm min-w-[114px]"
+            >
+              <span>English</span>
+              <div class="icon bg-no-repeat bg-cover bg-top ml-2"></div>
+            </div>
+            <ul
+              id="lan-list"
+              class="absolute w-full bg-white shadow-md my-1 border border-gray-300 rounded-md p-0 overflow-hidden hidden"
+            >
+              {
+                [
+                  { id: "lan-list-en", label: "English" },
+                  { id: "lan-list-zh", label: "简体中文" },
+                ].map((lan) => (
+                  <li
+                    id={lan.id}
+                    class="text-center whitespace-nowrap py-1.5 hover:text-white hover:bg-[#FD626B]"
+                  >
+                    {lan.label}
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -260,6 +343,15 @@ import "../styles/navbar.css";
       </div>
       <div class="menu-mb__btn py-1 w-full h-16" role="none">
         <a
+          href="#media"
+          class="text-gray-700 block px-4 py-2 h-full"
+          role="menuitem"
+          tabindex="-1"
+          id="menu-item-6">Media</a
+        >
+      </div>
+      <div class="menu-mb__btn py-1 w-full h-16" role="none">
+        <a
           href="#faq"
           class="text-gray-700 block px-4 py-2 h-full"
           role="menuitem"
@@ -278,7 +370,10 @@ import "../styles/navbar.css";
             <option class="" value="english">English</option>
             <option class="" value="chinese">简体中文</option>
           </select>
-          <div class="icon absolute bg-no-repeat bg-cover bg-top top-3.5 right-7"></div>
+          <div
+            class="icon absolute bg-no-repeat bg-cover bg-top top-3.5 right-7"
+          >
+          </div>
         </div>
       </div>
     </div>

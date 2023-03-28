@@ -1,5 +1,5 @@
 ---
-import i18next, { t, changeLanguage } from "i18next";
+import { t } from "i18next";
 
 const cardData = [
   {
@@ -30,7 +30,7 @@ const cardData = [
 ---
 
 <section class="container">
-  <div class="title">{t("media.title")}</div>
+  <div id="media" class="title">{t("media.title")}</div>
   <div class="flex flex-wrap justify-center gap-5 mt-[60px] mb-[200px]">
     {
       cardData.map((item) => {
@@ -39,7 +39,9 @@ const cardData = [
             <div class="avatar">
               <img
                 class={`avatar_img ${
-                  item.img == "/images/token-pocket.png" ? "w-[240px]" : "w-[150px]"
+                  item.img == "/images/token-pocket.png"
+                    ? "w-[240px]"
+                    : "w-[150px]"
                 }`}
                 src={item.img}
               />
