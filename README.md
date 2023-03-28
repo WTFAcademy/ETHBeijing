@@ -13,7 +13,7 @@ $30,000+
 
 ## Website
 
-[https://ethbeijing.xyz](https://ethbeijing.xyz)
+[ETH Beijing Hackathon](https://ethbeijing.xyz)
 
 ## Application link
 
