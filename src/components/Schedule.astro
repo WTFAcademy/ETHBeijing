@@ -52,7 +52,7 @@ const scheduleData = [
       " bg-gradient-to-r text-white";
   };
   const tabs: Element | any = document.querySelectorAll(".tablinks");
-  console.log("tabs: ", tabs);
+  // console.log("tabs: ", tabs);
   tabs.forEach((ele: Element, index: number) => {
     ele.addEventListener("click", (e) => {
       openTab(e, `tab${index + 1}`);
