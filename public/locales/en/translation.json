@@ -97,6 +97,11 @@
     "tab-3-time-6": "09:00 PM",
     "tab-3-title-6": "After Party"
   },
+  "venue": {
+    "title": "Venue",
+    "name": "META SPACE (Wudaokou Branch)",
+    "address": "1st floor North, Building 1, Dongshengyuan Apartment, Heqing Road, Haidian District, Beijing."
+  },
   "media": { "title": "Media" },
   "judgesSpeakersMentors": {},
   "Footer": {},

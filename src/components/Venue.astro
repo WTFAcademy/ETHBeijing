@@ -1,0 +1,54 @@
+---
+import { t } from "i18next";
+---
+
+<section class="container">
+  <div class="title">{t("venue.title")}</div>
+
+  <img src="/images/img-metaspace.png" class="mt-[60px] w-[400px]" />
+  <img src="/images/map.png" class="mt-[60px] w-[22px] mb-[16px]" />
+  <p class="venue-name mb-[16px]">{t("venue.name")}</p>
+  <p class="venue-address">{t("venue.address")}</p>
+</section>
+
+<style>
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .venue-name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #171717;
+  }
+  .venue-address {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+
+    text-align: center;
+
+    /* neutral/900 */
+
+    color: #171717;
+  }
+</style>
