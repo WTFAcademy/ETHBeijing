@@ -64,7 +64,7 @@
     "topic-4": "Opening Cermonies",
     "schedule-5": "10:00pm",
     "topic-5": "Team Formation & Idea Brainstorming Session",
-    
+
     "tab-1-time-1": "12:00 AM",
     "tab-1-title-1": "签到开始",
     "tab-1-time-2": "06:00 PM",
@@ -97,6 +97,11 @@
     "tab-3-title-5": "Demo Day (每个赛道前5名，每个项目 5 分钟)",
     "tab-3-time-6": "09:00 PM",
     "tab-3-title-6": "After Party"
+  },
+  "venue": {
+    "title": "会场",
+    "name": "META SPACE(五道口店)",
+    "address": "北京市海淀区荷清路东升园公寓1号楼1层北部"
   },
   "media": { "title": "Media" },
   "judgesSpeakersMentors": {},
