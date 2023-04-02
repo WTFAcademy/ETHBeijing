@@ -1,26 +1,45 @@
 ---
+import { t } from "i18next";
+
 const cardData = [
   {
-    img: "/images/ethf.svg",
+    img: "/images/sponsor1.png",
   },
   {
-    img: "/images/ethf.svg",
+    img: "/images/partner/chainlink.png",
   },
   {
-    img: "/images/ethf.svg",
+    img: "/images/partner/consensys.png",
+  },
+  {
+    img: "/images/token-pocket.png",
+  },
+  {
+    img: "/images/sponsor3.png",
+  },
+  {
+    img: "/images/aspecta.png",
+  },
+  {
+    img: "/images/partner/metaspace.png",
   },
 ];
 ---
 
 <section class="container">
-  <div class="title">Partners</div>
-  <div class="card_container">
+  <div id="media" class="title">{t("partner.title")}</div>
+  <div class="flex flex-wrap justify-center gap-5 mt-[60px] mb-[200px]">
     {
       cardData.map((item) => {
         return (
-          <div class="card_box">
+          <div class="card_box flex">
             <div class="avatar">
-              <img class="avatar_img" src={item.img} />
+              <img
+                class={`avatar_img ${
+                  item.img == "/images/token-pocket.png" ? "w-[240px]" : "w-[150px]"
+                }`}
+                src={item.img}
+              />
             </div>
           </div>
         );
@@ -57,7 +76,7 @@ const cardData = [
 
   .card_box {
     height: 96px;
-    width: 400px;
+    width: 250px;
     border-radius: 10px;
     padding: 16px 20px 16px 20px;
     border: 0.5px solid #9ca3af;

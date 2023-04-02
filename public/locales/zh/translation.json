@@ -47,6 +47,9 @@
   "sponsors": {
     "title": "赞助商"
   },
+  "partner": {
+    "title": "合作伙伴"
+  },
   "schedule": {
     "title": "日程表",
     "hackthon": "Hackthon",
