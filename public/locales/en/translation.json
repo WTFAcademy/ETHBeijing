@@ -47,6 +47,9 @@
   "sponsors": {
     "title": "Sponsors"
   },
+  "partner": {
+    "title": "Partner"
+  },
   "schedule": {
     "title": "Schedule",
     "hackthon": "Hackthon",
