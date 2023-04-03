@@ -106,4 +106,8 @@
 * 目标：调研MEV现状，构建低延迟的区块链基础设施，构建准确率更高的恶意Token检测工具。
 * 是否招募队员：是 (希望你熟悉MEV)
 * 如何联系：WeChat ID: tcscry
-
+# 21. SoCity Green Commute
+* 简介：个人减碳激励去中心化应用
+* 目标：完成开发及demo
+* 是否招募队员：否
+* 如何联系：WeChat ID: JAJAmoa
