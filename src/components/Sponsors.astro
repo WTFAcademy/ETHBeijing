@@ -2,10 +2,13 @@
 import i18next, { t } from "i18next";
 const cardData = [
   {
+    img: "/images/support-program.png",
+  },
+  {
     img: "/images/sponsor1.png",
   },
   {
-    img: "/images/support-program.png",
+    img: "/images/bixin.png",
   },
   {
     img: "/images/token-pocket.png",
@@ -23,14 +26,11 @@ const cardData = [
     img: "/images/bcx.png",
   },
   {
-    img: "/images/aspecta.png"
+    img: "/images/aspecta.png",
   },
   {
-    img: "/images/bixin.png"
+    img: "/images/Galxe.png",
   },
-  {
-    img: "/images/Galxe.png"
-  }
 ];
 ---
 
@@ -45,7 +45,16 @@ const cardData = [
         return (
           <div class="card_box flex">
             <div class="avatar">
-              <img class={`avatar_img ${(item.img == "/images/token-pocket.png" || item.img == "/images/aspecta.png" || item.img == "/images/bixin.png") ? "w-[240px]" : "w-[150px]"}`} src={item.img} />
+              <img
+                class={`avatar_img ${
+                  item.img == "/images/token-pocket.png" ||
+                  item.img == "/images/aspecta.png" ||
+                  item.img == "/images/bixin.png"
+                    ? "w-[240px]"
+                    : "w-[150px]"
+                }`}
+                src={item.img}
+              />
             </div>
           </div>
         );
