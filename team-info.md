@@ -111,3 +111,131 @@
 * 目标：完成开发及demo
 * 是否招募队员：否
 * 如何联系：WeChat ID: JAJAmoa
+# 22. peerbank
+* 简介：peerbank 是一个去中心的稳定币发行协议，该协议采用超额抵押方式可铸造锚定除（RMB）以外的任意fiat 。铸造稳定币可用于全球结算，抵押资产将锁定在合约中，避免因中心化机构管理带来的风险。
+* 目标：开发出MVP版本
+* 是否招募队员：是 需要一个前端和一个UI设计
+* 如何联系：Wechat ID: wildlaugh1014
+# 23. GPAD Lab
+* 简介：GPAD Protocol is a decentralized investment and financing agreement, users can freely create projects, invest, and realize post-investment programmable.
+* 目标：主要是Demo show
+* 是否招募队员：否
+# 24. SLOADS
+* 简介：在解决某个 CTF（https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle） 时，我遇到一个问题，需要在测试代码中打印某个合约的所有 storage slots。目前 foundry 仅支持打印静态数据的storage slot，对于动态数据，比如所有的 array 元素，map entry，则无法打印，我希望能够打印出动态数据的 storage slots。
+* 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
+* 是否招募队员：否
+# 25. Signer
+* 简介：暂时没有具体的方案
+* 目标：希望能做出一个产品Demo
+* 是否招募队员：否
+# 26 NirVANA
+* 简介：ZK SBT：用户可以在不泄露自己身份的情况下，经验证后，向任何属于自己的地址mint SBT。
+* 目标：构建MVP版本
+* 是否招募队员：否
+# 27 Lingnan Ethereum Darkness Agent
+* 简介：基于深度学习、利用Geth插桩生成的交易操作码序列检测智能合约的漏洞
+* 目标：实现更高准确率的深度学习检测模型，并将整个项目作为Dapp部署到以太坊
+* 是否招募队员：否
+# 28 DeMatch Team
+* 简介：去中心化交易撮合平台
+* 目标：完成基础功能的开发，实现功能闭环
+* 是否招募队员：否
+# 29 ETHU
+* 简介：暂无
+* 目标：初步产出一个idea
+* 是否招募队员：否
+# 30 PKUSZ Blockchain DAO
+* 简介：LSD中心化风险解决方案
+* 目标：产出研究分析报告和EIP
+* 是否招募队员：否
+# 31 0xdeadbeef
+* 简介：服务于MEV的网络低延迟技术、基于符号执行的Token安全检测。
+* 目标：希望可以做出demo并进行展示。
+* 是否招募队员：否
+# 32 PADO
+* 简介：zk-snarks/zk-starks是目前大家比较熟悉的NIZK技术用于扩容和隐私保护。我们想采用另一种不太为人熟知的zk技术——交互式零知识证明(IZK)，来提供用户数据的隐私保护认证。
+* 目标：项目将搭建一个端到端的个人用户数据上链流程，个人用户可以获取其已有的web data, 通过IZK服务实现隐私保护的业务逻辑验证，生成一个数据证明，并发布到链上。
+* 是否招募队员：否
+# 33 falcon
+* 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
+* 目标：争取demo可以上线
+* 是否招募队员：否
+# 34 智客团队
+* 简介：本项目产品旨在通过区块链的智能合约技术，解决二手市场中存在的信息不透明、信任问题、交易速度慢等一系列问题，使二手市场更加透明、公开、高效。
+* 目标：完成比赛的项目开发和展示。
+* 是否招募队员：否
+# 35 Lightm
+* 项目名：Travel Notes（中文名：旅行笔记）
+
+  简介：利用可组合NFT技术来可视化用户在Scroll L2上的链上成就
+
+  详述：主题背景和设定背景同步Scroll的卷轴风格，利用可组合NFT技术，提供比传统POAP更为丰富有趣的链上荣誉展示玩法。
+
+- 每个用户可以Mint一个笔记NFT，笔记NFT可以持有POAP NFT
+- 笔记NFT是可进化的
+    - 笔记NFT的初始状态是“破旧羊皮卷”
+    - 笔记NFT在持有3个POAP时，可以进化笔记NFT为“羊皮卷”；持有5个POAP时，可以进化笔记NFT为“旅行笔记”
+- 笔记NFT可以装备POAP
+    - 根据笔记NFT的展示形态，“破旧羊皮卷”可以装备至多3个POAP，“羊皮卷”可以装备至多5个POAP，“旅行笔记”可以装备至多10个POAP
+- 【不在黑客松完成】POAP同样可进化，比如生态TVL贡献值达到不同门槛时，荣誉等级和POAP对应外观也发生改变：TVL贡献达到 500U / 2000U / 10000U / 20000U / 50000U / 100000U...
+
+可组合NFT简介：
+技术来源 - Lightm 基于 ERC2535 实现 RMRK.app 提出的可组合NFT标准
+- 嵌套特性（EIP-6059）：NFT可持有NFT，提供了NFT Bundle能力，允许在链上进行NFT按需归集
+- 多资源特性（EIP-5773）：NFT可以成为多个媒体资源的载体，可基于所处环境的上下文展示不同形式的输出
+- 装备特性（EIP-6220，Lightm的实现没有依据EIP-6220）：提供链上NFT装备的统一标准"",""限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能"
+* 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
+* 是否招募队员：否
+# 36 g1g2
+* 简介：G1G2 is a modulizar, customizable zkEVM Rollup As A Service platform
+* 目标：发布一个创建rollup 平台
+* 是否招募队员：否
+# 37 MetaBorn
+* 简介：Cross-Chain Contract Interoperating Protocol, for new assets launching & identity synchronization
+* 目标：完成原型开发
+* 是否招募队员：否
+# 38 Martech3
+* 简介：Martech3旨在建立基于 Web3 用户数据驱动的营销和市场洞察工具
+* 目标：用户画像数据层Demo + 数据看板
+* 是否招募队员：否
+# 39 y=e^x
+* 简介：一种新的负责人的DeFi设计，它具有无排放、单位净值单调性、完全自持流动性、低gasfee的特点。请注意，这仍然不是完全无风险的。
+* 目标：我们将展示我们的DeFi在极端情况（包含持仓的部分资产崩盘）下的锁定和以完全担保清算价值退出的机制，以及在正常运行下净值单调递增的曲线。
+* 是否招募队员：否
+# 40 让web3没有rug
+* 简介：我们的产品叫Decomment。Decomment是一个可以对项目方、个人或者DAO进行链上评论的去中心化应用，在一定程度上对他们起到“审计”和“集思广益”的作用，我们并不仅仅像传统审计部门去审计代码或者相关财务，而是偏向于对项目方或者个人等群体做一个全民评论，所以Decomment更多的是对人进行审计。同时，在Decomment中也可以去签订一系列web3的合同或协议，比如属于web3的对赌协议、劳务合同等进而去保证项目的高质量推动和完成。
+* 目标：实现基本的demo
+* 是否招募队员：否
+# 41 CertiKlave
+* 简介："TrustConnect: A Demonstration of Seamless Integration Between Wallet Apps and CertiKlave
+  TrustConnect is designed to showcase the seamless integration between existing wallet applications and the CertiKlave security solution. The project aims to demonstrate how CertiKlave can enhance the security of Web3 mobile wallets by providing an additional layer of protection through the use of a TrustZone-enabled device.
+
+In TrustConnect, users run wallet applications on their own mobile phones, with credentials managed and used exclusively within the TEE (Trusted Execution Environment) of an OP-TEE enabled device. The user's mobile phone communicates with the TEE through channels like Bluetooth or a secure network connection.
+
+A secure channel is established between the user's mobile phone and the OP-TEE enabled device only after a successful Remote Attestation. This attestation process helps the user ensure that they are interacting with the genuine CertiKlave application inside TrustZone, providing confidence that all credentials are indeed protected by CertiKlave. The secure channel also effectively defends against man-in-the-middle attacks by preventing unauthorized interception of traffic during the connection.
+
+TrustConnect demonstrates the following key features:
+- Secure Credential Management: TrustConnect leverages the power of CertiKlave and TEE technology to securely manage and use user credentials within the protected environment of an OP-TEE enabled device.
+- Remote Attestation: TrustConnect establishes a secure channel between the user's mobile phone and the OP-TEE enabled device through a successful Remote Attestation process, ensuring that the connection is secure and trusted.
+- Seamless Integration with Wallet Apps: TrustConnect showcases how popular wallet applications, such as MetaMask, can be easily integrated with CertiKlave to enhance the security of Web3 mobile wallets.
+- User-friendly Experience: TrustConnect maintains a user-friendly experience by allowing users to run their wallet applications on their mobile phones, while benefiting from the enhanced security provided by CertiKlave and TEE technology.
+
+Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a robust security solution for Web3 mobile wallets, highlighting how wallet applications can seamlessly integrate CertiKlave to improve the protection of user credentials and digital assets."
+* 目标：We will build TrustConnect project from scratch.
+* 是否招募队员：否
+# 42 Model Labs
+* 简介：Web3 Tokenomics Smart Design & Automatic Audit Platform
+* 目标：我们预计在黑客松期间推出 AIGC 相关的新 feature, 以及产品使用教程和案例，并发布公测版
+* 是否招募队员：否
+# 43 D/Wallet
+* 简介：D/Wallet
+* 目标：会认识很多开发者朋友 会进一步完善wallet
+* 是否招募队员：否
+# 44 Trusta Labs
+* 简介：TrustaLabs 旨在为web3项目和团队提供在空投、市场活动、捐赠等等场景的用户分析和女巫识别。TrustScan完全基于链上数据，集合资金网络分析、行为序列等多种识别策略，通过AI算法整合输出结果，
+* 目标：完成基于某项目的女巫识别
+* 是否招募队员：否
+# 45 TxRouter
+* 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
+* 目标：完成合约编程和系统测试，并部署到测试网
+* 是否招募队员：否
