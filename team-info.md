@@ -278,3 +278,14 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
 * 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
 * 如何联系：Wechat ID:Real_JerryFor2022
+* 
+# 52 generative.game：一个生成性沙盒/开放叙述类游戏 
+* 简介：本项目利用生成型AI（Generative AI）解决沙盒/开放叙述游戏创作目前最大的生产力瓶颈：玩家主导的高自由度内容生成。
+* 想象侠盗飞车的自由度配上GAI的自动定制化游戏内容生成能力。
+* 首期MVP为单玩家文本故事发展类游戏。
+* 后续准备以游戏过程为基础为玩家生成小说/诗歌/形象/微电影/剧本/衍生小游戏等衍生艺术或版权作品，并加入社交分享+共创。
+* 将使用NFT作为UGC版权确权和作品衍生价值载体，推出算力/剧本/体验代币化及交易市场，实验DAO+NFT的去中心化社交共创共享。
+* 目标：完成1）单玩家文本/沙盒生成游戏演示（A text-based or sandbox game demo）；2）中期NFT+Token游戏内经济体设计（medium-term in-game economics design）
+* 是否招募队员：是。本人美国CS本科，有app开发+NLP使用经历和ML背景但不算硬核工程师。希望招募有【全栈开发】or【GPT/NLP调试】 or 【游戏创作】 or 【游戏经济设计】方向经验/兴趣的小伙伴，也有比较好的advisor资源，热烈欢迎来聊天头脑风暴一起学习。
+* 赛道：Layer 2 Dapp/Open Research
+* 如何联系：Wechat ID: asa-frost
