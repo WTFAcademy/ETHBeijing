@@ -148,23 +148,19 @@
 * 简介：LSD中心化风险解决方案
 * 目标：产出研究分析报告和EIP
 * 是否招募队员：否
-# 31 0xdeadbeef
-* 简介：服务于MEV的网络低延迟技术、基于符号执行的Token安全检测。
-* 目标：希望可以做出demo并进行展示。
-* 是否招募队员：否
-# 32 PADO
+# 31 PADO
 * 简介：zk-snarks/zk-starks是目前大家比较熟悉的NIZK技术用于扩容和隐私保护。我们想采用另一种不太为人熟知的zk技术——交互式零知识证明(IZK)，来提供用户数据的隐私保护认证。
 * 目标：项目将搭建一个端到端的个人用户数据上链流程，个人用户可以获取其已有的web data, 通过IZK服务实现隐私保护的业务逻辑验证，生成一个数据证明，并发布到链上。
 * 是否招募队员：否
-# 33 falcon
+# 32 falcon
 * 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
 * 目标：争取demo可以上线
 * 是否招募队员：否
-# 34 智客团队
+# 33 智客团队
 * 简介：本项目产品旨在通过区块链的智能合约技术，解决二手市场中存在的信息不透明、信任问题、交易速度慢等一系列问题，使二手市场更加透明、公开、高效。
 * 目标：完成比赛的项目开发和展示。
 * 是否招募队员：否
-# 35 Lightm
+# 34 Lightm
 * 项目名：Travel Notes（中文名：旅行笔记）
 
   简介：利用可组合NFT技术来可视化用户在Scroll L2上的链上成就
@@ -186,27 +182,27 @@
 - 装备特性（EIP-6220，Lightm的实现没有依据EIP-6220）：提供链上NFT装备的统一标准"",""限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能"
 * 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
 * 是否招募队员：否
-# 36 g1g2
+# 35 g1g2
 * 简介：G1G2 is a modulizar, customizable zkEVM Rollup As A Service platform
 * 目标：发布一个创建rollup 平台
 * 是否招募队员：否
-# 37 MetaBorn
+# 36 MetaBorn
 * 简介：Cross-Chain Contract Interoperating Protocol, for new assets launching & identity synchronization
 * 目标：完成原型开发
 * 是否招募队员：否
-# 38 Martech3
+# 37 Martech3
 * 简介：Martech3旨在建立基于 Web3 用户数据驱动的营销和市场洞察工具
 * 目标：用户画像数据层Demo + 数据看板
 * 是否招募队员：否
-# 39 y=e^x
+# 38 y=e^x
 * 简介：一种新的负责人的DeFi设计，它具有无排放、单位净值单调性、完全自持流动性、低gasfee的特点。请注意，这仍然不是完全无风险的。
 * 目标：我们将展示我们的DeFi在极端情况（包含持仓的部分资产崩盘）下的锁定和以完全担保清算价值退出的机制，以及在正常运行下净值单调递增的曲线。
 * 是否招募队员：否
-# 40 让web3没有rug
+# 39 让web3没有rug
 * 简介：我们的产品叫Decomment。Decomment是一个可以对项目方、个人或者DAO进行链上评论的去中心化应用，在一定程度上对他们起到“审计”和“集思广益”的作用，我们并不仅仅像传统审计部门去审计代码或者相关财务，而是偏向于对项目方或者个人等群体做一个全民评论，所以Decomment更多的是对人进行审计。同时，在Decomment中也可以去签订一系列web3的合同或协议，比如属于web3的对赌协议、劳务合同等进而去保证项目的高质量推动和完成。
 * 目标：实现基本的demo
 * 是否招募队员：否
-# 41 CertiKlave
+# 40 CertiKlave
 * 简介："TrustConnect: A Demonstration of Seamless Integration Between Wallet Apps and CertiKlave
   TrustConnect is designed to showcase the seamless integration between existing wallet applications and the CertiKlave security solution. The project aims to demonstrate how CertiKlave can enhance the security of Web3 mobile wallets by providing an additional layer of protection through the use of a TrustZone-enabled device.
 
@@ -223,19 +219,19 @@ TrustConnect demonstrates the following key features:
 Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a robust security solution for Web3 mobile wallets, highlighting how wallet applications can seamlessly integrate CertiKlave to improve the protection of user credentials and digital assets."
 * 目标：We will build TrustConnect project from scratch.
 * 是否招募队员：否
-# 42 Model Labs
+# 41 Model Labs
 * 简介：Web3 Tokenomics Smart Design & Automatic Audit Platform
 * 目标：我们预计在黑客松期间推出 AIGC 相关的新 feature, 以及产品使用教程和案例，并发布公测版
 * 是否招募队员：否
-# 43 D/Wallet
+# 42 D/Wallet
 * 简介：D/Wallet
 * 目标：会认识很多开发者朋友 会进一步完善wallet
 * 是否招募队员：否
-# 44 Trusta Labs
+# 43 Trusta Labs
 * 简介：TrustaLabs 旨在为web3项目和团队提供在空投、市场活动、捐赠等等场景的用户分析和女巫识别。TrustScan完全基于链上数据，集合资金网络分析、行为序列等多种识别策略，通过AI算法整合输出结果，
 * 目标：完成基于某项目的女巫识别
 * 是否招募队员：否
-# 45 TxRouter
+# 44 TxRouter
 * 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
 * 目标：完成合约编程和系统测试，并部署到测试网
 * 是否招募队员：否
