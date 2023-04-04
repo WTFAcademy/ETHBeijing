@@ -17,7 +17,11 @@ $30,000+
 
 ## Application link
 
-[Application](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Deadline: March.31th)
+[Application](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Already Closed)
+
+## Team Info
+
+[Team Info Page](https://github.com/WTFAcademy/ETHBeijing/blob/main/team-info.md)
 
 ## Hackathon Track
 ### Main track

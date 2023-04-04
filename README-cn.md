@@ -23,7 +23,12 @@ $30,000+
 
 ## 申请链接
 
-[链接](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Deadline: March.31th)
+[链接](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (报名已经截止)
+
+## 队伍信息
+
+[队伍信息页面](https://github.com/WTFAcademy/ETHBeijing/blob/main/team-info.md)
+
 
 ## 黑客松赛道
 ### 主赛道: 
