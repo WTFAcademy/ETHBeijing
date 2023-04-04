@@ -8,7 +8,7 @@
     "join-community": "Join Community"
   },
   "intro": {
-    "title": "ETH Beijing Hackthon",
+    "title": "ETH Beijing Hackathon",
     "decs": "The first Ethereum community event in China in the post-covid-19 era!!",
     "pku": "PKU BLOCKCHAIN",
     "content-1": "The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association) and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.",
@@ -52,7 +52,7 @@
   },
   "schedule": {
     "title": "Schedule",
-    "hackthon": "Hackthon",
+    "Hackathon": "Hackathon",
     "time-1": "Wed, Apr 5",
     "time-2": "Thur, Apr 6 - Fri, Apr 7",
     "time-3": "Sat, Apr 8",
