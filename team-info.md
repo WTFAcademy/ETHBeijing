@@ -85,9 +85,9 @@
 * 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现。
 * 是否招募队员：比较想solo ( 如果是北大清华的小伙伴我很愿意一起 ）
 * 如何联系：WeChat ID: EnvyLemon
-# 18. 3CM 
+# 18. 3CM from MetaBorn
 * 简介："跨链只有3厘米"
-全称 Cross-Chain Contract Mining protocol。
+全称 Cross-Chain Contract Mining protocol, for new assets launching & identity synchronization。
 区块链跨链一直是安全隐患频发的危险地带。
 是否有一种技术可以在多链之间建立起联系，而又足够的简单和安全。
 当我们把跨链问题抽象成共识算法，一切变得豁然开朗！
@@ -185,10 +185,6 @@
 # 35 g1g2
 * 简介：G1G2 is a modulizar, customizable zkEVM Rollup As A Service platform
 * 目标：发布一个创建rollup 平台
-* 是否招募队员：否
-# 36 MetaBorn
-* 简介：Cross-Chain Contract Interoperating Protocol, for new assets launching & identity synchronization
-* 目标：完成原型开发
 * 是否招募队员：否
 # 37 Martech3
 * 简介：Martech3旨在建立基于 Web3 用户数据驱动的营销和市场洞察工具
