@@ -264,4 +264,8 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
 * 是否招募队员：是 招前端。
 * 如何联系：微信名：S creaM
-
+# 50 GetGas
+* 简介：GetGas 是一个交易可执行最小 GasFee 预测系统。
+* 目标：完成展示和说明。
+* 是否招募队员：是 招PPT制作和前端。
+* 如何联系：微信名：im33357（备注 eth Beijing）
