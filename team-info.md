@@ -250,3 +250,8 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：完成展示demo
 * 是否招募队员：是 如果熟练前端、合约最好了
 * 如何联系：Wechat ID: web3hooks
+# 48 Beijing Kaoya
+* 简介：北京かおや是一个去中心化文件系统，对文件的读、写、版本维护等操作进行了优化。
+* 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
+* 是否招募队员：是 招前端。
+* 如何联系：微信名：S creaM
