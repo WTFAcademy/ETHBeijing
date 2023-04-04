@@ -257,3 +257,9 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：设计一个基于 Rollup State Tree 的 NFT 发行方案，并提供一个和 AIGC 结合的 demo，并提出一个 ERC721 改进的 EIP。
 * 是否招募队员：是 （欢迎 solidity，前端，设计，AIGC)
 * 如何联系：Wechat ID: jolestar2
+# 49 Beijing Kaoya
+* 简介：北京かおや是一个去中心化文件系统，对文件的读、写、版本维护等操作进行了优化。
+* 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
+* 是否招募队员：是 招前端。
+* 如何联系：微信名：S creaM
+
