@@ -51,10 +51,10 @@
 * 是否招募队员：接受参赛同学加入，合约端，后端，前端都可以。
 * 如何联系：WeChat ID: 18610773817
 # 11. 0xtomb
-简介：0xtomb旨在探讨在区块链上处理死亡问题。随着越来越多的人在区块链上结婚、购买房产等，我们需要考虑如何在链上安全地处理遗产和继承问题。我们希望通过联通合约和网站，完善发展规划，为用户提供更加安全、便捷的区块链遗产管理服务。
-目标：探索一种更加安全、透明、便捷的区块链遗产管理服务，通过联通合约和网站，完善发展规划，为用户提供一站式的遗产管理解决方案。我们希望通过0xtomb项目，为用户提供更加稳定、安全的遗产管理服务。
-是否招募队员：需要，产品经理/设计师
-如何联系：WeChat ID: hardman_eth
+* 简介：0xtomb旨在探讨在区块链上处理死亡问题。随着越来越多的人在区块链上结婚、购买房产等，我们需要考虑如何在链上安全地处理遗产和继承问题。我们希望通过联通合约和网站，完善发展规划，为用户提供更加安全、便捷的区块链遗产管理服务。
+* 目标：探索一种更加安全、透明、便捷的区块链遗产管理服务，通过联通合约和网站，完善发展规划，为用户提供一站式的遗产管理解决方案。我们希望通过0xtomb项目，为用户提供更加稳定、安全的遗产管理服务。
+* 是否招募队员：否，谢谢你的关注，已满员
+* 如何联系：WeChat ID: hardman_eth
 # 12. Prestare
 * 简介：Prestare Finance (Prestare) is a lending protocol that offers a lower collateral ratio and can even support under-collateralized loans with almost any assets, without using off-chain information. Under-collateralized borrowing is achieved by allowing the borrower to use a portion of the previously accumulated interests as collateral to borrow more funds next time. A portion of interest paid by borrowers will be reserved in ‘Credit Reserve Pool’. 1 CRT is minted with $1 in the pool, then distributed to borrowers who contributed to the pool. CRT can be used for collateral in the next borrowing, making the loan under-collateralized. SoulBound Token containing credit score for all users need to be minted if users want to borrow on Prestare. Users with higher credit score can have a loan with lower collateral ratio. An address's initial credit score will be capped and determined based on the address's prior interactions with other protocols and addresses when it first interacts with Prestare.
 * 目标：完成一个开源工具。用户可以基于借贷协议用flashloan做多或者做空资产。
