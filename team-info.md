@@ -191,8 +191,8 @@
 * 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
 * 是否招募队员：否
 # 35 g1g2
-* 简介：G1G2 is a modulizar, customizable zkEVM Rollup As A Service platform
-* 目标：发布一个创建rollup 平台
+* 简介：rollup wallets 支持多网络， rollup转账的钱包
+* 目标：从0开发出来钱包项目
 * 是否招募队员：否
 # 37 Martech3
 * 简介：Martech3旨在建立基于 Web3 用户数据驱动的营销和市场洞察工具
@@ -269,3 +269,12 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：完成展示和说明。
 * 是否招募队员：是 招PPT制作和前端。
 * 如何联系：微信名：im33357（备注 eth Beijing）
+# 51 Parami in Scroll
+* 简介：Parami is short for PARA METAVERSE IDENTITY. As the next generation identity protocol based on the W3C decentralized identity standard, it is designed for metaverse and Web 3 users with self-sovereign and permissionless service.
+  Parami Protocol aggregates users' on-chain data and social identity information creating value with onchain reputation airdrops, which we call AD3.0, with privacy preservation in mind.
+* 目标：
+1. NFT碎片化（外部其他项目合作）
+2. 在scoll上进行小额支付，此处需要优化“小额支付”的gas消耗
+3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
+* 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
+* 如何联系：Wechat ID:Real_JerryFor2022
