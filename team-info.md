@@ -36,7 +36,9 @@
 * 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
 * 如何联系：WeChat ID: SadPencil
 # 9. Web3Club
-* 简介：基于Ethereum 的Web3 互动性百科<br>
+* 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
+
+
   - 能够根据用户不同的学习反应呈现不同的学习路线。
     - 在聊天窗中实现交互，聊天窗中用户可以执行指定的选项，以此来进入不同的流程。
   - 通过智能合约 实现：
@@ -134,7 +136,7 @@
 * 目标：希望能做出一个产品Demo
 * 是否招募队员：否
 # 26 NirVANA
-* 简介：ZK SBT：用户可以在不泄露自己身份的情况下，经验证后，向任何属于自己的地址mint SBT。
+* 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
 * 目标：构建MVP版本
 * 是否招募队员：否
 # 27 Lingnan Ethereum Darkness Agent
@@ -165,7 +167,7 @@
 * 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
 * 目标：完成比赛的项目开发和展示。
-* 是否招募队员：是。懂vue或者react的前端人员。
+* 是否招募队员：否。
 # 34 Lightm
 * 项目名：Travel Notes（中文名：旅行笔记）
 
@@ -189,8 +191,8 @@
 * 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
 * 是否招募队员：否
 # 35 g1g2
-* 简介：G1G2 is a modulizar, customizable zkEVM Rollup As A Service platform
-* 目标：发布一个创建rollup 平台
+* 简介：rollup wallets 支持多网络， rollup转账的钱包
+* 目标：从0开发出来钱包项目
 * 是否招募队员：否
 # 37 Martech3
 * 简介：Martech3旨在建立基于 Web3 用户数据驱动的营销和市场洞察工具
@@ -262,4 +264,17 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
 * 是否招募队员：是 招前端。
 * 如何联系：微信名：S creaM
-
+# 50 GetGas
+* 简介：GetGas 是一个交易可执行最小 GasFee 预测系统。
+* 目标：完成展示和说明。
+* 是否招募队员：是 招PPT制作和前端。
+* 如何联系：微信名：im33357（备注 eth Beijing）
+# 51 Parami in Scroll
+* 简介：Parami is short for PARA METAVERSE IDENTITY. As the next generation identity protocol based on the W3C decentralized identity standard, it is designed for metaverse and Web 3 users with self-sovereign and permissionless service.
+  Parami Protocol aggregates users' on-chain data and social identity information creating value with onchain reputation airdrops, which we call AD3.0, with privacy preservation in mind.
+* 目标：
+1. NFT碎片化（外部其他项目合作）
+2. 在scoll上进行小额支付，此处需要优化“小额支付”的gas消耗
+3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
+* 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
+* 如何联系：Wechat ID:Real_JerryFor2022
