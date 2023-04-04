@@ -240,3 +240,9 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
 * 是否招募队员：是 需要一个名后端，希望可以一起一点一点完善这个项目
 * 如何联系：WeChat ID: eittah(微信群里的昵称)
+
+# 47 GptClick
+* 简介：使用AI辅助用户执行链上合约，自然语言生成交互按钮。理想的使用场景：“eth价格小于1000，帮我买1个”，会创建一个按钮，交互后可生成链上dex订单。“mint最近发行的NFT”，按钮交互后直接获得NFT。“我想领取arb币”，按钮交互后可以直接领取到arb代币。
+* 目标：完成展示demo
+* 是否招募队员：是 如果熟练前端、合约最好了
+* 如何联系：Wechat ID: web3hooks
