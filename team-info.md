@@ -240,3 +240,8 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
 * 是否招募队员：是 需要一个名后端，希望可以一起一点一点完善这个项目
 * 如何联系：WeChat ID: eittah(微信群里的昵称)
+# 46 Artez
+* 简介：我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
+* 目标：1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
+* 是否招募队员：可接受 需要智能合约（需要基于Scroll，但是如果有EVM开发经验应该足够），UI设计，前后端
+* 如何联系：Wechat ID: 18782210583
