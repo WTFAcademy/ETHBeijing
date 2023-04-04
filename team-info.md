@@ -136,7 +136,7 @@
 * 目标：希望能做出一个产品Demo
 * 是否招募队员：否
 # 26 NirVANA
-* 简介：ZK SBT：用户可以在不泄露自己身份的情况下，经验证后，向任何属于自己的地址mint SBT。
+* 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
 * 目标：构建MVP版本
 * 是否招募队员：否
 # 27 Lingnan Ethereum Darkness Agent
