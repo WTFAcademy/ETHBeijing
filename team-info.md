@@ -72,11 +72,6 @@
 * 目标：从0到1开发，实现MVP，并有良好的UI呈现。
 * 是否招募队员：是。需要至少一位前端和一位UI设计；前端最好有web3开发经验，没有的话最好有其他开发项目经验。
 * 如何联系：WeChat ID: 844416650
-# 14. epochChain
-* 简介：有信誉担保人的质押借贷，通过担保人信誉等级可以算出可以拿到的token，信誉等级通过平台持有币来进行计算。质押可以用等额或差额质押，多余的部分由担保人持有的平台币来计算
-* 目标：完成合约设计和前后端初版
-* 是否招募队员：需要一位前端，能设计页面和调用链上合约；还需要一位合约开发或产品都可以。
-* 如何联系：WeChat ID: Dlanglang_____
 # 15.ETH Education AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
 * 目标：Website. Animated AI. NFT.
