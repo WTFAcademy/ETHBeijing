@@ -92,7 +92,7 @@
 * 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现。
 * 是否招募队员：比较想solo ( 如果是北大清华的小伙伴我很愿意一起 ）
 * 如何联系：WeChat ID: EnvyLemon
-# 18. 3CM from MetaBorn
+# 18. 3CM from [MetaBorn](https://metaborn.me/)
 * 简介："跨链只有3厘米"
 全称 Cross-Chain Contract Mining protocol, for new assets launching & identity synchronization。
 区块链跨链一直是安全隐患频发的危险地带。
