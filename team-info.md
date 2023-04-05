@@ -129,9 +129,14 @@
 * 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
 * 是否招募队员：否
 # 25. Signer
-* 简介：暂时没有具体的方案
+* 简介：当下Web3世界钓鱼网页泛滥，已经防不胜防，一个钓鱼网页甚至可以长期存在，让无数的人不断被骗，为了解决这个信息差，也为了让更多的用户可以更加放心进入Web3的世界，我们希望通过经济模型和插件来解决这个问题。我们将该经济模型定义为“安全FI”，这个协议还将衍生出链上的CDS（保险）系统，实现区块链保险。
 * 目标：希望能做出一个产品Demo
 * 是否招募队员：否
+
+![](https://github.com/bravesigner/TruthProtocol/raw/main/images/1551680688161_.pic.jpg)
+
+![](https://github.com/bravesigner/TruthProtocol/raw/main/images/1561680688287_.pic.jpg)
+
 # 26 NirVANA
 * 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
 * 目标：构建MVP版本
