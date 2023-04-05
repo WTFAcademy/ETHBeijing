@@ -36,6 +36,8 @@
 * 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
 * 如何联系：WeChat ID: SadPencil
 # 9. Web3Club
+* 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
+
 * 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
 
 
