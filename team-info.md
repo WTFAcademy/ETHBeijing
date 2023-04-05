@@ -74,7 +74,7 @@
 * 目标：从0到1开发，实现MVP，并有良好的UI呈现。
 * 是否招募队员：是。需要至少一位前端和一位UI设计；前端最好有web3开发经验，没有的话最好有其他开发项目经验。
 * 如何联系：WeChat ID: 844416650
-# 15.ETH Education AI
+# 15. MentorMachines AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
 * 目标：Website. Animated AI. NFT.
 * 是否招募队员：需要前端（JS、Next.js、React、设计）、NFT 的 Solidity、AI（HuggingFace、GPT）、后端（server setup + integrations）。Looking for Frontend (JS, Next.js, React, design), Solidity for an NFT, AI (HuggingFace, GPT), backend (server setup + integrations).
