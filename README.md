@@ -37,6 +37,11 @@ Besides participating in the main track, teams can optionally choose to particip
 
 1. **Scroll**: Develop decentralized applications on Scroll.
 
+## Workshop
+
+### April.6
+![](./img/4.6-workshop.jpeg)
+
 ## Organizer
 
 - [PKU Blockchain](https://twitter.com/PKUBlockchain)
