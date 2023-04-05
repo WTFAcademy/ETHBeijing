@@ -319,3 +319,10 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：完成前端demo
 * 是否招募队员：否
 
+# 57 DeVault
+
+* 简介： DeVault是一个链上加密密码存储服务。我们使用链上合约为用户提供加密密码保险箱，用户只需要记住主密码就可以解锁各个网站的密码。
+* 我们将会使用加密算法保证存储传输的加密，使用账户抽象提供社交恢复功能。同时利用ZK提高安全性，并部署在Scroll上。
+* 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，给用户提供安全的密码记忆服务
+* 是否招募队员： 否
+* 如何联系： WeChat ID: elricYM
