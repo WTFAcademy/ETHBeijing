@@ -293,3 +293,11 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：链上评分系统
 * 目标：完成可组合特征的部分合约，完成前端demo
 * 是否招募队员：否
+
+# 54 “NFC”（non fungible crush）
+
+* 简介：完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
+* 做市逻辑为深度相关做市模型，例如univ2采用的是恒定做市模型，做市商的盈利是跟交易量相关，而深度相关的做市模型有多个指标，添加流动性时的交易对深度和交易量都会最终影响做市商最终的收益。
+* 是否招募队员：是，感兴趣的伙伴，前端，ui，等等
+* 如何联系：WeChat ID: cwh751378834
+
