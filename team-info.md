@@ -26,10 +26,13 @@
 * 是否招募队员：接受，欢迎编程能力强的工程师小伙伴加入（目前整体的技术栈是 TypeScript）。
 * 如何联系：WeChat ID: awolegechu
 # 7. Puzzle3
-* 简介：基于智能合约交互实现的链上解谜、答题平台，针对 Web3 学习平台、区块链初创团队提供一站式的接入能力；
+* 简介：Puzzle3 是一款通过智能合约交互实现的链上解谜、答题平台，让Web3 学习平台、区块链初创团队用户能够通过更直接、简洁、有趣的方式了解各自团队的产品；
 * 目标：从零到一完成项目初期建设
 * 是否招募队员：目前团队有两名，课题是建设一款基于智能合约交互实现的链上解谜、答题平台，并针对 Web3 学习平台、区块链初创团队提供一站式的接入能力。希望再吸纳 1-2 名对智能合约开发和前端开发比较熟悉的同学。
 * 如何联系：WeChat ID: zjtong3576 或 E-Mail: [me@cowpoke.cc](mailto:me@cowpoke.cc)
+
+![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
+
 # 8. 九转以太坊
 * 简介：随着以太坊扩容技术的应用，智能合约的性能问题得到了改善，因此可将更多精力放在改善开发体验上。EVM 栈的访问限制是 Solidity 臭名昭著的 stack too deep 问题的源头，是时候消灭它们了。
 * 目标：给出修改后的以太坊客户端和 Solidity 编译器；若时间允许则在侧链运行智能合约进行演示。
