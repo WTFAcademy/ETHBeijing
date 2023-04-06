@@ -348,8 +348,9 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 # 48 RoochNetwork
 * 简介：RoochNetwork 是一个 Ethereum 上的模块化 Layer2，当前正在研发中。Rooch 的设计方案里，我们提出了一种 Rollup State Tree，用于实现状态从 Layer1 到 Offchain 的迁移。基于这套方案可以实现大规模的 NFT 发行，以及 NFT 在 Layer1 和 Offchain 存储之间的迁移。我们认为这个方案非常适合用在 AIGC 场景，所以打算用这套方案实现一个 AIGC 的 NFT 发行的 demo。
 * 目标：设计一个基于 Rollup State Tree 的 NFT 发行方案，并提供一个和 AIGC 结合的 demo，并提出一个 ERC721 改进的 EIP。
-* 是否招募队员：是 （欢迎 solidity，前端，设计，AIGC)
+* 是否招募队员：是 （欢迎 solidity，前端，Rust)
 * 如何联系：Wechat ID: jolestar2
+* 第一天进度：完成了 RollupNFT 的 solidity 相关的智能合约编写 https://github.com/rooch-network/rollup-nft
 # 49 Beijing Kaoya
 * 简介：北京かおや是一个去中心化文件系统，对文件的读、写、版本维护等操作进行了优化。
 * 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
