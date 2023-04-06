@@ -127,6 +127,7 @@
 * 简介：GPAD Protocol is a decentralized investment and financing agreement, users can freely create projects, invest, and realize post-investment programmable.
 * 目标：主要是Demo show
 * 是否招募队员：否
+* 第一天进度：合约编码
 # 24. SLOADS
 * 简介：在解决某个 CTF（https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle） 时，我遇到一个问题，需要在测试代码中打印某个合约的所有 storage slots。目前 foundry 仅支持打印静态数据的storage slot，对于动态数据，比如所有的 array 元素，map entry，则无法打印，我希望能够打印出动态数据的 storage slots。
 * 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
