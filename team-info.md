@@ -88,10 +88,11 @@
 * 是否招募队员：无特定需求，但仍开放，如果有合适的可以加入
 * 如何联系：WeChat ID: samuelzey
 # 17. Delibird
-* 简介：部署在zksync和scroll上的打赏捐赠Dapp
-* 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现。
-* 是否招募队员：比较想solo ( 如果是北大清华的小伙伴我很愿意一起 ）
+* 简介：ZKGift，一款部署在Scroll和zkSync上的轻量级打赏捐赠类Dapp，提供方便快捷的捐赠方式和简洁直观的捐赠排名。
+* 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
+* 是否招募队员：欢迎聊天交流
 * 如何联系：WeChat ID: EnvyLemon
+* 第一天进度：完成合约部署与前端主界面
 # 18. 3CM from [MetaBorn](https://metaborn.me/)
 * 简介："跨链只有3厘米"
 全称 Cross-Chain Contract Mining protocol, for new assets launching & identity synchronization。
