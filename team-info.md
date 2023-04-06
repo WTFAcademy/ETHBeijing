@@ -67,6 +67,11 @@
 * 目标：探索一种更加安全、透明、便捷的区块链遗产管理服务，通过联通合约和网站，完善发展规划，为用户提供一站式的遗产管理解决方案。我们希望通过0xtomb项目，为用户提供更加稳定、安全的遗产管理服务。
 * 是否招募队员：否，谢谢你的关注，已满员
 * 如何联系：WeChat ID: hardman_eth
+* 第一天进度：
+* 1. 实现立遗嘱合约，多签证明死亡合约。
+* 2. 实现立遗嘱界面并完成合约交互。
+* 3. 实现aa钱包交互逻辑。
+* 
 # 12. Prestare
 * 简介：Prestare Finance (Prestare) is a lending protocol that offers a lower collateral ratio and can even support under-collateralized loans with almost any assets, without using off-chain information. Under-collateralized borrowing is achieved by allowing the borrower to use a portion of the previously accumulated interests as collateral to borrow more funds next time. A portion of interest paid by borrowers will be reserved in ‘Credit Reserve Pool’. 1 CRT is minted with $1 in the pool, then distributed to borrowers who contributed to the pool. CRT can be used for collateral in the next borrowing, making the loan under-collateralized. SoulBound Token containing credit score for all users need to be minted if users want to borrow on Prestare. Users with higher credit score can have a loan with lower collateral ratio. An address's initial credit score will be capped and determined based on the address's prior interactions with other protocols and addresses when it first interacts with Prestare.
 * 目标：完成一个开源工具。用户可以基于借贷协议用flashloan做多或者做空资产。
