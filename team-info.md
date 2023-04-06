@@ -345,3 +345,4 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，给用户提供安全的密码记忆服务
 * 是否招募队员： 否
 * 如何联系： WeChat ID: elricYM
+* Day 1 进展： 完成算法论证和前端框架。
