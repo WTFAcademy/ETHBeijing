@@ -320,6 +320,8 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 是否招募队员：否，但是黑客松结束之后项目会继续做下去，我们也一直在招募以下岗位的人才：Ui设计师、插画师、产品经理、JAVA后端、React前端、Unity开发等。
 * 如何联系：Wechat ID: Jacob_Mr_Yang
 
+第一天进度：完成部分前端界面(Node.js)，设计并实现部分经济模型(Solidity)，完善项目repo
+
 # 56 SoliveAI
 * 简介：SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约
 * 目标：完成前端demo
