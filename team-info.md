@@ -41,6 +41,14 @@
 * 目标：给出修改后的以太坊客户端和 Solidity 编译器；若时间允许则在侧链运行智能合约进行演示。
 * 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
 * 如何联系：WeChat ID: SadPencil
+* 第一天进度：
+  - 为项目起了一个超棒的名字 `Deep Stack Fantasy`。
+  - 成功在 go-ethereum 上修改了 EVM，添加了 `DupE` 和 `SwapE` 指令及其实现。待测试。
+  - 初步阅读了 C++ 版 solidity 编译器的实现，探讨如何使用新添加的两个指令替代原有指令。未完成。
+  - 调研了 Remix IDE 使用的 JavaScript 版本的 solidity 的编译方式，从 C++ 版 solidity 源代码编译 wasm。编译成功。
+  - 具有 zkEVM 的 Scroll，是与本项目目的最为吻合的区块链 Layer-2 智能合约实现。与 Scroll 的工程师讨论零知识证明细节，尤其是确定了 [zkevm-circuits](https://github.com/scroll-tech/zkevm-circuits) 中关于 stack pointer offset 与零知识证明电路体积的关系是恒定的。因此确定在 zkEVM 上实现本项目是**完全可行**的。不过，此项目不是简单在 Scroll 上部署合约，而是修改 Scroll 的实现进而改善开发者体验，与工程师进一步讨论后，鉴于 Scroll 节点的运行要求过高（例如，至少 500 GB RAM），无法在黑客松比赛期间完成，留作未来工作。
+
+
 # 9. Web3Club
 * 关于我们：[Web3Club](https://github.com/Web3-Club/Intro.)
 * 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
