@@ -201,9 +201,9 @@
 * 目标：从0开发出来钱包项目
 * 是否招募队员：否
 # 37 Martech3
-* (Deck)[https://gamma.app/public/The-First-AIGC-Web3-Precision-Marketing-Platform-4oh3j8yta1snnse]
+* [Deck](https://gamma.app/public/The-First-AIGC-Web3-Precision-Marketing-Platform-4oh3j8yta1snnse)
 * 简介：Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销平台
-* 目标：用户画像数据层Demo + 数据看板
+* 目标：用户画像数据层Demo + 数据看板 + Scroll用户数据映射合约
 * 是否招募队员：否
 * 第一天进度：前后端基本完成，针对Scroll部署的预言机合约准备完成
 # 38 y=e^x
