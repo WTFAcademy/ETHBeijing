@@ -276,15 +276,31 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 是否招募队员：是 招PPT制作和前端。
 * 如何联系：微信名：im33357（备注 eth Beijing）
 # 51 Parami in Scroll
-* 简介：Parami is short for PARA METAVERSE IDENTITY. As the next generation identity protocol based on the W3C decentralized identity standard, it is designed for metaverse and Web 3 users with self-sovereign and permissionless service.
-  Parami Protocol aggregates users' on-chain data and social identity information creating value with onchain reputation airdrops, which we call AD3.0, with privacy preservation in mind.
+* 简介：EIP-5489 实现 NFT的全新效用和商业化模式
+ 
+## NFT 的全新用途
+  2022 年 11 月 29 日，Parami Protocol 开发并提交的 EIP-5489进入成为ERC标准前的终审阶段。此标准通过允许将超链接嵌入 NFT 的元数据卡槽来扩展 ERC-721 的新功能，这样 NFT 的受众可以点击并并跳转到的任何指定的URI 落地页。NFT 的新收入正如超链接在 Web1 时代对互联网所做的突破一样，超链接使数字广告成为互联网商业化的支柱。迄今为止，数字广告仍然是互联网最大的营收手段， 2021 年数字广告为互联网行业创造了 5210 亿美元的营收。Parami Protocol 除了提出 EIP-5489 之外， 更为 Web3 构建了一个全新的“注意力经济”。这个协议套件不仅通过广告收入将”网红和粉丝”的社交影响力代币化，而且还构建了一个社交代币的Dex(去中心化交易所), 来赋能社交代币及其流动性。
+## NFT和FT的新应用场景
+  自 2022 年 10 月以来，围绕 Parami Protocol 的测试网涌现了一个活跃的社区。适用社区开发的Chrome浏览器插件， Twitter 网红能够将超链接 NFT 嵌入到他们的头上 (PFP ) 上，并开始获得广告收入。一些网红甚至发行了他们的 PFP NFT 的治理代币（在 Parami 的生态中被称为“NFT Powers”），粉丝可以通过点击超链接 NFT 跳转至广告商指定的落地页，并获得 NFT Powers 的奖励。网红的社交代币（NFT Power）由广告商、粉丝和网红本人持有，这为未来以 DAO 来治理该 NFT 留下了极大想象空间。
+## 新的解决方案
+  互联网核心在于吸引注意力（流量）；更多的注意力意味着更多的收入。在Web2时代，最大的注意力引擎是以Facebook、Twitter、Youtube等为代表的社交媒体平台，到2022年每个用户平均每天在这些平台上花费2小时49分钟，远大于任何其它赛道。底层的注意力数据这些大型互联网企业绑架，用来提供高精度广告定位（机器学习算法分析注意力数据以预测用户偏好，这些偏好作为标签出售给广告商）。然而，网红与粉丝的社交关系及其相应的影响力从未被量化和代币化。以上2个问题可以归纳为：1）数据主权，即数据的所有权必须还给用户，这样数据所产生的经济价值才能回馈给用户； 2）社交影响力的量化和代币化，并在社群内公平分配。
+  Parami 协议通过 1) 围绕用户的 DID（去中心化身份）聚合用户的 PCAP（个人加密广告偏好），并随后为用户生成标签和链上声誉。 2）利用超链接 NFT 及其治理代币来公平地奖励所有参与者。
+## 新经济模型
+  广告商-网红-粉丝之间的动态关系的代币化形成了一个可持续的经济模型，不再有产生“死亡螺旋”的风险。上游收入全部来自广告商，Parami Protocols 按照链上声誉按规则分配给受众。基于实际效用的上游流动性推动了代币价格和下游用户收益的潜在增长。
+## 激励层推动的Web3大爆发
+Parami Protocol 并非着眼于重新构建一个去中心化的Twitter，而是利用现有社交关系重新分配收入。这种新的注意力经济中的每个角色都受到相应的激励。
+· 粉丝：即普通互联网受众，只需在浏览互联网时与显示在头像NFT上的广告互动即可赚钱。 #Attention2Earn。
+· 网红：内容创作者（包括个人、媒体、项目、社区等）不再需要通过向粉丝“卖东西”获利，他们可以与粉丝共同管理广告收入并吸引和留存更多的社区成员。
+· 广告商：内容推广者可以在无审查的情况下大规模触达受众。他们可以轻松计算和优化投资回报率 (ROI)，而不是无休止的搞空投活动。
+NFT 和社交代币的新流动性
+每个社群（网红与粉丝）的 NFT 治理代币与 Parami Protocol 的效用代币 AD3 形成交易对。每个交易对都有自动做市商 (AMM) 和流动池 (LP)，并允许用户进行 STAKE。去中心化交易所创造了一种健康的机制来筛选真实的社交影响力，并体现为更高的代币价格。
 * 目标：
 1. NFT碎片化（外部其他项目合作）
 2. 在scoll上进行小额支付，此处需要优化“小额支付”的gas消耗
 3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
 * 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
 * 如何联系：Wechat ID:Real_JerryFor2022
-* 
+
 # 52 generative.game：一个生成性沙盒/开放叙述类游戏 
 * 简介：本项目利用生成型AI（Generative AI）解决沙盒/开放叙述游戏创作目前最大的生产力瓶颈：玩家主导的高自由度内容生成。
 * 想象侠盗飞车的自由度配上GAI的自动定制化游戏内容生成能力。
