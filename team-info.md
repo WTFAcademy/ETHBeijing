@@ -2,24 +2,36 @@
 * 简介：一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
 * 目标：完成项目从0到1开发以及demo展示
 * 是否招募队员：否
-* 招募需求描述：暂无
+* 招募需求描述：已满
 * 如何联系：WeChat ID: masacs
+* ------
+* Day#1 Progress:
+* - 确定产品功能，完成原型设计
+* - 完成GPT fine-tune
+* - 前端框架建立
+* - 后端Ready
+* - UIUX完成第一版设计
 # 2. Savourlabs
 * 简介：shadow-x 是一个承载去中心化托管和支付的去中心化的隐私社交网络，底层由两条 layer3 链组成，一条是layer3 去中心化隐私社交链， 另一条是 layer3 去中心化支付托管链，上层的体现类似微信，我们项目已经打磨 1 年之久了，目前 APP 端已接入兼容其他钱包的 HD 钱包(HD钱包进入我们生态可以一键提升为社交恢复钱包)，社交恢复钱包，NFT 信息聚合器，行情聚合器，layer3 去中心化隐私社交链正在开发中，已完成几个组件的开发，社交产品原型，业务层和底层链的交互已经在设计开发中了，layer3 去中心化支付托管链也已经在设计开发中，相信不久我们的产品就和大家见面。
-* 目标：实现纠栅码对数据的编解码和多项式承诺组件开发，demo 展示. 
+* 目标：实现 NFT 推荐器规则开发，web 端开发，demo 展示. 
 * 是否招募队员：是(永久招募，不局限于黑客松期间)
 * 招募需求描述：需要合约开发者、Go开发者、Rust开发者、Node开发者、零知识证明工程师、前端、交互设计师和UI设计师加入
 * 如何联系：WeChat ID: LGZAXE
+
+4 月 6 日进度同步：完成 NFT 推荐器的交互设计，接口开发和部分数据服务处理
+
+
 # 3. 大秦法链
-* 简介：以公司法视角探究DAO组织运行架构以及合法性事宜
+* 简介：以公司法视角探究DAO组织运行架构以及合法性事宜，利用ino等方式实现DAO在中国境内的新型组织形式，消除曾经ico对中国的负面影响。
 * 目标：完成相关论文研究，形成完备DAO组织合法化程序
-* 是否招募队员：接受，希望资金充足，为合法化研究提供技术支持
+* 是否招募队员：接受，能够为合法化研究提供程序支持和技术支持，包括提供有效建议与实际操作。
 * 如何联系：WeChat ID: ltb192
 # 5. FolioView
 * 简介：一个面向新手的轻量级多钱包投资组合工具网站，它提供简洁友好的数据分析/信息聚合界面，基于链上数据赋予用户链上信用，并给出关于优化投资组合的推荐供新手用户参考
 * 目标：Web端Demo
 * 是否招募队员：接受，需要擅长web3-react和Data Visual的前端开发
 * 如何联系：WeChat ID: jerrykicks
+* Day 1 进度：一级页面完成；钱包连接和前后端交互完成
 # 6. Auto3 Copilot
 * 简介：Auto3 Copilot 结合GPT技术，使开发者能够快速、高效地生成 Web3 自动化程序。只需输入具体的需求，比如“每天帮我定投 1000 USDC 的 ETH”/“当有某个特性的 NFT 挂单价低于XX的时候自动买入”，然后会自动生成可一键运行的代码。
 * 目标：接口数据库：创建一个用于构造 Prompt 的链上智能合约与链下应用接口的数据库（因为时间问题可能不会太全），然后可以从中检索某个合约或应用的调用方式。开发基础功能：我们将完成 Auto3 Copilot 的核心功能，包括输入需求、基于 Auto3 SDK 生成自动化代码.创建示例项目：我们将开发几个示例项目，展示Auto3 Copilot在不同场景下的实际应用，例如DeFi策略自动化、NFT市场监控以及智能合约交互等。
@@ -30,6 +42,8 @@
 * 目标：从零到一完成项目初期建设
 * 是否招募队员：目前团队有两名，课题是建设一款基于智能合约交互实现的链上解谜、答题平台，并针对 Web3 学习平台、区块链初创团队提供一站式的接入能力。希望再吸纳 1-2 名对智能合约开发和前端开发比较熟悉的同学。
 * 如何联系：WeChat ID: zjtong3576 或 E-Mail: [me@cowpoke.cc](mailto:me@cowpoke.cc)
+* 进度：
+  * Day1: 完成了项目框架搭建；服务端功能已完成；合约完成度 50%；前端完成度 50%；
 
 ![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
 
@@ -38,12 +52,22 @@
 * 目标：给出修改后的以太坊客户端和 Solidity 编译器；若时间允许则在侧链运行智能合约进行演示。
 * 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
 * 如何联系：WeChat ID: SadPencil
+* 第一天进度：
+  - 为项目起了一个超棒的名字 `Deep Stack Fantasy`。
+  - 成功在 go-ethereum 上修改了 EVM，添加了 `DupE` 和 `SwapE` 指令及其实现。待测试。
+  - 初步阅读了 C++ 版 solidity 编译器的实现，探讨如何使用新添加的两个指令替代原有指令。未完成。
+  - 调研了 Remix IDE 使用的 JavaScript 版本的 solidity 的编译方式，从 C++ 版 solidity 源代码编译 wasm。编译成功。
+  - 具有 zkEVM 的 Scroll，是与本项目目的最为吻合的区块链 Layer-2 智能合约实现。与 Scroll 的工程师讨论零知识证明细节，尤其是确定了 [zkevm-circuits](https://github.com/scroll-tech/zkevm-circuits) 中关于 stack pointer offset 与零知识证明电路体积的关系是恒定的。因此确定在 zkEVM 上实现本项目是**完全可行**的。不过，此项目不是简单在 Scroll 上部署合约，而是修改 Scroll 的实现进而改善开发者体验，与工程师进一步讨论后，鉴于 Scroll 节点的运行要求过高（例如，至少 500 GB RAM），无法在黑客松比赛期间完成，留作未来工作。
+
+
 # 9. Web3Club
-## 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
+
+## 🔗 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
+
+## 😃 关于我们：[Web3Club](https://github.com/Web3-Club/Intro.)
 
 ## 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
 
- 
   - 能够根据用户不同的学习反应呈现不同的学习路线。
     - 在聊天窗中实现交互，聊天窗中用户可以执行指定的选项，以此来进入不同的流程。
   - 通过智能合约 实现：
@@ -52,9 +76,9 @@
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 
 ## 🎯 目标：
-我们会在赛程期间 为该项目 尝试做一个demo 
+我们会在赛程期间 为该项目 尝试做一个demo📘
 
-之后希望能让更多参与活动的朋友 及 赞助商 了解以及为我们的项目 提供建议
+之后希望能让更多参与活动的朋友 及 赞助商 了解以及为我们的项目 提供建议💬 
 
 ## 🔖 项目进度
 ### 📅 Day1
@@ -81,31 +105,42 @@
 * 目标：探索一种更加安全、透明、便捷的区块链遗产管理服务，通过联通合约和网站，完善发展规划，为用户提供一站式的遗产管理解决方案。我们希望通过0xtomb项目，为用户提供更加稳定、安全的遗产管理服务。
 * 是否招募队员：否，谢谢你的关注，已满员
 * 如何联系：WeChat ID: hardman_eth
+* 第一天进度：
+* 1. 实现立遗嘱合约，多签证明死亡合约。
+* 2. 实现立遗嘱界面并完成合约交互。
+* 3. 实现aa钱包交互逻辑。
+* 
 # 12. Prestare
 * 简介：Prestare Finance (Prestare) is a lending protocol that offers a lower collateral ratio and can even support under-collateralized loans with almost any assets, without using off-chain information. Under-collateralized borrowing is achieved by allowing the borrower to use a portion of the previously accumulated interests as collateral to borrow more funds next time. A portion of interest paid by borrowers will be reserved in ‘Credit Reserve Pool’. 1 CRT is minted with $1 in the pool, then distributed to borrowers who contributed to the pool. CRT can be used for collateral in the next borrowing, making the loan under-collateralized. SoulBound Token containing credit score for all users need to be minted if users want to borrow on Prestare. Users with higher credit score can have a loan with lower collateral ratio. An address's initial credit score will be capped and determined based on the address's prior interactions with other protocols and addresses when it first interacts with Prestare.
 * 目标：完成一个开源工具。用户可以基于借贷协议用flashloan做多或者做空资产。
 * 是否招募队员：对defi感兴趣的朋友都可以联系我
 * 如何联系：WeChat ID: AlexMcavoy
-# 13. Layer-2 Buidler
-* 简介：针对Layer-2的特性，我们寻找到一个独特的利基市场，针对某一区块链交易变量做个性化服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。目前队伍中有两人，去年刚刚毕业，就职于币安投资的web3初创公司。
+# 13. GasLockR
+* 简介：Layer-2的gas price保险，提供个性化的服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。
 * 目标：从0到1开发，实现MVP，并有良好的UI呈现。
-* 是否招募队员：是。需要至少一位前端和一位UI设计；前端最好有web3开发经验，没有的话最好有其他开发项目经验。
+* 是否招募队员：UI设计
 * 如何联系：WeChat ID: 844416650
+* Github：https://github.com/GasLockR
+* 进度：
+  周四：完成第一版合约与前端模版，讨论迭代方案，尝试实现交互。
 # 15. MentorMachines AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
 * 目标：Website. Animated AI. NFT.
 * 是否招募队员：需要前端（JS、Next.js、React、设计）、NFT 的 Solidity、AI（HuggingFace、GPT）、后端（server setup + integrations）。Looking for Frontend (JS, Next.js, React, design), Solidity for an NFT, AI (HuggingFace, GPT), backend (server setup + integrations).
-* 如何联系：WeChat ID: philisyo
+* 如何联系：WeChat ID: -
+* 第一天进度: GPT integration, Web app
 # 16. ContriX
 * 简介：帮助每个人形成链上ZK实体，真正拥有自己的身份数据
 * 目标：目前进展是0，在黑客松期间将会做出MVP并且进行演示
 * 是否招募队员：无特定需求，但仍开放，如果有合适的可以加入
 * 如何联系：WeChat ID: samuelzey
+* 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
 # 17. Delibird
-* 简介：部署在zksync和scroll上的打赏捐赠Dapp
-* 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现。
-* 是否招募队员：比较想solo ( 如果是北大清华的小伙伴我很愿意一起 ）
+* 简介：ZKGift，一款部署在Scroll和zkSync上的轻量级打赏捐赠类Dapp，提供方便快捷的捐赠方式和简洁直观的捐赠排名。
+* 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
+* 是否招募队员：欢迎聊天交流
 * 如何联系：WeChat ID: EnvyLemon
+* 第一天进度：完成合约部署与前端主界面
 # 18. 3CM from [MetaBorn](https://metaborn.me/)
 * 简介："跨链只有3厘米"
 全称 Cross-Chain Contract Mining protocol, for new assets launching & identity synchronization。
@@ -122,16 +157,18 @@
 * 目标：用户通过我们钱包内的各种第三方账户服务和应用来自定义自己账号的所有功能和配置，让用户用区块链的时候既有web3的去中心化可信自托管，又有web2便捷高效友好的使用体验。
 * 是否招募队员：是  有兴趣有时间，能做贡献的都欢迎加入
 * 如何联系：WeChat ID: 18932897361
+第一天进度: ERC4337接入完成，私钥处理方案确定，正在开发简单应用demo。
 # 20. Oxdeadbeef
 * 简介：我们构建MEV基础设施Pioplat，Pioplat将提供以下能力：1）低延时的区块链网络，通过运用更好的网络算法及分布式同步协议，相比于其它区块链基础设施Pioplat将具有更低的区块（交易）接收及发送延迟；2）恶意Token检测工具，通过符号执行等技术手段，帮助MEV Bot识别出恶意Token，避免因买入恶意Token而遭受损失。
 * 目标：调研MEV现状，构建低延迟的区块链基础设施，构建准确率更高的恶意Token检测工具。
 * 是否招募队员：是 (希望你熟悉MEV)
 * 如何联系：WeChat ID: tcscry
-# 21. SoCity Green Commute
-* 简介：个人减碳激励去中心化应用
+# 21. FactLens DAO from [SoCity DAO](https://www.socitydao.org/)
+* 简介：A decentrailized fact checking ecosystem.
 * 目标：完成开发及demo
 * 是否招募队员：否
 * 如何联系：WeChat ID: JAJAmoa
+* 进度：完成了UI设计
 # 22. peerbank
 * 简介：peerbank 是一个去中心的稳定币发行协议，该协议采用超额抵押方式可铸造锚定除（RMB）以外的任意fiat 。铸造稳定币可用于全球结算，抵押资产将锁定在合约中，避免因中心化机构管理带来的风险。
 * 目标：开发出MVP版本
@@ -141,15 +178,31 @@
 * 简介：GPAD Protocol is a decentralized investment and financing agreement, users can freely create projects, invest, and realize post-investment programmable.
 * 目标：主要是Demo show
 * 是否招募队员：否
+* 第一天进度：合约编码
 # 24. SLOADS
-* 简介：在解决某个 CTF（https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle） 时，我遇到一个问题，需要在测试代码中打印某个合约的所有 storage slots。目前 foundry 仅支持打印静态数据的storage slot，对于动态数据，比如所有的 array 元素，map entry，则无法打印，我希望能够打印出动态数据的 storage slots。
+* 简介：Foundry 是一个以太坊智能合约开发框架。这个项目准备给他添加一个 feature，能够检索智能合约里面的所有 storage slot，特别是动态数据结构的，如 Array，Map。基于此，开发者可以更加方便地深入探索链上智能合约的状态，比如查找某个 token 的所有持币地址。工作内容：需要修改 foundry，foundry-std 里面的 cheatcode，以及 foundry 所依赖的 revm。起因则是在完成[这个 ctf](https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle) 时遇到了问题。
 * 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
 * 是否招募队员：否
+* 链接：https://github.com/0xevm
+* 如何联系：WeChat ID: liquan_eth
+## 进度
+### day1
+- [x] 完成组队，GitHub org&repo 的新建：https://github.com/0xevm
+- [x] 确定要做的内容：
+  1. 确定 cheatcode 的接口命名，并获取到对应的 function signature。
+  2. 给 revm 新增接口，能够提取此时的某个 Account（智能合约） 里面的 storage map 的 key。
+  3. 修改 foundry，当检查到调用的地址是 `CHEATCODE_ADDRESS`，且 function signature 满足条件时，调用底层的 revm 的新增接口，将结果（index 的 bytes 数组）返回。
+  4. Option，在前面的基础上，建立 index bytes 和 map 的联系，比如对于 Map1 和 Map2，能够知道某个某个 slot 里面的数据是属于哪个 map 的哪个 key，需要 修改 revm 来在执行时记录一些 Metadata
+  5. Option，将运行后的 evm 状态建立 snapshot，并存储为 json 文件，然后使用 forge inspect 时传入状态，获取此时所有的 storage layout。
+  6. Option，在前面的基础上，给 forge test --debug 新增 storage layout，方便开发在逐步调试时能够看到 bytecode 的变化。
+- [x] 查看 foundry 文档，以及源码，确定修改路径。
+
 # 25. Signer
 * 简介：当下Web3世界钓鱼网页泛滥，已经防不胜防，一个钓鱼网页甚至可以长期存在，让无数的人不断被骗，为了解决这个信息差，也为了让更多的用户可以更加放心进入Web3的世界，我们希望通过经济模型和插件来解决这个问题。我们将该经济模型定义为“安全FI”，这个协议还将衍生出链上的CDS（保险）系统，实现区块链保险,因此该项目名为TruthProtocol。
 * 目标：希望能在layer2 scroll上出一个产品Demo。
 * 是否招募队员：否
 * 如何联系：WeChat ID: hanxinnbbb
+* 第一天进度：白皮书完成一半，经济模型设计完毕，前端框架设计完毕 ,合约框架/质押部分与数据结构设计完成
 
 ![](https://github.com/bravesigner/TruthProtocol/raw/main/images/1551680688161_.pic.jpg)
 
@@ -157,16 +210,28 @@
 
 # 26 NirVANA
 * 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
+* 第一天进度：完成核心模块合约部署， 前端完成创建SBT页面
 * 目标：构建MVP版本
 * 是否招募队员：否
 # 27 Lingnan Ethereum Darkness Agent
 * 简介：基于深度学习、利用Geth插桩生成的交易操作码序列检测智能合约的漏洞
 * 目标：实现更高准确率的深度学习检测模型，并将整个项目作为Dapp部署到以太坊
 * 是否招募队员：否
-# 28 DeMatch Team
-* 简介：去中心化交易撮合平台
+# 28 DeMatch: Match 无与伦比 / Match Beyond Imagination  
+![dematch](https://user-images.githubusercontent.com/17985352/230394103-9de8b008-1639-4b28-bccb-dcf9d371f77d.jpg)  
+* 简介：DeMatch 是基于 Scroll 的 Web3.0 物品交易 match 平台。DeMatch 使用智能合约作为中间人、引入加密货币支付和去中心化存储等技术，为 Web3.0 用户提供了一个安全、透明、高效的交易保障。  
+## DeMatch V1  
+去中心化撮合中间人。DeMatch 使用智能合约作为撮合中间人，实现了交易双方的自动撮合和交易执行，无须第三方大大降低了信任成本。此外，DeMatch 采用去中心化存储，确保平台数据的安全、可靠、不可篡改。并且可以指定交易人，支持链上资产与实物的撮合交易。  
+## DeMatch V2  
+拍卖。广告拍卖：传统广告投放面临诸如过程不透明、反馈数据虚假、多级代理导致效率降低等问题，广告主的大量投资在未明了实际情况的情况下被浪费。DeMatch 将探索一种创新的去中心化广告生态撮合系统，实现端到端、交易过程的透明化和可追溯性；实物资产拍卖：DeMatch 将实物资产代币化，以 NFT 的形式代表实物资产的所有权，允许实物资产在链上以去中心化、数字化的方式进行交易、买卖；链上资产拍卖：英式拍卖、荷兰拍卖、密封式拍卖等。  
+Pond (池塘)。池塘是一个允许用户创建和加入的兴趣或主题相关的交流和交易小圈子。用户可以创建或加入一个池塘，与同样感兴趣的用户进行互动和交流，以及在鱼塘内发布和查找相关物品。平台会在其中引入 DAO 治理、搭建 SocialFi 相关的基础设施。  
+忠诚度与荣誉。DeMatch 设立荣誉值和等级制度，以奖励用户的良好行为，提升交易活跃度，并引入灵魂绑定代币 SBT 以激励用户积极参与交易、评价等活动。用户可通过参与社区治理、创建或加入池塘等方式获取 SBT. 活跃度较高的用户还可获得平台积分 Destiny. 荣誉值反映在用户的诚信、评价和交易速度等方面，累积足够的荣誉值可提升等级，享受更多平台福利。
+此外，DeMatch 还会推出 NFT 徽章系统，用户可通过完成特定任务获得徽章，进一步激励他们积极参与社区互动。这一系列举措旨在为用户提供丰富的奖励机制，鼓励他们在平台上保持活跃，共同打造繁荣的交易生态。  
+## DeMatch V3  
+推出 MaaS (Match as a Service, Match 即服务) 产品。MaaS 的目标是提供一个易于实施的开发组件来增强普通团队的开发能力，该组件可以与他们的产品无缝集成。
 * 目标：完成基础功能的开发，实现功能闭环
 * 是否招募队员：否
+* Day1 进度：完成基础合约开发、基础页面 UI 开发
 # 29 ETHU
 * 简介：区块链促进了数据共享和流通，zk技术则广泛用于隐私保护，我们项目立足于现实生活中的医患问题，通过智能合约结合上述技术，实现准入协议，促进患者交流圈子的信息交换和生态健康。
 * 目标：完成demo开发和展示
@@ -179,6 +244,10 @@
 * 简介：zk-snarks/zk-starks是目前大家比较熟悉的NIZK技术用于扩容和隐私保护。我们想采用另一种不太为人熟知的zk技术——交互式零知识证明(IZK)，来提供用户数据的隐私保护认证。
 * 目标：项目将搭建一个端到端的个人用户数据上链流程，个人用户可以获取其已有的web data, 通过IZK服务实现隐私保护的业务逻辑验证，生成一个数据证明，并发布到链上。
 * 是否招募队员：否
+* 第一天进度：
+  * ZK算法端：EMP-ZK工具（开源的交互式零知识证明工具）调试完毕，完成所需业务逻辑的ZK电路编写；
+  * 插件端：个人用户的交易所数据接口调试成功，可以获得资产信息。
+  * 其他：整体接口设计完成。
 # 32 falcon
 * 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
 * 目标：争取demo可以上线
@@ -210,22 +279,34 @@
 - 装备特性（EIP-6220，Lightm的实现没有依据EIP-6220）：提供链上NFT装备的统一标准"",""限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能"
 * 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
 * 是否招募队员：否
+* 项目进度：
+- 4月6日： （1）前端页面制作：用户端，作者端；（2）核心合约编写； （3）核心业务技术实现方案讨论；
 # 35 g1g2
 * 简介：rollup wallets 支持多网络， rollup转账的钱包
 * 目标：从0开发出来钱包项目
 * 是否招募队员：否
 # 37 Martech3
-* 简介：Martech3旨在建立基于 Web3 用户数据驱动的营销和市场洞察工具
-* 目标：用户画像数据层Demo + 数据看板
+* [Deck](https://gamma.app/public/The-First-AIGC-Web3-Precision-Marketing-Platform-4oh3j8yta1snnse)
+* 简介：Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销平台
+* 目标：用户画像数据层Demo + 数据看板 + Scroll用户数据映射合约
 * 是否招募队员：否
+* 第一天进度：前后端基本完成，针对Scroll部署的预言机合约准备完成
 # 38 y=e^x
 * 简介：一种新的更负责任的DeFi设计，它无通胀排放、支持单边流动性、拥有完全自持流动性、低gasfee、并且有稳健的风控能力。请注意，这仍然不是无风险的，但它将大幅改善当前LPer的生存状况，并为社区提供稳定、有深度、低成本的流动性。
 * 目标：我们将展示多种风险控制手段、在极端情况（包含持仓的部分资产崩盘）下的熔断机制，以及运作的demo演示。
 * 是否招募队员：否
+* 第一天的工作进度：主要合约(F代币，Vault，Pools，Land）初步编写完成，前端刚做完基础框架。
 # 39 让web3没有rug
 * 简介：我们的产品叫Decomment。Decomment是一个可以对项目方、个人或者DAO进行链上评论的去中心化应用，在一定程度上对他们起到“审计”和“集思广益”的作用，我们并不仅仅像传统审计部门去审计代码或者相关财务，而是偏向于对项目方或者个人等群体做一个全民评论，所以Decomment更多的是对人进行审计。同时，在Decomment中也可以去签订一系列web3的合同或协议，比如属于web3的对赌协议、劳务合同等进而去保证项目的高质量推动和完成。
 * 目标：实现基本的demo
 * 是否招募队员：否
+
+## 第一天进度
+
+1. 完成合约的部署
+2. 前端UI搭建
+3. 前端登录、评论功能的实现
+
 # 40 CertiKlave
 * 简介："TrustConnect: A Demonstration of Seamless Integration Between Wallet Apps and CertiKlave
   TrustConnect is designed to showcase the seamless integration between existing wallet applications and the CertiKlave security solution. The project aims to demonstrate how CertiKlave can enhance the security of Web3 mobile wallets by providing an additional layer of protection through the use of a TrustZone-enabled device.
@@ -247,6 +328,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：Web3 Tokenomics Smart Design & Automatic Audit Platform
 * 目标：我们预计在黑客松期间推出 AIGC 相关的新 feature, 以及产品使用教程和案例，并发布公测版
 * 是否招募队员：否
+* 第一天进度: (1)前端完整交互流程搭建完成(包括钱包/邮箱登录,产品使用交互); (2)接入 openai API 并测试使用;
 # 42 D/Wallet
 * 简介：D/Wallet
 * 目标：会认识很多开发者朋友 会进一步完善wallet
@@ -259,11 +341,13 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
 * 目标：完成合约编程和系统测试，并部署到测试网
 * 是否招募队员：否
+* 第一天进度：已完成多方资产发送相关合约及部署代理合约
 # 45 DOA
 * 简介：DOA seeks to develop a decentralized application (DApp) that enables NFT holders to manage their assets more efficiently and provides a risk hedging mechanism to protect their holdings against market volatility, for example, to tackle the problem of over-concentrated NFT assets and provide solutions to mitigate its risks.
 * 目标：开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
 * 是否招募队员：是 需要一个名后端，希望可以一起一点一点完善这个项目
 * 如何联系：WeChat ID: eittah(微信群里的昵称)
+* Day1 进度：基础合约草稿的设计、部分功能的编写
 # 46 Artez
 * 简介：我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
 * 目标：1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
@@ -277,8 +361,9 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 # 48 RoochNetwork
 * 简介：RoochNetwork 是一个 Ethereum 上的模块化 Layer2，当前正在研发中。Rooch 的设计方案里，我们提出了一种 Rollup State Tree，用于实现状态从 Layer1 到 Offchain 的迁移。基于这套方案可以实现大规模的 NFT 发行，以及 NFT 在 Layer1 和 Offchain 存储之间的迁移。我们认为这个方案非常适合用在 AIGC 场景，所以打算用这套方案实现一个 AIGC 的 NFT 发行的 demo。
 * 目标：设计一个基于 Rollup State Tree 的 NFT 发行方案，并提供一个和 AIGC 结合的 demo，并提出一个 ERC721 改进的 EIP。
-* 是否招募队员：是 （欢迎 solidity，前端，设计，AIGC)
+* 是否招募队员：是 （欢迎 solidity，前端，Rust)
 * 如何联系：Wechat ID: jolestar2
+* 第一天进度：完成了 RollupNFT 的 solidity 相关的智能合约编写 https://github.com/rooch-network/rollup-nft
 # 49 Beijing Kaoya
 * 简介：北京かおや是一个去中心化文件系统，对文件的读、写、版本维护等操作进行了优化。
 * 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
@@ -298,7 +383,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
 * 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
 * 如何联系：Wechat ID:Real_JerryFor2022
-* 
+* 进度流程 <br/>Day1：已完成NFT碎片化和Bid竞拍的合约开发
 # 52 generative.game：一个生成性沙盒/开放叙述类游戏 
 * 简介：本项目利用生成型AI（Generative AI）解决沙盒/开放叙述游戏创作目前最大的生产力瓶颈：玩家主导的高自由度内容生成。
 * 想象侠盗飞车的自由度配上GAI的自动定制化游戏内容生成能力。
@@ -313,6 +398,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：链上评分系统
 * 目标：完成可组合特征的部分合约，完成前端demo
 * 是否招募队员：否
+* 第一天进度：完成合约和前端页面
 
 # 54 “NFC”（non fungible crush）
 
@@ -329,6 +415,8 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 是否招募队员：否，但是黑客松结束之后项目会继续做下去，我们也一直在招募以下岗位的人才：Ui设计师、插画师、产品经理、JAVA后端、React前端、Unity开发等。
 * 如何联系：Wechat ID: Jacob_Mr_Yang
 
+第一天进度：完成部分前端界面(Node.js)，设计并实现部分经济模型(Solidity)，完善项目repo
+
 # 56 SoliveAI
 * 简介：SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约
 * 目标：完成前端demo
@@ -341,3 +429,4 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，给用户提供安全的密码记忆服务
 * 是否招募队员： 否
 * 如何联系： WeChat ID: elricYM
+* Day 1 进展： 完成算法论证和前端框架。
