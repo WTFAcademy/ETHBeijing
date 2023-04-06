@@ -328,7 +328,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
 * 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
 * 如何联系：Wechat ID:Real_JerryFor2022
-* 
+* 进度流程 <br/>Day1：已完成NFT碎片化和Bid竞拍的合约开发
 # 52 generative.game：一个生成性沙盒/开放叙述类游戏 
 * 简介：本项目利用生成型AI（Generative AI）解决沙盒/开放叙述游戏创作目前最大的生产力瓶颈：玩家主导的高自由度内容生成。
 * 想象侠盗飞车的自由度配上GAI的自动定制化游戏内容生成能力。
