@@ -245,6 +245,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
 * 目标：完成合约编程和系统测试，并部署到测试网
 * 是否招募队员：否
+* 第一天进度：已完成多方资产发送相关合约及部署代理合约
 # 45 DOA
 * 简介：DOA seeks to develop a decentralized application (DApp) that enables NFT holders to manage their assets more efficiently and provides a risk hedging mechanism to protect their holdings against market volatility, for example, to tackle the problem of over-concentrated NFT assets and provide solutions to mitigate its risks.
 * 目标：开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
