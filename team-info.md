@@ -299,6 +299,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：链上评分系统
 * 目标：完成可组合特征的部分合约，完成前端demo
 * 是否招募队员：否
+* 第一天进度：完成合约和前端页面
 
 # 54 “NFC”（non fungible crush）
 
