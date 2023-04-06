@@ -140,6 +140,7 @@
 * 目标：希望能在layer2 scroll上出一个产品Demo。
 * 是否招募队员：否
 * 如何联系：WeChat ID: hanxinnbbb
+* 第一天进度：白皮书完成一半，经济模型设计完毕，前端框架设计完毕 ,合约框架/质押部分与数据结构设计完成
 
 ![](https://github.com/bravesigner/TruthProtocol/raw/main/images/1551680688161_.pic.jpg)
 
