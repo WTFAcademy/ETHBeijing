@@ -136,9 +136,23 @@
 * 是否招募队员：否
 * 第一天进度：合约编码
 # 24. SLOADS
-* 简介：在解决某个 CTF（https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle） 时，我遇到一个问题，需要在测试代码中打印某个合约的所有 storage slots。目前 foundry 仅支持打印静态数据的storage slot，对于动态数据，比如所有的 array 元素，map entry，则无法打印，我希望能够打印出动态数据的 storage slots。
+* 简介：Foundry 是一个以太坊智能合约开发框架。这个项目准备给他添加一个 feature，能够检索智能合约里面的所有 storage slot，特别是动态数据结构的，如 Array，Map。基于此，开发者可以更加方便地深入探索链上智能合约的状态，比如查找某个 token 的所有持币地址。工作内容：需要修改 foundry，foundry-std 里面的 cheatcode，以及 foundry 所依赖的 revm。起因则是在完成[这个 ctf](https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle) 时遇到了问题。
 * 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
 * 是否招募队员：否
+* 链接：https://github.com/0xevm
+* 如何联系：WeChat ID: liquan_eth
+## 进度
+### day1
+- [x] 完成组队，GitHub org&repo 的新建：https://github.com/0xevm
+- [x] 确定要做的内容：
+  1. 确定 cheatcode 的接口命名，并获取到对应的 function signature。
+  2. 给 revm 新增接口，能够提取此时的某个 Account（智能合约） 里面的 storage map 的 key。
+  3. 修改 foundry，当检查到调用的地址是 `CHEATCODE_ADDRESS`，且 function signature 满足条件时，调用底层的 revm 的新增接口，将结果（index 的 bytes 数组）返回。
+  4. Option，在前面的基础上，建立 index bytes 和 map 的联系，比如对于 Map1 和 Map2，能够知道某个某个 slot 里面的数据是属于哪个 map 的哪个 key，需要 修改 revm 来在执行时记录一些 Metadata
+  5. Option，将运行后的 evm 状态建立 snapshot，并存储为 json 文件，然后使用 forge inspect 时传入状态，获取此时所有的 storage layout。
+  6. Option，在前面的基础上，给 forge test --debug 新增 storage layout，方便开发在逐步调试时能够看到 bytecode 的变化。
+- [x] 查看 foundry 文档，以及源码，确定修改路径。
+
 # 25. Signer
 * 简介：当下Web3世界钓鱼网页泛滥，已经防不胜防，一个钓鱼网页甚至可以长期存在，让无数的人不断被骗，为了解决这个信息差，也为了让更多的用户可以更加放心进入Web3的世界，我们希望通过经济模型和插件来解决这个问题。我们将该经济模型定义为“安全FI”，这个协议还将衍生出链上的CDS（保险）系统，实现区块链保险,因此该项目名为TruthProtocol。
 * 目标：希望能在layer2 scroll上出一个产品Demo。
