@@ -87,6 +87,7 @@
 * 目标：目前进展是0，在黑客松期间将会做出MVP并且进行演示
 * 是否招募队员：无特定需求，但仍开放，如果有合适的可以加入
 * 如何联系：WeChat ID: samuelzey
+* 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
 # 17. Delibird
 * 简介：部署在zksync和scroll上的打赏捐赠Dapp
 * 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现。
