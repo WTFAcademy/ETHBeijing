@@ -113,11 +113,12 @@
 * 目标：调研MEV现状，构建低延迟的区块链基础设施，构建准确率更高的恶意Token检测工具。
 * 是否招募队员：是 (希望你熟悉MEV)
 * 如何联系：WeChat ID: tcscry
-# 21. SoCity Green Commute
-* 简介：个人减碳激励去中心化应用
+# 21. FactLens DAO from [SoCity DAO](https://www.socitydao.org/)
+* 简介：A decentrailized fact checking ecosystem.
 * 目标：完成开发及demo
 * 是否招募队员：否
 * 如何联系：WeChat ID: JAJAmoa
+* 进度：完成了UI设计
 # 22. peerbank
 * 简介：peerbank 是一个去中心的稳定币发行协议，该协议采用超额抵押方式可铸造锚定除（RMB）以外的任意fiat 。铸造稳定币可用于全球结算，抵押资产将锁定在合约中，避免因中心化机构管理带来的风险。
 * 目标：开发出MVP版本
