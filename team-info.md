@@ -30,6 +30,8 @@
 * 目标：从零到一完成项目初期建设
 * 是否招募队员：目前团队有两名，课题是建设一款基于智能合约交互实现的链上解谜、答题平台，并针对 Web3 学习平台、区块链初创团队提供一站式的接入能力。希望再吸纳 1-2 名对智能合约开发和前端开发比较熟悉的同学。
 * 如何联系：WeChat ID: zjtong3576 或 E-Mail: [me@cowpoke.cc](mailto:me@cowpoke.cc)
+* 进度：
+  * Day1: 完成了项目框架搭建；服务端功能已完成；合约完成度 50%；前端完成度 50%；
 
 ![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
 
