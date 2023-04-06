@@ -152,6 +152,7 @@
 
 # 26 NirVANA
 * 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
+* 第一天进度：完成核心模块合约部署， 前端完成创建SBT页面
 * 目标：构建MVP版本
 * 是否招募队员：否
 # 27 Lingnan Ethereum Darkness Agent
