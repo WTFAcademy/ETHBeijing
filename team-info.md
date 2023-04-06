@@ -254,6 +254,13 @@ Pond (池塘)。池塘是一个允许用户创建和加入的兴趣或主题相�
 * 简介：我们的产品叫Decomment。Decomment是一个可以对项目方、个人或者DAO进行链上评论的去中心化应用，在一定程度上对他们起到“审计”和“集思广益”的作用，我们并不仅仅像传统审计部门去审计代码或者相关财务，而是偏向于对项目方或者个人等群体做一个全民评论，所以Decomment更多的是对人进行审计。同时，在Decomment中也可以去签订一系列web3的合同或协议，比如属于web3的对赌协议、劳务合同等进而去保证项目的高质量推动和完成。
 * 目标：实现基本的demo
 * 是否招募队员：否
+
+## 第一天进度
+
+1. 完成合约的部署
+2. 前端UI搭建
+3. 前端登录、评论功能的实现
+
 # 40 CertiKlave
 * 简介："TrustConnect: A Demonstration of Seamless Integration Between Wallet Apps and CertiKlave
   TrustConnect is designed to showcase the seamless integration between existing wallet applications and the CertiKlave security solution. The project aims to demonstrate how CertiKlave can enhance the security of Web3 mobile wallets by providing an additional layer of protection through the use of a TrustZone-enabled device.
