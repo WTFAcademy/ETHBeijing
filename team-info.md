@@ -39,24 +39,36 @@
 * 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
 * 如何联系：WeChat ID: SadPencil
 # 9. Web3Club
-* 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
+## 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
 
-* 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
+## 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
 
-
+ 
   - 能够根据用户不同的学习反应呈现不同的学习路线。
     - 在聊天窗中实现交互，聊天窗中用户可以执行指定的选项，以此来进入不同的流程。
   - 通过智能合约 实现：
     - 课程认证NFT/sbt自动发放，通过一系列合约的交互来实现
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
-* 目标：我们会在赛程期间 为该项目 尝试做一个demo 
 
-之后希望能让更多参与活动的朋友 及 赞助商 了解以及为我们的项目 提供建议 
-* 是否招募队员：接受 暂无任何要求 
-  
-  **目前还剩 1 个空位**
-* 如何联系：WeChat ID: YanboTravelAllWorld
+## 🎯 目标：我们会在赛程期间 为该项目 尝试做一个demo 
+之后希望能让更多参与活动的朋友 及 赞助商 了解以及为我们的项目 提供建议
+
+## 🔖 项目进度
+### 📅 Day1
+#### ✅ 已结束
+- [x] 项目文档
+- [x] 项目文件目录 制作
+- [x] 用户学习主要内容 文本 制作 （Web1-Web3）
+- [x] 分支交互逻辑 设计 
+- [x] 未来 智能合约开发 路线 设计
+#### 🏗️ 正在Buidl
+- [ ] 前端 互动聊天界面 开发   
+- [ ] 后端 分支交互逻辑设计嵌入 开发
+- [ ] 智能合约 开发
+
+## 💬 如何联系：WeChat ID: YanboTravelAllWorld 
+
 # 10.DeshopDao 
 * 简介：构建去中心化的电商平台，在可兑换礼品nft 和实物产品方面，给出第三方技术信任解决方案，使得互不认识的买卖家可以在利益被技术保障前提下，实现交易达成。同时尽量保全隐私，最终也要实现去中心化Dao治理。
 * 目标：1.第一版本DeshopDao平台的上线（可能提前于赛前上线） 2.DeshopDao 的地址信用评级工具 3.DeshopaDao Dao治理（可能赛后再做）
