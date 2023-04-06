@@ -72,11 +72,14 @@
 * 目标：完成一个开源工具。用户可以基于借贷协议用flashloan做多或者做空资产。
 * 是否招募队员：对defi感兴趣的朋友都可以联系我
 * 如何联系：WeChat ID: AlexMcavoy
-# 13. Layer-2 Buidler
-* 简介：针对Layer-2的特性，我们寻找到一个独特的利基市场，针对某一区块链交易变量做个性化服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。目前队伍中有两人，去年刚刚毕业，就职于币安投资的web3初创公司。
+# 13. GasLockR
+* 简介：Layer-2的gas price保险，提供个性化的服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。
 * 目标：从0到1开发，实现MVP，并有良好的UI呈现。
-* 是否招募队员：是。需要至少一位前端和一位UI设计；前端最好有web3开发经验，没有的话最好有其他开发项目经验。
+* 是否招募队员：UI设计
 * 如何联系：WeChat ID: 844416650
+* Github：https://github.com/GasLockR
+* 进度：
+  周四：完成第一版合约与前端模版，讨论迭代方案，尝试实现交互。
 # 15. MentorMachines AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
 * 目标：Website. Animated AI. NFT.
