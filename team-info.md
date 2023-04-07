@@ -374,6 +374,8 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
 * 是否招募队员：可接受 需要智能合约（需要基于Scroll，但是如果有EVM开发经验应该足够），UI设计，前后端
 * 如何联系：Wechat ID: 18782210583
+* Day 1 进度：完成艺术NFT研究框架的编写，探究AIGC对艺术NFT的影响，降低门槛从而吸引更多人参与。
+* Day 2 进度：进行前端、后端和合约的编写，为Demo做准备。
 # 47 GptClick
 * 简介：使用AI辅助用户执行链上合约，自然语言生成交互按钮。理想的使用场景：“eth价格小于1000，帮我买1个”，会创建一个按钮，交互后可生成链上dex订单。“mint最近发行的NFT”，按钮交互后直接获得NFT。“我想领取arb币”，按钮交互后可以直接领取到arb代币。
 * 目标：完成展示demo
