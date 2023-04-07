@@ -472,6 +472,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：我们预计在黑客松期间推出 AIGC 相关的新 feature, 以及产品使用教程和案例，并发布公测版
 * 是否招募队员：否
 * 第一天进度: (1)前端完整交互流程搭建完成(包括钱包/邮箱登录,产品使用交互); (2)接入 openai API 并测试使用;
+* 第二天进度: (1)调试完 openai API 并开发了数据处理; (2)调试并优化了产品的整个交互流程; (3)正在准备产品使用教程;(4)产品公测上线的前期准备
 # 42 D/Wallet
 * 简介：D/Wallet
 * 目标：会认识很多开发者朋友 会进一步完善wallet
