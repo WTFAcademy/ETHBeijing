@@ -163,6 +163,17 @@
 * 目标：调研MEV现状，构建低延迟的区块链基础设施，构建准确率更高的恶意Token检测工具。
 * 是否招募队员：是 (希望你熟悉MEV)
 * 如何联系：WeChat ID: tcscry
+### 🗓️ Day1
+#### 🎉 已结束
+- [x] 网络加速算法模型，PoC完成，将算法集成进`binance smart chain`客户端。
+- [x] 恶意Token检测的规则初步设计完成，约束求解以及不可能路径的减支实现完成，前端以及UI设计完成。
+- [x] 使用Big query查询过去几年Ethereum上MEV交易，夹子交易的识别算法设计完成。根据规则编写SQL完成，因为数据量十分之大，正在持续检索中。
+#### 🚀 正在进行中
+- [ ] 恶意Token检测的后端RPC代实现
+- [ ] 恶意Token检测项目一个Bug等待解决，Debug
+- [ ] 网络加速项目的Relay Node待实现 开发
+
+
 # 21. FactLens DAO from [SoCity DAO](https://www.socitydao.org/)
 * 简介：A decentrailized fact checking ecosystem.
 * 目标：完成开发及demo
