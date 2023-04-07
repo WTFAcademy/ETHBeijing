@@ -22,6 +22,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 进入Demo Day的每个项目有 5 分钟展示时间。
 
+另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面]提交项目，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
 * 简介：一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
