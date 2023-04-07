@@ -70,6 +70,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 如何联系：WeChat ID: zjtong3576 或 E-Mail: [me@cowpoke.cc](mailto:me@cowpoke.cc)
 * 进度：
   * Day1: 完成了项目框架搭建；服务端功能已完成；合约完成度 50%；前端完成度 50%；
+  * Day2: 完成了项目框架搭建；服务端功能已完成；合约完成度 90%；前端完成度 80%；
 
 ![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
 
