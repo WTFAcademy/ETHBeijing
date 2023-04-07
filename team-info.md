@@ -25,11 +25,16 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面](https://dorahacks.io/zh/hackathon/eth-beijing-2023/) 提交项目信息，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
-* ###1.2 简介图片 
-* ![Project Screenshot](https://terminal3.s3.us-west-1.amazonaws.com/imgs/%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png)
+### 1.2 简介图片 
+* ![irY1M8.jpeg](https://i.328888.xyz/2023/04/08/irY1M8.jpeg)
 ### 1.3 简介
-* 一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
-### 1.4 团队成员：Masa@masacao, Allen@ECNUwyzZL, Jialin, Joze144@joze144, Youyou@youyou0921
+* 一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户新颖的对话即服务（chat-as-a-service）交互形式。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。考虑到web3场景下用户进行安全交互的需求，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。我们的实践证明，大语言模型LLMs有很多的场景可以赋能crypto。本项目也为Web3+AI的未来发展提供了思路。
+### 1.4 团队成员
+- **AI Engineer**: Masa[@masacao](https://github.com/masacao)
+- **Front-end Engineer**: Allen[@ECNUwyzZL](https://github.com/ECNUwyzZL)
+- **Back-end Engineer**: Joze[@joze144](https://github.com/joze144)
+- **Product Manager**: Jialin
+- **UIUX**: Youyou[@youyou0921](https://github.com/youyou0921)
 ### 1.5 目标：
 * 完成项目从0到1开发以及demo展示
 * 招募需求描述：已满
@@ -50,10 +55,10 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * TODO
 
 ### 1.8 GitHub链接
-Project <https://github.com/EthBeijing-Terminal3>
-前端(React)<https://github.com/EthBeijing-Terminal3/extension>
-中间件(node.js)<https://github.com/EthBeijing-Terminal3/service-api>
-后端(flask)<https://github.com/EthBeijing-Terminal3/gpt_backend>
+- [Project](https://github.com/EthBeijing-Terminal3)
+- [前端(React)](https://github.com/EthBeijing-Terminal3/extension)
+- [中间件(node.js)](https://github.com/EthBeijing-Terminal3/service-api)
+- [后端(flask)](https://github.com/EthBeijing-Terminal3/gpt_backend)
 
 ### 1.9 是否基于以前项目
 没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
