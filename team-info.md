@@ -25,18 +25,42 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面](https://dorahacks.io/zh/hackathon/eth-beijing-2023/) 提交项目信息，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
-* 简介：一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
-* 目标：完成项目从0到1开发以及demo展示
-* 是否招募队员：否
+* ###1.2 简介图片 
+* ![Project Screenshot](https://terminal3.s3.us-west-1.amazonaws.com/imgs/%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png)
+### 1.3 简介
+* 一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
+### 1.4 团队成员：Masa@masacao, Allen@ECNUwyzZL, Jialin, Joze144@joze144, Youyou@youyou0921
+### 1.5 目标：
+* 完成项目从0到1开发以及demo展示
 * 招募需求描述：已满
 * 如何联系：WeChat ID: masacs
-* ------
+### 1.6 前两日进度：
 * Day#1 Progress:
 * - 确定产品功能，完成原型设计
 * - 完成GPT fine-tune
 * - 前端框架建立
 * - 后端Ready
 * - UIUX完成第一版设计
+* Day#2 Progress:
+* - 前后端联调
+* - 继续GPT Fine-tune
+* - 录制视频
+* - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
+### 1.7 视频Demo链接
+* TODO
+
+### 1.8 GitHub链接
+Project <https://github.com/EthBeijing-Terminal3>
+前端(React)<https://github.com/EthBeijing-Terminal3/extension>
+中间件(node.js)<https://github.com/EthBeijing-Terminal3/service-api>
+后端(flask)<https://github.com/EthBeijing-Terminal3/gpt_backend>
+
+### 1.9 是否基于以前项目
+没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
+
+### 1.10 Demo链接
+TODO
+
 # 2. Savourlabs
 * 简介：shadow-x 是一个承载去中心化托管和支付的去中心化的隐私社交网络，底层由两条 layer3 链组成，一条是layer3 去中心化隐私社交链， 另一条是 layer3 去中心化支付托管链，上层的体现类似微信，我们项目已经打磨 1 年之久了，目前 APP 端已接入兼容其他钱包的 HD 钱包(HD钱包进入我们生态可以一键提升为社交恢复钱包)，社交恢复钱包，NFT 信息聚合器，行情聚合器，layer3 去中心化隐私社交链正在开发中，已完成几个组件的开发，社交产品原型，业务层和底层链的交互已经在设计开发中了，layer3 去中心化支付托管链也已经在设计开发中，相信不久我们的产品就和大家见面。
 * 目标：实现 NFT 推荐器规则开发，web 端开发，demo 展示. 
