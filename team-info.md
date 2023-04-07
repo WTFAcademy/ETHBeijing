@@ -37,6 +37,12 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * - 前端框架建立
 * - 后端Ready
 * - UIUX完成第一版设计
+* Day#2 Progress:
+* - 前后端联调
+* - 继续GPT Fine-tune
+* - 录制视频
+* - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
+
 # 2. Savourlabs
 * 简介：shadow-x 是一个承载去中心化托管和支付的去中心化的隐私社交网络，底层由两条 layer3 链组成，一条是layer3 去中心化隐私社交链， 另一条是 layer3 去中心化支付托管链，上层的体现类似微信，我们项目已经打磨 1 年之久了，目前 APP 端已接入兼容其他钱包的 HD 钱包(HD钱包进入我们生态可以一键提升为社交恢复钱包)，社交恢复钱包，NFT 信息聚合器，行情聚合器，layer3 去中心化隐私社交链正在开发中，已完成几个组件的开发，社交产品原型，业务层和底层链的交互已经在设计开发中了，layer3 去中心化支付托管链也已经在设计开发中，相信不久我们的产品就和大家见面。
 * 目标：实现 NFT 推荐器规则开发，web 端开发，demo 展示. 
