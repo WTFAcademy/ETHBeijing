@@ -1,6 +1,6 @@
 # ETH Beijing Hackathon 项目提交说明
 
-ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00。你需要在你的项目下更新以下内容:
+ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 1. 项目名称
 2. 项目图片（1张有代表性的图片，不要过长）
 3. 简介
