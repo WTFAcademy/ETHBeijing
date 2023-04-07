@@ -2,10 +2,10 @@
 
 ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00。你需要在你的项目下更新以下内容:
 1. 项目名称
-2. 项目图片（1张，不要过长）
+2. 项目图片（1张有代表性的图片，不要过长）
 3. 简介
 4. 队长和队员
-5. 目标
+5. 本项目在这次黑客松的目标
 6. 黑客松前两日的进度
 7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
 8. 项目 github repo 链接
