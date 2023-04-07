@@ -187,9 +187,13 @@
 * 如何联系：Wechat ID: wildlaugh1014
 # 23. GPAD Lab
 * 简介：GPAD Protocol is a decentralized investment and financing agreement, users can freely create projects, invest, and realize post-investment programmable.
-* 目标：主要是Demo show
+* 目标：Demo show
 * 是否招募队员：否
-* 第一天进度：合约编码
+* 如何联系：Telegram: tradergalax
+* 赛道：Public Good
+* 项目概述：https://docs.gpad.online
+* 项目链接：https://gpad.online
+* 项目演示视频：https://youtu.be/NDmzJn6Tn_E
 # 24. SLOADS
 * 简介：Foundry 是一个以太坊智能合约开发框架。这个项目准备给他添加一个 feature，能够检索智能合约里面的所有 storage slot，特别是动态数据结构的，如 Array，Map。基于此，开发者可以更加方便地深入探索链上智能合约的状态，比如查找某个 token 的所有持币地址。工作内容：需要修改 foundry，foundry-std 里面的 cheatcode，以及 foundry 所依赖的 revm。起因则是在完成[这个 ctf](https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle) 时遇到了问题。
 * 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
