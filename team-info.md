@@ -384,6 +384,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 # 44 TxRouter
 * 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
 * 目标：完成合约编程和系统测试，并部署到测试网
+* 赛道：Public Good
 * 是否招募队员：否
 * 第一天进度：已完成多方资产发送相关合约及部署代理合约
 * 第二天进度：已完成代理合约工厂及多方资产聚合函数
