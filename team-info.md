@@ -241,6 +241,10 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 简介：TrustaLabs 旨在为web3项目和团队提供在空投、市场活动、捐赠等等场景的用户分析和女巫识别。TrustScan完全基于链上数据，集合资金网络分析、行为序列等多种识别策略，通过AI算法整合输出结果，
 * 目标：完成基于某项目的女巫识别
 * 是否招募队员：否
+* 项目进度第一天进度基于lens项目的女巫识别，用sql完成数据的获取工作(所有数据来源于footprint),
+* 项目进度第二天用python完成基于资金网络团伙识别、及批量操作合约的团伙识别。
+* [项目链接](http://www.cnblogs.com/sxdcgaq8080/p/7894828.html)
+
 # 44 TxRouter
 * 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
 * 目标：完成合约编程和系统测试，并部署到测试网
