@@ -336,11 +336,13 @@
 * 目标：实现基本的demo
 * 是否招募队员：否
 
-## 第一天进度
-
-1. 完成合约的部署
-2. 前端UI搭建
-3. 前端登录、评论功能的实现
+* 第一天进度
+  * 完成合约的部分
+  * 前端UI搭建
+  * 前端登录、评论功能的实现
+* 第二天进度
+  * 赛道：1. Public Good
+  * 进度：前端功能通知、排行榜等功能实现、合约优化
 
 # 40 CertiKlave
 * 简介："TrustConnect: A Demonstration of Seamless Integration Between Wallet Apps and CertiKlave
