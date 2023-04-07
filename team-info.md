@@ -493,11 +493,30 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 第一天进度：已完成多方资产发送相关合约及部署代理合约
 * 第二天进度：已完成代理合约工厂及多方资产聚合函数
 # 45 DOA
-* 简介：DOA seeks to develop a decentralized application (DApp) that enables NFT holders to manage their assets more efficiently and provides a risk hedging mechanism to protect their holdings against market volatility, for example, to tackle the problem of over-concentrated NFT assets and provide solutions to mitigate its risks.
-* 目标：开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
-* 是否招募队员：是 需要一个名后端，希望可以一起一点一点完善这个项目
-* 如何联系：WeChat ID: eittah(微信群里的昵称)
-* Day1 进度：基础合约草稿的设计、部分功能的编写
+### 45.2 简介图片 
+* TODO
+### 45.3 简介
+* DOA seeks to develop a decentralized application (DApp) that enables NFT holders to manage their assets more efficiently and provides a risk hedging mechanism to protect their holdings against market volatility, for example, to tackle the problem of over-concentrated NFT assets and provide solutions to mitigate its risks.
+### 45.4 团队成员solo
+- **Leader**: Eittah[@pwhattie](https://github.com/hattiepwvi)
+### 45.5 目标：
+* 开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
+* 是否招募队员：：是 需要一个名后端，希望可以一起一点一点完善这个项目
+* 如何联系：WeChat ID: masacs
+### 45.6 前两日进度：
+* Day1: 完成了项目基本定位和方案的初步架构；合约完成度 50%；
+* Day2: 合约完成度 90%；前端完成度 50%；
+* - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
+### 45.7 视频Demo链接
+* TODO
+### 45.8 GitHub链接
+- [Project]()
+- [前端(React)]()
+- [合约(solidity)]()
+### 45.9 是否基于以前项目
+没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
+### 45.10 Demo链接
+TODO
 # 46 Artez
 * 简介：我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
 * 目标：1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
