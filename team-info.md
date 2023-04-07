@@ -257,7 +257,7 @@ TODO
 * 1. 项目名称
 * GPAD Protocol
 * 2. 项目图片（1张有代表性的图片，不要过长）
-* ![image](https://user-images.githubusercontent.com/30950645/230631546-1b6aad5c-0f14-482a-88dc-dbbf354f70c8.png)
+* ![Pastel Rainbow Modern January Monthly Email Header](https://user-images.githubusercontent.com/30950645/230643172-bf9b8084-730a-4fb0-9add-3cbbefba0af8.png)
 * 3. 简介
 * GPAD协议是一种去中心化的投资和融资协议，用户可以自由创建项目、投资，并实现投后可编程。它将实现简单的launchpad功能创造投融资环境，并且支持图灵完备的功能将会面向web3高阶开发者，实现GETH代币置换,闪电贷,预言机，去中心化交易，代理交易等一系列复杂链上操作
 * 4. 队长和队员
