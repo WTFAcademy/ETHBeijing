@@ -1,11 +1,11 @@
 # ETH Beijing Hackathon 项目提交说明
 
-ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
+ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00。你需要在你的项目下更新以下内容:
 1. 项目名称
-2. 项目图片（1张有代表性的图片，不要过长）
+2. 项目图片（1张，不要过长）
 3. 简介
 4. 队长和队员
-5. 本项目在这次黑客松的目标
+5. 目标
 6. 黑客松前两日的进度
 7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
 8. 项目 github repo 链接
@@ -22,7 +22,6 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 进入Demo Day的每个项目有 5 分钟展示时间。
 
-另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面](https://dorahacks.io/zh/hackathon/eth-beijing-2023/) 提交项目信息，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
 * 简介：一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
@@ -308,9 +307,11 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 目标：完成demo开发和展示
 * 是否招募队员：否
 # 30 PKUSZ Blockchain DAO
-* 简介：LSD中心化风险解决方案
+* 简介：ETH共识层中心化风险及解决方案
 * 目标：产出研究分析报告和EIP
 * 是否招募队员：否
+* Day1进度：完成框架和前三部分的主要内容；
+* Day2进度：发现DVT在以太坊生态中存在的问题；并提出共识层中心化风险弱化解决方案，即对以太坊客户端共识规范改进的方案，在客户端层面加入DVT选项，旨在丰富以太坊客户端多样化和去中心化程度
 # 31 PADO
 * 简介：zk-snarks/zk-starks是目前大家比较熟悉的NIZK技术用于扩容和隐私保护。我们想采用另一种不太为人熟知的zk技术——交互式零知识证明(IZK)，来提供用户数据的隐私保护认证。
 * 目标：项目将搭建一个端到端的个人用户数据上链流程，个人用户可以获取其已有的web data, 通过IZK服务实现隐私保护的业务逻辑验证，生成一个数据证明，并发布到链上。
