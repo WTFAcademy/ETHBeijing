@@ -253,9 +253,28 @@ TODO
 * 是否招募队员：否
 * 如何联系：Telegram: tradergalax
 * 赛道：Public Good
-* 项目概述：https://docs.gpad.online
-* 项目链接：https://gpad.online
-* 项目演示视频：https://youtu.be/NDmzJn6Tn_E
+* 关于项目内容
+* 1. 项目名称
+* GPAD Protocol
+* 2. 项目图片（1张有代表性的图片，不要过长）
+* ![image](https://user-images.githubusercontent.com/30950645/230631546-1b6aad5c-0f14-482a-88dc-dbbf354f70c8.png)
+* 3. 简介
+* GPAD协议是一种去中心化的投资和融资协议，用户可以自由创建项目、投资，并实现投后可编程。它将实现简单的launchpad功能创造投融资环境，并且支持图灵完备的功能将会面向web3高阶开发者，实现GETH代币置换,闪电贷,预言机，去中心化交易，代理交易等一系列复杂链上操作
+* 4. 队长和队员
+* 队长:0x 队员：无
+* 5. 本项目在这次黑客松的目标
+* 展示项目的想法和MVP，并积极深度参与以太坊生态
+* 6. 黑客松前两日的进度
+* day1:合约编写 day2:前端编写
+* 7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
+* https://youtu.be/-ea0_RqzZQo
+* 8. 项目 github repo 链接
+* https://github.com/orgs/GPAD-Lab/repositories
+* 9. 是否基于之前的项目，如果有，给出详细信息。
+* 否
+* 10. 项目 Demo 链接（选填
+* https://gpad.online
+
 # 24. SLOADS
 * 简介：Foundry 是一个以太坊智能合约开发框架。这个项目准备给他添加一个 feature，能够检索智能合约里面的所有 storage slot，特别是动态数据结构的，如 Array，Map。基于此，开发者可以更加方便地深入探索链上智能合约的状态，比如查找某个 token 的所有持币地址。工作内容：需要修改 foundry，foundry-std 里面的 cheatcode，以及 foundry 所依赖的 revm。起因则是在完成[这个 ctf](https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle) 时遇到了问题。
 * 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
