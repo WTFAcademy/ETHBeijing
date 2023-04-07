@@ -492,11 +492,13 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 是否招募队员：是。本人美国CS本科，有app开发+NLP使用经历和ML背景但不算硬核工程师。希望招募有【全栈开发】or【GPT/NLP调试】 or 【游戏创作】 or 【游戏经济设计】方向经验/兴趣的小伙伴，也有比较好的advisor资源，热烈欢迎来聊天头脑风暴一起学习。
 * 赛道：Layer 2 Dapp/Open Research
 * 如何联系：Wechat ID: asa-frost
+
 # 53 Trust Bridge
 * 简介：链上评分系统
 * 目标：完成可组合特征的部分合约，完成前端demo
 * 是否招募队员：否
 * 第一天进度：完成合约和前端页面
+* 第二天进度：完成前端与合约及 Graph-API 的联调
 
 # 54 “NFC”（non fungible crush）
 
