@@ -194,7 +194,7 @@
 * 6. 黑客松前两日的进度
 * day1:合约编写 day2:前端编写
 * 7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-* https://youtu.be/NDmzJn6Tn_E
+* https://youtu.be/-ea0_RqzZQo
 * 8. 项目 github repo 链接
 * https://github.com/orgs/GPAD-Lab/repositories
 * 9. 是否基于之前的项目，如果有，给出详细信息。
