@@ -1,3 +1,28 @@
+# ETH Beijing Hackathon 项目提交说明
+
+ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月7日 下午15:00。你需要在你的项目下更新以下内容:
+1. 项目名称
+2. 项目图片（1张，不要过长）
+3. 简介
+4. 队长和队员
+5. 目标
+6. 黑客松前两日的进度
+7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
+8. 项目 github repo 链接
+9. 是否基于之前的项目，如果有，给出详细信息。
+10. 项目 Demo 链接（选填）
+
+在规定时间内提交 PR，且包含前 9 项信息的项目，视为提交成功，否则不参与评奖。
+
+评委将在当天下午15-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
+1. 代码 
+2. 创新性
+3. Demo完整度
+4. 对以太坊生态的重要性
+
+进入Demo Day的每个项目有 5 分钟展示时间。
+
+
 # 1. Terminal3
 * 简介：一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户口语化的交互形式，以及自定义的快捷按钮。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。值得一题的是，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。
 * 目标：完成项目从0到1开发以及demo展示
