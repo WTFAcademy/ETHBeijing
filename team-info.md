@@ -136,6 +136,8 @@
 * 是否招募队员：需要前端（JS、Next.js、React、设计）、NFT 的 Solidity、AI（HuggingFace、GPT）、后端（server setup + integrations）。Looking for Frontend (JS, Next.js, React, design), Solidity for an NFT, AI (HuggingFace, GPT), backend (server setup + integrations).
 * 如何联系：WeChat ID: -
 * 第一天进度: GPT integration, Web app
+* 第二天进度：Web3 part, NFT on Scroll
+* Track: Public Goods
 # 16. ContriX
 * 简介：帮助每个人形成链上ZK实体，真正拥有自己的身份数据
 * 目标：目前进展是0，在黑客松期间将会做出MVP并且进行演示
