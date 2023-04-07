@@ -128,8 +128,10 @@
 * 是否招募队员：UI设计
 * 如何联系：WeChat ID: 844416650
 * Github：https://github.com/GasLockR
+* 赛道：Layer-2s
 * 进度：
   周四：完成第一版合约与前端模版，讨论迭代方案，尝试实现交互。
+  周五：完成gas price的数学预测模型，更新合约，尝试前端与合约交互。
 # 15. MentorMachines AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
 * 目标：Website. Animated AI. NFT.
