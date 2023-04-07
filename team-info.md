@@ -70,7 +70,6 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 如何联系：WeChat ID: zjtong3576 或 E-Mail: [me@cowpoke.cc](mailto:me@cowpoke.cc)
 * 进度：
   * Day1: 完成了项目框架搭建；服务端功能已完成；合约完成度 50%；前端完成度 50%；
-  * Day2: 完成了项目框架搭建；服务端功能已完成；合约完成度 90%；前端完成度 80%；
 
 ![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
 
@@ -277,6 +276,8 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 # 26 NirVANA
 * 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
 * 第一天进度：完成核心模块合约部署， 前端完成创建SBT页面
+* 第二天进度：前端完成landing page，profile等页面开发，完成模块拖拽选择模块，完成SBT模块化创建逻辑。
+* 改进合约初始化机制，逻辑模块合约一次性部署；初步集成ZK验证模块
 * 目标：构建MVP版本
 * 是否招募队员：否
 # 27 Lingnan Ethereum Darkness Agent
@@ -361,12 +362,9 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 技术来源 - Lightm 基于 ERC2535 实现 RMRK.app 提出的可组合NFT标准
 - 嵌套特性（EIP-6059）：NFT可持有NFT，提供了NFT Bundle能力，允许在链上进行NFT按需归集
 - 多资源特性（EIP-5773）：NFT可以成为多个媒体资源的载体，可基于所处环境的上下文展示不同形式的输出
-- 装备特性（EIP-6220，Lightm的实现没有依据EIP-6220）：提供链上NFT装备的统一标准
----
+- 装备特性（EIP-6220，Lightm的实现没有依据EIP-6220）：提供链上NFT装备的统一标准"",""限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能"
 * 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
 * 是否招募队员：否
-* 赛道：L2
-* 第二天进度：前端核心逻辑基本完成，与合约联调完成，前端部分细节和bug待优化
 
 # 35 g1g2
 * 简介：G1G2是一个ZK-Rollup As a Service 平台。G1G2具有一下优点：
@@ -493,13 +491,11 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 是否招募队员：是。本人美国CS本科，有app开发+NLP使用经历和ML背景但不算硬核工程师。希望招募有【全栈开发】or【GPT/NLP调试】 or 【游戏创作】 or 【游戏经济设计】方向经验/兴趣的小伙伴，也有比较好的advisor资源，热烈欢迎来聊天头脑风暴一起学习。
 * 赛道：Layer 2 Dapp/Open Research
 * 如何联系：Wechat ID: asa-frost
-
 # 53 Trust Bridge
 * 简介：链上评分系统
 * 目标：完成可组合特征的部分合约，完成前端demo
 * 是否招募队员：否
 * 第一天进度：完成合约和前端页面
-* 第二天进度：完成前端与合约及 Graph-API 的联调
 
 # 54 “NFC”（non fungible crush）
 
