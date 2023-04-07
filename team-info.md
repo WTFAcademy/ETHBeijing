@@ -243,7 +243,7 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 是否招募队员：否
 * 项目进度第一天进度基于lens项目的女巫识别，用sql完成数据的获取工作(所有数据来源于footprint),
 * 项目进度第二天用python完成基于资金网络团伙识别、及批量操作合约的团伙识别。
-* [项目链接](http://www.cnblogs.com/sxdcgaq8080/p/7894828.html)
+* [项目链接](https://github.com/gihubsfy/sybil_detect)
 
 # 44 TxRouter
 * 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
