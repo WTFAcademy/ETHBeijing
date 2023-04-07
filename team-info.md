@@ -323,9 +323,73 @@ TODO
 * 目标：构建MVP版本
 * 是否招募队员：否
 # 27 Lingnan Ethereum Darkness Agent
-* 简介：基于深度学习、利用Geth插桩生成的交易操作码序列检测智能合约的漏洞
-* 目标：实现更高准确率的深度学习检测模型，并将整个项目作为Dapp部署到以太坊
-* 是否招募队员：否
+
+![](https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/eth-watchdog.png)
+
+<p align="center">
+  <b>让🐶来帮助你解决最棘手的安全问题😄😏😆</b>
+</p>
+
+## 简介
+随着区块链技术高速发展，区块链在金融、版权保护等诸多领域都取得了突破性进展。智能合约作为区块链技术的核心应用，控制着价值数十亿美元的以太坊加密货币，由黑客造成的以太坊智能合约安全事件也层出不穷，资金损失严重。如此看来，不断探索对智能合约的漏洞检测方法是形势所需。然而现有的大部分方法都倾向于提前分析预测智能合约存在的漏洞和缺陷，无法保护部署后合约的安全。EtherWatchdog因此诞生，它是一款通过交易的操作码序列实时检测智能合约漏洞的安全平台，能够避免用户调用含有漏洞的合约。EtherWatchdog的未来绝不仅仅是一个普通的智能合约漏洞检测平台，它有能力成为像Etherscan一样优秀的区块链搜索、API和分析平台。
+
+## 队长和队员
+**李旭彬**、顾婉仪、翟广鑫、欧瑱深、贺思齐
+
+## 仓库链接
+Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/README.md
+
+服务端：https://github.com/Silence1017/EtherWatchdog_Server
+
+## 目标
+```text
+1、实时检测交易并像Etherscan一样展示最新区块中的含漏洞交易，并提供免费的API供开发者使用。
+2、制作一个包含以太坊所有交易的漏洞数据集并提供相关API供开发者使用，有效地避免社区成员调用含有漏洞的合约。
+3、🐶有能力做到像Etherscan一样获取以太坊相关信息，包括合约、交易、区块、账户等信息并提供相关API，因为🐶对EVM进行了修改。
+```
+## 第一天
+
+* 完成组员分工，分别负责前端、后端和Dapp三部分开发
+
+* 确定工具名称为EtherWatchdog，完成Github repo创建。
+
+* 搭建本地MongoDB数据库并导入所有交易操作码序列
+
+* 完成前端界面简易框架、后端数据库调用与处理逻辑以及CNN-BiLSTM多分类模型的训练
+
+## 第二天
+
+* 完成前端界面数据集、模型与检测三个部分的设计
+
+* 前后端成功对接两个关键调用接口
+
+* 利用Truffle和Ganache完成本地私链搭建，并开始编写合约
+
+## 第三天
+
+* 完成前端后端所有代码编写
+
+* 利用web3完成本地私链合约的部署与调用
+
+* 将所有项目文件push到Github repo
+
+* 录制Demo视频，优化代码逻辑并设计工具图标
+
+## 视频链接
+https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
+
+## 基于之前的项目
+```
+@inproceedings{gu2023detecting,
+  title={Detecting Unknown Vulnerabilities in Smart Contracts with Multi-Label Classification Model Using CNN-BiLSTM},
+  author={Gu, Wanyi and Wang, Guojun and Li, Peiqiang and Li, Xubin and Zhai, Guangxin and Li, Xiangbin and Chen, Mingfei},
+  booktitle={Ubiquitous Security: Second International Conference, UbiSec 2022, Zhangjiajie, China, December 28--31, 2022, Revised Selected Papers},
+  pages={52--63},
+  year={2023},
+  organization={Springer}
+}
+```
+
 # 28 DeMatch: Match 无与伦比 / Match Beyond Imagination  
 ![dematch](https://user-images.githubusercontent.com/17985352/230534349-1daf3119-ef85-4539-982d-ebbc263056de.jpg)  
 * 简介：  
