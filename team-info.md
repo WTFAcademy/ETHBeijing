@@ -105,17 +105,64 @@ TODO
 ![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
 
 # 8. 九转以太坊
-* 简介：随着以太坊扩容技术的应用，智能合约的性能问题得到了改善，因此可将更多精力放在改善开发体验上。EVM 栈的访问限制是 Solidity 臭名昭著的 stack too deep 问题的源头，是时候消灭它们了。
-* 目标：给出修改后的以太坊客户端和 Solidity 编译器；若时间允许则在侧链运行智能合约进行演示。
-* 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
-* 如何联系：WeChat ID: SadPencil
-* 第一天进度：
+## 8.1 项目名称
+
+Deep Stack Fantasy
+
+## 8.2 所选赛道
+
+Open Research
+
+## 8.3 项目图片
+
+![](https://s2.loli.net/2023/04/08/JQj2UwB49NoLesk.jpg)
+
+## 8.4 简介
+
+随着以太坊扩容技术的应用，智能合约的性能问题得到了改善，因此可将更多精力放在改善开发体验上。EVM 栈的访问限制是 Solidity 臭名昭著的 stack too deep 问题的源头，是时候消灭它们了。
+
+## 8.5 队长和队员
+
+- 队长： SadPencil
+- 队员：lwzhenglittle, yihao-guo, HTseaaat
+  
+## 8.6 目标
+
+给出修改后的以太坊客户端和 Solidity 编译器；并探讨新的客户端与编译器在 zkEVM 上运行的可能性。
+
+## 8.7 前两日进度
+
+- Day1
   - 为项目起了一个超棒的名字 `Deep Stack Fantasy`。
-  - 成功在 go-ethereum 上修改了 EVM，添加了 `DupE` 和 `SwapE` 指令及其实现。待测试。
-  - 初步阅读了 C++ 版 solidity 编译器的实现，探讨如何使用新添加的两个指令替代原有指令。未完成。
+  - 成功在 go-ethereum 上修改了 EVM，添加了 `DupE` 和 `SwapE` 指令及其实现。
+  - 初步阅读了 C++ 版 solidity 编译器的实现，探讨如何使用新添加的两个指令替代原有指令。
   - 调研了 Remix IDE 使用的 JavaScript 版本的 solidity 的编译方式，从 C++ 版 solidity 源代码编译 wasm。编译成功。
   - 具有 zkEVM 的 Scroll，是与本项目目的最为吻合的区块链 Layer-2 智能合约实现。与 Scroll 的工程师讨论零知识证明细节，尤其是确定了 [zkevm-circuits](https://github.com/scroll-tech/zkevm-circuits) 中关于 stack pointer offset 与零知识证明电路体积的关系是恒定的。因此确定在 zkEVM 上实现本项目是**完全可行**的。不过，此项目不是简单在 Scroll 上部署合约，而是修改 Scroll 的实现进而改善开发者体验，与工程师进一步讨论后，鉴于 Scroll 节点的运行要求过高（例如，至少 500 GB RAM），无法在黑客松比赛期间完成，留作未来工作。
+- Day2
+  - 初步实现了 Solidity 编译器对 `DupE` 和 `SwapE` 指令的支持并替代了原有指令。
+  - 解除了 Solidity 编译器中 stack too deep 的限制，能够编译出字节码，待测试。
+  - 上传 Emscripten Solidity 编译器到服务器以供 Remix-IDE 调用。
 
+## 8.8 Demo Video Link
+
+[Youtube Video](https://youtu.be/AiOXepNjYzw)
+
+## 8.9 GitHub Links
+
+[solidity-deep-stack](https://github.com/deep-stack-fantasy/solidity-deep-stack)
+
+[go-ethereum-deep-stack](https://github.com/deep-stack-fantasy/go-ethereum-deep-stack)
+
+## 8.10 是否基于以前项目
+
+否，本次比赛期间从零开始基于原版 [solidity](https://github.com/ethereum/solidity) 与 [go-ethereum](https://github.com/ethereum/go-ethereum) 进行修改。
+
+
+# 8.11 Demo Links
+
+[Remix-IDE with DSF Solidity Compiler](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://124.220.19.52/soljson.js)
+
+[DSF Solidity Compiler (solijson.js)](https://124.220.19.52/soljson.js)
 
 # 9. Web3Club
 
