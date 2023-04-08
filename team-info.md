@@ -454,7 +454,9 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 - [x] 恶意Token检测项目完成获取合约源码、字节码功能，测试效果中。
 - [x] MEV Scanner项目数据量十分之大，正在持续检索中。
 
-**Demo视频链接**：https://www.bilibili.com/video/BV1cm4y1B78R【抱歉视频剪辑工具突然坏了，实际时长3分10秒，但首尾去掉后时长在3分钟以下。】
+**Demo视频链接**：https://www.bilibili.com/video/BV1cm4y1B78R
+
+【抱歉视频剪辑工具突然坏了，实际时长3分10秒，但首尾去掉后时长在3分钟以下。】
 
 **项目github repo链接**：https://github.com/mev3/0xdeadbeef
 
