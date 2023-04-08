@@ -636,6 +636,27 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 是否招募队员：否
 * 如何联系：WeChat ID: JAJAmoa
 * 进度：完成了UI设计
+1.项目名称
+FactLens
+2.所选赛道
+Track 2 - Innovative Layer2 Dapp & Bounty Track - Scroll
+3.项目图片（1张有代表性的图片，不要过长）
+![image](https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023/blob/main/asset/image.png?raw=true)
+4.简介
+FactLens 是一个去中心化的新闻审查生态系统，包括一个网页插件和一个门户网站。插件可以被直接应用在流行的社交媒体平台之上，目的在于不改变读者获取新闻习惯的同时，直接在其阅读的页面上提供关于相应新闻真假的验证结果，该插件同时也是新闻验证者提交投票的工具。网页端则包含了新闻验证者数据，媒体信誉排行，新闻详细审查结果等信息。
+5.队长和队员
+李嘉杰(队长)，汪妮娜，梁馨，毛凌骏, 李永奇
+6.本项目在这次黑客松的目标
+项目曝光，对接VC
+7.黑客松前两日的进度
+📅DAY 1：头脑风暴，原型设计，UI迭代，商业画布分析，技术栈选型，智能合约开发(30%)
+📅DAY 2：前端开发，智能合约开发(100%)
+8.Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：Youtube，Bilibili，Loom，视频长度不能超过3分钟，否则扣分。
+https://youtu.be/KV8Lgr6QjmY
+9.项目 github repo 链接https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023
+10.是否基于之前的项目，如果有，给出详细信息。
+否, 本项目从想法到demo的全部工作，均于ETH Beijing Hackathon期间从零开始完成。
+11.项目 Demo 链接（选填）https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023/releases
 # 22. peerbank
 * 简介：peerbank 是一个去中心的稳定币发行协议，该协议采用超额抵押方式可铸造锚定除（RMB）以外的任意fiat 。铸造稳定币可用于全球结算，抵押资产将锁定在合约中，避免因中心化机构管理带来的风险。
 * 目标：开发出MVP版本
