@@ -249,16 +249,62 @@ Pond (池塘)。池塘是一个允许用户创建和加入的兴趣或主题相�
   * 插件端：个人用户的交易所数据接口调试成功，可以获得资产信息。
   * 其他：整体接口设计完成。
 # 32 falcon
-* 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
-* 目标：争取demo可以上线
-* 是否招募队员：否
-* 所选赛道：Open Research 
-* 第一天：
-  - 1.讨论方案，确定数据源并抓取数据
-  - 2.首页
-  - 3.多因子选板块前后端
-* 第二天：
-  - 1.资产追踪器前后端
+## 项目名称：Falcon
+## 所选赛道：Open Research
+## 项目照片：
+![dematch](https://github.com/lucidagithub/eth_beijing_demo/blob/main/homePage/home.jpg)
+## 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
+## 队长和队员：
+  * 队长
+		郑乃骞
+		职业交易员，量化策略研究员，LUCIDA Founder。
+		LUCIDA是一家Crypto量化对冲基金。
+		在2018年4月进入Crypto市场，专注于加密资产的二级市场交易。
+		主要交易CTA / 统计套利 / 期权波动率套利策略，现管理规模3000万美元。
+
+		这些是我们团队曾取得的成绩：
+		- 2018年Bgain数字资产交易联赛混合策略组冠军
+		- 2019年TokenInsight第二届全球资产量化大赛赛季季军
+		- 2020年TokenInsight x Kucoin第五届全球资产量化大赛，复合策略组季军
+
+  * 队员
+		孙屹松
+			web2经验：
+				2014-2018年，从事银行系统的开发，处理大规模、高并发、低延迟的业务场景，创新型业务模式等。如：客户到店，通过AI人脸识别，非接触式信息采集，大数据分析，将客户的投资偏好等信息，第一时间推送给客户经理，即便准确营销。
+				具体技能：j2ee ; WebService ; 爬虫
+			web3经验：
+				2018-2023年，加入Lucida团队，是团队的核心开发成员。Lucida是web3行业领先的量化对冲基金，主要交易CTA / 统计套利 / 期权波动率套利策略，管理规模3000万美元。我在这里负责量化交易策略的系统开发，熟悉各种CEX的接口，通过算法优化下单策略，对于统计套利等高频策略，尽可能减少头寸对市场的冲击。
+
+		李鑫
+			web2经验：
+				1) Webservice全栈，500多万注册用户，20多万日活。2)爬虫，对A股财报结构化提取，计算公司估值，对股价监控。3)DevOps日志引擎搭建，高扩展高并发的，自动匹配的，日志提取，分类，归一，并产生告警。4)基于Splunk的数据展示平台。5) bitcoin.org早期翻译。6) 完整搭建内部矿池，承载矿机10万余台。7) 制作BTC钱包，实现多签。8)XDAG项目相关开发。9) NEO项目Python库开发。10) btc123和火币部分API开发
+			web3经验：
+				与@ShortsHoward 对Pak项目参与，监控合约数据变动;
+				Defi+NFT项目投研分析，部分文章产出如:
+				https://docs.google.com/document/d/1cONDvNx6Vr0VsAvLNKiJHqzgMv88RV9RLIOwnEnoWo/edit
+				https://docs.google.com/document/d/1csWqWq1ywiQt0gGROCmmaUKdeKYAiWn5wquZOCBB4w/edit
+				https://docs.google.com/document/d/1bay
+				XRRt6wQKFfnhBSOe ZmHwaAxirdTJRk63eitHgM/edit
+		
+		林庚
+			Web2经验：
+				AI独角兽依图科技服务端开发，负责飓风人脸识别安防系统软硬件一体化，预售款2亿。
+				支付宝后端开发，海外电商支付系统风控方向。
+			Web3经验：
+				NFT market treasureland 和元宇宙游戏secondlive 的开发
+
+## 目标：争取demo可以上线
+## 是否招募队员：否
+## 黑客松前两日进度
+	第一天：
+		1.讨论方案
+		2.falcon首页前端页面
+	第二天：
+		1.多因子选板块前端页面
+## Demo视频链接：https://youtu.be/xRcEQX3yGVg 
+## 项目GitHub Repo链接：https://github.com/lucidagithub/eth_beijing_demo
+## 是否基于之前的项目：否
+## 项目Demo链接：http://8.210.192.48/en/home
 # 33 智客团队（ZHKMC Team）
 * 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
