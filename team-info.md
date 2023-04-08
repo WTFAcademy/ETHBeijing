@@ -122,6 +122,9 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 目标：完成相关论文研究，形成完备DAO组织合法化程序
 * 是否招募队员：接受，能够为合法化研究提供程序支持和技术支持，包括提供有效建议与实际操作。
 * 如何联系：WeChat ID: ltb192
+* demo 文章： https://drive.google.com/file/d/1ZJBrhc9G4zYbP7Y-V0jlOLJbxg90SXsv/view?usp=sharing
+* 视频 ： https://drive.google.com/file/d/1rT3jEDvlmzo48L-rmiasgNFND_VoRCoi/view?usp=sharing
+
 # 5. FolioView
   1. 项目名称：
     FolioView  
@@ -824,7 +827,7 @@ Layer 2 & Scroll
 
     前端: https://github.com/beyond009/NirVANA-FE
 
-10. 是否基于以前项目: 基于[ERC2535标准](https://eips.ethereum.org/EIPS/eip-2535)
+10. 是否基于以前项目: 否
 11. 项目Demo链接: https://nirvava.vercel.app/
 # 27 Lingnan Ethereum Darkness Agent
 
