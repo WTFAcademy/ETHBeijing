@@ -932,10 +932,16 @@ TODO
 * 是否招募队员：是 招前端。
 * 如何联系：微信名：S creaM
 # 50 GetGas
+* 名称：GetGas
 * 简介：GetGas 是一个交易可执行最小 GasFee 预测系统。
+* 赛道：Public Goods
 * 目标：完成展示和说明。
-* 是否招募队员：是 招PPT制作和前端。
-* 如何联系：微信名：im33357（备注 eth Beijing）
+* 队长：33357.eth。
+* 目标：完成项目展示和说明。
+* 进度：完成项目demo 和 PPT。
+* github：https://github.com/33357/gas-home。
+* demo：https://gas.33357.club/。
+* 演示：https://www.youtube.com/watch?v=xkzoMkAFGI8
 # 51 HyperNFT In Scroll
 ## 简介：
 项目队长共同参与开发并提交的 EIP-5489正式成为ERC标准。此标准通过允许将超链接嵌入 NFT 的元数据（Metadata）卡槽来扩展 ERC-721 的新功能，如此 NFT 的受众可以点击并跳转到任何指定URI 落地页，这给予了NFT的Utility相当的想象空间。NFT除了作为头像展示还有什么Utility？
