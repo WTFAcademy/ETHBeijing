@@ -203,11 +203,61 @@ TODO
 * 如何联系：WeChat ID: samuelzey
 * 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
 # 17. Delibird
-* 简介：ZKGift，一款部署在Scroll和zkSync上的轻量级打赏捐赠类Dapp，提供方便快捷的捐赠方式和简洁直观的捐赠排名。
-* 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
-* 是否招募队员：欢迎聊天交流
-* 如何联系：WeChat ID: EnvyLemon
-* 第一天进度：完成合约部署与前端主界面
+
+### 1. 项目名称：ZKGift
+
+### 2. 赛道
+
+* 赛道：Layer2 & Scroll
+
+### 3. 项目图片：
+
+![zkgift](http://a1.qpic.cn/psc?/V54ZHT0N2EMkwX1UUQuD2JH78n3JZg3N/bqQfVz5yrrGYSXMvKr.cqb2xfiNiAeLbBS.ryNvccyLhY.HocP4nG3Rgt5vfSzbTzmpRD*b9vbpYyBRvb6AIhYqd1K9xAo0TNkPYfgN2E64!/b&ek=1&kp=1&pt=0&bo=.wbqA*sG6gMDFzI!&tl=1&vuin=476730702&tm=1680930000&dis_t=1680930267&dis_k=8fd89fc8f6ebeedd854c453a1f267c52&sce=60-1-1&rf=viewer_4)
+
+### 4. 简介
+
+* ZKGift是部署在zkSync和Scroll以太坊二层侧链上的Dapp，用于打赏捐赠和排名记录。
+* 只需要一个准确的地址，可以是打赏给喜爱的内容博主，用户便能即刻向对方捐赠token，无需复杂的操作，通过智能合约确保捐赠记录公开透明，并形成简洁直观的捐赠排行榜。
+* ZKGift的主要目标用户是[大量的粉丝群体]/[KOL]/[项目方]，为他们提供一个高效的无验证捐赠平台，完全根据个人意愿进行捐赠或回礼，界面风格简单易用，用户在任何时间，只需输入收款地址和金额即可直接捐赠，同时生成直观完整的捐赠排行榜。
+* 输入受赏者地址可以检索到对应的捐赠排行榜，可以看到所有的捐赠者地址和各自的总捐赠金额。捐赠记录存储在映射中，数据公开透明，任何时刻都可查看。捐赠者可以实时查看他们对于某地址的捐赠排名，受赏者可以随时导出排行榜信息文件(address.csv)，也许可以依据排名，向捐赠者回赠对应的NFT空投或实体礼物。
+
+### 5. 队长和队员
+
+- **Front-end Engineer**: Sodas[@0xbrowser](https://github.com/0xbrowser)
+- **Contract Engineer**: Sodas[@0xbrowser](https://github.com/0xbrowser)
+- **Product Manager**: Sodas[@0xbrowser](https://github.com/0xbrowser)
+
+### 6. 本项目在这次黑客松的目标
+
+* 尽可能完成Dapp的制作，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
+
+### 7. 黑客松前两日的进度
+
+* Day1：
+  * 完成合约，在Scroll部署并认证
+  * 前端主界面大致完成，调试API接口
+* Day2：
+  * 在zkSync部署并认证
+  * 实现前端主要功能模块
+  * 逐步完善项目文档设计
+
+### 8. Demo 视频链接
+
+- [Demo](https://www.bilibili.com/video/BV1ek4y1v7Xc/)
+
+### 9. 项目 github repo 链接
+
+- [项目](https://github.com/0xbrowser/zkgift)
+- [整体设计(miro)](https://github.com/EthBeijing-Terminal3/gpt_backend)
+
+### 10. 是否基于之前的项目
+
+- 无，独立开发的原创项目
+
+### 11. 项目 Demo 链接
+
+- 制作中
+
 # 18. 3CM from [MetaBorn](https://metaborn.me/)
 * 简介："跨链只有3厘米"
 全称 Cross-Chain Contract Mining protocol, for new assets launching & identity synchronization。
@@ -336,9 +386,9 @@ TODO
 * 简介：  
   🤝 信任一直是人类社会交往的基石，尤其在物品流通与交易活动中，信任的作用至关重要。从古老的以物易物到如今的数字资产交易，人类始终试图确保交易的公平、安全与诚信，努力提高透明度。随着时代的发展，物品流通和交换模式不断演变，信任机制也在不断升级。  
   传统的中心化物品流通交易在实践中面临诸多挑战，如信任度不足、中间环节繁琐、交易过程复杂、信息不对称以及数据篡改或丢失等安全问题。
-💡  区块链技术作为一种分布式、去中心化的技术，在解决传统物品流通交易问题方面展现出显著优势。通过加密算法和共识机制，区块链技术确保了数据的完整性和可靠性，从而提升了交易的安全性和真实性，使参与方能够在无需中心化第三方机构的情况下建立信任。  
-近年来，Layer2 和 zk 技术的发展为区块链在物品流通交易领域的优化注入了新动力。Layer2 方案和 zk 技术进一步提升了区块链的扩展性、安全性、可靠性和交易速度，有助于降低信任成本，提高交易效率。 
-🌟  DeMatch 是基于 Scroll 的 Web3.0 物品交易 match 平台。DeMatch 使用智能合约作为中间人、引入加密货币支付和去中心化存储等技术，为 Web3.0 用户提供了一个安全、透明、高效的交易保障。  
+  💡  区块链技术作为一种分布式、去中心化的技术，在解决传统物品流通交易问题方面展现出显著优势。通过加密算法和共识机制，区块链技术确保了数据的完整性和可靠性，从而提升了交易的安全性和真实性，使参与方能够在无需中心化第三方机构的情况下建立信任。  
+  近年来，Layer2 和 zk 技术的发展为区块链在物品流通交易领域的优化注入了新动力。Layer2 方案和 zk 技术进一步提升了区块链的扩展性、安全性、可靠性和交易速度，有助于降低信任成本，提高交易效率。 
+  🌟  DeMatch 是基于 Scroll 的 Web3.0 物品交易 match 平台。DeMatch 使用智能合约作为中间人、引入加密货币支付和去中心化存储等技术，为 Web3.0 用户提供了一个安全、透明、高效的交易保障。  
 ## 1️⃣ DeMatch V1  
 ⚖️ 去中心化撮合中间人。DeMatch 使用智能合约作为撮合中间人，实现了交易双方的自动撮合和交易执行，无须第三方大大降低了信任成本。此外，DeMatch 采用去中心化存储，确保平台数据的安全、可靠、不可篡改。并且可以指定交易人，支持链上资产与实物的撮合交易。  
 ## 2️⃣ DeMatch V2  
