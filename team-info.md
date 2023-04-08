@@ -590,16 +590,26 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：完成展示和说明。
 * 是否招募队员：是 招PPT制作和前端。
 * 如何联系：微信名：im33357（备注 eth Beijing）
-# 51 Parami in Scroll
-* 简介：Parami is short for PARA METAVERSE IDENTITY. As the next generation identity protocol based on the W3C decentralized identity standard, it is designed for metaverse and Web 3 users with self-sovereign and permissionless service.
-  Parami Protocol aggregates users' on-chain data and social identity information creating value with onchain reputation airdrops, which we call AD3.0, with privacy preservation in mind.
-* 目标：
+# 51 HyperNFT In Scroll
+## 简介：
+项目队长共同参与开发并提交的 EIP-5489正式成为ERC标准。此标准通过允许将超链接嵌入 NFT 的元数据（Metadata）卡槽来扩展 ERC-721 的新功能，如此 NFT 的受众可以点击并跳转到任何指定URI 落地页，这给予了NFT的Utility相当的想象空间。NFT除了作为头像展示还有什么Utility？
+网红的影响力与粉丝之间的关系似乎是一个探索方向，过去网红发合作广告，推广效果不佳，为什么不能量化且代币化网红的影响力？那这里引入ERC-5489的概念，给予网红以超链接NFT嵌入他们的PFP上并可获得广告收入，粉丝可以通过点击超链接NFT获得奖励。网红的影响力被广告商，粉丝和网红个人共同持有，为未来以DAO来治理该NFT留下了极大想象空间。
+广告商-网红-粉丝之间的动态关系的代币化形成了一个可持续的经济模型，不再有产生“死亡螺旋”的风险。上游收入全部来自广告商，我们按照链上声誉按规则分配给受众。基于实际效用的上游流动性推动了代币价格和下游用户收益的潜在增长。
+## 目标：
 1. NFT碎片化（外部其他项目合作）
-2. 在scoll上进行小额支付，此处需要优化“小额支付”的gas消耗
+2. 在Scroll上部署并探索小额支付的可能性，此处需要探索优化“小额支付”的gas消耗
 3. 领取广告的前端展示页（产品demo），展示一个NFT在页面上，点击能跳转到NFT Slot上的hyperlink即可；同时需要展示bid hyperlink 到 nft slot的过程。
-* 是否招募队员：接受 前端开发 感兴趣者可联系 Wechat：Real_JerryFor2022
+* 赛道：Innovative layer 2 Dapp&Scroll
 * 如何联系：Wechat ID:Real_JerryFor2022
-* 进度流程 <br/>Day1：已完成NFT碎片化和Bid竞拍的合约开发
+## 项目进度
+### Day1
+-  项目文档
+-  合约和后端开发
+-  前端页面开发主要内容
+-  未来合约设计
+### Day2
+-  前端以及UI UX（项目缺乏前端和UI、UX，效率较低）## 如何联系：WeChat ID：Real_JerryFor2022
+
 # 52 generative.game：一个生成性沙盒/开放叙述类游戏 
 * 简介：本项目利用生成型AI（Generative AI）解决沙盒/开放叙述游戏创作目前最大的生产力瓶颈：玩家主导的高自由度内容生成。
 * 想象侠盗飞车的自由度配上GAI的自动定制化游戏内容生成能力。
