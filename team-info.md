@@ -74,7 +74,7 @@
 * 如何联系：WeChat ID: AlexMcavoy
 # 13. GasLockR
 ### 1/ 赛道：Layer-2
-### 2/ 项目图片：https://github.com/GasLockR/Overview/blob/main/Logo.png
+### 2/ 项目图片：![i36rNL.jpeg](https://github.com/GasLockR/Overview/blob/main/Logo.png)
 ### 3/ 简介：
 * We built the first trustless GasFi protocol. GasLockR uses Axiom, a ZK coprocessor for trustlessly reading historical gas prices to provide verifiable correctly priced GasFi derivatives based on financial models that are updated in real time. GasLockR is interoperable with other protocols and can be used as foundational on-chain infrastructure to build protocols and services that will solve the reliability, onboarding and UX problems we face today.
 
