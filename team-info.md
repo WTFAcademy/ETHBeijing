@@ -131,6 +131,19 @@ TODO
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 
+## 队员
+### 队长 
+- [烟波](https://github.com/yanboishere)
+  
+### 队员
+ 
+- [JiceJin](https://github.com/JiceJin)
+  
+- [Azleal](https://github.com/Azleal)
+  
+- [woHocooL](https://github.com/woHocooL)
+ 
+
 ## 🎯 目标：
 我们会在赛程期间 为该项目 尝试做一个demo📘
 
