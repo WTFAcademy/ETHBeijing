@@ -119,6 +119,11 @@ TODO
 
 # 9. Web3Club
 
+## 赛道
+### ⏩Innovative Layer2 Dapp ｜Track 2
+
+### ⏩Scroll｜Bounty Track
+
 ## 🔗 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
 
 ## 😃 关于我们：[Web3Club](https://github.com/Web3-Club/Intro.)
@@ -134,7 +139,7 @@ TODO
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 
-## 队员
+## 队伍人员信息
 ### 队长 
 - [烟波](https://github.com/yanboishere)
   
@@ -174,6 +179,16 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 - [ ] 前端 互动聊天界面 开发   
 - [ ] 后端 分支交互逻辑设计嵌入 开发
 - [ ] 智能合约 开发
+- [ ] 用户学习主要内容 文本 制作 （Web1-Web3衍生内容 Dune)
+
+### 📅 Day2
+#### ✅ 已结束
+- [x] 前端 互动聊天界面 开发 
+- [x] 后端 分支交互逻辑设计嵌入 开发
+- [x] 智能合约 开发
+ - acbt
+ - score
+- [x] 用户学习主要内容 文本 制作 （Web1-Web3衍生内容 Dune)
 
 ## 💬 如何联系：WeChat ID: YanboTravelAllWorld 
 
@@ -232,9 +247,15 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 目标：Website. Animated AI. NFT.
 * 是否招募队员：需要前端（JS、Next.js、React、设计）、NFT 的 Solidity、AI（HuggingFace、GPT）、后端（server setup + integrations）。Looking for Frontend (JS, Next.js, React, design), Solidity for an NFT, AI (HuggingFace, GPT), backend (server setup + integrations).
 * 如何联系：WeChat ID: -
+* Team members: [Mikko](https://github.com/mikkoikola), [Philipp](https://github.com/p0s), [Disney](https://github.com/discountry)
 * 第一天进度: GPT integration, Web app
 * 第二天进度：Web3 part, NFT on Scroll
 * Track: Public Goods
+* ![app-mockup-mm2](https://user-images.githubusercontent.com/85865001/230700835-24b70550-248f-4904-b154-a12a0b966ac4.png)
+* [Video introduction](https://www.youtube.com/watch?v=vxIAqcch2tw)
+* [MentorMachines.xyz](https://mentormachines.xyz/)
+* [Our Github Repo](https://github.com/p0s/mentor-machines#readme) 
+* 是否基于之前的项目：否。
 # 16. ContriX
 * 简介：帮助每个人形成链上ZK实体，真正拥有自己的身份数据
 * 目标：目前进展是0，在黑客松期间将会做出MVP并且进行演示
@@ -375,14 +396,19 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
   <b>让🐶来帮助你解决最棘手的安全问题😄😏😆</b>
 </p>
 
+## 赛道：Open Research
+
 ## 简介
 随着区块链技术高速发展，区块链在金融、版权保护等诸多领域都取得了突破性进展。智能合约作为区块链技术的核心应用，控制着价值数十亿美元的以太坊加密货币，由黑客造成的以太坊智能合约安全事件也层出不穷，资金损失严重。如此看来，不断探索对智能合约的漏洞检测方法是形势所需。然而现有的大部分方法都倾向于提前分析预测智能合约存在的漏洞和缺陷，无法保护部署后合约的安全。EtherWatchdog因此诞生，它是一款通过交易的操作码序列实时检测智能合约漏洞的安全平台，能够避免用户调用含有漏洞的合约。EtherWatchdog的未来绝不仅仅是一个普通的智能合约漏洞检测平台，它有能力成为像Etherscan一样优秀的区块链搜索、API和分析平台。
 
-## 队长和队员
-**李旭彬**、顾婉仪、翟广鑫、欧瑱深、贺思齐
+## 团队成员
+- **AI Engineer:** CharlotteKu[@CharllotteKu](https://github.com/CharllotteKu)
+- **Front-end Engineer:** ouzhsh5116[@ouzhsh5116](https://github.com/ouzhsh5116)、Hesiqi-GZ[@Hesiqi-GZ](https://github.com/Hesiqi-GZ)
+- **Dapp Engineer:** von33[@von33](https://github.com/von33)
+- **Product Manager:** Silence1017[@Silence1017](https://github.com/Silence1017)
 
 ## 仓库链接
-Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/README.md
+Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp
 
 服务端：https://github.com/Silence1017/EtherWatchdog_Server
 
@@ -421,6 +447,7 @@ Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/README.md
 * 录制Demo视频，优化代码逻辑并设计工具图标
 
 ## 视频链接
+https://www.bilibili.com/video/BV1D24y157jx/?vd_source=9515b6ce5add8ca8c4f0d1ff7f2d23bc
 https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 
 ## 基于之前的项目
@@ -477,16 +504,64 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
   * 插件端：完成一个简单的前端页面，以及将验证结果通过EAS工具接口发布attestation到以太坊链上。
   * 整个Demo的端到端流程已经串通，后续将进行一些优化工作、文档编写、视频制作以及完成最终版本的提交。
 # 32 falcon
-* 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
-* 目标：争取demo可以上线
-* 是否招募队员：否
-* 所选赛道：Open Research 
-* 第一天：
-  - 1.讨论方案，确定数据源并抓取数据
-  - 2.首页
-  - 3.多因子选板块前后端
-* 第二天：
-  - 1.资产追踪器前后端
+### 项目名称：Falcon
+### 所选赛道：Open Research
+### 项目照片：
+![dematch](https://github.com/lucidagithub/eth_beijing_demo/blob/main/homePage/home.jpg)
+### 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
+### 队长和队员：
+  * 队长
+		
+		郑乃骞
+		职业交易员，量化策略研究员，LUCIDA Founder。
+		LUCIDA是一家Crypto量化对冲基金。
+		在2018年4月进入Crypto市场，专注于加密资产的二级市场交易。
+		主要交易CTA / 统计套利 / 期权波动率套利策略，现管理规模3000万美元。
+
+		这些是我们团队曾取得的成绩：
+		- 2018年Bgain数字资产交易联赛混合策略组冠军
+		- 2019年TokenInsight第二届全球资产量化大赛赛季季军
+		- 2020年TokenInsight x Kucoin第五届全球资产量化大赛，复合策略组季军
+
+  * 队员
+		
+		孙屹松
+			web2经验：
+				2014-2018年，从事银行系统的开发，处理大规模、高并发、低延迟的业务场景，创新型业务模式等。如：客户到店，通过AI人脸识别，非接触式信息采集，大数据分析，将客户的投资偏好等信息，第一时间推送给客户经理，即便准确营销。
+				具体技能：j2ee ; WebService ; 爬虫
+			web3经验：
+				2018-2023年，加入Lucida团队，是团队的核心开发成员。Lucida是web3行业领先的量化对冲基金，主要交易CTA / 统计套利 / 期权波动率套利策略，管理规模3000万美元。我在这里负责量化交易策略的系统开发，熟悉各种CEX的接口，通过算法优化下单策略，对于统计套利等高频策略，尽可能减少头寸对市场的冲击。
+
+		李鑫
+			web2经验：
+				1) Webservice全栈，500多万注册用户，20多万日活。2)爬虫，对A股财报结构化提取，计算公司估值，对股价监控。3)DevOps日志引擎搭建，高扩展高并发的，自动匹配的，日志提取，分类，归一，并产生告警。4)基于Splunk的数据展示平台。5) bitcoin.org早期翻译。6) 完整搭建内部矿池，承载矿机10万余台。7) 制作BTC钱包，实现多签。8)XDAG项目相关开发。9) NEO项目Python库开发。10) btc123和火币部分API开发
+			web3经验：
+				与@ShortsHoward 对Pak项目参与，监控合约数据变动;
+				Defi+NFT项目投研分析，部分文章产出如:
+				https://docs.google.com/document/d/1cONDvNx6Vr0VsAvLNKiJHqzgMv88RV9RLIOwnEnoWo/edit
+				https://docs.google.com/document/d/1csWqWq1ywiQt0gGROCmmaUKdeKYAiWn5wquZOCBB4w/edit
+				https://docs.google.com/document/d/1bay
+				XRRt6wQKFfnhBSOe ZmHwaAxirdTJRk63eitHgM/edit
+		
+		林庚
+			Web2经验：
+				AI独角兽依图科技服务端开发，负责飓风人脸识别安防系统软硬件一体化，预售款2亿。
+				支付宝后端开发，海外电商支付系统风控方向。
+			Web3经验：
+				NFT market treasureland 和元宇宙游戏secondlive 的开发
+
+### 目标：争取demo可以上线
+### 是否招募队员：否
+### 黑客松前两日进度
+	第一天：
+		1.讨论方案
+		2.falcon首页前端页面
+	第二天：
+		1.多因子选板块前端页面
+### Demo视频链接：https://youtu.be/xRcEQX3yGVg 
+### 项目GitHub Repo链接：https://github.com/lucidagithub/eth_beijing_demo
+### 是否基于之前的项目：否
+### 项目Demo链接：http://8.210.192.48/en/home
 # 33 智客团队（ZHKMC Team）
 * 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
@@ -530,12 +605,58 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * 目标：开发出简单demo可以演示0代码创建rollup
 * 是否招募队员：否
 * 第一天进度：后端部分完成80%，智能合约部分完成95%，前端部分完成5%
+
 # 37 Martech3
-* [Deck](https://gamma.app/public/The-First-AIGC-Web3-Precision-Marketing-Platform-4oh3j8yta1snnse)
-* 简介：Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销平台
-* 目标：用户画像数据层Demo + 数据看板 + Scroll用户数据映射合约
-* 是否招募队员：否
-* 第一天进度：前后端基本完成，针对Scroll部署的预言机合约准备完成
+
+## 1. 所选赛道
+
+Public Goods & Scroll
+
+## 2.项目图片
+![i32NQy.png](https://i.328888.xyz/2023/04/08/i32NQy.png)
+
+## 3. 简介
+Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销平台。我们的平台旨在彻底改变你的Web3原生用户肖像数据，并通过专家AI和创作者的利基内容为你的活动赋能。
+
+在ETH Beijing Hackson期间，我们主要关注于构建基础设施和公共数据层。
+具体来说，我们构建了一个通用的基于zk-EVM的用户画像聚合协议，确保任何Layer2上的任何项目都可以基于我们的协议获得其用户在所有EVM生态系统上的用户画像。为此，我们先在链下聚合用户在所有EVM生态系统上的资产和社交数据来生成一个用户档案。随后，我们在Scroll上为每个地址部署一个只能合约，并嵌入了八个预言机将他的用户档案上传至链上。
+
+[README](https://github.com/Martech3/ETH-Beijing/blob/main/README.md)
+
+## 4. 队伍成员
+队长：
+[Jupiter](https://github.com/JupiterXiaoxiaoYu)
+
+队员：
+[Ryan](https://github.com/RyanFcr) \\
+[Story](https://github.com/story000) \\
+[Welles](https://github.com/CSWellesSun)
+
+## 5. 本项目在这次黑客松的目标
+用户画像数据层Demo + 数据看板 + Scroll用户数据映射合约
+
+## 6. 黑客松前两日的进度
+第一天进度：数据层基本完成，包括数据聚合和启发式标签算法，针对Scroll部署的预言机合约准备完成，前后端准备完成。
+
+第二天进度：完成Scroll合约部署程序，Scroll预言机完成，B段前端展示页面完成。
+
+## 7. Demo 视频链接
+To do.
+
+## 8. 项目 github repo 链接
+[Martech3](https://github.com/Martech3)
+
+[ToB 前端 Dashboard代码](https://github.com/Martech3/Martech3-Data-Dashborad)
+
+[数据层数据聚合代码](https://github.com/Martech3/Martech_assets_aggregator)
+
+[Scroll Oracle 合约部署代码](https://github.com/Martech3/Scroll_Oracle_Data_Feeds)
+
+## 9. 是否基于之前的项目
+没有，这是本次hackathon期间，从0到1开发的项目，完全原创。评委可以通过追溯我们github上的commit记录来检查。
+
+## 10.项目 Demo 链接
+To do.
 
 
 # 38 y=e^x
