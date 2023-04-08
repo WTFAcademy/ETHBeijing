@@ -466,7 +466,7 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * 是否招募队员：否
 # 31 PADO
 * 项目名称：PADO
-* 所选赛道：Public Good
+* 所选赛道：Public Goods
 * 项目图片：
 ![image](https://user-images.githubusercontent.com/17900089/230705745-76912398-a24e-48ef-8bbe-ee856d1e2d77.png)
 * 简介：通过PADO demo，个人用户可以获取他/她在币安交易所的账户总资产信息（包括现金账户和现货账户），并在链下完成隐私保护证明（资产金额大于一个阈值）。用户可以选择将证明结果编码成ethereum attestation提交到以太坊网络。项目主要优势之一是采用了交互式零知识证明(IZK)，相比于大家比较熟悉的zk-snarks/zk-starks等非交互式ZK技术，IZK在内存占用、处理布尔逻辑等方面具有巨大优势，非常适用于在用户终端直接部署zk-prover。
@@ -485,7 +485,7 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * 项目github链接：
   * IZK算法（本地prover和远端verifier）：https://github.com/pado-labs/ethbeijing-demo-izk
   * 浏览器插件：https://github.com/pado-labs/ethbeijing-demo-extension 
-* 是否基于之前的项目：无，本次DEMO完全是从零开始搭建，包括ZK算法，浏览器前后端，EAS上链等模块。
+* 是否基于之前的项目：无，本次DEMO完全是从零开始搭建，包括ZK电路封装，浏览器插件前后端，EAS上链等模块。
 # 32 falcon
 * 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
 * 目标：争取demo可以上线
