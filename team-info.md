@@ -540,7 +540,7 @@ Public Goods & Scroll
 ![i32NQy.png](https://i.328888.xyz/2023/04/08/i32NQy.png)
 
 ## 3. 简介
-Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销平台。我们的平台旨在彻底改变你的Web3原生用户肖像数据，并通过专家AI和创作者的利基内容为你的活动赋能。
+Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销平台。我们的平台旨在聚合和语义分析Web3原生用户肖像数据，并通过专家AI和创作者的利基内容为你的活动赋能。
 
 在ETH Beijing Hackson期间，我们主要关注于构建基础设施和公共数据层。
 具体来说，我们构建了一个通用的基于zk-EVM的用户画像聚合协议，确保任何Layer2上的任何项目都可以基于我们的协议获得其用户在所有EVM生态系统上的用户画像。为此，我们先在链下聚合用户在所有EVM生态系统上的资产和社交数据来生成一个用户档案。随后，我们在Scroll上为每个地址部署一个只能合约，并嵌入了八个预言机将他的用户档案上传至链上。
@@ -565,7 +565,7 @@ Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销�
 第二天进度：完成Scroll合约部署程序，Scroll预言机完成，B段前端展示页面完成。
 
 ## 7. Demo 视频链接
-To do.
+[Youtube](https://youtu.be/_9o-DN8RLj8)
 
 ## 8. 项目 github repo 链接
 [Martech3](https://github.com/Martech3)
@@ -580,7 +580,7 @@ To do.
 没有，这是本次hackathon期间，从0到1开发的项目，完全原创。评委可以通过追溯我们github上的commit记录来检查。
 
 ## 10.项目 Demo 链接
-To do.
+[Demo](http://bafybeicvco4vcugj7swbs552qoetjsjzyh6p5hgn7tkcfq6huoyt4ggazq.ipfs.sphn.link/)
 
 # 38 y=e^x
 * 简介：一种新的更负责任的DeFi设计，它无通胀排放、支持单边流动性、拥有完全自持流动性、低gasfee、并且有稳健的风控能力。请注意，这仍然不是无风险的，但它将大幅改善当前LPer的生存状况，并为社区提供稳定、有深度、低成本的流动性。
