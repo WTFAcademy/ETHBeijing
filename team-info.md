@@ -198,11 +198,24 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 2. 实现立遗嘱界面并完成合约交互。
 * 3. 实现aa钱包交互逻辑。
 * 
-# 12. Prestare
-* 简介：Prestare Finance (Prestare) is a lending protocol that offers a lower collateral ratio and can even support under-collateralized loans with almost any assets, without using off-chain information. Under-collateralized borrowing is achieved by allowing the borrower to use a portion of the previously accumulated interests as collateral to borrow more funds next time. A portion of interest paid by borrowers will be reserved in ‘Credit Reserve Pool’. 1 CRT is minted with $1 in the pool, then distributed to borrowers who contributed to the pool. CRT can be used for collateral in the next borrowing, making the loan under-collateralized. SoulBound Token containing credit score for all users need to be minted if users want to borrow on Prestare. Users with higher credit score can have a loan with lower collateral ratio. An address's initial credit score will be capped and determined based on the address's prior interactions with other protocols and addresses when it first interacts with Prestare.
-* 目标：完成一个开源工具。用户可以基于借贷协议用flashloan做多或者做空资产。
-* 是否招募队员：对defi感兴趣的朋友都可以联系我
-* 如何联系：WeChat ID: AlexMcavoy
+# 12. Prestare Lightning Leverage
+* 项目图片 ![slides](https://user-images.githubusercontent.com/72059918/230698901-3cd0705f-7a31-4617-bc5b-fe6f975ac237.jpg)
+* 简介：我们提供了用户友好的闪电贷工具，可以帮助基于现有的借贷协议做杠杆交易。
+* 背景：
+  
+  观察到借贷协议的借款人如果要自己手动实现杠杆，都需要不停的借贷，并且在dex上多次交易。这也是被大众所知的循环贷模式。但使用闪电贷就可以省去中间反复借贷和swap的过程，一键达到用户想到的目标杠杆利率。
+
+  基于借贷协议的杠杆交易更类似于GMX的方式，不管是做多做空，都需要支付借款利率。但和GMX不同的是，基于借贷协议的借款利率要低得多，几乎是GMX的1/10。 而且借贷协议的lp并不是对手方，他们不承担交易所产生的损失，交易所产生的损失会被转移至其他的dex中。 
+
+  相比于其他链上leverage 产品，借款利率基本可以达到最低，而且作为一个开源工具，我们也不会收取任何费用，也没有资金的监管权。
+
+* 队长：Alex / 队员：Mars，党冉冉，陈逸杰
+* 本项目在这次黑客松的目标：完成小工具的基础开发，可以透过AAVE和uniswap完成基础操作
+* 黑客松前两日的进度: 完成合约和前端的开发
+* [Demo视频链接](https://www.youtube.com/watch?v=kV1Ybb6blls)
+* 项目 github repo 链接: [Lightning Leverage github Project](https://github.com/prestare/Lightning-Leverage)
+* 是否基于之前的项目: 无
+* 项目 Demo 链接: 无
 # 13. GasLockR
 * 简介：Layer-2的gas price保险，提供个性化的服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。
 * 目标：从0到1开发，实现MVP，并有良好的UI呈现。
