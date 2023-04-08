@@ -316,11 +316,61 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
 * 第二天进度：完成度90%，具体包括完成前后端开发、电路编写和测试、合约编写和部署，还差部署到服务器和界面优化
 # 17. Delibird
-* 简介：ZKGift，一款部署在Scroll和zkSync上的轻量级打赏捐赠类Dapp，提供方便快捷的捐赠方式和简洁直观的捐赠排名。
-* 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
-* 是否招募队员：欢迎聊天交流
-* 如何联系：WeChat ID: EnvyLemon
-* 第一天进度：完成合约部署与前端主界面
+
+### 1. 项目名称：ZKGift
+
+### 2. 赛道
+
+* 赛道：Layer2 & Scroll
+
+### 3. 项目图片：
+
+![zkgift](http://a1.qpic.cn/psc?/V54ZHT0N2EMkwX1UUQuD2JH78n3JZg3N/bqQfVz5yrrGYSXMvKr.cqb2xfiNiAeLbBS.ryNvccyLhY.HocP4nG3Rgt5vfSzbTzmpRD*b9vbpYyBRvb6AIhYqd1K9xAo0TNkPYfgN2E64!/b&ek=1&kp=1&pt=0&bo=.wbqA*sG6gMDFzI!&tl=1&vuin=476730702&tm=1680930000&dis_t=1680930267&dis_k=8fd89fc8f6ebeedd854c453a1f267c52&sce=60-1-1&rf=viewer_4)
+
+### 4. 简介
+
+* ZKGift是部署在zkSync和Scroll以太坊二层侧链上的Dapp，用于打赏捐赠和排名记录。
+* 只需要一个准确的地址，可以是打赏给喜爱的内容博主，用户便能即刻向对方捐赠token，无需复杂的操作，通过智能合约确保捐赠记录公开透明，并形成简洁直观的捐赠排行榜。
+* ZKGift的主要目标用户是[大量的粉丝群体]/[KOL]/[项目方]，为他们提供一个高效的无验证捐赠平台，完全根据个人意愿进行捐赠或回礼，界面风格简单易用，用户在任何时间，只需输入收款地址和金额即可直接捐赠，同时生成直观完整的捐赠排行榜。
+* 输入受赏者地址可以检索到对应的捐赠排行榜，可以看到所有的捐赠者地址和各自的总捐赠金额。捐赠记录存储在映射中，数据公开透明，任何时刻都可查看。捐赠者可以实时查看他们对于某地址的捐赠排名，受赏者可以随时导出排行榜信息文件(address.csv)，也许可以依据排名，向捐赠者回赠对应的NFT空投或实体礼物。
+
+### 5. 队长和队员
+
+- **Front-end Engineer**: Sodas[@0xbrowser](https://github.com/0xbrowser)
+- **Contract Engineer**: Sodas[@0xbrowser](https://github.com/0xbrowser)
+- **Product Manager**: Sodas[@0xbrowser](https://github.com/0xbrowser)
+
+### 6. 本项目在这次黑客松的目标
+
+* 尽可能完成Dapp的制作，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
+
+### 7. 黑客松前两日的进度
+
+* Day1：
+  * 完成合约，在Scroll部署并认证
+  * 前端主界面大致完成，调试API接口
+* Day2：
+  * 在zkSync部署并认证
+  * 实现前端主要功能模块
+  * 逐步完善项目文档设计
+
+### 8. Demo 视频链接
+
+- [Demo](https://www.bilibili.com/video/BV1ek4y1v7Xc/)
+
+### 9. 项目 github repo 链接
+
+- [项目](https://github.com/0xbrowser/zkgift)
+- [整体设计(miro)](https://github.com/EthBeijing-Terminal3/gpt_backend)
+
+### 10. 是否基于之前的项目
+
+- 无，独立开发的原创项目
+
+### 11. 项目 Demo 链接
+
+- 制作中
+
 # 18. 3CM from [MetaBorn](https://metaborn.me/)
 * 简介："跨链只有3厘米"
 全称 Cross-Chain Contract Mining protocol, for new assets launching & identity synchronization。
@@ -1196,10 +1246,20 @@ TODO
 第一天进度：完成部分前端界面(Node.js)，设计并实现部分经济模型(Solidity)，完善项目repo
 
 # 56 SoliveAI
-* 简介：SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约
-* 目标：完成前端demo
-* 是否招募队员：否
-
+### 简介
+* SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约。通过SoliveAI，用户可以在编写合约时获得更多的帮助，从而提高编写合约的效率。SoliveAI的功能包括：1. 代码补全，2. 代码检查，3. 代码解释，4. 代码生成。SoliveAI的目标用户是Solidity合约开发者，帮助他们提高编写合约的效率。
+### 进度
+* Day#1:
+* - 前端
+* Day#2:
+* - GPT Fine-tune
+### 所选赛道：Public Goods
+### GitHub链接
+- [SoliveAI](https://github.com/reborn-sama/SoliveAI)
+### Demo链接
+* TODO
+### solive
+* Check [solive](https://github.com/WTFAcademy/solive)
 # 57 DeVault
 
 * 简介： DeVault是一个链上加密密码存储服务。我们使用链上合约为用户提供加密密码保险箱，用户只需要记住主密码就可以解锁各个网站的密码。
