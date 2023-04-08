@@ -635,16 +635,52 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * 第二天进度：前端核心逻辑基本完成，与合约联调完成，前端部分细节和bug待优化
 
 # 35 g1g2
-* 简介：G1G2是一个ZK-Rollup As a Service 平台。G1G2具有一下优点：
+### 1.1 图片
+![g1g2.png](https://github.com/g1g2-lab/ethbeijing/raw/main/images/g1g2.png)
+### 1.2 所选赛道
+Public Good
+### 1.3 简介
+G1G2是一个ZK-Rollup As a Service 平台。G1G2具有一下优点：
   1. 安全。我们采用零知识证明技术来验证Layer2交易正确性，让我们的 L1 finality 完全基于数学，而不依赖于任何博弈论。
   2. 去中心化。G1G2所有模块都是完全去中心化，这让Rollup具有抗审查能力。
   3. 低门槛。所以操作都在平台完成，不需要联系工程师，也不需要写代码就可以创建一个高度制定化ZK-Rollup。
   4. 快速。整个创建过程会在分钟级别完成，减少您的等待时间。
   5. 成本低。通过我们高效的Rollup协议， 只需要花费几美元就可以创建一个Rollup，如此低成本情况下让您有更多选择。
-* 目标：开发出简单demo可以演示0代码创建rollup
-* 是否招募队员：否
-* 第一天进度：后端部分完成80%，智能合约部分完成95%，前端部分完成5%
+### 1.4 团队成员
+* Eric, profile:[@eric-g1g2](https://github.com/eric-g1g2)
+* Edward, profile:[@edward-g1g2](https://github.com/edward-g1g2)
 
+### 1.5 目标
+开发出简单demo可以演示零代码创建rollup
+
+### 1.6 进度
+  - Day1: 讨论方案，确定技术选型，并且分工合作。后端部分完成80%，智能合约部分完成95%，前端部分完成5%
+  - Day2: 完成前端大部分工作，并且修复一些后端bug。后端部分完成100%，智能合约部分完成100%，前端部分完成95%
+  - Day3: 基本全部完成，修复一些bridge功能异常问题。
+
+### 1.7 Demo视频
+[Demo演示](https://www.youtube.com/watch?v=H_zwLSytJV4)
+
+### 1.8 GithubRepo
+[ethbeijing.git](https://github.com/g1g2-lab/ethbeijing.git)
+
+### 1.9 是否基于以前项目
+完整的Rollup as a Service分为两个部分。
+  1. rollup protocol
+  2. server和web页面让用户完成创建rollup过程。
+
+本次hackathon 我和Edward只开发了第二部分，包括go server，web页面还有一些部署contract脚本。
+
+第一部分采用了我们之前自研并且开源的rollup protocol， 分别是:
+  - [Execution Node](https://github.com/g1g2-lab/g1g2-execution.git)
+  - [Consensus Node](https://github.com/g1g2-lab/g1g2-consensus.git)
+
+另外rollup的bridge页面也由hop bridge开源代码修改而来。
+
+### 1.10 项目 Demo 链接
+暂无
+
+* 是否招募队员：否
 # 37 Martech3
 ## 1. 所选赛道
 
