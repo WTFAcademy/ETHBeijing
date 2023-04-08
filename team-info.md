@@ -1686,9 +1686,19 @@ https://youtu.be/be-duwZcBCA
 * Check [solive](https://github.com/WTFAcademy/solive)
 # 57 DeVault
 
-* 简介： DeVault是一个链上加密密码存储服务。我们使用链上合约为用户提供加密密码保险箱，用户只需要记住主密码就可以解锁各个网站的密码。
-* 我们将会使用加密算法保证存储传输的加密，使用账户抽象提供社交恢复功能。同时利用ZK提高安全性，并部署在Scroll上。
-* 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，给用户提供安全的密码记忆服务
-* 是否招募队员： 否
-* 如何联系： WeChat ID: elricYM
+![logo](https://bafkreievq3vrp7nhvlvacl46jahkgzkpuui63dqf4oe3hq5vfkrhfroy6i.ipfs.nftstorage.link/)
+
+* 简介： DeVault——Web 3.5 一站式资产信息钱包。
+  * DeVault 的独特之处在于它不仅是一个功能强大的 AA 钱包，能够帮助您轻松管理您的数字货币资产，还能通过一个主密码来存储和管理您的所有其他账户信息和密码。有了 DeVault，您不仅可以方便地登录各种 Web 2.0 网站，还可以轻松管理您的 Web 3.0 区块链资产。无论是在线购物、社交媒体还是加密货币投资，DeVault 都将成为您的得力助手。
+  * 我们利用AA账户存储资产和加密信息，成为链上多功能、可恢复钱包。
+  * 借助ZK和AA账户，DeVault可以验证用户身份和操作来源可靠，同时加密用户的操作行为，防止泄露风险。
+* 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，为用户提供安全的密码记忆和资产管理服务。我们在Scroll链上实现了一种在AA钱包中集成可ZK校验的，加密安全的密码存储和资产调用钱包。我们将持续拓展功能，实现社交恢复等功能。
+* 所选赛道： Layer 2， Scroll
+* 团队成员： 队长 @elricym  队员 @HaynarCool @BluesRockets @fsh905
 * Day 1 进展： 完成算法论证和前端框架。
+* Day 2 进展： 完成合约编写和页面。实现了基于ZK的算法框架和前端集成。
+* 基于以往项目： [ZKSafe](https://github.com/ZKSAFE/all-contracts/)
+  * 参考了其中关于zk加密的业务流程，并拓展到通用密码服务
+* 项目链接： [DeVault](https://github.com/DeVaultHQ/DeVault)
+* 视频链接： [Video](https://youtu.be/LU-0AWT9NE4)
+* 如何联系： WeChat ID: elricYM
