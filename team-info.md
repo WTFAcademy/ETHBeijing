@@ -26,8 +26,10 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面](https://dorahacks.io/zh/hackathon/eth-beijing-2023/) 提交项目信息，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
+### 1.1 所选赛道：Public Goods
+
 ### 1.2 简介图片 
-* ![irY1M8.jpeg](https://i.328888.xyz/2023/04/08/irY1M8.jpeg)
+![i36rNL.jpeg](https://i.328888.xyz/2023/04/08/i36rNL.jpeg)
 ### 1.3 简介
 * 一个Crypto-native的all-in-one的chrome插件，基于GPT-3.5-turbo模型提供用户新颖的对话即服务（chat-as-a-service）交互形式。面向web3新人，Terminal3可以一句话为其提供创建钱包、快速转账、NFT Mint等一系列操作；面向web3高阶用户，可以提供闪电借贷、换币最优Gas设计、Flashbot等操作。考虑到web3场景下用户进行安全交互的需求，Terminal3还嵌入了AI安全支持，包括基于opcode的庞氏合约检测、基于特征识别的黑客地址检测等功能。我们的实践证明，大语言模型LLMs有很多的场景可以赋能crypto。本项目也为Web3+AI的未来发展提供了思路。
 ### 1.4 团队成员
@@ -53,19 +55,25 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * - 录制视频
 * - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
 ### 1.7 视频Demo链接
-* TODO
-
+- [YouTube](https://www.youtube.com/watch?v=Zh_sfqds19g&feature=youtu.be) length: 2m50s
 ### 1.8 GitHub链接
 - [Project](https://github.com/EthBeijing-Terminal3)
 - [前端(React)](https://github.com/EthBeijing-Terminal3/extension)
 - [中间件(node.js)](https://github.com/EthBeijing-Terminal3/service-api)
 - [后端(flask)](https://github.com/EthBeijing-Terminal3/gpt_backend)
+- [AI安全检测(Python)](https://github.com/EthBeijing-Terminal3/AI_security_check)
 
 ### 1.9 是否基于以前项目
 没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
 
 ### 1.10 Demo链接
-TODO
+我们的产品形态为Chrome插件，你需要遵循以下步骤使用：
+1. 下载插件：[点击这里下载安装包](https://drive.google.com/file/d/1TIknvd-KOH5hj-vfDkPpAnMuGSaakcjC/view?usp=share_link)。
+2. 解压插件：将插件压缩包解压缩到您计算机上的一个文件夹中。
+3. 打开Chrome浏览器扩展程序页面：在Chrome浏览器中输入“chrome://extensions/”并回车，在该页面中，您可以看到所有已安装的扩展程序。
+4. 启用开发者模式：在扩展程序页面的右上角，启用开发者模式。
+5. 安装插件：在扩展程序页面中，点击“加载已解压的扩展程序”按钮，在弹出的文件选择窗口中选择您解压缩的插件文件夹，然后点击“选择文件夹”按钮。
+6. 插件已安装：完成上述步骤后，您的插件将被成功安装并显示在扩展程序页面中。
 
 # 2.🎈 Savourlabs
 * 简介：shadow-x 是一个承载去中心化托管和支付的去中心化的隐私社交网络，底层由两条 layer3 链组成，一条是layer3 去中心化隐私社交链， 另一条是 layer3 去中心化支付托管链，上层的体现类似微信，我们项目已经打磨 1 年之久了，目前 APP 端已接入兼容其他钱包的 HD 钱包(HD钱包进入我们生态可以一键提升为社交恢复钱包)，社交恢复钱包，NFT 信息聚合器，行情聚合器，layer3 去中心化隐私社交链正在开发中，已完成几个组件的开发，社交产品原型，业务层和底层链的交互已经在设计开发中了，layer3 去中心化支付托管链也已经在设计开发中，相信不久我们的产品就和大家见面。
@@ -237,16 +245,28 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 2)前端：网页端（100%）,网页插件工具（10%）
 * 
 # 11. 0xtomb
+* 所选赛道：Public goods
+* 项目图片：![i3FHiQ.png](https://i.328888.xyz/2023/04/08/i3FHiQ.png)
 * 简介：0xtomb旨在探讨在区块链上处理死亡问题。随着越来越多的人在区块链上结婚、购买房产等，我们需要考虑如何在链上安全地处理遗产和继承问题。我们希望通过联通合约和网站，完善发展规划，为用户提供更加安全、便捷的区块链遗产管理服务。
 * 目标：探索一种更加安全、透明、便捷的区块链遗产管理服务，通过联通合约和网站，完善发展规划，为用户提供一站式的遗产管理解决方案。我们希望通过0xtomb项目，为用户提供更加稳定、安全的遗产管理服务。
-* 是否招募队员：否，谢谢你的关注，已满员
+* 队长和队员：队长：0xhardman 队员：果子狸，bcfh，张秋彦
 * 如何联系：WeChat ID: hardman_eth
 * 第一天进度：
-* 1. 实现立遗嘱合约，多签证明死亡合约。
-* 2. 实现立遗嘱界面并完成合约交互。
-* 3. 实现aa钱包交互逻辑。
-* 
+* 1. 基于项目愿景，成员头脑风暴，确定项目本次目标和主要产品功能模块
+* 2. 实现立遗嘱合约，多签证明死亡合约。
+* 3. 实现立遗嘱前端页面并完成合约交互
+* 第二天进度：
+* 1. 完成前端剩余页面的搭建
+* 2. 完成AA钱包的交互逻辑
+* 3. 联调合约
+* Demo视频链接：
+* 项目github repo链接：
+* a.https://github.com/0xtomb-eth/0xtomb-core
+* b.https://github.com/0xtomb-eth/0xtomb-website
+* 是否基于之前的项目：否
+
 # 12. Prestare Lightning Leverage
+* 赛道：Public Goods
 * 项目图片 ![slides](https://user-images.githubusercontent.com/72059918/230698901-3cd0705f-7a31-4617-bc5b-fe6f975ac237.jpg)
 * 简介：我们提供了用户友好的闪电贷工具，可以帮助基于现有的借贷协议做杠杆交易。
 * 背景：
@@ -421,7 +441,7 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 1. 项目名称
 * GPAD Protocol
 * 2. 项目图片（1张有代表性的图片，不要过长）
-* ![Pastel Rainbow Modern January Monthly Email Header](https://user-images.githubusercontent.com/30950645/230643172-bf9b8084-730a-4fb0-9add-3cbbefba0af8.png)
+* ![image](https://user-images.githubusercontent.com/30950645/230631546-1b6aad5c-0f14-482a-88dc-dbbf354f70c8.png)
 * 3. 简介
 * GPAD协议是一种去中心化的投资和融资协议，用户可以自由创建项目、投资，并实现投后可编程。它将实现简单的launchpad功能创造投融资环境，并且支持图灵完备的功能将会面向web3高阶开发者，实现GETH代币置换,闪电贷,预言机，去中心化交易，代理交易等一系列复杂链上操作
 * 4. 队长和队员
