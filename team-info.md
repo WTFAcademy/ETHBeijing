@@ -749,12 +749,18 @@ Dapp端：https://github.com/Novel-Dao/novel-dao
 
 Demo视频链接： https://www.youtube.com/watch?v=6fQqP3k7X2U&ab_channel=gosleep
 # 34 Lightm
-* 项目名：Travel Notes（中文名：旅行笔记）
 
-  简介：利用可组合NFT技术来可视化用户在Scroll L2上的链上成就
+### 项目名称
+Travel Notes（中文名：旅行笔记）
 
-  详述：主题背景和设定背景同步Scroll的卷轴风格，利用可组合NFT技术，提供比传统POAP更为丰富有趣的链上荣誉展示玩法。
+### 所选赛道
+主赛道Layer 2 + Bounty Scroll
 
+### 项目图片
+![](https://raw.githubusercontent.com/LightmNFT/travel-notes/2a581f054be4086049e0cab47848853e9c120861/public/travel-notes.jpg)
+
+### 简介
+利用可组合NFT技术来可视化用户在Scroll L2上的链上成就
 - 每个用户可以Mint一个笔记NFT，笔记NFT可以持有POAP NFT
 - 笔记NFT是可进化的
     - 笔记NFT的初始状态是“破旧羊皮卷”
@@ -768,11 +774,30 @@ Demo视频链接： https://www.youtube.com/watch?v=6fQqP3k7X2U&ab_channel=gosle
 - 嵌套特性（EIP-6059）：NFT可持有NFT，提供了NFT Bundle能力，允许在链上进行NFT按需归集
 - 多资源特性（EIP-5773）：NFT可以成为多个媒体资源的载体，可基于所处环境的上下文展示不同形式的输出
 - 装备特性（EIP-6220，Lightm的实现没有依据EIP-6220）：提供链上NFT装备的统一标准
----
-* 目标：限于人力，用用简单但不简陋的方式去完成项目介绍详述中提到的功能
-* 是否招募队员：否
-* 赛道：L2
-* 第二天进度：前端核心逻辑基本完成，与合约联调完成，前端部分细节和bug待优化
+
+### 队长和队员
+0xEkk
+
+### 本项目在这次黑客松的目标
+让全国的开发者看到可组合NFT标准RMRK的潜力，鉴于RMRK已与zkSync在ETH Denver有建立联系，希望我同样能够把先进的NFT标准带到Scroll上
+
+### 黑客松前两日的进度
+- 第一天：完成合约部分85%，前端部分20%
+- 第二天：完成合约前端联调，合约完成95%，前端完成85%
+
+### Demo 视频链接
+https://drive.google.com/file/d/12qtR2maWPPMi7BXfL-nd6l4VNq8f13DP/view?usp=share_link
+
+### 项目 github repo 链接
+- contracts: https://github.com/LightmNFT/Lightm-evm/tree/beijing-hackathon-scroll-l2/contracts/travel-notes-implementations
+- ui: https://github.com/LightmNFT/travel-notes
+
+### 是否基于之前的项目
+是，合约底层实现是基于以前开发并且目前持续维护的项目：https://github.com/LightmNFT/Lightm-evm
+
+### 项目 Demo 链接
+https://travel-notes-navy.vercel.app
+请导入 https://github.com/LightmNFT/Lightm-evm/blob/beijing-hackathon-scroll-l2/contracts/travel-notes-implementations/README.md#tips 中提供的私钥来使用demo
 
 # 35 g1g2
 ### 1.1 图片
