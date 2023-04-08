@@ -311,7 +311,7 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 1. 完成前端剩余页面的搭建
 * 2. 完成AA钱包的交互逻辑
 * 3. 联调合约
-* Demo视频链接：
+* Demo视频链接：https://youtu.be/2pclK-EQOGI
 * 项目github repo链接：
 * a.https://github.com/0xtomb-eth/0xtomb-core
 * b.https://github.com/0xtomb-eth/0xtomb-website
