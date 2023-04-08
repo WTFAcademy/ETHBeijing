@@ -162,6 +162,8 @@ Open Research
 
 [Remix-IDE with DSF Solidity Compiler](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://124.220.19.52/soljson.js)
 
+[Example sol file](https://124.220.19.52/test100.sol)
+
 [DSF Solidity Compiler (solijson.js)](https://124.220.19.52/soljson.js)
 
 # 9. Web3Club
