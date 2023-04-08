@@ -277,9 +277,25 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 当我们把跨链问题抽象成共识算法，一切变得豁然开朗！
 区块链共识让上万个节点数据保持同步，当我们将 PoW 从区块链底层移到智能合约之上，不同区块链上的智能合约将魔法般的具有同步能力。
 我们将首先把这种能力，赋予全链的 DID 场景。
-* 目标：我们将研究和实现合约和 mining 程序原型，并尽可能制作网页 dashboard 让大家可视化的看到协议的运行过程。
+* **目标**：我们将研究和实现合约和 mining 程序原型，并尽可能制作网页 dashboard 让大家可视化的看到协议的运行过程。
 * 是否招募队员：是  合约经验的前端，合约，设计师，PPT高手，python
 * 如何联系：WeChat ID: kernel1983
+* **参与赛道：开放研究、Scroll**
+![3CMPic](https://raw.githubusercontent.com/CrazyDiamondGarage/3CM/main/flow.png)
+## Team Member
+* [KJ](https://github.com/kernel1983)
+* [endaye](https://github.com/endaye)
+* [tianyi](https://github.com/tianyi-cyber)
+* [Pzai](https://github.com/hp2010)
+* [Frank](https://github.com/chenboos5)
+## 开发进度
+* 第一天 团队组建, 研究目标讨论, 合约设计, 工程搭建
+* 第二天 后端开发, 前端设计开发, 挖矿程序开发, 调试合约
+* 第三天 合约调试, 数据结构更新, 测试驱动开发, PPT更新
+* 第四天 修复bug, 更新项目readme, 视频录制和上传
+## Demo Video&Repo Link
+* [Demo Video Link](https://www.bilibili.com/video/BV1zV4y1f7Pg/)
+* [Github Repo](https://github.com/CrazyDiamondGarage/3CM)
 # 19. Account Abstraction Wallet
 * 简介：下一代基于账户抽象的智能合约钱包，支持第三方账号合约应用和web2账号服务，实现免私钥助记词登录，社交恢复，智能交易，代付手续费等功能
 * 目标：用户通过我们钱包内的各种第三方账户服务和应用来自定义自己账号的所有功能和配置，让用户用区块链的时候既有web3的去中心化可信自托管，又有web2便捷高效友好的使用体验。
