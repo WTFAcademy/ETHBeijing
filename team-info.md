@@ -1179,12 +1179,20 @@ https://block-model.com
 * 目标：会认识很多开发者朋友 会进一步完善wallet
 * 是否招募队员：否
 # 43 Trusta Labs
+* 项目名称：基于lens项目的女巫识别算法(改进)
+* 赛道：Open Research
+![image](https://user-images.githubusercontent.com/85626196/230702805-76c0ecb7-2599-44a5-80cd-54a0e1d642da.png)
 * 简介：TrustaLabs 旨在为web3项目和团队提供在空投、市场活动、捐赠等等场景的用户分析和女巫识别。TrustScan完全基于链上数据，集合资金网络分析、行为序列等多种识别策略，通过AI算法整合输出结果，
-* 目标：完成基于某项目的女巫识别
+* 队长和队员：Austen
+* 目标：提升女巫算法的覆盖面及准确性
 * 是否招募队员：否
 * 项目进度第一天进度基于lens项目的女巫识别，用sql完成数据的获取工作(所有数据来源于footprint),
 * 项目进度第二天用python完成基于资金网络团伙识别、及批量操作合约的团伙识别。
+* [Demo视频链接](https://youtu.be/FBxCbyPc4Dw)
 * [项目链接](https://github.com/gihubsfy/sybil_detect)
+* [基于之前的项目](https://www.trustalabs.ai/trustscan) 产品目前已使用的五大维度 批量操作、星型结构团伙、链式结构团伙、时间序列、黑名单
+* [项目demo链接](https://github.com/gihubsfy/sybil_detect/blob/main/lens_sybil_detect.pdf)
+
 
 # 44 TxRouter
 ![TxRouter](https://img.gejiba.com/images/abde173f088ffb397ea43d77a60dcd58.png)
