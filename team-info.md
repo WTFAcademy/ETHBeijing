@@ -371,7 +371,7 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 1. 项目名称
 * GPAD Protocol
 * 2. 项目图片（1张有代表性的图片，不要过长）
-* ![Pastel Rainbow Modern January Monthly Email Header](https://user-images.githubusercontent.com/30950645/230643172-bf9b8084-730a-4fb0-9add-3cbbefba0af8.png)
+* ![image](https://user-images.githubusercontent.com/30950645/230631546-1b6aad5c-0f14-482a-88dc-dbbf354f70c8.png)
 * 3. 简介
 * GPAD协议是一种去中心化的投资和融资协议，用户可以自由创建项目、投资，并实现投后可编程。它将实现简单的launchpad功能创造投融资环境，并且支持图灵完备的功能将会面向web3高阶开发者，实现GETH代币置换,闪电贷,预言机，去中心化交易，代理交易等一系列复杂链上操作
 * 4. 队长和队员
@@ -471,10 +471,28 @@ Layer 2 & Scroll
 ​	http://truthpro.xyz/
 
 # 26 NirVANA
-* 简介：NirVANA是基于ERC-2535的模块化SBT发行工具，支持zk验证、DAO组织管理、社交恢复等模块。
-* 第一天进度：完成核心模块合约部署， 前端完成创建SBT页面
-* 目标：构建MVP版本
-* 是否招募队员：否
+1. 项目名称: NirVANA
+2. 所选赛道: Layer 2 & Scroll
+3. 项目图片: ![](https://kh4t2-waaaa-aaaal-qbhbq-cai.raw.ic0.app/file/leEZpRRFMO0zzSBwJjzeq)
+4. 简介: NirVANA是一个基于ERC2535的模块化SBT发行工具，且支持合约部署后再次添加/替换/删除 模块，目前已支持：DAO治理，社交恢复，ZK验证模块。
+5. 队长和队员: 队长Harlan009,队员Xun勋
+7. 黑客松目标: 完成项目DEMO
+8. 黑客松前2日进度：
+
+    第一天进度：完成SBT合约及核心模块合约部署， 前端完成创建SBT页面
+
+    第二天进度：前端完成landing page，profile等页面开发，完成模块拖拽选择模块，完成SBT模块化创建逻辑。改进合约初始化机制，逻辑模块合约一次性部署；初步集成ZK验证模块
+
+8. Demo视频链接: https://youtu.be/9misRClva3Q
+9. 项目 github repo 链接：
+
+    合约: https://github.com/xiaoyuanxun/NirVANA 
+
+    前端: https://github.com/beyond009/NirVANA-FE
+
+10. 是否基于以前项目: 基于[ERC2535标准](https://eips.ethereum.org/EIPS/eip-2535)
+11. 项目Demo链接: https://nirvava.vercel.app/
+
 # 27 Lingnan Ethereum Darkness Agent
 
 ![](https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/eth-watchdog.png)
@@ -686,57 +704,12 @@ Day2：前端进行UI开发，完成基础前端逻辑，完成circom verifier�
 ### 是否基于之前的项目：否
 ### 项目Demo链接：http://8.210.192.48/en/home
 # 33 智客团队（ZHKMC Team）
- 项目名称：Novel DAO
+* 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
 * 目标：完成比赛的项目开发和展示。
-* 目标：完成初版项目开发和展示，并积极深度参与以太坊生态。
-* 
 * 是否招募队员：否。
 * 项目进度：
 - 4月6日： （1）前端页面UI设计与制作：用户端，作者端；（2）核心合约编写； （3）核心业务技术实现方案讨论；
-* 是否基于之前的项目：否。
-
-* **赛道：L2**
-
-## 队长和队员
-**0xAuger** ,sleep, lansure, chichi, LEVI_104
-
-## 仓库链接
-Dapp端：https://github.com/Novel-Dao/novel-dao
-
-## 产品原型
-
-* 读者端：  https://modao.cc/app/huIxY5oro786vdVrRhBx
-* 作者端：  https://modao.cc/app/KC1ZLQHsrnwitsMvx019n 
-
-## 项目截图
-
-* 电脑端首页：
-![]([https://github.com/Novel-Dao/novel-dao/blob/main/images/pc.png]
-
-* 移动端首页：
-![]([https://github.com/Novel-Dao/novel-dao/blob/main/images/wap.png]
-
-
-## 项目进度：
- ### 第一天 
-  * （1）原型设计
-  * （2）前端页面UI设计与制作：用户端，作者端；
-  * （3）核心合约编写； 
-  * （4）核心业务技术实现方案讨论；
-
-  ### 第二天
-  * （1）白皮书完善；
-  * （2）智能合约Bug修复；
-  * （3）前端与合约交互Bug修复。
-
-  ### 第三天 
-  * 初版Demo完成。
-  * 演示视频制作；
-
-## Demo视频
-
-Demo视频链接： https://www.youtube.com/watch?v=6fQqP3k7X2U&ab_channel=gosleep
 # 34 Lightm
 * 项目名：Travel Notes（中文名：旅行笔记）
 
