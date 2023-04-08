@@ -1018,7 +1018,7 @@ Layer 2
 * Demo Day: 完成材料整理，调试bug
 
 ##### Demo 视频链接
-
+https://youtu.be/be-duwZcBCA
 
 ##### github repo
 * https://github.com/Flappywonders/The_Canaan_Sword_ETHBeijing
