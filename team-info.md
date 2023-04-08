@@ -1329,14 +1329,15 @@ TODO
 * 如何联系：微信名：S creaM
 # 50 GetGas
 * 名称：GetGas
+* 图片：![GetGas](/img/50.png)
 * 简介：GetGas 是一个交易可执行最小 GasFee 预测系统。
 * 赛道：Public Goods
 * 目标：完成展示和说明。
 * 队长：33357.eth。
 * 目标：完成项目展示和说明。
 * 进度：完成项目demo 和 PPT。
-* github：https://github.com/33357/gas-home。
-* demo：https://gas.33357.club/。
+* github：https://github.com/33357/gas-home
+* demo：https://gas.33357.club/
 * 演示：https://www.youtube.com/watch?v=xkzoMkAFGI8
 # 51 HyperNFT In Scroll
 ## 简介：
@@ -1410,7 +1411,6 @@ TODO
 * 完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
 * 并参考curve的token模型让NFT项目方跟DEX进行利益捆绑
 * 并为了激励早期用户添加流动性采用了了深度相关做市，其流程为用户添加流动性得到两种token
-* 1是可以取回原始token的lptoken
 * 2是跟池子深度相关的rewardToken![image](https://user-images.githubusercontent.com/105807963/230673081-d76e3d95-9a63-43a1-a14d-f905e0c5cfe5.png)
 * rewardToken的目的是为了记录做市商添加流动性时的交易对深度，并采用分段函数的方式来给予早期做市商更大的利益
 * 详细合约为：0x2F912de2719BF405793EC19aC51f2eEA0C1CA27F
