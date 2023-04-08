@@ -1497,5 +1497,5 @@ TODO
 * 基于以往项目： [ZKSafe](https://github.com/ZKSAFE/all-contracts/)
   * 参考了其中关于zk加密的业务流程，并拓展到通用密码服务
 * 项目链接： [DeVault](https://github.com/DeVaultHQ/DeVault)
-* 视频链接： [Video]()
+* 视频链接： [Video](https://youtu.be/LU-0AWT9NE4)
 * 如何联系： WeChat ID: elricYM
