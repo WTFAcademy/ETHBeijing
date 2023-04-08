@@ -142,7 +142,27 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
   * Day1: 完成了项目框架搭建；服务端功能已完成；合约完成度 50%；前端完成度 50%；
   * Day2: 完成了项目框架搭建；服务端功能已完成；合约完成度 90%；前端完成度 80%；
 
+项目提交信息：
+
+1. 项目名称: Puzzle3
+2. 所选赛道: Public Goods + Scroll
+3. 项目图片
 ![slides](https://mdn.alipayobjects.com/huamei_1hrimu/afts/img/A*X6JZQqoU4j8AAAAAAAAAAAAADp95AQ/original)
+4. 简介: Puzzle3 是一款通过智能合约交互实现的链上解谜、答题平台，让Web3 学习平台、区块链初创团队用户能够通过更直接、简洁、有趣的方式了解各自团队的产品；
+5. 队长和队员: jeason.eth(队长)、lqyx
+6. 本项目在这次黑客松的目标: 完成项目「从零到一」搭建并「上线」，同时支持 ETH Sepolia 和 Scroll Alpha 两个测试网，支持用户自定义创建 Puzzle、分享 Puzzle、用户进入解决 Puzzle，并在解决之后领取到独一无二的 NFT；
+7. 黑客松前两日的进度
+   * Day1: 完成了项目框架搭建；服务端功能已完成；合约完成度 50%；前端完成度 50%；
+   * Day2: 完成了项目框架搭建；服务端功能已完成；合约完成度 90%；前端完成度 80%；
+8. Demo 视频链接：（两个视频一样，传到了两个平台）
+   * Youtube: https://youtu.be/7dgUvHJjyAo
+   * 剪映：https://www.capcut.cn/share/7219553798975476995?t=1
+9. 项目 github repo 链接: [https://github.com/PandariaTeam/puzzle3](https://github.com/PandariaTeam/puzzle3)
+10. 是否基于之前的项目，如果有，给出详细信息: 否，完全在 Hackathon 期间开发
+11. 项目 Demo 链接（选填）：
+    * Default: [https://www.puzzle3.cc/](https://www.puzzle3.cc/)
+    * ETH Sepolia Testnet: [https://sepolia.puzzle3.cc/](https://sepolia.puzzle3.cc/)
+    * Scroll Alpha Testnet: [https://scroll-alpha.puzzle3.cc/](https://scroll-alpha.puzzle3.cc/)
 
 # 8. 九转以太坊
 * 简介：随着以太坊扩容技术的应用，智能合约的性能问题得到了改善，因此可将更多精力放在改善开发体验上。EVM 栈的访问限制是 Solidity 臭名昭著的 stack too deep 问题的源头，是时候消灭它们了。
