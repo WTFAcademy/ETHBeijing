@@ -822,11 +822,36 @@ TODO
 * 如何联系：Wechat ID: asa-frost
 
 # 53 Trust Bridge
-* 简介：链上评分系统
-* 目标：完成可组合特征的部分合约，完成前端demo
-* 是否招募队员：否
-* 第一天进度：完成合约和前端页面
-* 第二天进度：完成前端与合约及 Graph-API 的联调
+- 1. 项目名称：Trust Bridge
+
+- 2. 所选赛道：Public Goods
+
+- 3. 项目图片：![项目首页图片](https://bafybeiedlbrm5kzs6hwxi52afafw4zjbtbzxzpsc4wtqrxqzgqihugzy5q.ipfs.w3s.link/localhost_5173_.png)
+
+- 4. 简介：基于区块链的内容分享，内容发现和内容社交协议。总的来说，该协议提供了一个去中心化和透明的平台，用于发布和审查 NFT。因此，无论你是内容创作者还是评论员，这个协议都是分享你的作品和发现优秀内容的完美解决方案。
+
+- 5. 队长和队员：Ast, luneShao
+
+- 6. 本项目在这次黑客松的目标：完成可组合特征的部分合约，完成前端 demo。
+
+- 7. 黑客松前两日的进度：
+
+  - 第一天进度：完成合约和前端页面
+
+  - 第二天进度：完成前端与合约及 Graph-API 的联调
+
+- 8. Demo 视频链接：https://www.youtube.com/watch?v=yBrQRAwkpfM
+
+- 9. 项目 gitHub repo 链接：
+
+  - [Contracts](https://github.com/ETHBeijingHackthon/TrustBridgeContracts)
+  - [Frontend](https://github.com/ETHBeijingHackthon/TrustBridgeFrontend)
+  - [The Graph](https://github.com/ETHBeijingHackthon/TrustBridgeTheGraph)
+
+- 10. 是否基于之前的项目： 否
+
+- 11. 项目 Demo 链接： [Trust Bridge](https://trust-bridge.vercel.app/#/home)
+
 
 # 54 “NFC”（non fungible crush）
 * 项目名称 “NFC”
