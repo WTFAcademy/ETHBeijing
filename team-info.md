@@ -1416,10 +1416,16 @@ TODO
 * 如何联系：Wechat ID: jolestar2
 * 第一天进度：完成了 RollupNFT 的 solidity 相关的智能合约编写 https://github.com/rooch-network/rollup-nft
 # 49 Beijing Kaoya
-* 简介：北京かおや是一个去中心化文件系统，对文件的读、写、版本维护等操作进行了优化。
-* 目标：实现CLI，如果没招到前端，则根据时间是否充裕考虑是否实现前端。
-* 是否招募队员：是 招前端。
-* 如何联系：微信名：S creaM
+1. 项目名称：Beijing-Kaoya
+2. 项目图片 ![](./img/kaoya_intro.png)
+3. 简介：北京かおや是一个去中心化文件系统，对文件的读、写、版本维护等操作进行了优化。
+4. 队长和队员：S creaM（队长），zjh，xmh
+5. 本项目在这次黑客松的目标:实现CLI
+6. 黑客松前两日的进度：第一天确定方案，完成框架设计。第二天基本完成项目CLI实现。
+8. Demo 视频链接: https://youtu.be/Z9bKUoGdJPE
+9. 项目 github repo 链接 https://github.com/FileDAG/Beijing-Kaoya
+10. 是否基于之前的项目，如果有，给出详细信息。否，从0到1开发。
+11. 项目 Demo 链接（选填）
 # 50 GetGas
 * 名称：GetGas
 * 简介：GetGas 是一个交易可执行最小 GasFee 预测系统。
