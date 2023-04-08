@@ -629,11 +629,49 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 第二天进度：完成前端与合约及 Graph-API 的联调
 
 # 54 “NFC”（non fungible crush）
+* 项目名称 “NFC”
+* 项目图片 ![image](https://user-images.githubusercontent.com/105807963/230672360-3cbfdc94-c216-4a31-b439-15018bcfc525.png)
 
 * 简介：完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
-* 做市逻辑为深度相关做市模型，例如univ2采用的是恒定做市模型，做市商的盈利是跟交易量相关，而深度相关的做市模型有多个指标，添加流动性时的交易对深度和交易量都会最终影响做市商最终的收益。
-* 是否招募队员：是，感兴趣的伙伴，前端，ui，等等
-* 如何联系：WeChat ID: cwh751378834
+* 并参考curve的token模型让NFT项目方跟DEX进行利益捆绑
+* 并为了激励早期用户添加流动性采用了了深度相关做市，其流程为用户添加流动性得到两种token
+* 1是可以取回原始token的lptoken
+* 2是跟池子深度相关的rewardToken![image](https://user-images.githubusercontent.com/105807963/230673081-d76e3d95-9a63-43a1-a14d-f905e0c5cfe5.png)
+* rewardToken的目的是为了记录做市商添加流动性时的交易对深度，并采用分段函数的方式来给予早期做市商更大的利益
+* 详细合约为：0x2F912de2719BF405793EC19aC51f2eEA0C1CA27F
+* ![image](https://user-images.githubusercontent.com/105807963/230673904-e76a046b-131a-4911-9c6b-89238b6f19e7.png)
+* 用户可以凭借lptoken取回原本的token＋fee（做市奖励）![image](https://user-images.githubusercontent.com/105807963/230674319-b5732893-b576-4b90-b9c9-f1736c26f1cb.png)
+* 同样也可以取回额外的手续费奖励![image](https://user-images.githubusercontent.com/105807963/230674443-87ffe39d-1f2b-4e3e-8c9a-5187534b21ab.png)
+
+
+
+* 目前合约有
+* 交易税收抽象合约：0xE295ca140be8d06eCcA6487fAd1A177d30d38930
+* 交易税收深度代理合约：0xF9fb5f042E522803E550Ee1aEB07478098207bDb
+
+* 深度相关做市算法合约：0x215Ad041E45294F50225c87672aD412b6C6aFb52
+* WETH合约：0x871f0300dB2b70c87Dbfa0AcC8b028751877F1D8
+
+* NFT碎片化协议：0xCF4A54E437e3e9D4A6948858bdcD013E3166d054
+* NFT深度相关做市合约：0x2F912de2719BF405793EC19aC51f2eEA0C1CA27F
+* AMM周边合约：0xaB93Bc74E8aA9d291CE9F7637741c0d7C65D08c1
+
+* NFT1:0xeB787FAE66e27FABe5dedAdAf115fc89947E67E5
+* NFT2:0x2140b4F9C510913Dcc597407cAcA40106F4BFC20
+* 碎片化NFT1：0xe18a08D672CbC977074a86D50427cb1B6276eAA7
+* 碎片化NFT2: 0x511D92d9b8DD40f02Aa4A8e030b5A9a61523D616
+* 碎片化NFT1和碎片化NFT2的lptoken：0xe350a5b7E773dc9cb511a0540C3F1B4b2fa0F6bf
+* 碎片化NFT1和碎片化NFT2的lptoken的深度token： 0x5bb6a0cc42CB30456C99D62f3e2F063e9A7C4126
+
+* 队长和队员：陈文焕
+* 黑客松目标，完成合约，目前进度基本完成
+* 黑客松前两日的进度：完成基本合约
+* Demo 视频链接：todo
+* 项目 github repo 链接：https://github.com/PhiloCwh/NFC
+* 是否基于之前的项目：这两天纯手打
+* 项目 Demo 链接：todo
+
+
 
 # 55 The Canaan Sword（迦南圣剑）
 * 简介：我们的GameFi项目是一款PVP实时策略卡牌游戏，将玩家带入一个真实而充满挑战的竞技世界。在这个游戏中，玩家将扮演一个虚拟领袖角色。玩家需要通过实力和智慧，培养角色和策略规划，来战胜其他玩家。每个玩家都有一个独特的数字钱包，所有的交易和交换都会被记录在区块链上，这保证了游戏的公平性和透明度。  
