@@ -375,14 +375,19 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
   <b>让🐶来帮助你解决最棘手的安全问题😄😏😆</b>
 </p>
 
+## 赛道：Open Research
+
 ## 简介
 随着区块链技术高速发展，区块链在金融、版权保护等诸多领域都取得了突破性进展。智能合约作为区块链技术的核心应用，控制着价值数十亿美元的以太坊加密货币，由黑客造成的以太坊智能合约安全事件也层出不穷，资金损失严重。如此看来，不断探索对智能合约的漏洞检测方法是形势所需。然而现有的大部分方法都倾向于提前分析预测智能合约存在的漏洞和缺陷，无法保护部署后合约的安全。EtherWatchdog因此诞生，它是一款通过交易的操作码序列实时检测智能合约漏洞的安全平台，能够避免用户调用含有漏洞的合约。EtherWatchdog的未来绝不仅仅是一个普通的智能合约漏洞检测平台，它有能力成为像Etherscan一样优秀的区块链搜索、API和分析平台。
 
-## 队长和队员
-**李旭彬**、顾婉仪、翟广鑫、欧瑱深、贺思齐
+## 团队成员
+- **AI Engineer:** CharlotteKu[@CharllotteKu](https://github.com/CharllotteKu)
+- **Front-end Engineer:** ouzhsh5116[@ouzhsh5116](https://github.com/ouzhsh5116)、Hesiqi-GZ[@Hesiqi-GZ](https://github.com/Hesiqi-GZ)
+- **Dapp Engineer:** von33[@von33](https://github.com/von33)
+- **Product Manager:** Silence1017[@Silence1017](https://github.com/Silence1017)
 
 ## 仓库链接
-Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/README.md
+Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp
 
 服务端：https://github.com/Silence1017/EtherWatchdog_Server
 
@@ -421,6 +426,7 @@ Dapp端：https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/README.md
 * 录制Demo视频，优化代码逻辑并设计工具图标
 
 ## 视频链接
+https://www.bilibili.com/video/BV1D24y157jx/?vd_source=9515b6ce5add8ca8c4f0d1ff7f2d23bc
 https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 
 ## 基于之前的项目
