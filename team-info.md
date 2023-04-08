@@ -1220,6 +1220,7 @@ Founder & Developer: Jason Wang
 * 第一天进度: (1)前端完整交互流程搭建完成(包括钱包/邮箱登录,产品使用交互); (2)接入 openai API 并测试使用;
 * 第二天进度: (1)调试完 openai API 并开发了数据处理; (2)调试并优化了产品的整个交互流程; (3)正在准备产品使用教程;(4)产品公测上线的前期准备
 ## 41.6 Demo Video 
+https://youtu.be/Mv_tg4qfnXI
 ## 41.7 Github Repo
 https://github.com/ModelLabs/BlockModel-frontend/tree/eth-beijing
 ## 41.8 是否基于之前的项目
