@@ -830,8 +830,8 @@ To do.
   * 第二天的工作进度：合约完成了F代币，Vault，Pools，OTC申购赎回和Purchase采购。前端基本完成。
 * 项目 github repo 链接： 
 [ $y=e^x$ ](https://github.com/KAndHisC/y-e-x.git) 
-* 项目报告：[$y=e^x$ report](https://github.com/KAndHisC/y-e-x/blob/main/y%3De%5Ex.pdf)因为内容较多，demo无法展示完整，欢迎大家翻阅我们项目报告！
-* 项目demo：
+* 项目报告：[y=e^x report](https://github.com/KAndHisC/y-e-x/blob/main/y%3De%5Ex.pdf)因为内容较多，demo无法展示完整，欢迎大家翻阅我们项目报告！
+* 项目demo：[y=e^x deomo](https://github.com/KAndHisC/y-e-x/blob/main/demo.mov)
 
 # 39 让web3没有rug
 * 简介：我们的产品叫Decomment。Decomment是一个可以对项目方、个人或者DAO进行链上评论的去中心化应用，在一定程度上对他们起到“审计”和“集思广益”的作用，我们并不仅仅像传统审计部门去审计代码或者相关财务，而是偏向于对项目方或者个人等群体做一个全民评论，所以Decomment更多的是对人进行审计。同时，在Decomment中也可以去签订一系列web3的合同或协议，比如属于web3的对赌协议、劳务合同等进而去保证项目的高质量推动和完成。
