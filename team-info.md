@@ -582,12 +582,32 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 ### 45.10 Demo链接
 TODO
 # 46 Artez
-* 简介：我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
-* 目标：1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
-* 是否招募队员：可接受 需要智能合约（需要基于Scroll，但是如果有EVM开发经验应该足够），UI设计，前后端
+### 46.2 简介图片 
+* TODO
+### 46.3 简介
+* 我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
+### 46.4 团队成员
+- **Leader**: Alex
+- **Team member**: tianyi,yifan,Chaos
+### 46.5 目标：
+* 1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
+* 是否招募队员：：可接受 需要智能合约（需要基于Scroll，但是如果有EVM开发经验应该足够），UI设计，前后端
 * 如何联系：Wechat ID: 18782210583
+### 46.6 前两日进度：
 * Day 1 进度：完成艺术NFT研究框架的编写，探究AIGC对艺术NFT的影响，降低门槛从而吸引更多人参与。
 * Day 2 进度：进行前端、后端和合约的编写，为Demo做准备。
+* - 所选赛道：Open Research
+### 46.7 视频Demo链接
+* TODO
+### 46.8 GitHub链接
+- [Research](https://www.notion.so/NFT-Artez-c36c07c0bb1542a6b29c973b7338c0e7)
+- [前端](https://github.com/EZswap-Labs/launchpadFrontend)
+- [合约](https://github.com/EZswap-Labs/manifoldxyz)
+- [后端](https://github.com/EZswap-Labs/launchpadBackend)
+### 46.9 是否基于以前项目
+没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
+### 46.10 Demo链接
+TODO
 # 47 GptClick
 * 简介：使用AI辅助用户执行链上合约，自然语言生成交互按钮。理想的使用场景：“eth价格小于1000，帮我买1个”，会创建一个按钮，交互后可生成链上dex订单。“mint最近发行的NFT”，按钮交互后直接获得NFT。“我想领取arb币”，按钮交互后可以直接领取到arb代币。
 * 目标：完成展示demo
