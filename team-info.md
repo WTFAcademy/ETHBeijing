@@ -124,6 +124,18 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 如何联系：WeChat ID: ltb192
 * demo 文章： https://drive.google.com/file/d/1ZJBrhc9G4zYbP7Y-V0jlOLJbxg90SXsv/view?usp=sharing
 * 视频 ： https://drive.google.com/file/d/1rT3jEDvlmzo48L-rmiasgNFND_VoRCoi/view?usp=sharing
+* 1. 项目名称：大秦法链（政策研究）
+2. 所选赛道：Open Reserach 
+3. 项目图片：
+4. 简介：本项目分为两部分，没有代码部署和应用，旨在通过DAO组织合法化推动web3准入门槛降低，实现web3的平民化和大众化。项目第一部分是基础理论研究，首先，简要介绍了DAO的概念、特点以及发展背景，并阐述了从公司法视角分析DAO的意义。其次，比较了公司法与DAO的基本架构，从设立与登记、权责分配与股东保护、财务审计与税收以及解散与清算等方面探讨了DAO的合法性问题。然后，分析了中国法律政策下DAO的现状与挑战。最后，本文提出了推动DAO合法化的对策建议，包括完善相关法律法规，明确DAO的法律地位；设立专门的DAO登记管理机构；强化DAO内部治理和信息披露；建立风险防范机制，保护投资者权益；以及促进国际合作，共同应对跨境法律问题。通过这些措施，旨在为DAO的可持续发展奠定坚实的法律基础。第二部分是现实落地应用，本文为DAO实现新的组织形式提供了新的解决思路，web3作为冉冉升起的新星，必须获得更多的推广和受众，不能将web3仅仅局限于少部分人，而要吸引更多的人入场，DAO以公司化的形式出现将会更有利于web3的建立和传播。当DAO实现了公司化后，将会更容易实现与传统产业的转型合作，实现人类资源的有效配置。在DAO建立之后，可以通过社区成员投票，确定以公司形式出现实体。在最初的公司面向大众募资行为时，具有合法性，公司与DAO通过发行NFT的形式确立股权凭证，实现DAO的合法化建立与运营，从合法建立后便可以实现web3的发展和面向普通民众的宣传。
+5. 队长和队员：胡昂乐  朱世明
+6. 本项目在这次黑客松的目标：完成相关论文研究，形成完备DAO组织合法化程序
+7. 黑客松前两日的进度：4月6日：完成基本论文大纲研究，部署框架
+4月7日：填充文章内容，研究法律文献，完成文章撰写。
+8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：https://youtu.be/QDHLM25tcZM
+9. 项目 github repo 链接：https://drive.google.com/file/d/1rT3jEDvlmzo48L-rmiasgNFND_VoRCoi/view?usp=sharing
+https://drive.google.com/file/d/1ZJBrhc9G4zYbP7Y-V0jlOLJbxg90SXsv/view?usp=sharing
+10. 是否基于之前的项目：否，原创
 
 # 5. FolioView
   1. 项目名称：
