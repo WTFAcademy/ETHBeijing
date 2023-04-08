@@ -949,6 +949,8 @@ Day2：前端进行UI开发，完成基础前端逻辑，完成circom verifier�
 # 33 智客团队（ZHKMC Team）
  项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
+* ![cover.png]([https://github.com/Novel-Dao/novel-dao/blob/main/images/pc.png](https://raw.githubusercontent.com/Novel-Dao/novel-dao/main/images/cover.jpg)
+
 * 目标：完成初版项目开发和展示，并积极深度参与以太坊生态。 
 * 是否招募队员：否。
 * 是否基于之前的项目：否。
