@@ -1516,6 +1516,21 @@ TODO
 -  未来合约设计
 ### Day2
 -  前端以及UI UX（项目缺乏前端和UI、UX，效率较低）## 如何联系：WeChat ID：Real_JerryFor2022
+1. HyperNFT In Scroll
+2. <img width="1312" alt="image" src="https://user-images.githubusercontent.com/67698190/230707975-b6dfeb22-ffef-4db6-a403-951f3ab379a7.png">
+
+3. 尝试通过“广告商-网红”之间的动态关系的代币化形成了一个可持续的经济模型，不再有产生“死亡螺旋”的风险。上游收入全部来自广告商， 按照链上声誉按规则分配给受众。基于实际效用的上游流动性推动了代币价格和下游用户收益的潜在增长。 未来给予现有的NFT、DID及社交媒体账户提供更多样Utility。 也欢迎大家在ERC-5489或影响力变现上进行产品开发。 deck: https://tome.app/jerry-treasureland/nfthypernft-copy-clg7cqhqk05aubi40iclhpwu4
+4. 队长：Jerry 队员：Jake Howe ZZH
+5. 完成广告主bid广告的前后端开发（抢占式bid，即竞拍slot使用权），hnft背后超链接的展示
+6. 
+* Day 1 进度：广告主抢占式bid 功能梳理和开发完成
+* Day 2 进度： bid广告的前端开发
+7. Demo视频: https://www.loom.com/share/1d64818c93c64a1b93dc5e0768529b5c
+8. https://github.com/zhangzh-pku/parami-scroll-web
+9. 基于EIP-5489（ERC），队长共同提议了EIP-5489
+https://eips.ethereum.org/EIPS/eip-5489
+10. Demo链接 部署在本地 http://192.168.0.103:8080/view/advertiser
+
 
 # 52 generative.game：一个生成性沙盒/开放叙述类游戏 
 * 简介：本项目利用生成型AI（Generative AI）解决沙盒/开放叙述游戏创作目前最大的生产力瓶颈：玩家主导的高自由度内容生成。
