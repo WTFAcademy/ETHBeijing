@@ -296,9 +296,7 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
   周五：完成gas price的数学预测模型，更新合约，尝试前端与合约交互。
 # 15. MentorMachines AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
-* 目标：Website. Animated AI. NFT.
-* 是否招募队员：需要前端（JS、Next.js、React、设计）、NFT 的 Solidity、AI（HuggingFace、GPT）、后端（server setup + integrations）。Looking for Frontend (JS, Next.js, React, design), Solidity for an NFT, AI (HuggingFace, GPT), backend (server setup + integrations).
-* 如何联系：WeChat ID: -
+* 目标：Web Application. Animated AI. NFT.
 * Team members: [Mikko](https://github.com/mikkoikola), [Philipp](https://github.com/p0s), [Disney (队长)](https://github.com/discountry)
 * 第一天进度: GPT integration, Web app
 * 第二天进度：Web3 part, NFT on Scroll
