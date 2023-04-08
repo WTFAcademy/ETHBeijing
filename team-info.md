@@ -532,11 +532,31 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：We will build TrustConnect project from scratch.
 * 是否招募队员：否
 # 41 Model Labs
-* 简介：Web3 Tokenomics Smart Design & Automatic Audit Platform
-* 目标：我们预计在黑客松期间推出 AIGC 相关的新 feature, 以及产品使用教程和案例，并发布公测版
-* 是否招募队员：否
+## 41.1 项目截图
+![blockmodel.png](img/Team%2341_ScreenShot.png)
+## 41.2 简介  
+Web3 Tokenomics Smart Design & Automatic Audit Platform
+- Create: 
+Create 页面支持用户以图形化建模的方式为自己的项目构建 Tokenomics 模型; 用户也可以构建与模型交互的沙盒环境，例如市场交互环境、监管环境等。用户构建完模型后，还可以调用平台的自动化审计服务。此外还支持用户将其构建的成果以 NFT 的形式铸造上链。
+- Copilot: Copilot 页面提供了基于 LLM 的 Tokenomics 设计&分析 AI 助手。用户可以通过与 AI 交互获得 Tokenomics 初版设计和改进建议。
+- Explore: Explore 页面是一个围绕 Tokenomics 建模的一级&二级市场。用户在 Create 页面构建的模型、沙盒环境都可以在此处上架进行交易以获得收益。用户可以在此处购买并 fork 其他人的建模成果，从而加快设计自己项目 Tokenomics 的进度和效率。
+## 41.3 队伍
+Founder & Developer: Jason Wang
+## 41.4 本项目在这次黑客松的目标：
+1. 完成 CoPilot 功能的开发和调试；
+2. BlockModel 整个产品现阶段的使用教程和案例；
+3. 发布公测版
+## 41.5 黑客松前两日进度:
 * 第一天进度: (1)前端完整交互流程搭建完成(包括钱包/邮箱登录,产品使用交互); (2)接入 openai API 并测试使用;
 * 第二天进度: (1)调试完 openai API 并开发了数据处理; (2)调试并优化了产品的整个交互流程; (3)正在准备产品使用教程;(4)产品公测上线的前期准备
+## 41.6 Demo Video 
+## 41.7 Github Repo
+https://github.com/ModelLabs/BlockModel-frontend/tree/eth-beijing
+## 41.8 是否基于之前的项目
+是的，我们原先已经在开发 Tokenomics 模型化的相关功能，反应在前端就是 Create 页面。我们采用了 ABM (Agent-Based Model)的方式，抽象建模了四个 Agent，用户可以设置 Agent 的参数以及它们之间的互动，完成一个 Tokenomics 的建模。基于模型，我们开发了仿真运算器。模型仿真过程中产生的数据，我们也提供数据可视化面板供用户查看和分析。
+## 41.9 项目 Demo 链接
+我们推出的 Beta 版链接
+https://block-model.com
 # 42 D/Wallet
 * 简介：D/Wallet
 * 目标：会认识很多开发者朋友 会进一步完善wallet
