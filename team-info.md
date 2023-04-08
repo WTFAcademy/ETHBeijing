@@ -2,17 +2,18 @@
 
 ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 1. 项目名称
-2. 项目图片（1张有代表性的图片，不要过长）
-3. 简介
-4. 队长和队员
-5. 本项目在这次黑客松的目标
-6. 黑客松前两日的进度
-7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-8. 项目 github repo 链接
-9. 是否基于之前的项目，如果有，给出详细信息。
-10. 项目 Demo 链接（选填）
+2. 所选赛道（Public Goods，Layer 2，Open Reserach 主赛道三选一；Scroll 可另选，与主赛道不冲突）
+3. 项目图片（1张有代表性的图片，不要过长）
+4. 简介
+5. 队长和队员
+6. 本项目在这次黑客松的目标
+7. 黑客松前两日的进度
+8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
+9. 项目 github repo 链接
+10. 是否基于之前的项目，如果有，给出详细信息。
+11. 项目 Demo 链接（选填）
 
-在规定时间内提交 PR，且包含前 9 项信息的项目，视为提交成功，否则不参与评奖。
+在规定时间内提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
 
 评委将在当天下午15-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
 1. 代码 
@@ -124,6 +125,8 @@ TODO
 
 ## 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
 
+
+
   - 能够根据用户不同的学习反应呈现不同的学习路线。
     - 在聊天窗中实现交互，聊天窗中用户可以执行指定的选项，以此来进入不同的流程。
   - 通过智能合约 实现：
@@ -131,10 +134,33 @@ TODO
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 
-## 🎯 目标：
-我们会在赛程期间 为该项目 尝试做一个demo📘
+## 队员
+### 队长 
+- [烟波](https://github.com/yanboishere)
+  
+### 队员
+ 
+- [JiceJin](https://github.com/JiceJin)
+  
+- [Azleal](https://github.com/Azleal)
+  
+- [woHocooL](https://github.com/woHocooL)
+ 
 
-之后希望能让更多参与活动的朋友 及 赞助商 了解以及为我们的项目 提供建议💬 
+## 🎯 目标：
+此项目 不同于以往我们一直所做的 Wiki等百科/文档学习项目 是我们团队在Web3学习类产品方面的新的尝试🤔
+
+我们希望 在赛程期间 为该项目 尝试做一个demo📘
+
+Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发项目🔖 
+
+如之前做的Wiki等项目一样 日复一日的持续开发 加入更多知识和学习内容 以及开源下去👌
+
+最后希望 得到更多参与活动的朋友、评委 及 赞助商 对我们的项目的评价和反馈 以及各位宝贵的建议💬 让我们继续进步下去
+
+## ❓ 是否基于之前的项目
+否 这个项目对我们而言 是**完全全新的一次尝试** 
+包括学习内容 也在保证趣味性的前提下 与原来所做的Wiki以及知识文档 完全不同 
 
 ## 🔖 项目进度
 ### 📅 Day1
@@ -173,11 +199,24 @@ TODO
 * 2. 实现立遗嘱界面并完成合约交互。
 * 3. 实现aa钱包交互逻辑。
 * 
-# 12. Prestare
-* 简介：Prestare Finance (Prestare) is a lending protocol that offers a lower collateral ratio and can even support under-collateralized loans with almost any assets, without using off-chain information. Under-collateralized borrowing is achieved by allowing the borrower to use a portion of the previously accumulated interests as collateral to borrow more funds next time. A portion of interest paid by borrowers will be reserved in ‘Credit Reserve Pool’. 1 CRT is minted with $1 in the pool, then distributed to borrowers who contributed to the pool. CRT can be used for collateral in the next borrowing, making the loan under-collateralized. SoulBound Token containing credit score for all users need to be minted if users want to borrow on Prestare. Users with higher credit score can have a loan with lower collateral ratio. An address's initial credit score will be capped and determined based on the address's prior interactions with other protocols and addresses when it first interacts with Prestare.
-* 目标：完成一个开源工具。用户可以基于借贷协议用flashloan做多或者做空资产。
-* 是否招募队员：对defi感兴趣的朋友都可以联系我
-* 如何联系：WeChat ID: AlexMcavoy
+# 12. Prestare Lightning Leverage
+* 项目图片 ![slides](https://user-images.githubusercontent.com/72059918/230698901-3cd0705f-7a31-4617-bc5b-fe6f975ac237.jpg)
+* 简介：我们提供了用户友好的闪电贷工具，可以帮助基于现有的借贷协议做杠杆交易。
+* 背景：
+  
+  观察到借贷协议的借款人如果要自己手动实现杠杆，都需要不停的借贷，并且在dex上多次交易。这也是被大众所知的循环贷模式。但使用闪电贷就可以省去中间反复借贷和swap的过程，一键达到用户想到的目标杠杆利率。
+
+  基于借贷协议的杠杆交易更类似于GMX的方式，不管是做多做空，都需要支付借款利率。但和GMX不同的是，基于借贷协议的借款利率要低得多，几乎是GMX的1/10。 而且借贷协议的lp并不是对手方，他们不承担交易所产生的损失，交易所产生的损失会被转移至其他的dex中。 
+
+  相比于其他链上leverage 产品，借款利率基本可以达到最低，而且作为一个开源工具，我们也不会收取任何费用，也没有资金的监管权。
+
+* 队长：Alex / 队员：Mars，党冉冉，陈逸杰
+* 本项目在这次黑客松的目标：完成小工具的基础开发，可以透过AAVE和uniswap完成基础操作
+* 黑客松前两日的进度: 完成合约和前端的开发
+* [Demo视频链接](https://www.youtube.com/watch?v=kV1Ybb6blls)
+* 项目 github repo 链接: [Lightning Leverage github Project](https://github.com/prestare/Lightning-Leverage)
+* 是否基于之前的项目: 无
+* 项目 Demo 链接: 无
 # 13. GasLockR
 * 简介：Layer-2的gas price保险，提供个性化的服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。
 * 目标：从0到1开发，实现MVP，并有良好的UI呈现。
@@ -202,6 +241,7 @@ TODO
 * 是否招募队员：无特定需求，但仍开放，如果有合适的可以加入
 * 如何联系：WeChat ID: samuelzey
 * 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
+* 第二天进度：完成度90%，具体包括完成前后端开发、电路编写和测试、合约编写和部署，还差部署到服务器和界面优化
 # 17. Delibird
 * 简介：ZKGift，一款部署在Scroll和zkSync上的轻量级打赏捐赠类Dapp，提供方便快捷的捐赠方式和简洁直观的捐赠排名。
 * 目标：尽可能完整地完成这个Dapp，从合约部署到前端交互到开源上线，在过程中不断思考可行的创新点并尝试实现
@@ -585,12 +625,32 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 ### 45.10 Demo链接
 TODO
 # 46 Artez
-* 简介：我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
-* 目标：1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
-* 是否招募队员：可接受 需要智能合约（需要基于Scroll，但是如果有EVM开发经验应该足够），UI设计，前后端
+### 46.2 简介图片 
+* TODO
+### 46.3 简介
+* 我将选择Art NFT作为研究主题，探寻未来NFT资产与艺术的形式，以及它可能带来的改变。并且尝试基于scroll，来开发一个demo来展示我得研究。
+### 46.4 团队成员
+- **Leader**: Alex
+- **Team member**: tianyi,yifan,Chaos
+### 46.5 目标：
+* 1 写一篇关于Art NFT的研究，探究未来NFT资产与Art的结合 2 尝试根据自己的研究，给出一个demo
+* 是否招募队员：：可接受 需要智能合约（需要基于Scroll，但是如果有EVM开发经验应该足够），UI设计，前后端
 * 如何联系：Wechat ID: 18782210583
+### 46.6 前两日进度：
 * Day 1 进度：完成艺术NFT研究框架的编写，探究AIGC对艺术NFT的影响，降低门槛从而吸引更多人参与。
 * Day 2 进度：进行前端、后端和合约的编写，为Demo做准备。
+* - 所选赛道：Open Research
+### 46.7 视频Demo链接
+* TODO
+### 46.8 GitHub链接
+- [Research](https://www.notion.so/NFT-Artez-c36c07c0bb1542a6b29c973b7338c0e7)
+- [前端](https://github.com/EZswap-Labs/launchpadFrontend)
+- [合约](https://github.com/EZswap-Labs/manifoldxyz)
+- [后端](https://github.com/EZswap-Labs/launchpadBackend)
+### 46.9 是否基于以前项目
+没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
+### 46.10 Demo链接
+TODO
 # 47 GptClick
 * 简介：使用AI辅助用户执行链上合约，自然语言生成交互按钮。理想的使用场景：“eth价格小于1000，帮我买1个”，会创建一个按钮，交互后可生成链上dex订单。“mint最近发行的NFT”，按钮交互后直接获得NFT。“我想领取arb币”，按钮交互后可以直接领取到arb代币。
 * 目标：完成展示demo
