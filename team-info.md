@@ -664,9 +664,58 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
 * 目标：完成比赛的项目开发和展示。
+* 目标：完成初版项目开发和展示，并积极深度参与以太坊生态。
+* 
 * 是否招募队员：否。
 * 项目进度：
 - 4月6日： （1）前端页面UI设计与制作：用户端，作者端；（2）核心合约编写； （3）核心业务技术实现方案讨论；
+* 是否基于之前的项目：否。
+
+* **赛道：L2**
+
+## 队长和队员
+**0xAuger** ,sleep, lansure, chichi, LEVI_104
+
+## 仓库链接
+Dapp端：https://github.com/Novel-Dao/novel-dao
+
+## 产品原型
+
+* 读者端：  https://modao.cc/app/huIxY5oro786vdVrRhBx
+* 作者端：  https://modao.cc/app/KC1ZLQHsrnwitsMvx019n 
+
+## 项目截图
+
+* 电脑端首页：
+![]([https://github.com/Novel-Dao/novel-dao/blob/main/images/pc.png]
+
+* 移动端首页：
+![]([https://github.com/Novel-Dao/novel-dao/blob/main/images/wap.png]
+
+
+## 项目进度：
+ ### 第一天 
+  * （1）原型设计
+  * （2）前端页面UI设计与制作：用户端，作者端；
+  * （3）核心合约编写； 
+  * （4）核心业务技术实现方案讨论；
+
+  ### 第二天
+  * （1）白皮书完善；
+  * （2）智能合约Bug修复；
+  * （3）前端与合约交互Bug修复。
+
+  ### 第三天 
+  * 初版Demo完成。
+  * 演示视频制作；
+
+## Demo视频
+
+Demo视频链接： https://www.youtube.com/watch?v=6fQqP3k7X2U&ab_channel=gosleep
+
+
+# 34 Lightm
+* 项目名：Travel Notes（中文名：旅行笔记）
 # 34 Lightm
 * 项目名：Travel Notes（中文名：旅行笔记）
 
@@ -1001,11 +1050,9 @@ TODO
 
 # 54 “NFC”（non fungible crush）
 * 项目名称 “NFC”
-### 项目赛道： *Public Goods，Scroll
-### * 项目图片 ![image](https://user-images.githubusercontent.com/105807963/230672360-3cbfdc94-c216-4a31-b439-15018bcfc525.png)
+* 项目图片 ![image](https://user-images.githubusercontent.com/105807963/230672360-3cbfdc94-c216-4a31-b439-15018bcfc525.png)
 
-### * 简介：
-* 完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
+* 简介：完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
 * 并参考curve的token模型让NFT项目方跟DEX进行利益捆绑
 * 并为了激励早期用户添加流动性采用了了深度相关做市，其流程为用户添加流动性得到两种token
 * 1是可以取回原始token的lptoken
@@ -1015,14 +1062,10 @@ TODO
 * ![image](https://user-images.githubusercontent.com/105807963/230673904-e76a046b-131a-4911-9c6b-89238b6f19e7.png)
 * 用户可以凭借lptoken取回原本的token＋fee（做市奖励）![image](https://user-images.githubusercontent.com/105807963/230674319-b5732893-b576-4b90-b9c9-f1736c26f1cb.png)
 * 同样也可以取回额外的手续费奖励![image](https://user-images.githubusercontent.com/105807963/230674443-87ffe39d-1f2b-4e3e-8c9a-5187534b21ab.png)
-* 用户的白名单lptoken（后面考虑rewardtoken）可以拿去pool合约里面质押获得dex token（dex token作用类似于crv）
-* 用户得到的dex可以给相应的lp交易对池子投票来决定相应lptoken质押到Pool的apr
-* ![image](https://user-images.githubusercontent.com/105807963/230702824-620ef28c-48e1-41ad-bbe4-ec1739877b67.png)
 
 
 
-
-* 目前合约有(sepolia测试网络)
+* 目前合约有
 * 交易税收抽象合约：0xE295ca140be8d06eCcA6487fAd1A177d30d38930
 * 交易税收深度代理合约：0xF9fb5f042E522803E550Ee1aEB07478098207bDb
 
@@ -1032,8 +1075,6 @@ TODO
 * NFT碎片化协议：0xCF4A54E437e3e9D4A6948858bdcD013E3166d054
 * NFT深度相关做市合约：0x2F912de2719BF405793EC19aC51f2eEA0C1CA27F
 * AMM周边合约：0xaB93Bc74E8aA9d291CE9F7637741c0d7C65D08c1
-* DEX token：0x2D0Bc79B3eD7e1DebaA9A36e5805D58dFf05ac2E
-* Pool 奖励合约：0x0504b47bc20Ce7DcF92463ABCc54B578Add26b9f
 
 * NFT1:0xeB787FAE66e27FABe5dedAdAf115fc89947E67E5
 * NFT2:0x2140b4F9C510913Dcc597407cAcA40106F4BFC20
@@ -1042,16 +1083,13 @@ TODO
 * 碎片化NFT1和碎片化NFT2的lptoken：0xe350a5b7E773dc9cb511a0540C3F1B4b2fa0F6bf
 * 碎片化NFT1和碎片化NFT2的lptoken的深度token： 0x5bb6a0cc42CB30456C99D62f3e2F063e9A7C4126
 
-### * 队长和队员：陈文焕
-### * 黑客松目标，完成智能合约编写和完成简单测试
-### * 黑客松前两日的进度：
-* day1，吹水获得改进思路，完成主合约交易所的编写
-* day2，猛肝
-* day3，猛猛肝，完成基本所有合约编写
-### * Demo 视频链接：https://www.youtube.com/watch?v=JVvBYPb8fbc
-### * 项目 github repo 链接：https://github.com/PhiloCwh/NFC
-### * 是否基于之前的项目：这两天纯手打
-### * 项目 Demo 链接：https://www.youtube.com/watch?v=MDMwtqBOaRk
+* 队长和队员：陈文焕
+* 黑客松目标，完成合约，目前进度基本完成
+* 黑客松前两日的进度：完成基本合约
+* Demo 视频链接：todo
+* 项目 github repo 链接：https://github.com/PhiloCwh/NFC
+* 是否基于之前的项目：这两天纯手打
+* 项目 Demo 链接：todo
 
 
 
