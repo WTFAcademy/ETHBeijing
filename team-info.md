@@ -281,11 +281,14 @@ TODO
 * https://gpad.online
 
 # 24. SLOADS
-* 简介：Foundry 是一个以太坊智能合约开发框架。这个项目准备给他添加一个 feature，能够检索智能合约里面的所有 storage slot，特别是动态数据结构的，如 Array，Map。基于此，开发者可以更加方便地深入探索链上智能合约的状态，比如查找某个 token 的所有持币地址。工作内容：需要修改 foundry，foundry-std 里面的 cheatcode，以及 foundry 所依赖的 revm。起因则是在完成[这个 ctf](https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle) 时遇到了问题。
-* 目标：能够在 test 中使用新增的一个 cheat code 返回所有 storage slots index 的数组。
+**24.1 项目名称**: SLOADS
+
+* 简介：Foundry 是一个以太坊智能合约开发框架。这个项目准备给它添加一个 feature，能够检索智能合约里面的所有 storage slot，特别是动态数据结构的，如 Array，Map。基于此，开发者可以更加方便地深入探索链上智能合约的状态，比如查找某个 token 的所有持币地址。工作内容：需要修改 foundry，foundry-std 里面的 cheatcode，以及 foundry-evm。起因则是在完成[这个 ctf](https://quillctf.super.site/challenges/quillctf-challenges/slot-puzzle) 时遇到了问题。
+* 目标：修改 Foundry，能够在使用 Foundry 模版的 solidity 项目中的 test 中使用新增的几个 cheatcode。 cheatcode 能够按照参数要求返回所有 storage slots 相关的信息。
 * 是否招募队员：否
 * 链接：https://github.com/0xevm
 * 如何联系：WeChat ID: liquan_eth
+
 ## 进度
 ### day1
 - [x] 完成组队，GitHub org&repo 的新建：https://github.com/0xevm
