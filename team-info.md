@@ -621,9 +621,34 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * Day2 进度：完成前后端接口联调、完成前端接口交互  
 * 所选赛道：Innovative Layer2 Dapp & Scroll
 # 29 ETHU
-* 简介：区块链促进了数据共享和流通，zk技术则广泛用于隐私保护，我们项目立足于现实生活中的医患问题，通过智能合约结合上述技术，实现准入协议，促进患者交流圈子的信息交换和生态健康。
-* 目标：完成demo开发和展示
-* 是否招募队员：否
+💡  提供一种具有隐私保护属性的链上身份验证机制
+- 项目名称：医疗互助群
+- 所选赛道：1
+- 项目图片：[![profile.png](https://i.postimg.cc/wxP6Hz7B/profile.png)](https://postimg.cc/rz16CvG6)
+### 项目背景 
+  1. 患者有病史隐私保护的需求，但也有寻找有相同病史的人的需求。
+  2. 在Web2的世界里，患者常常要冒着隐私泄露的风险，在中心化服务提供商上暴露隐私来换取服务。
+    1. 例如搜索引擎在输入症状时会导致隐私信息的泄露，可能会有恶意推送。
+  3. 当前许多患者群中存在准入机制的缺失问题。部分交流群可能会有潜伏的无良商家或医药代表，伪装身份发表误导性观点等。
+  4. 点对点的群聊组建方式低效且复杂。
+### 项目特点
+  实现一个Dapp，利用区块链来促进数据流通，所有医院在链上统一进行交互，消除数据壁垒。医院同时也签名为患者病历背书，保证真实性。此外利用zkp的方法实现隐私保护，对敏感字段加密存储，将身份验证（准入）的过程转移到链上，防止无关人员的进入。最后通过链上验证以及去中心化的方式提高审计效率，方便快速组群。
+### 项目流程
+  1. 首先是患者如果在线下确诊时，会产生一份病历报告。
+  2. 然后医院会对这份报告签名背书，将报告的哈希记录到合约上。
+  3. 用户本地生成proof，并提交proof给合约。
+  4. 如果验证通过，会在链上记录用户的加入某特定群的凭证。
+  5. 用户通过提供凭证申请加入社交服务提供商的特定群聊。
+  6. 社交服务提供商在链上合约当中检索是否有凭证与用户的相等，如果有，说明之前患者已经通过了合约的验证，准许入群，否则拒绝。
+### Info
+- 队长：田加州，队员：孟铉济，占文涛，黄润泽
+- 目标：完成demo开发
+- 前两日进度：
+Day1：完成理论推导，验证方案可行性
+Day2：前端进行UI开发，完成基础前端逻辑，完成circom verifier合约开发
+- 🔗 Demo链接： https://youtu.be/8kRMFvCwG_I
+- 🔗 repo链接：https://github.com/hrzisme/beijing-new
+- 是否有其他项目经验：无，纯临阵磨枪
 # 30 PKUSZ Blockchain DAO
 * 简介：LSD中心化风险解决方案
 * 目标：产出研究分析报告和EIP
@@ -889,11 +914,31 @@ Through TrustConnect, we aim to demonstrate the potential of CertiKlave as a rob
 * 目标：We will build TrustConnect project from scratch.
 * 是否招募队员：否
 # 41 Model Labs
-* 简介：Web3 Tokenomics Smart Design & Automatic Audit Platform
-* 目标：我们预计在黑客松期间推出 AIGC 相关的新 feature, 以及产品使用教程和案例，并发布公测版
-* 是否招募队员：否
+## 41.1 项目截图
+![blockmodel.png](img/Team%2341_ScreenShot.png)
+## 41.2 简介  
+Web3 Tokenomics Smart Design & Automatic Audit Platform
+- Create: 
+Create 页面支持用户以图形化建模的方式为自己的项目构建 Tokenomics 模型; 用户也可以构建与模型交互的沙盒环境，例如市场交互环境、监管环境等。用户构建完模型后，还可以调用平台的自动化审计服务。此外还支持用户将其构建的成果以 NFT 的形式铸造上链。
+- Copilot: Copilot 页面提供了基于 LLM 的 Tokenomics 设计&分析 AI 助手。用户可以通过与 AI 交互获得 Tokenomics 初版设计和改进建议。
+- Explore: Explore 页面是一个围绕 Tokenomics 建模的一级&二级市场。用户在 Create 页面构建的模型、沙盒环境都可以在此处上架进行交易以获得收益。用户可以在此处购买并 fork 其他人的建模成果，从而加快设计自己项目 Tokenomics 的进度和效率。
+## 41.3 队伍
+Founder & Developer: Jason Wang
+## 41.4 本项目在这次黑客松的目标：
+1. 完成 CoPilot 功能的开发和调试；
+2. BlockModel 整个产品现阶段的使用教程和案例；
+3. 发布公测版
+## 41.5 黑客松前两日进度:
 * 第一天进度: (1)前端完整交互流程搭建完成(包括钱包/邮箱登录,产品使用交互); (2)接入 openai API 并测试使用;
 * 第二天进度: (1)调试完 openai API 并开发了数据处理; (2)调试并优化了产品的整个交互流程; (3)正在准备产品使用教程;(4)产品公测上线的前期准备
+## 41.6 Demo Video 
+## 41.7 Github Repo
+https://github.com/ModelLabs/BlockModel-frontend/tree/eth-beijing
+## 41.8 是否基于之前的项目
+是的，我们原先已经在开发 Tokenomics 模型化的相关功能，反应在前端就是 Create 页面。我们采用了 ABM (Agent-Based Model)的方式，抽象建模了四个 Agent，用户可以设置 Agent 的参数以及它们之间的互动，完成一个 Tokenomics 的建模。基于模型，我们开发了仿真运算器。模型仿真过程中产生的数据，我们也提供数据可视化面板供用户查看和分析。
+## 41.9 项目 Demo 链接
+我们推出的 Beta 版链接
+https://block-model.com
 # 42 D/Wallet
 * 简介：D/Wallet
 * 目标：会认识很多开发者朋友 会进一步完善wallet
@@ -1051,9 +1096,11 @@ TODO
 
 # 54 “NFC”（non fungible crush）
 * 项目名称 “NFC”
-* 项目图片 ![image](https://user-images.githubusercontent.com/105807963/230672360-3cbfdc94-c216-4a31-b439-15018bcfc525.png)
+### 项目赛道： *Public Goods，Scroll
+### * 项目图片 ![image](https://user-images.githubusercontent.com/105807963/230672360-3cbfdc94-c216-4a31-b439-15018bcfc525.png)
 
-* 简介：完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
+### * 简介：
+* 完成NF资产的同质化和同质化做市商做市逻辑的改变，包括但局限于erc721，erc1155的非同质化可枚举资产。
 * 并参考curve的token模型让NFT项目方跟DEX进行利益捆绑
 * 并为了激励早期用户添加流动性采用了了深度相关做市，其流程为用户添加流动性得到两种token
 * 1是可以取回原始token的lptoken
@@ -1063,10 +1110,14 @@ TODO
 * ![image](https://user-images.githubusercontent.com/105807963/230673904-e76a046b-131a-4911-9c6b-89238b6f19e7.png)
 * 用户可以凭借lptoken取回原本的token＋fee（做市奖励）![image](https://user-images.githubusercontent.com/105807963/230674319-b5732893-b576-4b90-b9c9-f1736c26f1cb.png)
 * 同样也可以取回额外的手续费奖励![image](https://user-images.githubusercontent.com/105807963/230674443-87ffe39d-1f2b-4e3e-8c9a-5187534b21ab.png)
+* 用户的白名单lptoken（后面考虑rewardtoken）可以拿去pool合约里面质押获得dex token（dex token作用类似于crv）
+* 用户得到的dex可以给相应的lp交易对池子投票来决定相应lptoken质押到Pool的apr
+* ![image](https://user-images.githubusercontent.com/105807963/230702824-620ef28c-48e1-41ad-bbe4-ec1739877b67.png)
 
 
 
-* 目前合约有
+
+* 目前合约有(sepolia测试网络)
 * 交易税收抽象合约：0xE295ca140be8d06eCcA6487fAd1A177d30d38930
 * 交易税收深度代理合约：0xF9fb5f042E522803E550Ee1aEB07478098207bDb
 
@@ -1076,6 +1127,8 @@ TODO
 * NFT碎片化协议：0xCF4A54E437e3e9D4A6948858bdcD013E3166d054
 * NFT深度相关做市合约：0x2F912de2719BF405793EC19aC51f2eEA0C1CA27F
 * AMM周边合约：0xaB93Bc74E8aA9d291CE9F7637741c0d7C65D08c1
+* DEX token：0x2D0Bc79B3eD7e1DebaA9A36e5805D58dFf05ac2E
+* Pool 奖励合约：0x0504b47bc20Ce7DcF92463ABCc54B578Add26b9f
 
 * NFT1:0xeB787FAE66e27FABe5dedAdAf115fc89947E67E5
 * NFT2:0x2140b4F9C510913Dcc597407cAcA40106F4BFC20
@@ -1084,13 +1137,16 @@ TODO
 * 碎片化NFT1和碎片化NFT2的lptoken：0xe350a5b7E773dc9cb511a0540C3F1B4b2fa0F6bf
 * 碎片化NFT1和碎片化NFT2的lptoken的深度token： 0x5bb6a0cc42CB30456C99D62f3e2F063e9A7C4126
 
-* 队长和队员：陈文焕
-* 黑客松目标，完成合约，目前进度基本完成
-* 黑客松前两日的进度：完成基本合约
-* Demo 视频链接：todo
-* 项目 github repo 链接：https://github.com/PhiloCwh/NFC
-* 是否基于之前的项目：这两天纯手打
-* 项目 Demo 链接：todo
+### * 队长和队员：陈文焕
+### * 黑客松目标，完成智能合约编写和完成简单测试
+### * 黑客松前两日的进度：
+* day1，吹水获得改进思路，完成主合约交易所的编写
+* day2，猛肝
+* day3，猛猛肝，完成基本所有合约编写
+### * Demo 视频链接：https://www.youtube.com/watch?v=JVvBYPb8fbc
+### * 项目 github repo 链接：https://github.com/PhiloCwh/NFC
+### * 是否基于之前的项目：这两天纯手打
+### * 项目 Demo 链接：https://www.youtube.com/watch?v=MDMwtqBOaRk
 
 
 
