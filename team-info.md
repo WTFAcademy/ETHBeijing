@@ -166,6 +166,10 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 ## 🔗 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
 
+## 💻 项目图片: 
+
+![](https://i.ibb.co/V9FhnBd/20230408132828.png)
+
 ## 😃 关于我们：[Web3Club](https://github.com/Web3-Club/Intro.)
 
 ## 简介：基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
@@ -204,31 +208,33 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 最后希望 得到更多参与活动的朋友、评委 及 赞助商 对我们的项目的评价和反馈 以及各位宝贵的建议💬 让我们继续进步下去
 
 ## ❓ 是否基于之前的项目
-否 这个项目对我们而言 是**完全全新的一次尝试** 
-包括学习内容 也在保证趣味性的前提下 与原来所做的Wiki以及知识文档 完全不同 
+参考开源项目 [vue-chat](https://github.com/Coffcer/vue-chat)
 
 ## 🔖 项目进度
 ### 📅 Day1
-#### ✅ 已结束
+#### ✅ 已完成
 - [x] 项目文档
 - [x] 项目文件目录 制作
 - [x] 用户学习主要内容 文本 制作 （Web1-Web3）
 - [x] 分支交互逻辑 设计 
 - [x] 未来 智能合约开发 路线 设计
-#### 🏗️ 正在Buidl
-- [ ] 前端 互动聊天界面 开发   
-- [ ] 后端 分支交互逻辑设计嵌入 开发
-- [ ] 智能合约 开发
-- [ ] 用户学习主要内容 文本 制作 （Web1-Web3衍生内容 Dune)
+#### 🏗️ 已完成
+- [x] 前端 互动聊天界面 开发   
+- [x] 后端 分支交互逻辑设计嵌入 开发
+- [x] 智能合约 开发
+- [x] 用户学习主要内容 文本 制作 （Web1-Web3衍生内容 Dune)
 
 ### 📅 Day2
-#### ✅ 已结束
+#### ✅ 已完成
 - [x] 前端 互动聊天界面 开发 
 - [x] 后端 分支交互逻辑设计嵌入 开发
 - [x] 智能合约 开发
- - acbt
- - score
+ - SBT
+ - Score
 - [x] 用户学习主要内容 文本 制作 （Web1-Web3衍生内容 Dune)
+
+## 📱 demo视频链接: [bilibili](https://www.bilibili.com/video/BV1PM4y117Ab/)
+
 
 ## 💬 如何联系：WeChat ID: YanboTravelAllWorld 
 
