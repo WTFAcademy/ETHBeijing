@@ -26,7 +26,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面](https://dorahacks.io/zh/hackathon/eth-beijing-2023/) 提交项目信息，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
-### 1.1 所选赛道：Public Goods
+### 1.1 所选赛道：Open Research
 
 ### 1.2 简介图片 
 ![i36rNL.jpeg](https://i.328888.xyz/2023/04/08/i36rNL.jpeg)
@@ -53,7 +53,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * - 前后端联调
 * - 继续GPT Fine-tune
 * - 录制视频
-* - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
+* - 所选赛道： Open Research
 ### 1.7 视频Demo链接
 - [YouTube](https://www.youtube.com/watch?v=Zh_sfqds19g&feature=youtu.be) length: 2m50s
 ### 1.8 GitHub链接
