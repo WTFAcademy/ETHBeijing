@@ -539,7 +539,8 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 
 
 # 38 y=e^x
-* 项目名称：$y=e^x$
+* 项目名称：
+$y=e^x$
 * 项目图片：
 * 所选赛道 Layer 2 + Scroll
 * 简介：一种新的更负责任的DeFi设计，以基金的形式持有一系列DeFi，它无通胀排放、支持单边流动性、拥有完全自持流动性、低gasfee、并且有稳健的风控能力。请注意，这仍然不是无风险的，但它将大幅改善当前LPer的生存状况，并为社区提供稳定、有深度、低成本的流动性。
