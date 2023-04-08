@@ -538,6 +538,7 @@ FactLens 是一个去中心化的新闻审查生态系统，包括一个网页�
 📅DAY 1：头脑风暴，原型设计，UI迭代，商业画布分析，技术栈选型，智能合约开发(30%)
 📅DAY 2：前端开发，智能合约开发(100%)
 8.Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：Youtube，Bilibili，Loom，视频长度不能超过3分钟，否则扣分。
+https://youtu.be/KV8Lgr6QjmY
 9.项目 github repo 链接https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023
 10.是否基于之前的项目，如果有，给出详细信息。
 否, 本项目从想法到demo的全部工作，均于ETH Beijing Hackathon期间从零开始完成。
