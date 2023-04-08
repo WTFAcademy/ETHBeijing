@@ -709,6 +709,7 @@ TODO
 
 # 54 “NFC”（non fungible crush）
 * 项目名称 “NFC”
+### 项目赛道： *Public Goods，Scroll
 ### * 项目图片 ![image](https://user-images.githubusercontent.com/105807963/230672360-3cbfdc94-c216-4a31-b439-15018bcfc525.png)
 
 ### * 简介：
@@ -755,10 +756,10 @@ TODO
 * day1，吹水获得改进思路，完成主合约交易所的编写
 * day2，猛肝
 * day3，猛猛肝，完成基本所有合约编写
-### * Demo 视频链接：todo
+### * Demo 视频链接：https://www.youtube.com/watch?v=JVvBYPb8fbc
 ### * 项目 github repo 链接：https://github.com/PhiloCwh/NFC
 ### * 是否基于之前的项目：这两天纯手打
-### * 项目 Demo 链接：todo
+### * 项目 Demo 链接：https://www.youtube.com/watch?v=MDMwtqBOaRk
 
 
 
