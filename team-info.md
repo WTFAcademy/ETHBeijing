@@ -970,9 +970,30 @@ Day2：前端进行UI开发，完成基础前端逻辑，完成circom verifier�
 - 🔗 repo链接：https://github.com/hrzisme/beijing-new
 - 是否有其他项目经验：无，纯临阵磨枪
 # 30 PKUSZ Blockchain DAO
-* 简介：LSD中心化风险解决方案
-* 目标：产出研究分析报告和EIP
-* 是否招募队员：否
+### （1）项目名称
+以太坊共识层中心化风险及优化方案
+### （2）赛道选择
+Open Research
+### （3）项目图片
+实在来不及放github上，先放飞书里了
+https://icruz04h83.feishu.cn/file/Q7H2br1v0o9DMwxTOsDctOG6n1d
+### （4）项目简介
+ETH共识层控制着出块与验证工作，共识层的中心化可能导致一些中心化攻击。而目前以太坊社区没有一个体系和指标来衡量共识层的中心化程度。本项目梳理了共识层各类中心化，以及不同层次的中心化攻击。通过这两项工作对目前ETH共识层的中心化风险问题做了较精准的描述，这可以为ETH社区提供一种标准和警戒。在整理完现有中心化风险解决方案后，我们**发现了目前火热的DVT技术（尤其是SSV）的重要缺陷**，采用DVT与不采用DVT相比，宕机相同数量的operator，会导致宕机更多的验证器，从而降低了整个网络的安全性。因此我们对这一技术进行了改善，提出**基于DVT技术的客户端共识规则协议改进方案并制作了EIP draft**。
+### （5）队长和队员
+- 队长：Ken0928.eth
+- 队员：0xBlueShark、Alina、Jay、Claudia
+### （6）黑客松目标
+产出研究分析报告和EIP
+### （7）前两日的进度
+Day1：梳理POS质押机制、质押赛道的竞争格局；对DVT技术原理进行研究；建立中心化风险的研究框架，同时扫描目前的解决方案情况
+Day2：对可量化的竞争格局进行数据分析；发现DVT在以太坊生态中存在的问题；提出共识层中心化风险弱化解决方案，即对以太坊客户端共识规范改进的方案，在客户端层面加入DVT选项，旨在丰富以太坊客户端多样化和去中心化程度；形成并完善研究报告，按照格式规范开始撰写EIP提案
+### （8）PPT(代替Demo视频链接）
+https://icruz04h83.feishu.cn/file/O7GGbUDJcodO1VxcZGvc0vLHnId
+### （9）是否基于之前的项目，如果有，给出详细信息。
+否，但有参考文献
+### （10）项目报告链接（替代Demo链接）
+https://icruz04h83.feishu.cn/file/GdZubXCRAoRtqtxUZfRcyHuDnBg
+
 # 31 PADO
 * 项目名称：PADO
 * 所选赛道：Public Goods
