@@ -247,13 +247,13 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 目标：Website. Animated AI. NFT.
 * 是否招募队员：需要前端（JS、Next.js、React、设计）、NFT 的 Solidity、AI（HuggingFace、GPT）、后端（server setup + integrations）。Looking for Frontend (JS, Next.js, React, design), Solidity for an NFT, AI (HuggingFace, GPT), backend (server setup + integrations).
 * 如何联系：WeChat ID: -
-* Team members: [Mikko](https://github.com/mikkoikola), [Philipp](https://github.com/p0s), [Disney](https://github.com/discountry)
+* Team members: [Mikko](https://github.com/mikkoikola), [Philipp](https://github.com/p0s), [Disney (队长)](https://github.com/discountry)
 * 第一天进度: GPT integration, Web app
 * 第二天进度：Web3 part, NFT on Scroll
-* Track: Public Goods
+* Track: Public Goods + Scroll (NFT on Scroll)
 * ![app-mockup-mm2](https://user-images.githubusercontent.com/85865001/230700835-24b70550-248f-4904-b154-a12a0b966ac4.png)
-* [Video introduction](https://www.youtube.com/watch?v=vxIAqcch2tw)
-* [MentorMachines.xyz](https://mentormachines.xyz/)
+* [Demo Video](https://youtu.be/8JeQK55ozHM)
+* [Demo Website: MentorMachines.xyz](https://mentormachines.xyz/)
 * [Our Github Repo](https://github.com/p0s/mentor-machines#readme) 
 * 是否基于之前的项目：否。
 # 16. ContriX
