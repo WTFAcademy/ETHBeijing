@@ -26,7 +26,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 另外大家也欢迎在 ETH Beijing Hackathon 的 [DoraHacks页面](https://dorahacks.io/zh/hackathon/eth-beijing-2023/) 提交项目信息，增加项目的曝光量，但这不是必须的，不会影响分数。
 
 # 1. Terminal3
-### 1.1 所选赛道：Open Research
+### 1.1 所选赛道：Public Goods
 
 ### 1.2 简介图片 
 ![i36rNL.jpeg](https://i.328888.xyz/2023/04/08/i36rNL.jpeg)
@@ -53,7 +53,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * - 前后端联调
 * - 继续GPT Fine-tune
 * - 录制视频
-* - 所选赛道： Open Research
+* - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
 ### 1.7 视频Demo链接
 - [YouTube](https://www.youtube.com/watch?v=Zh_sfqds19g&feature=youtu.be) length: 2m50s
 ### 1.8 GitHub链接
@@ -355,14 +355,14 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 ### WoodXu：产品经理
 ### [rogary](https://github.com/Rogary/): 合约+后端
 ### [bravehot](https://github.com/bravehot):前端
-
+     
 ## 目标： 
    1.第一版本Deshop 平台的上线（提前于赛前上线）  
    2.Deshop 的地址信用评级工具(官网+浏览器插件)  
-
+   
   * 构建与去中心化电商平台相伴生的，基于区块链地址的信用评级体系工具和平台。  
   * 这个工具也可以完全单独使用，给其他项目（帮助识别信用更高的用户等）。  
-
+   
 ## 进度：
 ### 04-06进度：
  * 1)合约+后端：合约开发（20%） 
@@ -1309,7 +1309,7 @@ Public Goods
 
 ### 项目图片
 
-![](https://github.com/wcw-xb/Decomment/blob/main/show.png?raw=true)
+![image-20230408132915607](C:\Users\18228\AppData\Roaming\Typora\typora-user-images\image-20230408132915607.png)
 
 ### 简介
 
@@ -1475,6 +1475,39 @@ TODO
 * 目标：完成展示demo
 * 是否招募队员：是 如果熟练前端、合约最好了
 * 如何联系：Wechat ID: web3hooks
+
+## 47.1✨ 项目名称
+### GptClick
+
+## 47.2🎊 所选赛道
+### Public Goods
+
+## 47.3🎇 项目图片
+## ![i3oGcy.png](https://i.328888.xyz/2023/04/08/i3oGcy.png)
+
+## 47.4🎆 简介
+* 我们已成功实现了使用 AI 辅助用户执行链上合约的功能，通过自然语言生成交互按钮。在理想的使用场景中，当用户输入“eth价格小于1000，帮我买1个”，系统会自动创建一个按钮，用户点击后便可生成链上dex订单。同样，当用户输入“mint最近发行的NFT”，按钮交互后将直接获得相应的NFT。此外，输入“我想领取arb币”的请求，点击相应的按钮交互后，用户便可直接领取到arb代币。这些功能为用户提供了更加便捷的链上交互体验。
+
+## 47.5🎡 队长和队员
+* hooks
+
+## 47.6🎮 本项目在这次黑客松的目标
+* 完成了ChatGPT在多场景下的自然语言识别转换为交互按钮的逻辑触发。
+* 验证了ChatGPT能够辅助用户完成链上的操作。
+
+## 47.7🎃 黑客松前三日的进度
+* 4 月 6 日进度同步：开始了前端的构建
+* 4 月 7 日进度同步：搭建了Uniswap的组件.
+* 4 月 8 日进度同步：接入了OpenAI的接口，完成了程序的主要逻辑和部署。
+
+## 47.8🎄 Demo 链接
+### https://gptclick.xyz
+
+## 47.9🎄 Demo 视频链接
+### 
+
+## 47.10🎀 项目 github repo 链接
+### [GptClick](https://github.com/gptclick/web)
 # 48 RoochNetwork
 * 简介：RoochNetwork 是一个 Ethereum 上的模块化 Layer2，当前正在研发中。Rooch 的设计方案里，我们提出了一种 Rollup State Tree，用于实现状态从 Layer1 到 Offchain 的迁移。基于这套方案可以实现大规模的 NFT 发行，以及 NFT 在 Layer1 和 Offchain 存储之间的迁移。我们认为这个方案非常适合用在 AIGC 场景，所以打算用这套方案实现一个 AIGC 的 NFT 发行的 demo。
 * 目标：设计一个基于 Rollup State Tree 的 NFT 发行方案，并提供一个和 AIGC 结合的 demo，并提出一个 ERC721 改进的 EIP。
