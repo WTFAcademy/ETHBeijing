@@ -967,12 +967,16 @@ https://block-model.com
 * [项目链接](https://github.com/gihubsfy/sybil_detect)
 
 # 44 TxRouter
-* 简介：借助 huff 语言进行汇编实现高效的多方发送和接受
-* 目标：完成合约编程和系统测试，并部署到测试网
+![TxRouter](https://img.gejiba.com/images/abde173f088ffb397ea43d77a60dcd58.png)
+* 简介：借助 huff 语言进行汇编实现高效的多方资产发送和聚合
 * 赛道：Public Good
-* 是否招募队员：否
+* 队长及队员：wssh
+* 目标：完成合约编程和系统测试，并验证合约高效性
 * 第一天进度：已完成多方资产发送相关合约及部署代理合约
 * 第二天进度：已完成代理合约工厂及多方资产聚合函数
+* Demo 链接：https://www.youtube.com/watch?v=jTK4w5ihOwU
+* 项目 github 链接：https://github.com/wangshouh/TxRouter
+
 # 45 DOA
 ### 45.2 简介图片 
 * TODO
