@@ -174,6 +174,7 @@ TODO
 * 3. 实现aa钱包交互逻辑。
 * 
 # 12. Prestare Lightning Leverage
+* 赛道：Public Goods
 * 项目图片 ![slides](https://user-images.githubusercontent.com/72059918/230698901-3cd0705f-7a31-4617-bc5b-fe6f975ac237.jpg)
 * 简介：我们提供了用户友好的闪电贷工具，可以帮助基于现有的借贷协议做杠杆交易。
 * 背景：
