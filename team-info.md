@@ -264,14 +264,14 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 ### WoodXu：产品经理
 ### [rogary](https://github.com/Rogary/): 合约+后端
 ### [bravehot](https://github.com/bravehot):前端
-     
+
 ## 目标： 
    1.第一版本Deshop 平台的上线（提前于赛前上线）  
    2.Deshop 的地址信用评级工具(官网+浏览器插件)  
-   
+
   * 构建与去中心化电商平台相伴生的，基于区块链地址的信用评级体系工具和平台。  
   * 这个工具也可以完全单独使用，给其他项目（帮助识别信用更高的用户等）。  
-   
+
 ## 进度：
 ### 04-06进度：
  * 1)合约+后端：合约开发（20%） 
@@ -1150,7 +1150,7 @@ Public Goods
 
 ### 项目图片
 
-![image-20230408132915607](C:\Users\18228\AppData\Roaming\Typora\typora-user-images\image-20230408132915607.png)
+![](https://github.com/wcw-xb/Decomment/blob/main/show.png?raw=true)
 
 ### 简介
 
