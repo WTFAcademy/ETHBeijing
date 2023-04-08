@@ -16,11 +16,33 @@
 * 是否招募队员：接受，希望资金充足，为合法化研究提供技术支持
 * 如何联系：WeChat ID: ltb192
 # 5. FolioView
-* 简介：一个面向新手的轻量级多钱包投资组合工具网站，它提供简洁友好的数据分析/信息聚合界面，基于链上数据赋予用户链上信用，并给出关于优化投资组合的推荐供新手用户参考
-* 目标：Web端Demo
-* 是否招募队员：接受，需要擅长web3-react和Data Visual的前端开发
-* 如何联系：WeChat ID: jerrykicks
-* Day 1 进度：一级页面完成；钱包连接和前后端交互完成
+  1. 项目名称：
+    FolioView  
+  2. 所选赛道：
+    Open Research
+  3. 项目图片：
+    ![theme.png](https://github.com/z6m8n7ljw/ETHBeijing-FolioView/blob/main/theme.png)
+  4. 简介
+    - 本项目是一个面向 DeFi 小白用户的多钱包信息聚合/数据分析 all-in-one 工具，旨在为 Web3 新手用户降低参与 DeFi 活动的门槛
+    - 它提供简洁友好的看板界面，支持主流资产的余额、收益和分布查询
+    - 通过用户链上资产配置的投资组合数据，结合市场数据，分析构建用户风险承受能力的用户画像，并据此 mint SBT，作为 C 端用户 DID 社交展示，以及供给 B 端的用户链上资产标签数据
+    - 通过量化统计的数学模型，为用户推荐当前资产配置下的最优化投资组合，并给出与当前资产配置的风险/收益比较，为用户优化资产配置的投资决策提供参考
+    - 它还提供各资产的信息聚合二级页面，包括实时币价、最新空投活动、此代币快讯动态和 Twitter 上中文圈 Top KOL 对此代币的最新言论
+  5. 队长和队员
+    - Front-end Engineer: 小邵
+    - Back-end Engineer: Jerry
+    - UI/UX: 王三三
+  6. 本项目在这次黑客松的目标：
+    实现从 0 到 1 的 Web 端应用开发
+  7. 黑客松前两日的进度
+    - Day 1：UI 设计首稿，首页前端开发，NFT 合约开发及部署，线上数据爬取及实时数据 API 整理
+    - Day 2：UI 设计微调，二级页面前端开发，后端 Python 数据分析/推荐服务开发，前后端交互联调
+  8. Demo 视频链接：
+    [https://youtu.be/SbjOCqfm-M8](https://youtu.be/SbjOCqfm-M8)
+  9. 项目 Github Repo 链接：
+    [https://github.com/z6m8n7ljw/ETHBeijing-FolioView](https://github.com/z6m8n7ljw/ETHBeijing-FolioView)
+  10. 是否基于之前的项目：
+    否
 # 6. Auto3 Copilot
 * 简介：Auto3 Copilot 结合GPT技术，使开发者能够快速、高效地生成 Web3 自动化程序。只需输入具体的需求，比如“每天帮我定投 1000 USDC 的 ETH”/“当有某个特性的 NFT 挂单价低于XX的时候自动买入”，然后会自动生成可一键运行的代码。
 * 目标：接口数据库：创建一个用于构造 Prompt 的链上智能合约与链下应用接口的数据库（因为时间问题可能不会太全），然后可以从中检索某个合约或应用的调用方式。开发基础功能：我们将完成 Auto3 Copilot 的核心功能，包括输入需求、基于 Auto3 SDK 生成自动化代码.创建示例项目：我们将开发几个示例项目，展示Auto3 Copilot在不同场景下的实际应用，例如DeFi策略自动化、NFT市场监控以及智能合约交互等。
