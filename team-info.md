@@ -993,14 +993,42 @@ TODO
 
 
 # 55 The Canaan Sword（迦南圣剑）
-* 简介：我们的GameFi项目是一款PVP实时策略卡牌游戏，将玩家带入一个真实而充满挑战的竞技世界。在这个游戏中，玩家将扮演一个虚拟领袖角色。玩家需要通过实力和智慧，培养角色和策略规划，来战胜其他玩家。每个玩家都有一个独特的数字钱包，所有的交易和交换都会被记录在区块链上，这保证了游戏的公平性和透明度。  
-* 除了基础玩法，我们的游戏还有其他一些独特的特色。我们将开发一个社交系统，让玩家之间可以互相交流、学习和分享经验。我们还将开发一个运营系统，包括丰富的活动、任务、竞技赛事和悬赏任务等，来增加游戏的趣味性和挑战性。最重要的是，我们将建立一个完整的游戏生态系统，玩家可以通过游戏获得奖励并将其转化为真实的财富。   
-* 在我们的GameFi游戏中，你可以成为一个国家的领袖，建立一个强大的军队，并且与其他玩家进行竞争。这种结合了区块链、加密货币和游戏的模式，兼顾游戏的可玩性和web3的经营模式，将为玩家创造更多可能！
-* 目标：完成Web前端Demo的开发，为前端Demo开发简单的Node Server，并进行演示；完成游戏经济模型的设计与开发，结合前端Demo进行铸造展示。
-* 是否招募队员：否，但是黑客松结束之后项目会继续做下去，我们也一直在招募以下岗位的人才：Ui设计师、插画师、产品经理、JAVA后端、React前端、Unity开发等。
-* 如何联系：Wechat ID: Jacob_Mr_Yang
+##### Name 
+The Canaan Sword
 
-第一天进度：完成部分前端界面(Node.js)，设计并实现部分经济模型(Solidity)，完善项目repo
+##### 赛道 
+Layer 2
+
+##### 项目图片
+![image](https://github.com/Flappywonders/The_Canaan_Sword_ETHBeijing/blob/main/imgs/background.png)
+
+##### 简介：
+我们的GameFi项目是一款PVP实时策略卡牌游戏，将玩家带入一个真实而充满挑战的竞技世界。在这个游戏中，玩家将扮演一个虚拟领袖角色。玩家需要通过实力和智慧，培养角色和策略规划，来战胜其他玩家。每个玩家都有一个独特的数字钱包，所有的交易和交换都会被记录在区块链上，这保证了游戏的公平性和透明度。除了基础玩法，我们的游戏还有其他一些独特的特色。我们将开发一个社交系统，让玩家之间可以互相交流、学习和分享经验。我们还将开发一个运营系统，包括丰富的活动、任务、竞技赛事和悬赏任务等，来增加游戏的趣味性和挑战性。最重要的是，我们将建立一个完整的游戏生态系统，玩家可以通过游戏获得奖励并将其转化为真实的财富。在我们的GameFi游戏中，你可以成为一个国家的领袖，建立一个强大的军队，并且与其他玩家进行竞争。这种结合了区块链、加密货币和游戏的模式，兼顾游戏的可玩性和web3的经营模式，将为玩家创造更多可能！
+Our GameFi project is a real-time strategy card game where players compete against each other. Players assume the role of a virtual leader, cultivate characters, and plan strategies to defeat opponents. The game ensures fairness and transparency through blockchain technology. Unique features include a social system for communication and a rich operational system with activities and rewards. Players can earn in-game rewards that can be converted into real-world wealth. It's a combination of blockchain, cryptocurrency, and gaming, offering players exciting possibilities!
+
+##### 队长和队员
+杨硕*(Wechat ID: Jacob_Mr_Yang) 蒋隽 张晨曦 徐文静 吴宏骏
+
+##### 本项目在这次黑客松的目标
+完成项目的经济模型设计与合约实现，完成前端实现，并进行完整的Demo展示
+
+##### 黑客松前两日的进度
+Day1: 讨论并设计支撑项目的三个token的模型，讨论并设计前端界面
+Day2: 编码实现代币经济模型，与前端进行联调
+Demo Day: 完成材料整理，调试bug
+
+##### Demo 视频链接
+
+
+##### github repo
+https://github.com/Flappywonders/The_Canaan_Sword_ETHBeijing
+
+##### 是否基于之前的项目
+是，之前写过游戏策划书，在黑客松现场开发demo
+
+##### 项目 Demo 链接
+http://8.130.95.112:4000/
+
 
 # 56 SoliveAI
 * 简介：SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约
