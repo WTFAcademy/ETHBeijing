@@ -184,13 +184,13 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 - [烟波](https://github.com/yanboishere)
   
 ### 队员
- 
+
 - [JiceJin](https://github.com/JiceJin)
   
 - [Azleal](https://github.com/Azleal)
   
 - [woHocooL](https://github.com/woHocooL)
- 
+
 
 ## 🎯 目标：
 此项目 不同于以往我们一直所做的 Wiki等百科/文档学习项目 是我们团队在Web3学习类产品方面的新的尝试🤔
@@ -668,7 +668,7 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 ### 项目背景 
   1. 患者有病史隐私保护的需求，但也有寻找有相同病史的人的需求。
   2. 在Web2的世界里，患者常常要冒着隐私泄露的风险，在中心化服务提供商上暴露隐私来换取服务。
-    1. 例如搜索引擎在输入症状时会导致隐私信息的泄露，可能会有恶意推送。
+        1. 例如搜索引擎在输入症状时会导致隐私信息的泄露，可能会有恶意推送。
   3. 当前许多患者群中存在准入机制的缺失问题。部分交流群可能会有潜伏的无良商家或医药代表，伪装身份发表误导性观点等。
   4. 点对点的群聊组建方式低效且复杂。
 ### 项目特点
@@ -973,6 +973,34 @@ $y=e^x$
 * 目标：实现基本的demo
 * 是否招募队员：否
 
+### 项目名称：
+
+DeComment
+
+### 所选赛道：
+
+Public Goods
+
+### 项目图片
+
+![image-20230408132915607](C:\Users\18228\AppData\Roaming\Typora\typora-user-images\image-20230408132915607.png)
+
+### 简介
+
+Decomment提供了一个基于用户评价的去中心化征信平台，通过用户的评论去收集大量至下而上来自用户端的信息流，通过将这些数据按照权重的叠加和排序，让传统的中心化权威背书转换到去中心化的大众背书，当达到一定用户基数时，在很大程度上就具备“审计”和“背书“等特点。通过项目方、个人和投资机构等群体的不断加入，伴随着Decomment评论质押总权重的提高，大量用户的评论数据将会不断去增强Decomment的背书能力，逐渐扩大到web3不可或缺的合作平台和建议咨询平台，让优秀的团队和项目获得更多人的认可。与此同时，没有道德的项目方团队也将寸步难行。其次项目方也可以很方便的去收集到项目相关的建议达到一个集思广益的作用，进而推动项目的良性发展，用户也会因此可以得到项目方的奖励和平台的专属质押币产出收益，促进更多用户去撰写更加优质的评论。Decomment用去中心化的方式在没有监管的情况了下也能在很大程度上限制一些没有道德底线和违法乱纪行为。同样Decomment也是一站式协议签署平台，通过协议上链和双方的签名捆绑，达到一键式签约，为在web3进行合作签约降低了极大的门槛。
+
+### 队长和队员
+
+队长：wendy
+
+队员：will、LiLLian
+
+### 本项目在这次黑客松的目标
+
+搭建一个基本的用户评价平台，具备一站式协议签署功能。
+
+### 黑客松前两日的进度
+
 * 第一天进度
   * 完成合约的部分
   * 前端UI搭建
@@ -980,6 +1008,14 @@ $y=e^x$
 * 第二天进度
   * 赛道：1. Public Good
   * 进度：前端功能通知、排行榜等功能实现、合约优化
+
+### Demo 视频链接
+
+https://youtu.be/HXatelOv3-k
+
+### 项目 github repo 链接
+
+https://github.com/wcw-xb/Decomment
 
 # 40 CertiKlave
 * 简介："TrustConnect: A Demonstration of Seamless Integration Between Wallet Apps and CertiKlave
