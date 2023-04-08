@@ -119,6 +119,11 @@ TODO
 
 # 9. Web3Club
 
+## 赛道
+### ⏩Innovative Layer2 Dapp ｜Track 2
+
+### ⏩Scroll｜Bounty Track
+
 ## 🔗 项目链接：[Web3-Interactive-Learning](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README.md)
 
 ## 😃 关于我们：[Web3Club](https://github.com/Web3-Club/Intro.)
