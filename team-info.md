@@ -73,15 +73,33 @@
 * 是否招募队员：对defi感兴趣的朋友都可以联系我
 * 如何联系：WeChat ID: AlexMcavoy
 # 13. GasLockR
-* 简介：Layer-2的gas price保险，提供个性化的服务。我们预估本项目属于轻量级产品，更侧重创新性与用户友好度。
-* 目标：从0到1开发，实现MVP，并有良好的UI呈现。
-* 是否招募队员：UI设计
-* 如何联系：WeChat ID: 844416650
-* Github：https://github.com/GasLockR
-* 赛道：Layer-2s
-* 进度：
-  周四：完成第一版合约与前端模版，讨论迭代方案，尝试实现交互。
-  周五：完成gas price的数学预测模型，更新合约，尝试前端与合约交互。
+### 1/ 赛道：Layer-2
+### 2/ 项目图片：https://github.com/GasLockR/Overview/blob/main/Logo.png
+### 3/ 简介：
+* We built the first trustless GasFi protocol. GasLockR uses Axiom, a ZK coprocessor for trustlessly reading historical gas prices to provide verifiable correctly priced GasFi derivatives based on financial models that are updated in real time. GasLockR is interoperable with other protocols and can be used as foundational on-chain infrastructure to build protocols and services that will solve the reliability, onboarding and UX problems we face today.
+
+* We provide an efficient way to hedge against the risk of rising gas prices, allowing users and organisations to rely on L2's. Services that operate on-chain will finally be able to provide SLAs (Service Level Agreements) to their users, building trust and acting as a catalyst for web3 adoption.
+
+* With our trustless financial derivatives product, other wallets or services can build on reliable infrastructure for hedging gas fees. With account abstraction (ERC-4337), paymasters provide a way for someone else to pay your gas fees so that the user don't need any tokens in their wallet to start interacting on chain. For example, they can pay a monthly subscription fee to a paymaster in fiat to be able to submit up to 100 transactions in a month. Or a service could offer to pay for your first 5 transactions using their service.
+
+* With account abstraction (ERC-4337), users can create a session key just like logging into a game where they pre-approve particular transactions. Wallets can leverage this to automatically submit transactions on the user's behalf without them having to manually approve them and specify a gas price. Together with account abstraction, GasLockR allows wallets to provide a seamless user experience where the user is not even aware that gas prices exist.
+
+* We built GasInsure, an insurance service as a demonstration of how GasLockR can be used as financial infrastructure to build amazing services.
+
+* GasInsure is an insurance service that aims to provide users with protection against gas price fluctuations on L2's.
+
+* Through a simple web GUI users can purchase insurance specifying how long they would like the protection for and pay a small premium to be protected against the tail risk of gas price fluctuations.
+
+### 4/ 团队成员：[秦张弛](https://github.com/Qinsir7)|Leader，[叶啸天](https://github.com/chiguayeshao)，[周贤渊](https://github.com/zhouxianyuan)，[Alex Cheema](https://github.com/AlexCheema)
+### 5/ 目标：从0到1丰富idea并进行开发实践，根据GasLockR协议，实现MVP。
+### 6/ 进度：
+* 周四：讨论idea，丰富GasLockR协议架构，尝试最小化产品合约，尝试利用Axiom，搭建前端框架，尝试交互。
+* 周五：根据真实gas price数据搭建数学预测模型，更新合约，尝试交互，讨论迭代方案。
+### 7/ Demo视频链接：https://www.youtube.com/watch?v=fprzRbCeay4
+### 8/ Github：https://github.com/GasLockR
+### 9/ 是否基于之前项目：否
+### 10/ 项目Demo链接：https://gaslockr.azurewebsites.net/
+
 # 15. MentorMachines AI
 * 简介：Captivating AI-powered animated mentor, who unravels the secrets of Ethereum and Scroll, while you seize the opportunity to conquer quizzes and claim NFT rewards on Scroll. 引人入胜的AI驱动的动画导师（会说话的脸），揭示以太坊和Scroll的秘密，同时您抓住机会征服测验并在Scroll上领取NFT奖励。
 * 目标：Website. Animated AI. NFT.
