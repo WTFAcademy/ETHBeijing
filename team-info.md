@@ -2,18 +2,17 @@
 
 ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年4月8日 下午15:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 1. 项目名称
-2. 所选赛道（Public Goods，Layer 2，Open Reserach 主赛道三选一；Scroll 可另选，与主赛道不冲突）
-3. 项目图片（1张有代表性的图片，不要过长）
-4. 简介
-5. 队长和队员
-6. 本项目在这次黑客松的目标
-7. 黑客松前两日的进度
-8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-9. 项目 github repo 链接
-10. 是否基于之前的项目，如果有，给出详细信息。
-11. 项目 Demo 链接（选填）
+2. 项目图片（1张有代表性的图片，不要过长）
+3. 简介
+4. 队长和队员
+5. 本项目在这次黑客松的目标
+6. 黑客松前两日的进度
+7. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.co)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
+8. 项目 github repo 链接
+9. 是否基于之前的项目，如果有，给出详细信息。
+10. 项目 Demo 链接（选填）
 
-在规定时间内提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
+在规定时间内提交 PR，且包含前 9 项信息的项目，视为提交成功，否则不参与评奖。
 
 评委将在当天下午15-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
 1. 代码 
@@ -487,13 +486,59 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
   - 3.多因子选板块前后端
 * 第二天：
   - 1.资产追踪器前后端
+
+
 # 33 智客团队（ZHKMC Team）
 * 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
-* 目标：完成比赛的项目开发和展示。
+* 目标：完成初版项目开发和展示，并积极深度参与以太坊生态。
+* 
 * 是否招募队员：否。
-* 项目进度：
-- 4月6日： （1）前端页面UI设计与制作：用户端，作者端；（2）核心合约编写； （3）核心业务技术实现方案讨论；
+* 是否基于之前的项目：否。
+
+* **赛道：L2**
+
+## 队长和队员
+**0xAuger** ,sleep, lansure, chichi, LEVI_104
+
+## 仓库链接
+Dapp端：https://github.com/Novel-Dao/novel-dao
+
+## 产品原型
+
+* 读者端：  https://modao.cc/app/huIxY5oro786vdVrRhBx
+* 作者端：  https://modao.cc/app/KC1ZLQHsrnwitsMvx019n 
+
+## 项目截图
+
+* 电脑端首页：
+![]([https://github.com/Novel-Dao/novel-dao/blob/main/images/pc.png]
+
+* 移动端首页：
+![]([https://github.com/Novel-Dao/novel-dao/blob/main/images/wap.png]
+
+
+## 项目进度：
+ ### 第一天 
+  * （1）原型设计
+  * （2）前端页面UI设计与制作：用户端，作者端；
+  * （3）核心合约编写； 
+  * （4）核心业务技术实现方案讨论；
+  
+  ### 第二天
+  * （1）白皮书完善；
+  * （2）智能合约Bug修复；
+  * （3）前端与合约交互Bug修复。
+  
+  ### 第三天 
+  * 初版Demo完成。
+  * 演示视频制作；
+
+## Demo视频
+
+Demo视频链接： https://www.youtube.com/watch?v=6fQqP3k7X2U&ab_channel=gosleep
+
+
 # 34 Lightm
 * 项目名：Travel Notes（中文名：旅行笔记）
 
