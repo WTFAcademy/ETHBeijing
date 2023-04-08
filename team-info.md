@@ -579,17 +579,28 @@ https://github.com/Silence1017/EtherWatchdog_Dapp/blob/main/EtherWatchdog.mp4
 * 目标：产出研究分析报告和EIP
 * 是否招募队员：否
 # 31 PADO
-* 简介：zk-snarks/zk-starks是目前大家比较熟悉的NIZK技术用于扩容和隐私保护。我们想采用另一种不太为人熟知的zk技术——交互式零知识证明(IZK)，来提供用户数据的隐私保护认证。
-* 目标：项目将搭建一个端到端的个人用户数据上链流程，个人用户可以获取其已有的web data, 通过IZK服务实现隐私保护的业务逻辑验证，生成一个数据证明，并发布到链上。
-* 是否招募队员：否
-* 第一天进度：
-  * ZK算法端：EMP-ZK工具（开源的交互式零知识证明工具）调试完毕，完成所需业务逻辑的ZK电路编写；
-  * 插件端：个人用户的交易所数据接口调试成功，可以获得资产信息。
-  * 其他：整体接口设计完成。
-* 第二天进度：
-  * ZK算法端：完成签名操作，和插件端的联调；
-  * 插件端：完成一个简单的前端页面，以及将验证结果通过EAS工具接口发布attestation到以太坊链上。
-  * 整个Demo的端到端流程已经串通，后续将进行一些优化工作、文档编写、视频制作以及完成最终版本的提交。
+* 项目名称：PADO
+* 所选赛道：Public Goods
+* 项目图片：
+![image](https://user-images.githubusercontent.com/17900089/230706101-e64b2f3b-97c5-4ee5-a7ed-aa9fd6d504d0.png)
+
+* 简介：通过PADO demo，个人用户可以获取他/她在币安交易所的账户总资产信息（包括现金账户和现货账户），并在链下完成隐私保护证明（资产金额大于一个阈值）。用户可以选择将证明结果编码成ethereum attestation提交到以太坊网络。项目主要优势之一是采用了交互式零知识证明(IZK)，相比于大家比较熟悉的zk-snarks/zk-starks等非交互式ZK技术，IZK在内存占用、处理布尔逻辑等方面具有巨大优势，非常适用于在用户终端直接部署zk-prover。
+* 队长和队员：**Fubiao Xia**, fksyuan, Yilin Yan
+* 本项目在这次黑客松的目标: 完成demo的端到端完整流程，体现IZK技术的隐私保护能力和效率优势，结合以太坊证明服务（EAS）来展示用户web2数据上链应用的可能性。
+* 前两日进度
+  * 第一天进度：
+    * ZK算法端：EMP-ZK工具（开源的交互式零知识证明工具）调试完毕，完成所需业务逻辑的ZK电路编写；
+    * 插件端：个人用户的交易所数据接口调试成功，可以获得资产信息。
+    * 其他：整体接口设计完成。
+  * 第二天进度：
+    * ZK算法端：完成签名操作，和插件端的联调；
+    * 插件端：完成一个简单的前端页面，以及将验证结果通过EAS工具接口发布attestation到以太坊链上。
+    * 整个Demo的端到端流程已经串通，后续将进行一些优化工作、文档编写、视频制作以及完成最终版本的提交。
+* Demo 视频链接：https://www.youtube.com/watch?v=ACA9n02PNSE
+* 项目github链接：
+  * IZK算法（本地prover和远端verifier）：https://github.com/pado-labs/ethbeijing-demo-izk
+  * 浏览器插件：https://github.com/pado-labs/ethbeijing-demo-extension 
+* 是否基于之前的项目：无，本次DEMO完全是从零开始搭建，包括ZK电路封装，浏览器插件前后端，EAS上链等模块。
 # 32 falcon
 ### 项目名称：Falcon
 ### 所选赛道：Open Research
