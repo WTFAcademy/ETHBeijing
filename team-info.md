@@ -157,7 +157,7 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 8. Demo 视频链接：（两个视频一样，传到了两个平台）
    * Youtube: https://youtu.be/7dgUvHJjyAo
    * 剪映：https://www.capcut.cn/share/7219553798975476995?t=1
-9. 项目 github repo 链接: [https://github.com/jeasonstudio/ETHBeijing](https://github.com/jeasonstudio/ETHBeijing)
+9. 项目 github repo 链接: [https://github.com/PandariaTeam/puzzle3](https://github.com/PandariaTeam/puzzle3)
 10. 是否基于之前的项目，如果有，给出详细信息: 否，完全在 Hackathon 期间开发
 11. 项目 Demo 链接（选填）：
     * Default: [https://www.puzzle3.cc/](https://www.puzzle3.cc/)
