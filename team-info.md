@@ -237,15 +237,26 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 2)前端：网页端（100%）,网页插件工具（10%）
 * 
 # 11. 0xtomb
+* 所选赛道：Public goods
+* 项目图片：![i3FHiQ.png](https://i.328888.xyz/2023/04/08/i3FHiQ.png)
 * 简介：0xtomb旨在探讨在区块链上处理死亡问题。随着越来越多的人在区块链上结婚、购买房产等，我们需要考虑如何在链上安全地处理遗产和继承问题。我们希望通过联通合约和网站，完善发展规划，为用户提供更加安全、便捷的区块链遗产管理服务。
 * 目标：探索一种更加安全、透明、便捷的区块链遗产管理服务，通过联通合约和网站，完善发展规划，为用户提供一站式的遗产管理解决方案。我们希望通过0xtomb项目，为用户提供更加稳定、安全的遗产管理服务。
-* 是否招募队员：否，谢谢你的关注，已满员
+* 队长和队员：队长：0xhardman 队员：果子狸，bcfh，张秋彦
 * 如何联系：WeChat ID: hardman_eth
 * 第一天进度：
-* 1. 实现立遗嘱合约，多签证明死亡合约。
-* 2. 实现立遗嘱界面并完成合约交互。
-* 3. 实现aa钱包交互逻辑。
-* 
+* 1. 基于项目愿景，成员头脑风暴，确定项目本次目标和主要产品功能模块
+* 2. 实现立遗嘱合约，多签证明死亡合约。
+* 3. 实现立遗嘱前端页面并完成合约交互
+* 第二天进度：
+* 1. 完成前端剩余页面的搭建
+* 2. 完成AA钱包的交互逻辑
+* 3. 联调合约
+* Demo视频链接：
+* 项目github repo链接：
+* a.https://github.com/0xtomb-eth/0xtomb-core
+* b.https://github.com/0xtomb-eth/0xtomb-website
+* 是否基于之前的项目：否
+
 # 12. Prestare Lightning Leverage
 * 项目图片 ![slides](https://user-images.githubusercontent.com/72059918/230698901-3cd0705f-7a31-4617-bc5b-fe6f975ac237.jpg)
 * 简介：我们提供了用户友好的闪电贷工具，可以帮助基于现有的借贷协议做杠杆交易。
@@ -371,7 +382,7 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 1. 项目名称
 * GPAD Protocol
 * 2. 项目图片（1张有代表性的图片，不要过长）
-* ![Pastel Rainbow Modern January Monthly Email Header](https://user-images.githubusercontent.com/30950645/230643172-bf9b8084-730a-4fb0-9add-3cbbefba0af8.png)
+* ![image](https://user-images.githubusercontent.com/30950645/230631546-1b6aad5c-0f14-482a-88dc-dbbf354f70c8.png)
 * 3. 简介
 * GPAD协议是一种去中心化的投资和融资协议，用户可以自由创建项目、投资，并实现投后可编程。它将实现简单的launchpad功能创造投融资环境，并且支持图灵完备的功能将会面向web3高阶开发者，实现GETH代币置换,闪电贷,预言机，去中心化交易，代理交易等一系列复杂链上操作
 * 4. 队长和队员
