@@ -187,7 +187,7 @@ TODO
 * 队长：Alex / 队员：Mars，党冉冉，陈逸杰
 * 本项目在这次黑客松的目标：完成小工具的基础开发，可以透过AAVE和uniswap完成基础操作
 * 黑客松前两日的进度: 完成合约和前端的开发
-* Demo 视频链接: 
+* [Demo视频链接](https://www.youtube.com/watch?v=kV1Ybb6blls)
 * 项目 github repo 链接: [Lightning Leverage github Project](https://github.com/prestare/Lightning-Leverage)
 * 是否基于之前的项目: 无
 * 项目 Demo 链接: 无
