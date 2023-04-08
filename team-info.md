@@ -249,12 +249,12 @@ Pond (池塘)。池塘是一个允许用户创建和加入的兴趣或主题相�
   * 插件端：个人用户的交易所数据接口调试成功，可以获得资产信息。
   * 其他：整体接口设计完成。
 # 32 falcon
-## 项目名称：Falcon
-## 所选赛道：Open Research
-## 项目照片：
+### 项目名称：Falcon
+### 所选赛道：Open Research
+### 项目照片：
 ![dematch](https://github.com/lucidagithub/eth_beijing_demo/blob/main/homePage/home.jpg)
-## 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
-## 队长和队员：
+### 简介：Falcon是新一代的web3投资基础设施。利用多因子模型与AI，帮助Web3用户更好的“选”、“买”、“管”、“卖”加密资产。
+### 队长和队员：
   * 队长
 		
 		郑乃骞
@@ -295,18 +295,18 @@ Pond (池塘)。池塘是一个允许用户创建和加入的兴趣或主题相�
 			Web3经验：
 				NFT market treasureland 和元宇宙游戏secondlive 的开发
 
-## 目标：争取demo可以上线
-## 是否招募队员：否
-## 黑客松前两日进度
+### 目标：争取demo可以上线
+### 是否招募队员：否
+### 黑客松前两日进度
 	第一天：
 		1.讨论方案
 		2.falcon首页前端页面
 	第二天：
 		1.多因子选板块前端页面
-## Demo视频链接：https://youtu.be/xRcEQX3yGVg 
-## 项目GitHub Repo链接：https://github.com/lucidagithub/eth_beijing_demo
-## 是否基于之前的项目：否
-## 项目Demo链接：http://8.210.192.48/en/home
+### Demo视频链接：https://youtu.be/xRcEQX3yGVg 
+### 项目GitHub Repo链接：https://github.com/lucidagithub/eth_beijing_demo
+### 是否基于之前的项目：否
+### 项目Demo链接：http://8.210.192.48/en/home
 # 33 智客团队（ZHKMC Team）
 * 项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
