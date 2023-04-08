@@ -1226,10 +1226,20 @@ TODO
 第一天进度：完成部分前端界面(Node.js)，设计并实现部分经济模型(Solidity)，完善项目repo
 
 # 56 SoliveAI
-* 简介：SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约
-* 目标：完成前端demo
-* 是否招募队员：否
-
+### 简介
+* SoliveAI是一个基于Solive online playground的插件，受github copilot启发，帮助用户编写、检查和解释Solidity合约。通过SoliveAI，用户可以在编写合约时获得更多的帮助，从而提高编写合约的效率。SoliveAI的功能包括：1. 代码补全，2. 代码检查，3. 代码解释，4. 代码生成。SoliveAI的目标用户是Solidity合约开发者，帮助他们提高编写合约的效率。
+### 进度
+* Day#1:
+* - 前端
+* Day#2:
+* - GPT Fine-tune
+### 所选赛道：Public Goods
+### GitHub链接
+- [SoliveAI](https://github.com/reborn-sama/SoliveAI)
+### Demo链接
+* TODO
+### solive
+* Check [solive](https://github.com/WTFAcademy/solive)
 # 57 DeVault
 
 * 简介： DeVault是一个链上加密密码存储服务。我们使用链上合约为用户提供加密密码保险箱，用户只需要记住主密码就可以解锁各个网站的密码。
