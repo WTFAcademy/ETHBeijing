@@ -245,11 +245,11 @@ Open Research
 
 # 8.11 Demo Links
 
-[Remix-IDE with DSF Solidity Compiler](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://124.220.19.52/soljson.js)
+[Remix-IDE with DSF Solidity Compiler](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://ec2-35-88-251-70.us-west-2.compute.amazonaws.com:8899/eth-beijing-demo/soljson.js)
 
-[Example sol file](https://124.220.19.52/test100.sol)
+[Example sol file](https://ec2-35-88-251-70.us-west-2.compute.amazonaws.com:8899/eth-beijing-demo/test100.sol)
 
-[DSF Solidity Compiler (solijson.js)](https://124.220.19.52/soljson.js)
+[DSF Solidity Compiler (solijson.js)](https://ec2-35-88-251-70.us-west-2.compute.amazonaws.com:8899/eth-beijing-demo/soljson.js)
 
 # 9. Web3Club
 
