@@ -1338,9 +1338,7 @@ Martech3旨在建立基于 Web3 用户数据和AIGC驱动的精准内容营销�
 [Demo](http://bafybeicvco4vcugj7swbs552qoetjsjzyh6p5hgn7tkcfq6huoyt4ggazq.ipfs.sphn.link/)
 
 
-# 38 y=e^x
-* 项目名称：
-$y=e^x$
+# 38 $y=e^x$
 * 项目图片：
 * 所选赛道 Layer 2 + Scroll
 * 简介：一种新的更负责任的DeFi设计，以基金的形式持有一系列DeFi，它无通胀排放、支持单边流动性、拥有完全自持流动性、低gasfee、并且有稳健的风控能力。请注意，这仍然不是无风险的，但它将大幅改善当前LPer的生存状况，并为社区提供稳定、有深度、低成本的流动性。
@@ -1352,6 +1350,8 @@ $y=e^x$
   * 第二天的工作进度：合约完成了F代币，Vault，Pools，OTC申购赎回和Purchase采购。前端基本完成。
 * 项目 github repo 链接： 
 [ $y=e^x$ ](https://github.com/KAndHisC/y-e-x.git) 
+* 项目报告：[y=e^x report](https://github.com/KAndHisC/y-e-x/blob/main/y%3De%5Ex.pdf)因为内容较多，demo无法展示完整，欢迎大家翻阅我们项目报告！
+* 项目demo：[y=e^x deomo](https://github.com/KAndHisC/y-e-x/blob/main/demo.mov)
 
 # 39 让web3没有rug
 * 简介：我们的产品叫Decomment。Decomment是一个可以对项目方、个人或者DAO进行链上评论的去中心化应用，在一定程度上对他们起到“审计”和“集思广益”的作用，我们并不仅仅像传统审计部门去审计代码或者相关财务，而是偏向于对项目方或者个人等群体做一个全民评论，所以Decomment更多的是对人进行审计。同时，在Decomment中也可以去签订一系列web3的合同或协议，比如属于web3的对赌协议、劳务合同等进而去保证项目的高质量推动和完成。
