@@ -1509,7 +1509,7 @@ https://block-model.com
 
 # 45 DOA
 ### 45.2 简介图片 
-* TODO
+* https://drive.google.com/file/d/1ga44J916JEn4zIys5JAd4O-u2FQL3VVl/view?usp=sharing
 ### 45.3 简介
 * DOA seeks to develop a decentralized application (DApp) that enables NFT holders to manage their assets more efficiently and provides a risk hedging mechanism to protect their holdings against market volatility, for example, to tackle the problem of over-concentrated NFT assets and provide solutions to mitigate its risks.
 ### 45.4 团队成员solo
@@ -1517,21 +1517,21 @@ https://block-model.com
 ### 45.5 目标：
 * 开发出demo前后端交互，或者实现部分功能，赛后也会不断的优化的长期项目
 * 是否招募队员：：是 需要一个名后端，希望可以一起一点一点完善这个项目
-* 如何联系：WeChat ID: masacs
+* 如何联系：WeChat ID: eittah(群内微信昵称)
 ### 45.6 前两日进度：
 * Day1: 完成了项目基本定位和方案的初步架构；合约完成度 50%；
 * Day2: 合约完成度 90%；前端完成度 50%；
-* - 所选赛道：Public Goods / Innovative Layer2 Dapp / Open Research
+* - 所选赛道：Innovative Layer2 Dapp / Scroll
 ### 45.7 视频Demo链接
-* TODO
+* https://www.youtube.com/channel/UC2hSQdMW72I0rZIq4PoafFw
 ### 45.8 GitHub链接
-- [Project]()
-- [前端(React)]()
-- [合约(solidity)]()
+- [Project](https://github.com/hattiepwvi/doaer)
+- [前端(React)](https://github.com/hattiepwvi/doaer)
+- [合约(solidity):该账户下的四个合约](https://sepolia.etherscan.io/address/0xef731a36db680090fc252b4ff640150f3a7cef00)
 ### 45.9 是否基于以前项目
 没有，这是本次hackathon期间，从0到1开发的项目，完全原创。
 ### 45.10 Demo链接
-TODO
+https://github.com/hattiepwvi/doaer
 # 46 Artez
 ### 46.2 简介图片 
 * TODO
