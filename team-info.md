@@ -122,9 +122,6 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 目标：完成相关论文研究，形成完备DAO组织合法化程序
 * 是否招募队员：接受，能够为合法化研究提供程序支持和技术支持，包括提供有效建议与实际操作。
 * 如何联系：WeChat ID: ltb192
-* demo 文章： https://drive.google.com/file/d/1ZJBrhc9G4zYbP7Y-V0jlOLJbxg90SXsv/view?usp=sharing
-* 视频 ： https://drive.google.com/file/d/1rT3jEDvlmzo48L-rmiasgNFND_VoRCoi/view?usp=sharing
-
 # 5. FolioView
   1. 项目名称：
     FolioView  
@@ -505,13 +502,67 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * [Demo Website: MentorMachines.xyz](https://mentormachines.xyz/)
 * [Our Github Repo](https://github.com/p0s/mentor-machines#readme) 
 * 是否基于之前的项目：否。
-# 16. ContriX
-* 简介：帮助每个人形成链上ZK实体，真正拥有自己的身份数据
-* 目标：目前进展是0，在黑客松期间将会做出MVP并且进行演示
-* 是否招募队员：无特定需求，但仍开放，如果有合适的可以加入
-* 如何联系：WeChat ID: samuelzey
-* 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
-* 第二天进度：完成度90%，具体包括完成前后端开发、电路编写和测试、合约编写和部署，还差部署到服务器和界面优化
+- # 16. ContriX - staked.id
+
+# ContriX团队：Staked.id项目黑客松提交
+
+> 赛道：L2 & Scroll
+1. 项目名称：Staked.id
+
+2. 项目图片：
+
+https://i.imgur.com/Wd9Xvld.png
+
+3. 简介：Staked.id是保护用户隐私的**用户数据资产化**基础设施，允许用户导入链上链下的账户形成account vault，并且通过零知识证明，把可以领取的凭证导入**链上ZK实**体。
+
+   凭证由数据策展人根据B端真实需求定制，可以包含链上链下的条件，满足条件视为可以领取凭证。
+
+   开发者可以根据开放API，调用数据策展人的凭证以及获得凭证的账户，开发出符合B端需求的产品。
+
+   B端可以通过提供数据服务的产品，找到目标用户并且触达。
+
+   创新点：
+
+   1. ZK链上实体：与ZK badge发行协议不同，Staked.id建立了用户zk身份层，当用户需要时可以证明自己的凭证，而不是全部以SBT的方式展示，防止通过多个zk badge回溯推导出用户的原始地址。
+   2. ZK只是手段不是目的，Staked.id是希望把用户的数据变成可以带来收入的资产，让数据产生的价值回到用户手中，因此我们构建了用户画像层，让数据可用性更强。最终目的是数据资产化。
+
+4. 成员
+
+   1. 队长：Samuel林梓毅
+   2. 队员1: 0xJaynon利俊安
+   3. 队员2: Andrew
+
+5. 目标：在黑客松期间完成用户端的MVP，即实现：
+
+   1. 数据策展人可以定义一个凭证的条件，比如：如果要获得“mfer钻石手”的凭证，你需要拥有mfer在导入的钱包内，而且连续14天没有发送或者出售mfer NFT。
+   2. 用户可以导入钱包地址
+   3. 根据导入钱包地址，自动扫描，找到用户符合要求的凭证
+   4. 用户可以查阅凭证信息，选择自己希望导入的凭证
+   5. 在前端把用户选择的凭证生成zk proof
+   6. 把zk proof导入链上zk实体，如果用户第一次导入，将可以把一张代表身份的SBT mint到匿名钱包
+   7. 合约内每张代表身份的SBT都有用户ID，通过用户ID导入凭证ID
+
+   该MVP实现了用户把链上地址符合条件的凭证通过零知识证明的方式导入链上zk实体，实现用户真正拥有自己的数据。
+
+6. 前两日进度
+
+   1. 第一天进度：完成前后端基本功能、规则引擎，完成circuit设计、circom开发，todo-测试circom，设计Credential规则
+   2. 第二天进度：完成度90%，具体包括完成前后端开发、电路编写和测试、合约编写和部署，还差部署到服务器和界面优化
+
+7. Demo视频链接
+
+   https://youtu.be/FSkbWMbdi-c
+
+8. 项目github repo
+
+   1. 前端：https://github.com/804173948/ContriX-ZKID
+   2. 后端：https://github.com/804173948/ContriX-ZKID-Server
+   3. ZK电路+合约：https://github.com/Mobius3-3/zkid-hydra-s1
+
+9. 从4月5日下午正式开始写第一行代码，没有基于之前任何的项目，展示的**所有成果**（文字与代码）都是黑客松期间完成的。
+
+10. Demo链接：In progress, 在Demo前争取完成
+
 - # 17. Delibird
 
   ### 1. 项目名称：ZKGift
@@ -671,27 +722,6 @@ Demo制作顺利的话 未来我们会将其 作为我们团队的主线开发�
 * 是否招募队员：否
 * 如何联系：WeChat ID: JAJAmoa
 * 进度：完成了UI设计
-1.项目名称
-FactLens
-2.所选赛道
-Track 2 - Innovative Layer2 Dapp & Bounty Track - Scroll
-3.项目图片（1张有代表性的图片，不要过长）
-![image](https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023/blob/main/asset/image.png?raw=true)
-4.简介
-FactLens 是一个去中心化的新闻审查生态系统，包括一个网页插件和一个门户网站。插件可以被直接应用在流行的社交媒体平台之上，目的在于不改变读者获取新闻习惯的同时，直接在其阅读的页面上提供关于相应新闻真假的验证结果，该插件同时也是新闻验证者提交投票的工具。网页端则包含了新闻验证者数据，媒体信誉排行，新闻详细审查结果等信息。
-5.队长和队员
-李嘉杰(队长)，汪妮娜，梁馨，毛凌骏, 李永奇
-6.本项目在这次黑客松的目标
-项目曝光，对接VC
-7.黑客松前两日的进度
-📅DAY 1：头脑风暴，原型设计，UI迭代，商业画布分析，技术栈选型，智能合约开发(30%)
-📅DAY 2：前端开发，智能合约开发(100%)
-8.Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：Youtube，Bilibili，Loom，视频长度不能超过3分钟，否则扣分。
-https://youtu.be/KV8Lgr6QjmY
-9.项目 github repo 链接https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023
-10.是否基于之前的项目，如果有，给出详细信息。
-否, 本项目从想法到demo的全部工作，均于ETH Beijing Hackathon期间从零开始完成。
-11.项目 Demo 链接（选填）https://github.com/Tongji-Blockchain-Association/eth-beijing-hackathon-2023/releases
 # 22. peerbank
 * 简介：peerbank 是一个去中心的稳定币发行协议，该协议采用超额抵押方式可铸造锚定除（RMB）以外的任意fiat 。铸造稳定币可用于全球结算，抵押资产将锁定在合约中，避免因中心化机构管理带来的风险。
 * 目标：开发出MVP版本
@@ -883,7 +913,7 @@ Layer 2 & Scroll
 
     前端: https://github.com/beyond009/NirVANA-FE
 
-10. 是否基于以前项目: 否
+10. 是否基于以前项目: 基于[ERC2535标准](https://eips.ethereum.org/EIPS/eip-2535)
 11. 项目Demo链接: https://nirvava.vercel.app/
 # 27 Lingnan Ethereum Darkness Agent
 
@@ -1778,19 +1808,9 @@ https://youtu.be/be-duwZcBCA
 * Check [solive](https://github.com/WTFAcademy/solive)
 # 57 DeVault
 
-![logo](https://bafkreievq3vrp7nhvlvacl46jahkgzkpuui63dqf4oe3hq5vfkrhfroy6i.ipfs.nftstorage.link/)
-
-* 简介： DeVault——Web 3.5 一站式资产信息钱包。
-  * DeVault 的独特之处在于它不仅是一个功能强大的 AA 钱包，能够帮助您轻松管理您的数字货币资产，还能通过一个主密码来存储和管理您的所有其他账户信息和密码。有了 DeVault，您不仅可以方便地登录各种 Web 2.0 网站，还可以轻松管理您的 Web 3.0 区块链资产。无论是在线购物、社交媒体还是加密货币投资，DeVault 都将成为您的得力助手。
-  * 我们利用AA账户存储资产和加密信息，成为链上多功能、可恢复钱包。
-  * 借助ZK和AA账户，DeVault可以验证用户身份和操作来源可靠，同时加密用户的操作行为，防止泄露风险。
-* 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，为用户提供安全的密码记忆和资产管理服务。我们在Scroll链上实现了一种在AA钱包中集成可ZK校验的，加密安全的密码存储和资产调用钱包。我们将持续拓展功能，实现社交恢复等功能。
-* 所选赛道： Layer 2， Scroll
-* 团队成员： 队长 @elricym  队员 @HaynarCool @BluesRockets @fsh905
-* Day 1 进展： 完成算法论证和前端框架。
-* Day 2 进展： 完成合约编写和页面。实现了基于ZK的算法框架和前端集成。
-* 基于以往项目： [ZKSafe](https://github.com/ZKSAFE/all-contracts/)
-  * 参考了其中关于zk加密的业务流程，并拓展到通用密码服务
-* 项目链接： [DeVault](https://github.com/DeVaultHQ/DeVault)
-* 视频链接： [Video](https://youtu.be/LU-0AWT9NE4)
+* 简介： DeVault是一个链上加密密码存储服务。我们使用链上合约为用户提供加密密码保险箱，用户只需要记住主密码就可以解锁各个网站的密码。
+* 我们将会使用加密算法保证存储传输的加密，使用账户抽象提供社交恢复功能。同时利用ZK提高安全性，并部署在Scroll上。
+* 目标： 我们利用区块链的分布式特性，保证密码库不由中心化组织掌握。同时利用加密特性，给用户提供安全的密码记忆服务
+* 是否招募队员： 否
 * 如何联系： WeChat ID: elricYM
+* Day 1 进展： 完成算法论证和前端框架。
