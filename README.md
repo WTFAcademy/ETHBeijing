@@ -2,7 +2,7 @@
 # ETH Beijing Hackathon
 [中文](./README-cn.md)
 ## Time
-April 05 - April 08, 2023
+May 17 - May 19, 2024
 
 ## Place
 Beijing, China
@@ -17,7 +17,7 @@ $30,000+
 
 ## Application link
 
-[Application](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (Already Closed)
+[Application](https://docs.google.com/forms/d/e/1FAIpQLScB-3KANUX8Rqoq3V7JZZlPQAAVQL2TW3vens-heTcsxzMF6g/viewform)
 
 ## Team Info
 
@@ -26,7 +26,7 @@ $30,000+
 ## Hackathon Track
 ### Main track
 
-Teams must choose one of the 3 main tracks. Each main track has $10,000 in prize, including $5,000 for the 1st, $3,000 for the 2nd, and $2,000 for the 3rd.
+Teams must choose one of the 3 main tracks. Each main track has $6,000 in prize, including $3,000 for the 1st, $2,000 for the 2nd, and $1,000 for the 3rd.
 
 1. **Public Goods**: Build open-source projects on Ethereum.
 2. **Innovative Layer2 Dapp**: Build projects on Layer 2 that surprise.
@@ -36,12 +36,6 @@ Teams must choose one of the 3 main tracks. Each main track has $10,000 in prize
 Besides participating in the main track, teams can optionally choose to participate in the sponsor track. Each sponsor track has $2500 in prize, including $1500 for the 1st and $1000 for the 2nd.
 
 1. **Scroll**: Develop decentralized applications on Scroll.
-
-## Workshop
-
-### April.6
-![](./img/4.6-workshop.jpeg)
-
 ## Organizer
 
 - [PKU Blockchain](https://twitter.com/PKUBlockchain)
@@ -49,15 +43,10 @@ Besides participating in the main track, teams can optionally choose to particip
 
 ## Co-organizer
 - [Scroll](https://twitter.com/Scroll_ZKP)
-- [ETHPlanet](https://twitter.com/ETHPlanet)
 
 ## Sponsor
 - [Scroll](https://twitter.com/Scroll_ZKP)
 - [Ethereum Foundation](https://twitter.com/EF_ESP)
-- [Token Pocket](https://twitter.com/TokenPocket_TP)
-- [Mask](https://twitter.com/realMaskNetwork)
-- [LD Capital](https://twitter.com/LD_Capital)
-- [Cocos BCX](https://twitter.com/CocosBCX)
 
 ## Partner & Supporting Communities
 - [Dorahacks](https://twitter.com/DoraHacks)

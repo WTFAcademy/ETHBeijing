@@ -8,7 +8,7 @@
 ETH Beijing Hackathon是一次在北京举办的面向以太坊开发者的黑客马拉松活动，旨在促进以太坊生态系统在中国的发展。该活动受到以太坊基金会的支持。参与者可以利用活动期间的时间，开发基于以太坊区块链的应用程序或解决方案，并与其他开发者进行交流和合作。ETH Beijing Hackathon是全球以太坊社区中新兴的黑客马拉松，也是推动区块链技术和应用发展的重要平台之一。
 
 ## 时间
-2023年4月5日 - 4月8日
+2024年5月17日 - 5月19日
 
 ## Place
 北京，中国
@@ -23,17 +23,12 @@ $30,000+
 
 ## 申请链接
 
-[链接](https://docs.google.com/forms/d/e/1FAIpQLSe5qyxMneb3JULOdQhDCMvU7eEbnCGKTQ5G1uk1JKAwXC0IKw/viewform?usp=sf_link) (报名已经截止)
-
-## 队伍信息
-
-[队伍信息页面](https://github.com/WTFAcademy/ETHBeijing/blob/main/team-info.md)
-
+[链接](https://docs.google.com/forms/d/e/1FAIpQLScB-3KANUX8Rqoq3V7JZZlPQAAVQL2TW3vens-heTcsxzMF6g/viewform) 
 
 ## 黑客松赛道
 ### 主赛道: 
 
-参赛团队必须从 3 条赛道中选择一条，每个主赛道奖金 $10000，其中第一名 $5000，第二名 $3000，第三名 $2000。
+参赛团队必须从 3 条赛道中选择一条，每个主赛道奖金 $6,000，其中第一名 $3,000，第二名 $2,000，第三名 $1,000。
 
 1. **公共品**: 在以太坊上构建开源项目。
 2. **Layer2 创新应用**: 构建基于Layer 2的创新型应用项目。
@@ -45,41 +40,6 @@ $30,000+
 
 1. **Scroll**: 在 Scroll 上开发去中心化应用。
 
-## Workshop
-### 4月6日
-地点: 东升大厦A座4楼 智优沃孵化器会议室
-![](./img/4.6-workshop.jpeg)
-
-## 日程表
-
-| 日期 | 时间 | 活动 |
-| --- | --- | --- |
-| 4月5日 | 12点 | 签到开始 |
-| | 18点 | 晚饭 |
-| | 19点 | 项目介绍（每个团队2分钟） |
-| | 24点 | 签到结束 |
-| 4月6日 | 全天 | Buidl |
-| | 9点 | 早饭 |
-| | 12点 | 午饭 |
-| | 13-18点 | workshop |
-| | 18点 | 晚饭 |
-| | 19点 | 项目汇报进展 |
-| 4月7日 | 全天 | Buidl |
-| | 9点 | 早饭 |
-| | 12点 | 午饭 |
-| | 13-18点 | workshop |
-| | 18点 | 晚饭 |
-| | 19点 | 项目汇报进展 |
-| 4月8日 | 9点 | 早饭 |
-| | 12点 | 午饭 |
-| | 15点 | 提交项目 |
-| | 15-18点 | 评委第一轮打分 |
-| | 18点 | 晚饭 |
-| | 19点 | Demo Day (每个赛道前5名，每个项目 5 分钟) |
-| | 21点 | After Party |
-
-
-
 
 ## 主办方
 
@@ -88,15 +48,10 @@ $30,000+
 
 ## 协办方
 - [Scroll](https://twitter.com/Scroll_ZKP)
-- [ETHPlanet](https://twitter.com/ETHPlanet)
 
 ## 赞助商
 - [Scroll](https://twitter.com/Scroll_ZKP)
 - [Ethereum Foundation](https://twitter.com/EF_ESP)
-- [Token Pocket](https://twitter.com/TokenPocket_TP)
-- [Mask](https://twitter.com/realMaskNetwork)
-- [LD Capital](https://twitter.com/LD_Capital)
-- [Cocos BCX](https://twitter.com/CocosBCX)
 
 ## 合作伙伴和支持社区
 - [Dorahacks](https://twitter.com/DoraHacks)
@@ -108,7 +63,7 @@ $30,000+
 
 ### ETH Beijing（以太坊北京）是什么?
 
-ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2023年4月5日 - 4月8日（共 72 小时）。
+ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2024年5月17日 - 5月19日（共 48 小时）。
 
 ### 谁被鼓励参加这个活动？
 
