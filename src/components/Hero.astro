@@ -4,42 +4,47 @@ import "../styles/hero.css";
 ---
 
 <div
-  class="h-[580px] mt-[64px] mb-[120px] flex justify-center items-center bg-white relative isolate mx-auto sm:bg-[url(/images/banner.jpeg)] bg-[url(/images/banner-mobile.png)] bg-no-repeat bg-cover bg-top"
+  class="h-[580px] mt-[64px] mb-[120px] flex justify-center items-center bg-white relative isolate mx-auto sm:bg-[url(/images/banner.png)] bg-[url(/images/banner.png)] bg-no-repeat bg-cover bg-top"
 >
+  <div
+    class="absolute z-0 bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black bg-fixed opacity-50"
+  >
+  </div>
   <div id="hero" class="anchor -mt-[504px]"></div>
-  <div class="container flex flex-col justify-center items-center">
-    <!-- content -->
+  <div class="relative z-10 container flex flex-col justify-center items-center">
     <img
       src="/images/eth-title.png"
       alt=""
-      class="w-10/12 mb-[40px] sm:w-[414px] sm:mb-6 sm:mt-[26px] m-auto block inset-0 -z-10 h-full sm:h-[150px] sm:object-cover object-contain object-right md:object-center"
+      class="h-[35px] mb-[40px] sm:h-[80px] sm:mb-6 sm:mt-[26px] m-auto block inset-0 -z-10 sm:object-cover object-contain object-right md:object-center"
     />
-    <div class="flex justify-between max-sm:flex-col max-sm:items-center sm:w-[348px] mb-[40px]">
+    <div
+      class="flex justify-between max-sm:flex-col max-sm:items-center sm:w-[416px] mb-[40px]"
+    >
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScB-3KANUX8Rqoq3V7JZZlPQAAVQL2TW3vens-heTcsxzMF6g/viewform"
         target="_blank"
-        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:mr-0 max-sm:my-[12px]"
+        class="hero-apply__btn w-[200px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:mr-0 max-sm:my-[12px]"
       >
         {t("hero.apply-to-hack")}
       </a>
       <a
         href="https://discord.com/invite/cGYBRVTYEY"
         target="_blank"
-        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:my-[12px]"
+        class="hero-apply__btn w-[200px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:my-[12px]"
       >
         {t("hero.join-community")}</a
       >
     </div>
     <div
-      class="flex flex-wrap sm:flex-nowrap justify-between max-sm:flex-col max-sm:items-center sm:w-[616px]"
+      class="flex flex-wrap sm:flex-nowrap justify-between max-sm:flex-col max-sm:items-center sm:w-[656px]"
     >
       <img
         src="/images/reg-time.png"
-        class="w-[250px] sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full object-cover object-right sm:object-center"
+        class="w-[250px] sm:w-[320px] sm:h-[90px] inset-0 -z-10 h-full object-cover object-right sm:object-center"
       />
       <img
         src="/images/hack-time.png"
-        class="w-[250px] sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full max-sm:mt-4 object-cover object-right sm:object-center"
+        class="w-[250px] sm:w-[320px] sm:h-[90px] inset-0 -z-10 h-full max-sm:mt-4 object-cover object-right sm:object-center"
       />
     </div>
   </div>
