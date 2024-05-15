@@ -3,13 +3,28 @@ import { t } from "i18next";
 
 const cardData = [
   {
-    img: "/images/sponsor1.png",
+    img: "/images/scroll.png",
+  },
+  {
+    img: "/images/partner/metaspace.png",
+  },
+  {
+    img: "/images/zan.png",
   },
   {
     img: "/images/partner/chainlink.png",
   },
   {
-    img: "/images/partner/ZAN.png",
+    img: "/images/partner/ybb.png",
+  },
+  {
+    img: "/images/partner/baidao.png",
+  },
+  {
+    img: "/images/partner/ethplanet.png",
+  },
+  {
+    img: "/images/partner/consensys.png",
   },
   {
     img: "/images/token-pocket.png",
@@ -21,11 +36,18 @@ const cardData = [
     img: "/images/aspecta.png",
   },
   {
-    img: "/images/partner/metaspace.png",
+    img: "/images/LD-Capital.png",
   },
   {
-    img: "/images/partner/dorahacks.png",
+    img: "/images/bixin.png",
   },
+  {
+    img: "/images/partner/partner11.png",
+  },
+
+  // {
+  //   img: "/images/partner/dorahacks.png",
+  // },
 ];
 ---
 
@@ -39,7 +61,9 @@ const cardData = [
             <div class="avatar">
               <img
                 class={`avatar_img ${
-                  item.img == "/images/token-pocket.png" ? "w-[240px]" : "w-[150px]"
+                  item.img == "/images/token-pocket.png"
+                    ? "w-[240px]"
+                    : "w-[150px]"
                 }`}
                 src={item.img}
               />
