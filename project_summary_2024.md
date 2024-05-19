@@ -1,6 +1,15 @@
 # ETH Beijing Hackathon Projects Submission
 
-ETH Beijing 黑客松 2024 项目提交
+ETH Beijing 黑客松 2024 项目提交汇总。
+
+评委将在当天下午15-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day： 
+
+1. 代码 
+2. 创新性 
+3. Demo完整度 
+4. 对以太坊生态的重要性
+
+进入Demo Day的每个项目有 5 分钟展示时间，需要提前准备ppt。
 
 ## Project 1: Forest3
 - **Timestamp**: 5/19/2024 14:15:24
