@@ -1,5 +1,7 @@
 # ETH Beijing Hackathon Projects Submission
 
+ETH Beijing 黑客松 2024 项目提交
+
 ## Project 1: Forest3
 - **Timestamp**: 5/19/2024 14:15:24
 - **Main Track**: Public Goods
