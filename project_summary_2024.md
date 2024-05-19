@@ -6,7 +6,7 @@ ETH Beijing 黑客松 2024 项目提交
 - **Timestamp**: 5/19/2024 14:15:24
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=16qsRox3rWPRCyNd7VedC3Ab9lK9bmfvo)
+- **Project Image**: https://drive.google.com/open?id=16qsRox3rWPRCyNd7VedC3Ab9lK9bmfvo
 - **Project Description**: Forest3 是一个基于区块链的去中心化应用，它允许用户通过创建或加入小组来设定个人目标，并缴纳自律基金。完成目标后，成员提交证明，并通过小组投票来验证。成功完成任务的成员可以瓜分基金，激励自律和团队合作。
 - **Team Members**: https://github.com/kirklin
 https://github.com/huigeek
@@ -23,7 +23,7 @@ https://github.com/hesiodos-lind
 - **Timestamp**: 5/19/2024 13:56:37
 - **Main Track**: Layer2
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1VA_Fl45BuscvFXEFa9Bjpr7TucWpJzEm)
+- **Project Image**: https://drive.google.com/open?id=1VA_Fl45BuscvFXEFa9Bjpr7TucWpJzEm
 - **Project Description**: Social Mint，不只是链上“Twitter”，更是你的链上“微信小程序”！它以链上数据生成DID，打造你的专属数字身份，并结合AI虚拟形象、Meme、GameFi、DeFi等丰富玩法，开启无限的Web3社交体验。 加入Social Mint，打造你的数字世界！
 - **Team Members**: Colonel86
 MurphyYue
@@ -87,7 +87,7 @@ siexpence
 - **Timestamp**: 5/19/2024 13:15:26
 - **Main Track**: Open Research
 - **Sponsor Track**: Not participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1fekSw6He8NVE3Sd2w6Wm5bdzxcqMa4eI)
+- **Project Image**: https://drive.google.com/open?id=1fekSw6He8NVE3Sd2w6Wm5bdzxcqMa4eI)
 - **Project Description**: NFT_Search 是一款基于AI的跨模态NFT检索引擎，允许用户在百万级NFT数据库中通过文本描述或者图片做到token级别的语义检索。
 - **Team Members**: @ShuxunoO
 - **Hackathon Goal**:  获取区块链从业人员对这个项目的客观评价，认识更多朋友，拿奖！
@@ -103,7 +103,7 @@ siexpence
 - **Timestamp**: 5/19/2024 12:32:25
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1jQGY94N4mHa5qRV7Dcjp2Sds1hwt5ov8)
+- **Project Image**: https://drive.google.com/open?id=1jQGY94N4mHa5qRV7Dcjp2Sds1hwt5ov8
 - **Project Description**: Password3 是一款基于区块链的去中心化应用. 用户通过设置加密口令/问答等形式生成加密密钥, 并在客户端使用加密密钥对敏感数据进行加密,并将加密数据永久存储至去中心化存储平台 arweave.用户可以分享这些加密数据的入口给相关人, 只需要他们知道口令或者能回答对问题即可查看.
 - **Team Members**: Azleal
 Say-healer
@@ -155,7 +155,7 @@ FT 与 NFT 交换： 同样地，用户也可以通过接口 swapToNFT 将集齐
 - **Timestamp**: 5/19/2024 14:02:02
 - **Main Track**: Open Research
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1_X-prFSSFdXBgMXVT3Ls0rROoAvABs3A)
+- **Project Image**: https://drive.google.com/open?id=1_X-prFSSFdXBgMXVT3Ls0rROoAvABs3A
 - **Project Description**: AlphaHub 是一个社区驱动的，聚集关注链上交易和 web3 项目的 Alpha Hunter 们的 SocialFi 社区。我们反对传统社交媒体和部分去中心化社交平台上泛滥的 KOL 宣传引流、基于个人标签的社交金融和无意义内容的泛滥。通过采用积分打赏和将积分转化成链上Token的激励机制，AlphaHub 倡导通过数据支持的 SocialFi 实践，激励社区成员分享高质量的交易见解和项目分析，实现数据驱动的价值共享。
 - **Team Members**: @laixinran（产品/研究)  @bbctool（数据采集/合约）@Secret1007（前端）
 - **Hackathon Goal**: 🤝 Collaborate
@@ -173,7 +173,7 @@ FT 与 NFT 交换： 同样地，用户也可以通过接口 swapToNFT 将集齐
 - **Timestamp**: 5/19/2024 14:03:29
 - **Main Track**: Open Research
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1ecfwnJbwUcqfLk18O8eqecV_B-aBKK3-)
+- **Project Image**: https://drive.google.com/open?id=1ecfwnJbwUcqfLk18O8eqecV_B-aBKK3-
 - **Project Description**: AlignX 旨在通过 Web3 实现 AI 的 democratic input ，从而帮助 AI 更好地理解社会！
 “反馈”是帮助现今 AI 理解我们复杂社会的重要一环，然而，现行的反馈机制依赖 AI 开发商和数据商的主导，人们缺乏主动参与的渠道和机制。将传统的数据标注转变为为 AI 提供民主输入的 Web3 应用充满各种挑战，例如：社会整体对待反馈的议题的观点因人事时地而异、Web3应用的参与者不具备数据标注市场和红队专家的专业及诚实性等。
 因此我们
@@ -205,7 +205,7 @@ Xuanyi-Meng
 - **Timestamp**: 5/19/2024 13:11:12
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1xL1xbIQzykZqPPNJWACJuDkI2yNW-lLZ)
+- **Project Image**: https://drive.google.com/open?id=1xL1xbIQzykZqPPNJWACJuDkI2yNW-lLZ
 - **Project Description**: 2PM. Network是一个基于以太坊L1/L2/Restaking Protocol安全性的隐私计算模型公共应用网络
 - **Team Members**: @zhangzh-pku  
 @JupiterXiaoxiaoYu
@@ -229,7 +229,7 @@ Deck：https://gamma.app/docs/2PM-Network-5q0bznld8rwq045
 - **Timestamp**: 5/19/2024 14:11:38
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=10xRT7CQLYrpsuVuMfGsJBVXIoTkES-lb)
+- **Project Image**: https://drive.google.com/open?id=10xRT7CQLYrpsuVuMfGsJBVXIoTkES-lb
 - **Project Description**: DelphiX is a Web3-native prediction market for events, enhancing liquidity through EVM multi-chain interoperability. It allows staking protocol assets (LRTs) to be re-staked on DelphiX as bets. Currently, DelphiX offers on-chain staking for developer competitions (such as hackathons) and strengthens prize pool liquidity provided by sponsors for various Layer 1 and Layer 2 competitions. It currently supports ETH Beijing as Season 1.
 
 DelphiX 是一个Web3原生赛事的预测市场，通过EVM多链互操作的特性增强流动性，允许质押协议资产(LRTs)再质押到DelphiX作为押注。目前DelphiX 将为开发者竞赛（比如黑客松赛事）提供链上质押，强化不同的 Layer 1 和 Layer 2 比赛的赞助方提供奖池流动性。目前，它支持 ETH 北京作为第一季。
@@ -257,7 +257,7 @@ Or Help ppl to bet winner!!!
 - **Timestamp**: 5/19/2024 13:25:21
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1gCo-MYRoqZ6dXLDZLHGV2hCHdWmJRsRg)
+- **Project Image**: https://drive.google.com/open?id=1gCo-MYRoqZ6dXLDZLHGV2hCHdWmJRsRg
 - **Project Description**: Proof of Location Protocol (POLP) is the first ZK-powered solution providing verifiable and trustworthy privacy for location proofs. It is interoperable with other protocols and can be used as foundational on-chain infrastructure to build protocols and services. Utilizing state-of-the-art Zero-Knowledge Proofs (ZKPs), POLP ensures that users can share and verify their geographical positions without exposing actual data, making it an ideal solution for privacy-conscious applications on blockchain platforms.
 - **Team Members**: https://github.com/Qinsir7
 https://github.com/chiguayeshao
@@ -278,7 +278,7 @@ Contract Address in Scroll: 0xaDA091B8B909cCb409462295539dA6e30De05F9a
 - **Timestamp**: 5/19/2024 13:22:30
 - **Main Track**: Layer2
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1KQWGDDhWG5mBdrFNQk2xJycR6CSoK7LS)
+- **Project Image**: https://drive.google.com/open?id=1KQWGDDhWG5mBdrFNQk2xJycR6CSoK7LS
 - **Project Description**: Creating on-chain DID digital identities for real human beings
 - **Team Members**: YuanBoXie
 Xor0v0
@@ -299,7 +299,7 @@ ZkRealHumanSBT合约 0xB2EE145Ea0009B06A5957AB237EeB9879fAbb811
 - **Timestamp**: 5/19/2024 14:10:52
 - **Main Track**: Public Goods
 - **Sponsor Track**: Not participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1YAqv1iyYUg5MJJbcD5aeviGDF0RCucGF)
+- **Project Image**: https://drive.google.com/open?id=1YAqv1iyYUg5MJJbcD5aeviGDF0RCucGF
 - **Project Description**: o3o，全球首个将线下社交（Offline）和信息上链（Onchain）结合，的无需信任（Trustless）的Web3平台，web3探探。
 - **Team Members**: Artistzxt
 pcy190
@@ -320,7 +320,7 @@ https://kdocs.cn/l/cuXFg4dKgaXb
 - **Timestamp**: 5/19/2024 13:31:27
 - **Main Track**: Open Research
 - **Sponsor Track**: Not participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1TcVV7o_mpzp4KjPHVgRiN_bOFwMWzNIL)
+- **Project Image**: https://drive.google.com/open?id=1TcVV7o_mpzp4KjPHVgRiN_bOFwMWzNIL
 - **Project Description**: 跨链安全监控的评分系统小工具，能帮助用户实时监控跨链dapp的安全性，并且在某跨链dapp安全评分低于阙值时发出警告发送到用户的邮箱等提醒渠道
 - **Team Members**: @Gelei88
 @wureny
@@ -340,7 +340,7 @@ https://wiki.mbalib.com/wiki/%E8%B5%84%E6%9C%AC%E8%BE%B9%E9%99%85%E6%95%88%E7%8E
 - **Timestamp**: 5/19/2024 14:13:31
 - **Main Track**: Open Research
 - **Sponsor Track**: Not participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=12vJMG0jaW_ykwrLT-buSnPX2ER8y34I4)
+- **Project Image**: https://drive.google.com/open?id=12vJMG0jaW_ykwrLT-buSnPX2ER8y34I4
 - **Project Description**: Centralized-PBS通过分析以太坊链上交易数据，揭示了在proposer-builder架构下的bot与builder勾结行为，该行为破坏了以太坊的去中心化属性。数据分析显示，超过80%的区块由3个builder创建，以太坊收益的10-20%来自cex-dex套利bot的bribe。同时，我们提出了一种新的cex-dex套利bot收益估算方法，证明了cex-dex bot 比mevbot具有更高的收益，使之有更强的动力和能力与builder进行勾结。
 - **Team Members**: DhunterAO
 zzz136454872
@@ -384,7 +384,7 @@ receiver: contract ScrollERC6551Receiver 0x2DdcF338F75FbDB3F4B9239976F4a36E7f93c
 - **Timestamp**: 5/19/2024 13:44:15
 - **Main Track**: Layer2
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1DbaoF6WScZ0tjDFmh5zWKwV1DSH0ZshL)
+- **Project Image**: https://drive.google.com/open?id=1DbaoF6WScZ0tjDFmh5zWKwV1DSH0ZshL
 - **Project Description**: Yap Islands 是一个用于稳定币适用场景细分化的二次封装协议 
 - **Team Members**: @lurenbian
 @alexweb3game @junderking
@@ -400,7 +400,7 @@ receiver: contract ScrollERC6551Receiver 0x2DdcF338F75FbDB3F4B9239976F4a36E7f93c
 - **Timestamp**: 5/19/2024 13:46:27
 - **Main Track**: Layer2
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1TwiHCe2vzUfqm6s2VS-xOqdE70POCzil)
+- **Project Image**: https://drive.google.com/open?id=1TwiHCe2vzUfqm6s2VS-xOqdE70POCzil
 - **Project Description**: Jiucai Protocol 是一个链上即开型彩票协议，拥有推广返点和自动开奖机制，确保流程公平透明，有望实现裂变增长
 - **Team Members**: Alchemist-X
 Willy-Qiu
@@ -418,7 +418,7 @@ Willy-Qiu
 - **Timestamp**: 5/19/2024 13:47:42
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1C4KaNL4QYG6QRkXOirtYRzdDjP1IB0yA)
+- **Project Image**: https://drive.google.com/open?id=1C4KaNL4QYG6QRkXOirtYRzdDjP1IB0yA
 - **Project Description**: 赋能NFT的学习平台
 - **Team Members**: 
 No-HUL
@@ -433,7 +433,7 @@ spn21
 - **Timestamp**: 5/19/2024 13:52:10
 - **Main Track**: Layer2
 - **Sponsor Track**: Not participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1pWYqrKiZknL_toHiSvfZ2mj7OhAX06-v)
+- **Project Image**: https://drive.google.com/open?id=1pWYqrKiZknL_toHiSvfZ2mj7OhAX06-v
 - **Project Description**: Double Happiness Popstar 旨在探索TCM（https://thiscursedmachine.fun/）和PixeLAW(https://pixelaw.xyz/)间的可组合性。通过将 PixeLAW 上的“消灭星星”升级为多人对弈模式，最先消除全部星星的玩家，获得其余玩家投入的保证金；并将 TCM 的订单产出（各种 ERC-20 代币）作为消灭星星消除卡，来实现两个游戏间的可组合性。
 此外，通过在链上放置“消灭星星”的玩家AI模型，加速多人博弈的匹配效率，同时作为一种探索Crypto与AI结合的应用案例。
 - **Team Members**: https://github.com/k1ic
@@ -450,7 +450,7 @@ spn21
 - **Timestamp**: 5/19/2024 13:58:23
 - **Main Track**: Layer2
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1xCBt_ShNwJK_Mtpk2m_nS1sevE0HlGky)
+- **Project Image**: https://drive.google.com/open?id=1xCBt_ShNwJK_Mtpk2m_nS1sevE0HlGky
 - **Project Description**: 本项目旨在创建一个基于流动性提供者（LP）借贷的去中心化交易所（DEX）发行做空代币，用户可以在该平台上进行做空操作。增加lp的资金利用率，降低普通用户的使用门槛。这种DEX结合了LP借贷和做空机制，增加了市场操作的灵活性。 降低用户使用金融衍生品的门槛，大规模的用户带入链上衍生品市场。 实现mass adoption。
 - **Team Members**: philoCWH LXJ2 maggiesx jmmemo Oldwarma
 - **Hackathon Goal**: 完成自动发行做空资产的代币
@@ -470,7 +470,7 @@ WETH合约：https://sepolia.etherscan.io/address/0xc77560491AcA657F7b7533EEea20
 - **Timestamp**: 5/19/2024 14:06:07
 - **Main Track**: Open Research
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=19ZlVRSKmJRPbCrp4z7Z6ONVb341wLs1c)
+- **Project Image**: https://drive.google.com/open?id=19ZlVRSKmJRPbCrp4z7Z6ONVb341wLs1c
 - **Project Description**: Memehub一个创新性的Memecoin发射器，用户可以几乎零成本一键启动Memecoin，
 无需添加流动性，利用Bonding Curve发现价格，
 用智能合约确保Memecoin的安全问题，
@@ -506,7 +506,7 @@ WETH合约：https://sepolia.etherscan.io/address/0xc77560491AcA657F7b7533EEea20
 - **Timestamp**: 5/19/2024 14:12:47
 - **Main Track**: Public Goods
 - **Sponsor Track**: Participating in Scroll Track
-- **Project Image**: ![Project Image](https://drive.google.com/open?id=1_jdf28J6x4oiNoq4LHPfOueiF69Jo75M)
+- **Project Image**: https://drive.google.com/open?id=1_jdf28J6x4oiNoq4LHPfOueiF69Jo75M
 - **Project Description**: Password3 是一款基于区块链的去中心化应用. 用户通过设置加密口令/问答等形式生成加密密钥, 并在客户端使用加密密钥对敏感数据进行加密,并将加密数据永久存储至去中心化存储平台 arweave.用户可以分享这些加密数据的入口给相关人, 只需要他们知道口令或者能回答对问题即可查看.
 - **Team Members**: Azleal
 Say-healer
