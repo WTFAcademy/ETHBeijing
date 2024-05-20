@@ -96,7 +96,7 @@ siexpence
 - **Timestamp**: 5/19/2024 13:15:26
 - **Main Track**: Open Research
 - **Sponsor Track**: Not participating in Scroll Track
-- **Project Image**: https://drive.google.com/open?id=1fekSw6He8NVE3Sd2w6Wm5bdzxcqMa4eI)
+- **Project Image**: https://drive.google.com/open?id=1fekSw6He8NVE3Sd2w6Wm5bdzxcqMa4eI
 - **Project Description**: NFT_Search 是一款基于AI的跨模态NFT检索引擎，允许用户在百万级NFT数据库中通过文本描述或者图片做到token级别的语义检索。
 - **Team Members**: @ShuxunoO
 - **Hackathon Goal**:  获取区块链从业人员对这个项目的客观评价，认识更多朋友，拿奖！
