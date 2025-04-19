@@ -1,7 +1,7 @@
 {
   "navbar": {
     "title": "ETH Beijing",
-    "description": "后新冠时期，中国第一个以太坊线下活动!"
+    "description": "迎接 Web3 AI 新纪元，在 ETH Beijing 黑客松释放无限创意。"
   },
   "hero": {
     "apply-to-hack": "Apply to hack",
@@ -9,11 +9,12 @@
   },
   "intro": {
     "title": "ETH Beijing 黑客松",
-    "decs": "后新冠时期，中国第一个以太坊线下活动!",
+    "decs": "迎接 Web3 AI 新纪元，在 ETH Beijing 黑客松释放无限创意。",
     "pku": "PKU BLOCKCHAIN",
-    "content-1": "ETH Beijing 黑客松，由 <b>PKU Blockchain DAO</b> 和 <b>WTF Academy</b> 主办，<b>ETHPlanet</b> 和 <b>Scroll</b> 协办。",
+    "content-1": "ETH Beijing 黑客松由 <b>PKU Blockchain DAO</b> 与 <b>WTF Academy</b> 联合主办，邀你一同探索 Web3 的创新前沿。",
     "wtf": "WTF ACADEMY",
-    "content-2": "总奖池超过 $30,000，我们将为以太坊开发者和研究员提供极致的黑客松体验!"
+    "content-2": "设有两个核心赛道，总奖池超 $12,500，这是一场集创作、学习与交流于一体的技术盛会。",
+    "content-3": "无论你是开发者、研究者，还是对 Web3 充满热情的创意者，都欢迎<b>以个人或团队形式</b>参与，把你的灵感变成现实！"
   },
   "coOrganization": {
     "title": "协办方"
@@ -25,22 +26,12 @@
       {
         "track": "赛道 1",
         "title": "公共品",
-        "description": "在以太坊上构建开源项目"
+        "description": "为公共利益而生 —— 开发开源项目，让以太坊更加开放和便捷。"
       },
       {
         "track": "赛道 2",
-        "title": "Layer2 创新应用",
-        "description": "构建基于Layer 2的创新型应用项目"
-      },
-      {
-        "track": "赛道 3",
-        "title": "开放研究 (非开发者向)",
-        "description": "链上数据/政策/安全/MEV/反女巫/... 方向的研究"
-      },
-      {
-        "track": "Bounty Track",
-        "title": "Scroll",
-        "description": "在 Scroll 上部署智能合约"
+        "title": "AI x Crypto",
+        "description": "挑战技术前沿 —— 融合 AI 与区块链，打造突破性的创新应用。"
       }
     ]
   },
@@ -53,9 +44,9 @@
   "schedule": {
     "title": "日程表",
     "Hackathon": "Hackathon",
-    "time-1": "Fri, May 17",
-    "time-2": "Sat, May 18",
-    "time-3": "Sun, May 19",
+    "time-1": "Fri, May 16",
+    "time-2": "Sat, May 17",
+    "time-3": "Sun, May 18",
     "open-ceremony": "Opening Ceremony",
     "schedule-1": "02:00pm",
     "topic-1": "Main Registration Opens!",
@@ -68,49 +59,45 @@
     "schedule-5": "10:00pm",
     "topic-5": "Team Formation & Idea Brainstorming Session",
 
-    "tab-1-time-1": "12:00 AM",
-    "tab-1-title-1": "Check-in starts",
-    "tab-1-time-2": "01:00 PM",
-    "tab-1-title-2": "Hackathon Start",
-    "tab-1-time-3": "03:00 PM",
-    "tab-1-title-3": "Side Event of Scroll",
-    "tab-1-time-4": "06:00 PM",
-    "tab-1-title-4": "Dinner",
-    "tab-1-time-5": "07:00 PM",
-    "tab-1-title-5": "Open Ceremony + Panel: ETH Beijing 2023 Participants",
-    "tab-1-time-6": "07:30 PM",
-    "tab-1-title-6": "Project introduction (2 minutes for each team)",
-    "tab-1-time-7": "11:00 PM",
-    "tab-1-title-7": "Check-in ends",
+    "tab-1-time-1": "02:00pm",
+    "tab-1-title-1": "Main Registration Opens!",
+    "tab-1-time-2": "02:30pm",
+    "tab-1-title-2": "Workshops",
+    "tab-1-time-3": "06:00pm",
+    "tab-1-title-3": "Dinner",
+    "tab-1-time-4": "08:30pm",
+    "tab-1-title-4": "Opening Cermonies",
+    "tab-1-time-5": "10:00pm",
+    "tab-1-title-5": "Team Formation & Idea Brainstorming Session",
 
     "tab-2-time-1": "09:00 AM",
     "tab-2-title-1": "Breakfast",
     "tab-2-time-2": "10:00 AM",
-    "tab-2-title-2": "Workshop: PKU Blockchain",
+    "tab-2-title-2": "Workshop",
     "tab-2-time-3": "10:30 AM",
-    "tab-2-title-3": "Workshop: Chainlink",
+    "tab-2-title-3": "Workshop",
     "tab-2-time-4": "11:15 AM",
-    "tab-2-title-4": "Panel: Public Goods",
+    "tab-2-title-4": "Panel",
     "tab-2-time-5": "12:30 AM",
     "tab-2-title-5": "Lunch",
     "tab-2-time-6": "02:00 PM",
-    "tab-2-title-6": "Workshop WTF Academy",
+    "tab-2-title-6": "Workshop",
     "tab-2-time-7": "02:30 PM",
-    "tab-2-title-7": "Workshop Scroll",
+    "tab-2-title-7": "Workshop",
     "tab-2-time-8": "03:15 PM",
-    "tab-2-title-8": "Workshop GCC",
+    "tab-2-title-8": "Workshop",
     "tab-2-time-9": "03:45 PM",
-    "tab-2-title-9": "Workshop Galxe",
+    "tab-2-title-9": "Workshop",
     "tab-2-time-10": "04:15 PM",
-    "tab-2-title-10": "Workshop ZAN",
+    "tab-2-title-10": "Workshop",
     "tab-2-time-11": "04:45 PM",
-    "tab-2-title-11": "Workshop OKLink",
+    "tab-2-title-11": "Workshop",
     "tab-2-time-12": "06:00 PM",
     "tab-2-title-12": "Dinner",
     "tab-2-time-13": "08:00 PM",
-    "tab-2-title-13": "Panel zk/Layer2",
+    "tab-2-title-13": "Panel",
     "tab-2-time-14": "08:30 PM",
-    "tab-2-title-14": "Panel 高校场",
+    "tab-2-title-14": "Panel",
     "tab-2-time-15": "09:00 PM",
     "tab-2-title-15": "Project progress report (submit progress on GitHub)",
 
@@ -133,8 +120,8 @@
   },
   "venue": {
     "title": "会场",
-    "name": "META SPACE(751店)",
-    "address": "北京市朝阳区798艺术区751D·PARK，L楼"
+    "name": "昆仑巢",
+    "address": "北京市 · 西城区 · 北三环中路甲29号院 · 3号楼 · 设计之都大厦 · 一层"
   },
   "media": { "title": "Media" },
   "university": { "title": "大学和社区支持" },
@@ -143,7 +130,7 @@
   "Faq": {
     "title": "常见问题",
     "que1": "ETH Beijing（以太坊北京）是什么?",
-    "ans1": "ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2023年4月5日 - 4月8日（共 72 小时）。",
+    "ans1": "ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2025年5月16日 - 5月18日（共 72 小时）。",
     "que2": "谁被鼓励参加这个活动？",
     "ans2": "我们鼓励想在黑客松期间构建项目的开发人员、设计师和研究人员参与。",
     "que3": "ETH Beijing 收费吗？",

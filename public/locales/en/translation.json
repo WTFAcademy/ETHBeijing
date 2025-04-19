@@ -1,7 +1,7 @@
 {
   "navbar": {
     "title": "ETH Beijing!",
-    "description": "The first Ethereum community event in China in the post-covid-19 era!"
+    "description": "Embrace Web3 AI Era. Ignite Your Ideas at ETH Beijing Hackathon"
   },
   "hero": {
     "apply-to-hack": "Apply to hack",
@@ -9,38 +9,29 @@
   },
   "intro": {
     "title": "ETH Beijing Hackathon",
-    "decs": "The first Ethereum community event in China in the post-covid-19 era!!",
+    "decs": "Embrace Web3 AI Era. Ignite Your Ideas at ETH Beijing Hackathon",
     "pku": "PKU BLOCKCHAIN",
-    "content-1": "The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association) and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.",
+    "content-1": "Hosted by <b>PKU Blockchain DAO</b> and <b>WTF Academy</b>, ETH Beijing hackathon invites you to explore the frontiers of Web3.",
     "wtf": "WTF ACADEMY",
-    "content-2": "With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!"
+    "content-2": "With two main tracks and a prize pool of over $12,500, it's your chance to build, learn, and connect.",
+    "content-3": "Whether you're a developer, researcher, or builder, you are welcome to <b>join solo or with a team</b> to turn your ideas into reality!"
   },
   "coOrganization": {
     "title": "Co-organization"
   },
   "generousPrize": {
-    "title": "Generous Prize for 3 Tracks",
+    "title": "Two Tracks. One Goal — Victory",
     "prizePool": "Prize Pool",
     "cards": [
       {
         "track": "Track 1",
         "title": "Public Goods",
-        "description": "Build open-source projects on Ethereum"
+        "description": "Build for the public good—create open-source solutions that make Ethereum better for everyone."
       },
       {
         "track": "Track 2",
-        "title": "Innovative Layer2 Dapp",
-        "description": "Build projects on Layer 2 that surprise"
-      },
-      {
-        "track": "Track 3",
-        "title": "Open Research",
-        "description": "Data, Policy, Security, MEV, Anti-sybil..."
-      },
-      {
-        "track": "Bounty Track",
-        "title": "Scroll",
-        "description": "Deploy smart contracts on Scroll"
+        "title": "AI x Crypto",
+        "description": "Push the frontier—combine AI and blockchain to unlock powerful, innovative applications."
       }
     ]
   },
@@ -53,9 +44,9 @@
   "schedule": {
     "title": "Schedule",
     "Hackathon": "Hackathon",
-    "time-1": "Fri, May 17",
-    "time-2": "Sat, May 18",
-    "time-3": "Sun, May 19",
+    "time-1": "Fri, May 16",
+    "time-2": "Sat, May 17",
+    "time-3": "Sun, May 18",
     "open-ceremony": "Opening Ceremony",
     "schedule-1": "02:00pm",
     "topic-1": "Main Registration Opens!",
@@ -67,49 +58,46 @@
     "topic-4": "Opening Cermonies",
     "schedule-5": "10:00pm",
     "topic-5": "Team Formation & Idea Brainstorming Session",
-    "tab-1-time-1": "12:00 AM",
-    "tab-1-title-1": "Check-in starts",
-    "tab-1-time-2": "01:00 PM",
-    "tab-1-title-2": "Hackathon Start",
-    "tab-1-time-3": "03:00 PM",
-    "tab-1-title-3": "Side Event of Scroll",
-    "tab-1-time-4": "06:00 PM",
-    "tab-1-title-4": "Dinner",
-    "tab-1-time-5": "07:00 PM",
-    "tab-1-title-5": "Open Ceremony + Panel: ETH Beijing 2023 Participants",
-    "tab-1-time-6": "07:30 PM",
-    "tab-1-title-6": "Project introduction (2 minutes for each team)",
-    "tab-1-time-7": "11:00 PM",
-    "tab-1-title-7": "Check-in ends",
+
+    "tab-1-time-1": "02:00pm",
+    "tab-1-title-1": "Main Registration Opens!",
+    "tab-1-time-2": "02:30pm",
+    "tab-1-title-2": "Workshops",
+    "tab-1-time-3": "06:00pm",
+    "tab-1-title-3": "Dinner",
+    "tab-1-time-4": "08:30pm",
+    "tab-1-title-4": "Opening Cermonies",
+    "tab-1-time-5": "10:00pm",
+    "tab-1-title-5": "Team Formation & Idea Brainstorming Session",
 
     "tab-2-time-1": "09:00 AM",
     "tab-2-title-1": "Breakfast",
     "tab-2-time-2": "10:00 AM",
-    "tab-2-title-2": "Workshop: PKU Blockchain",
+    "tab-2-title-2": "Workshop:",
     "tab-2-time-3": "10:30 AM",
-    "tab-2-title-3": "Workshop: Chainlink",
+    "tab-2-title-3": "Workshop",
     "tab-2-time-4": "11:15 AM",
-    "tab-2-title-4": "Panel: Public Goods",
+    "tab-2-title-4": "Panel",
     "tab-2-time-5": "12:30 AM",
     "tab-2-title-5": "Lunch",
     "tab-2-time-6": "02:00 PM",
-    "tab-2-title-6": "Workshop WTF Academy",
+    "tab-2-title-6": "Workshop",
     "tab-2-time-7": "02:30 PM",
-    "tab-2-title-7": "Workshop Scroll",
+    "tab-2-title-7": "Workshop",
     "tab-2-time-8": "03:15 PM",
-    "tab-2-title-8": "Workshop GCC",
+    "tab-2-title-8": "Workshop",
     "tab-2-time-9": "03:45 PM",
-    "tab-2-title-9": "Workshop Galxe",
+    "tab-2-title-9": "Workshop",
     "tab-2-time-10": "04:15 PM",
-    "tab-2-title-10": "Workshop ZAN",
+    "tab-2-title-10": "Workshop",
     "tab-2-time-11": "04:45 PM",
-    "tab-2-title-11": "Workshop OKLink",
+    "tab-2-title-11": "Workshop",
     "tab-2-time-12": "06:00 PM",
     "tab-2-title-12": "Dinner",
     "tab-2-time-13": "08:00 PM",
-    "tab-2-title-13": "Panel zk/Layer2",
+    "tab-2-title-13": "Panel",
     "tab-2-time-14": "08:30 PM",
-    "tab-2-title-14": "Panel 高校场",
+    "tab-2-title-14": "Panel",
     "tab-2-time-15": "09:00 PM",
     "tab-2-title-15": "Project progress report (submit progress on GitHub)",
 
@@ -132,8 +120,8 @@
   },
   "venue": {
     "title": "Venue",
-    "name": "META SPACE (751 Branch)",
-    "address": "L Building, 751D Park, 798 District, Chaoyang District, Beijing."
+    "name": "KUN LUN NEST",
+    "address": "1st Floor, Design Capital Building, Xicheng District, Beijing Kunlun Nest Humanoid Robot Laboratory "
   },
   "media": { "title": "Media" },
   "university": { "title": "University & Community Support" },
