@@ -43,6 +43,12 @@ const cardData = [
         accentClass: "bg-linear-to-r from-green-400 to-emerald-500 text-white",
         amountClass: "bg-green-50 text-green-900 border-green-100",
       },
+      {
+        rank: "xAPI Track - Best use of xAPI",
+        amount: "1st 3500 ¥ <br/> 2nd 1750 ¥",
+        accentClass: "bg-linear-to-r from-green-400 to-emerald-500 text-white",
+        amountClass: "bg-green-50 text-green-900 border-green-100",
+      },
     ],
   }
 ];
@@ -90,12 +96,10 @@ const cardData = [
                     {item.prizes.map((prize) => {
                       return (
                         <div class={`inline-flex overflow-hidden rounded-[10px] border shadow-[0px_1px_4px_rgba(244,63,94,0.12)] ${prize.amountClass}`}>
-                          <span class={`px-4 py-2 text-sm font-semibold ${prize.accentClass}`}>
+                          <span class={`inline-flex items-center h-full px-4 py-2 text-sm font-semibold ${prize.accentClass}`}>
                             {prize.rank}
                           </span>
-                          <span class="px-4 py-2 text-sm font-semibold">
-                            {prize.amount}
-                          </span>
+                          <span class="px-4 py-2 text-sm font-semibold" set:html={prize.amount} />
                         </div>
                       );
                     })}
@@ -108,12 +112,10 @@ const cardData = [
                     {item.specialPrizes.map((prize) => {
                       return (
                         <div class={`inline-flex overflow-hidden rounded-[10px] border shadow-[0px_1px_4px_rgba(244,63,94,0.12)] ${prize.amountClass}`}>
-                          <span class={`px-4 py-2 text-sm font-semibold ${prize.accentClass}`}>
+                          <span class={`inline-flex items-center h-full px-4 py-2 text-sm font-semibold h-fll ${prize.accentClass}`}>
                             {prize.rank}
                           </span>
-                          <span class="px-4 py-2 text-sm font-semibold">
-                            {prize.amount}
-                          </span>
+                          <span class="px-4 py-2 text-sm font-semibold text-center" set:html={prize.amount} />
                         </div>
                       );
                     })}
